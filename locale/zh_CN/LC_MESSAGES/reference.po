@@ -1,15 +1,23 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the odoo package.
+# 
+# Translators:
+# jeffery chen fan <jeffery9@gmail.com>, 2015
+# Uming Peng <umingpeng@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: odoo master\n"
+"Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-06 04:27+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-09-07 11:30+0000\n"
+"Last-Translator: jeffery chen fan <jeffery9@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../reference.rst:3
 msgid "Reference"
@@ -57,7 +65,7 @@ msgstr "短用户可读的动作的说明中，可以显示在客户端的接口
 
 #: ../../reference/actions.rst:22
 msgid "A client can get actions in 4 forms:"
-msgstr "客户端可以让行动4形式："
+msgstr "客户可以有4种动作表单："
 
 #: ../../reference/actions.rst:24
 msgid "``False``"
@@ -75,7 +83,7 @@ msgstr "字符串"
 msgid ""
 "if a :ref:`client action <reference/actions/client>` matches, interpret as a"
 " client action's tag, otherwise treat as a number"
-msgstr "如果：参考：`客户端动作<参考/动作/客户端>`比赛中，解释为一个客户端操作的标记，否则视为一个数字"
+msgstr "如果:ref:`客户端动作<参考/动作/客户端>`比赛中，解释为一个客户端操作的标记，否则视为一个数字"
 
 #: ../../reference/actions.rst:30
 msgid "A number"
@@ -105,7 +113,7 @@ msgid ""
 "through :ref:`views <reference/views>`: a window action defines a set of "
 "view types (and possibly specific views) for a model (and possibly specific "
 "record of the model)."
-msgstr "最常见的动作类型，用于通过提出一个模型的可视化：参考：`观点<参考/视图>`：一个窗口的动作定义一组视图类型（以及可能的具体意见）为模型（和可能的特殊纪录该模型）。"
+msgstr "最常见的动作类型，用于通过提出一个模型的可视化:ref:`观点<参考/视图>`：一个窗口的动作定义一组视图类型（以及可能的具体意见）为模型（和可能的特殊纪录该模型）。"
 
 #: ../../reference/actions.rst:45
 msgid "Its fields are:"
@@ -133,7 +141,7 @@ msgid ""
 " first type of the list is the default view type and will be open by default"
 " when the action is executed. Each view type should be present at most once "
 "in the list"
-msgstr "中``（view_id来，view_type来）``对的列表。每对的第二个元素是视图（树，表格，图表，...）的范畴，首先是一个可选的数据库ID（或``False``）。如果没有ID提供，客户应取指定类型的请求模型的默认视图（这是自动完成的：甲：`〜openerp.models.Model.fields_view_get`）。列表的第一种类型是默认视图类型并且在执行动作时将开放默认。每个视图类型应该是目前最多一次在列表"
+msgstr "中``（view_id来，view_type来）``对的列表。每对的第二个元素是视图（树，表格，图表，...）的范畴，首先是一个可选的数据库ID（或``False``）。如果没有ID提供，客户应取指定类型的请求模型的默认视图（这是自动完成的:meth:`〜openerp.models.Model.fields_view_get`）。列表的第一种类型是默认视图类型并且在执行动作时将开放默认。每个视图类型应该是目前最多一次在列表"
 
 #: ../../reference/actions.rst:59
 msgid "``res_id`` (optional)"
@@ -260,7 +268,7 @@ msgstr "参考：`参考/ data`这些定义，从行为时，大多使用："
 msgid ""
 "will use the \"my_specific_view\" view even if that's not the default view "
 "for the model."
-msgstr "将使用\“my_specific_view \”的观点，即使这不是该型号的默认视图。"
+msgstr "将使用'my_specific_view '的观点，即使这不是该型号的默认视图。"
 
 #: ../../reference/actions.rst:128
 msgid ""
@@ -363,7 +371,7 @@ msgid ""
 "evaluated as Python code using the server action's :ref:`evaluation context "
 "<reference/actions/server/context>`. If ``False``, prevents the action from "
 "running. Default: ``True``"
-msgstr "评价使用服务器操作的Python代码：参考：`评价方面<参考/动作/服务器/背景>`。如果``False``，阻止操作运行。默认值：值为``True``"
+msgstr "评价使用服务器操作的Python代码:ref:`评价方面<参考/动作/服务器/背景>`。如果``False``，阻止操作运行。默认值：值为``True``"
 
 #: ../../reference/actions.rst:192
 msgid ""
@@ -380,7 +388,7 @@ msgid ""
 "code with the action's :ref:`evaluation context "
 "<reference/actions/server/context>`. Only uses one specific type-specific "
 "field:"
-msgstr "默认的和最灵活的服务器动作类型，执行任意的Python代码与操作的：参考：`评价方面<参考/动作/服务器/背景>`。只使用一个特定的类型特定字段："
+msgstr "默认的和最灵活的服务器动作类型，执行任意的Python代码与操作的:ref:`评价方面<参考/动作/服务器/背景>`。只使用一个特定的类型特定字段："
 
 #: ../../reference/actions.rst:203
 msgid "a piece of Python code to execute when the action is called"
@@ -404,7 +412,7 @@ msgid ""
 "<reference/data>`, other types aside from "
 ":ref:`reference/actions/server/multi` are simpler than Python code to define"
 " from the UI, but not from :ref:`data files <reference/data>`."
-msgstr "这往往是从创建的唯一动作类型：参考：`数据文件<参考/数据>`，其他类型的除了：参考：`参考/动作/服务器/ multi`比Python代码简单的从UI定义，但不能从：参考：`数据文件<参考/数据>`。"
+msgstr "这往往是从创建的唯一动作类型:ref:`数据文件<参考/数据>`，其他类型的除了:ref:`参考/动作/服务器/ multi`比Python代码简单的从UI定义，但不能从:ref:`数据文件<参考/数据>`。"
 
 #: ../../reference/actions.rst:247
 msgid "``object_create``"
@@ -415,7 +423,7 @@ msgid ""
 "Creates a new record, from scratch (via "
 ":meth:`~openerp.models.Model.create`) or by copying an existing record (via "
 ":meth:`~openerp.models.Model.copy`)"
-msgstr "创建一个新的记录，从头开始（通过：甲：`〜openerp.models.Model.create`），或者通过复制现有的记录（通过：甲：`〜openerp.models.Model.copy`）"
+msgstr "创建一个新的记录，从头开始（通过:meth:`〜openerp.models.Model.create`），或者通过复制现有的记录（通过:meth:`〜openerp.models.Model.copy`）"
 
 #: ../../reference/actions.rst:261
 msgid "``use_create``"
@@ -539,7 +547,7 @@ msgstr "``object_write``"
 msgid ""
 "Similar to :ref:`reference/actions/server/object_create` but alters an "
 "existing records instead of creating one"
-msgstr "类似的：参考：`参考/动作/服务器/ object_create`但会改变现有的记录，而不是创建1"
+msgstr "类似的:ref:`参考/动作/服务器/ object_create`但会改变现有的记录，而不是创建1"
 
 #: ../../reference/actions.rst:303
 msgid "``use_write``"
@@ -590,7 +598,7 @@ msgstr "Python表达式返回记录或对象ID，以便决定使用时``use_writ
 #: ../../reference/actions.rst:310 ../../reference/actions.rst:312
 #: ../../reference/actions.rst:314
 msgid "see :ref:`reference/actions/server/object_create`"
-msgstr "请参阅：参考：`参考/动作/服务器/ object_create`"
+msgstr "请参阅:ref:`参考/动作/服务器/ object_create`"
 
 #: ../../reference/actions.rst:319
 msgid "``multi``"
@@ -893,7 +901,7 @@ msgid ""
 "The core idea of deferreds is that potentially asynchronous methods will "
 "return a :js:class:`Deferred` object instead of an arbitrary value or (most "
 "commonly) nothing."
-msgstr "deferreds的核心思想是，潜在的异步方法将返回：JS：类：`Deferred`对象，而不是一个任意值或（最常见），什么都没有。"
+msgstr "deferreds的核心思想是，潜在的异步方法将返回:js:class:`Deferred`对象，而不是一个任意值或（最常见），什么都没有。"
 
 #: ../../reference/async.rst:32
 msgid ""
@@ -906,7 +914,7 @@ msgid ""
 "A great advantage of deferreds over simply passing callback functions "
 "directly to asynchronous methods is the ability to :ref:`compose them "
 "<reference/async/composition>`."
-msgstr "deferreds过干脆直接传递回调函数来异步方法一大优点是能够：REF：`撰写他们<参考/异步/组合>`。"
+msgstr "deferreds过干脆直接传递回调函数来异步方法一大优点是能够:ref:`撰写他们<参考/异步/组合>`。"
 
 #: ../../reference/async.rst:41
 msgid "Using deferreds"
@@ -916,7 +924,7 @@ msgstr "使用deferreds"
 msgid ""
 "Deferreds's most important method is :js:func:`Deferred.then`. It is used to"
 " attach new callbacks to the deferred object."
-msgstr "Deferreds的最重要的方法是：JS：FUNC：`Deferred.then`。它是用来连接新的回调延迟对象。"
+msgstr "Deferreds的最重要的方法是:js:func:`Deferred.then`。它是用来连接新的回调延迟对象。"
 
 #: ../../reference/async.rst:46
 msgid ""
@@ -940,13 +948,13 @@ msgid ""
 "rejected once, and is either resolved or rejected: a given deferred can not "
 "call a single success callback twice, or call both a success and a failure "
 "callbacks."
-msgstr "连接到deferreds回调是永远\“丢失\”：如果回调连接到一个已经解决或拒绝延期，则回调将会被调用（或忽略）立即。一个Deferred也永远只能解决或拒绝一次，是解决或拒绝：给定延期不能称之为一个成功的回调两次，或拨打成功及失败的回调。"
+msgstr "连接到deferreds回调是永远'丢失'：如果回调连接到一个已经解决或拒绝延期，则回调将会被调用（或忽略）立即。一个Deferred也永远只能解决或拒绝一次，是解决或拒绝：给定延期不能称之为一个成功的回调两次，或拨打成功及失败的回调。"
 
 #: ../../reference/async.rst:61
 msgid ""
 ":js:func:`~Deferred.then` should be the method you'll use most often when "
 "interacting with deferred objects (and thus asynchronous APIs)."
-msgstr "：JS：FUNC：`〜Deferred.then`应与延迟对象（因此异步API）的交互时，你会最常使用的方法。"
+msgstr ":js:func:`〜Deferred.then`应与延迟对象（因此异步API）的交互时，你会最常使用的方法。"
 
 #: ../../reference/async.rst:65
 msgid "Building deferreds"
@@ -977,32 +985,32 @@ msgid ""
 "Deferreds are created by invoking their constructor [#]_ without any "
 "argument. This creates a :js:class:`Deferred` instance object with the "
 "following methods:"
-msgstr "Deferreds通过调用其构造[＃] _不带任何参数创建。这将创建一个：JS：类：`以下方法Deferred`实例对象："
+msgstr "Deferreds通过调用其构造[＃] _不带任何参数创建。这将创建一个:js:class:`以下方法Deferred`实例对象："
 
 #: ../../reference/async.rst:84
 msgid ":js:func:`Deferred.resolve`"
-msgstr "：JS：FUNC：`Deferred.resolve`"
+msgstr ":js:func:`Deferred.resolve`"
 
 #: ../../reference/async.rst:86
 msgid ""
 "As its name indicates, this method moves the deferred to the \"Resolved\" "
 "state. It can be provided as many arguments as necessary, these arguments "
 "will be provided to any pending success callback."
-msgstr "正如其名称所示，这种方法移动推迟到\“已解决\”状态。它可以被提供作为根据需要，这些参数将被提供给任何未决的成功回调很多争论。"
+msgstr "正如其名称所示，这种方法移动推迟到'已解决'状态。它可以被提供作为根据需要，这些参数将被提供给任何未决的成功回调很多争论。"
 
 #: ../../reference/async.rst:91
 msgid ":js:func:`Deferred.reject`"
-msgstr "：JS：FUNC：`Deferred.reject`"
+msgstr ":js:func:`Deferred.reject`"
 
 #: ../../reference/async.rst:93
 msgid ""
 "Similar to :js:func:`~Deferred.resolve`, but moves the deferred to the "
 "\"Rejected\" state and calls pending failure handlers."
-msgstr "类似：JS：FUNC：`〜Deferred.resolve`，但移动推迟到\“拒绝\”状态，并呼吁正在申请失败处理。"
+msgstr "类似:js:func:`〜Deferred.resolve`，但移动推迟到'拒绝'状态，并呼吁正在申请失败处理。"
 
 #: ../../reference/async.rst:96
 msgid ":js:func:`Deferred.promise`"
-msgstr "：JS：FUNC：`Deferred.promise`"
+msgstr ":js:func:`Deferred.promise`"
 
 #: ../../reference/async.rst:98
 msgid ""
@@ -1017,7 +1025,7 @@ msgid ""
 "inform callers that the asynchronous operation has failed (or succeeded). "
 "These methods should simply be called when the asynchronous operation has "
 "ended, to notify anybody interested in its result(s)."
-msgstr "：JS：FUNC：`〜Deferred.reject`和：JS：FUNC：`〜Deferred.resolve`被用来通知主叫方的异步操作失败（或成功）。这些方法应该简单地调用时异步操作已经结束，通知任何人感兴趣的结果（S）。"
+msgstr ":js:func:`〜Deferred.reject`和:js:func:`〜Deferred.resolve`被用来通知主叫方的异步操作失败（或成功）。这些方法应该简单地调用时异步操作已经结束，通知任何人感兴趣的结果（S）。"
 
 #: ../../reference/async.rst:111
 msgid "Composing deferreds"
@@ -1055,13 +1063,13 @@ msgstr "延迟只是执行多个异步操作，并希望等到所有的人都对
 
 #: ../../reference/async.rst:131
 msgid "The jQuery multiplexing function for promises is :js:func:`when`."
-msgstr "jQuery的复用功能的承诺是：JS：FUNC：`when`。"
+msgstr "jQuery的复用功能的承诺是:js:func:`when`。"
 
 #: ../../reference/async.rst:133
 msgid ""
 "the multiplexing behavior of jQuery's :js:func:`when` is an (incompatible, "
 "mostly) extension of the behavior defined in `CommonJS Promises/B`_."
-msgstr "jQuery的的复用特性：JS：FUNC：`when`是一个（不兼容的，主要是）在`CommonJS的承诺/ B`_定义的行为的延伸。"
+msgstr "jQuery的的复用特性:js:func:`when`是一个（不兼容的，主要是）在`CommonJS的承诺/ B`_定义的行为的延伸。"
 
 #: ../../reference/async.rst:137
 msgid ""
@@ -1084,7 +1092,7 @@ msgid ""
 "are needed. The resolved values of a promise are at the same index in the "
 "callback's arguments as the promise in the :js:func:`when` call so you will "
 "have:"
-msgstr "通过复用的各种承诺的决心值：JS：FUNC：`when`分别对应的参数：JS：FUNC：`when`的成功回调，如果需要他们。的承诺的决心值是在回调的论据作为承诺相同指数在：JS：FUNC：`when`调用，所以你将有："
+msgstr "通过复用的各种承诺的决心值:js:func:`when`分别对应的参数:js:func:`when`的成功回调，如果需要他们。的承诺的决心值是在回调的论据作为承诺相同指数在:js:func:`when`调用，所以你将有："
 
 #: ../../reference/async.rst:160
 msgid ""
@@ -1092,7 +1100,7 @@ msgid ""
 "promise is conceptually resolved with an array of 0..n values and these "
 "values are passed to :js:func:`when`'s callback. But jQuery treats deferreds"
 " resolving a single value specially, and \"unwraps\" that value."
-msgstr "在一个正常的映射，每个参数的回调将是一个数组：每个承诺在概念上解决了与0到n值的数组，这些价值传递到：JS：FUNC：`when`的回调。但是jQuery的治疗deferreds解决单个值特别，和\“解开\”的价值。"
+msgstr "在一个正常的映射，每个参数的回调将是一个数组：每个承诺在概念上解决了与0到n值的数组，这些价值传递到:js:func:`when`的回调。但是jQuery的治疗deferreds解决单个值特别，和'解开'的价值。"
 
 #: ../../reference/async.rst:166
 msgid ""
@@ -1125,14 +1133,14 @@ msgid ""
 "returns a new promise object, not the one it was called with, and the return"
 " values of the callbacks is important to this behavior: whichever callback "
 "is called,"
-msgstr "但是：JS：FUNC：`〜Deferred.then`还可以处理这类链：它返回一个新的承诺的对象，而不是一个，它被称为用，而回调的返回值是很重要的这种行为：任何回调叫，"
+msgstr "但是:js:func:`〜Deferred.then`还可以处理这类链：它返回一个新的承诺的对象，而不是一个，它被称为用，而回调的返回值是很重要的这种行为：任何回调叫，"
 
 #: ../../reference/async.rst:198
 msgid ""
 "If the callback is not set (not provided or left to null), the resolution or"
 " rejection value(s) is simply forwarded to :js:func:`~Deferred.then`'s "
 "promise (it's essentially a noop)"
-msgstr "如果回调不设置（不提供或不为空），分辨率或拒绝值（s）是简单地转发至：JS：FUNC：`〜Deferred.then`的承诺（它本质上是一个空操作）"
+msgstr "如果回调不设置（不提供或不为空），分辨率或拒绝值（s）是简单地转发至:js:func:`〜Deferred.then`的承诺（它本质上是一个空操作）"
 
 #: ../../reference/async.rst:202
 msgid ""
@@ -1172,7 +1180,7 @@ msgid ""
 "APIs, in order to filter their resolution value counts for instance (to take"
 " advantage of :js:func:`when` 's special treatment of single-value "
 "promises)."
-msgstr "：JS：FUNC：`〜Deferred.then`也是适应第三方承诺为基础的API，以过滤其分辨率值计数实例（占便宜有用：JS：FUNC：`when`的特殊处理单值的承诺）。"
+msgstr ":js:func:`〜Deferred.then`也是适应第三方承诺为基础的API，以过滤其分辨率值计数实例（占便宜有用:js:func:`when`的特殊处理单值的承诺）。"
 
 #: ../../reference/async.rst:240
 msgid "jQuery.Deferred API"
@@ -1189,7 +1197,7 @@ msgstr "多路复用推迟"
 #: ../../reference/async.rst:246 ../../reference/async.rst:268
 #: ../../reference/async.rst:285 ../../reference/async.rst:300
 msgid ":js:class:`Deferred`"
-msgstr "：JS：类：`Deferred`"
+msgstr ":js:class:`Deferred`"
 
 #: ../../reference/async.rst:252
 msgid ""
@@ -1235,13 +1243,13 @@ msgstr "附加一个新的成功回调至推迟，快捷方式``deferred.then（
 msgid ""
 "a difference is the result of :js:func:`Deferred.done`'s is ignored rather "
 "than forwarded through the chain"
-msgstr "的差的结果：JS：函数：`Deferred.done`的被忽略，而不是通过该链转发"
+msgstr "的差的结果:js：函数：`Deferred.done`的被忽略，而不是通过该链转发"
 
 #: ../../reference/async.rst:278
 msgid ""
 "This is a jQuery extension to `CommonJS Promises/A`_ providing little value "
 "over calling :js:func:`~Deferred.then` directly, it should be avoided."
-msgstr "这是一个jQuery扩展`CommonJS的承诺/ A`_几乎没有价值超过致电：JS：FUNC：`〜Deferred.then`直接，应该避免。"
+msgstr "这是一个jQuery扩展`CommonJS的承诺/ A`_几乎没有价值超过致电:js:func:`〜Deferred.then`直接，应该避免。"
 
 #: ../../reference/async.rst:289
 msgid ""
@@ -1254,7 +1262,7 @@ msgid ""
 "A second jQuery extension to `Promises/A <CommonJS Promises/A>`_. Although "
 "it provides more value than :js:func:`~Deferred.done`, it still is not much "
 "and should be avoided as well."
-msgstr "第二jQuery的扩展'的承诺/ A <CommonJS的娓娓道来/ A>`_。虽然它提供了比更多的价值：JS：FUNC：`〜Deferred.done`，但它仍然是没有太大的，应该避免。"
+msgstr "第二jQuery的扩展'的承诺/ A <CommonJS的娓娓道来/ A>`_。虽然它提供了比更多的价值:js:func:`〜Deferred.done`，但它仍然是没有太大的，应该避免。"
 
 #: ../../reference/async.rst:304
 msgid ""
@@ -1289,7 +1297,7 @@ msgstr "拒绝延期它已经得到解决或拒绝没有任何影响。"
 #: ../../reference/async.rst:323
 msgid ""
 "or simply calling :js:class:`Deferred` as a function, the result is the same"
-msgstr "或者简单地调用：JS：类：`Deferred`作为一个函数，结果是一样的"
+msgstr "或者简单地调用:js:class:`Deferred`作为一个函数，结果是一样的"
 
 #: ../../reference/async.rst:326
 msgid ""
@@ -1298,14 +1306,14 @@ msgid ""
 "promises through directly, but non-promise values and objects will be "
 "transformed into a resolved promise (resolving themselves with the value "
 "itself)."
-msgstr "或不承诺，请`CommonJS的承诺/的B`_作用：JS：FUNC：`when`是能够均匀地对待价值观和承诺：JS：FUNC：`when`将通过承诺通过直接，但非-promise值和对象将被改造成一个解决的承诺（与本身的价值解析自理）。"
+msgstr "或不承诺，请`CommonJS的承诺/的B`_作用:js:func:`when`是能够均匀地对待价值观和承诺:js:func:`when`将通过承诺通过直接，但非-promise值和对象将被改造成一个解决的承诺（与本身的价值解析自理）。"
 
 #: ../../reference/async.rst:332
 msgid ""
 "jQuery's :js:func:`when` keeps this behavior making deferreds easy to build "
 "from \"static\" values, or allowing defensive code where expected promises "
 "are wrapped in :js:func:`when` just in case."
-msgstr "jQuery的：JS：FUNC：`when`保持这种行为使得deferreds容易建立从\“静\”的价值观，或允许防守代码中预计的承诺被包裹在：JS：FUNC：`when`以防万一。"
+msgstr "jQuery的:js:func:`when`保持这种行为使得deferreds容易建立从'静'的价值观，或允许防守代码中预计的承诺被包裹在:js:func:`when`以防万一。"
 
 #: ../../reference/cmdline.rst:7
 msgid "Command-line interface: odoo.py"
@@ -1403,7 +1411,7 @@ msgstr "防止时间超过<极限>秒来处理请求的工人。如果超出限�
 msgid ""
 "Differs from :option:`--limit-time-cpu` in that this is a \"wall time\" "
 "limit including e.g. SQL queries."
-msgstr "不同于：选项：`--limit-时间cpu`的，这是一个\“挂钟时间\”的限制，包括如SQL查询。"
+msgstr "不同于：选项：`--limit-时间cpu`的，这是一个'挂钟时间'的限制，包括如SQL查询。"
 
 #: ../../reference/cmdline.rst:82
 msgid "Defaults to 120."
@@ -1450,7 +1458,7 @@ msgid ""
 "when an unexpected error is raised (not a warning or an access error), "
 "automatically starts :mod:`python:pdb` before logging and returning the "
 "error"
-msgstr "时，引发意外的错误（不是警告或访问错误），将自动启动：MOD：`蟒蛇：pdb`记录前，返回错误"
+msgstr "时，引发意外的错误（不是警告或访问错误），将自动启动:mod:`蟒蛇：pdb`记录前，返回错误"
 
 #: ../../reference/cmdline.rst:123
 msgid "database"
@@ -1579,14 +1587,14 @@ msgid ""
 "logs to the ``ir.logging`` model (``ir_logging`` table) of the specified "
 "database. The database can be the name of a database in the \"current\" "
 "PostgreSQL, or `a PostgreSQL URI`_ for e.g. log aggregation"
-msgstr "登录到指定的数据库的``ir.logging``模型（``ir_logging``表）。该数据库可以在\数据库名称“当前\”PostgreSQL或`一个PostgreSQL URI`_用于例如日志汇总"
+msgstr "登录到指定的数据库的``ir.logging``模型（``ir_logging``表）。该数据库可以在数据库名称“当前'PostgreSQL或`一个PostgreSQL URI`_用于例如日志汇总"
 
 #: ../../reference/cmdline.rst:220
 msgid ""
 ":samp:`{LOGGER}:{LEVEL}`, enables ``LOGGER`` at the provided ``LEVEL`` e.g. "
 "``openerp.models:DEBUG`` will enable all logging messages at or above "
 "``DEBUG`` level in the models."
-msgstr "：SAMP：`{}记录器：{LEVEL}`，使``LOGGER``在提供``LEVEL``如``openerp.models：DEBUG``将使所有日志消息或高于``DEBUG``在模型中的水平。"
+msgstr ":samp:`{}记录器：{LEVEL}`，使``LOGGER``在提供``LEVEL``如``openerp.models：DEBUG``将使所有日志消息或高于``DEBUG``在模型中的水平。"
 
 #: ../../reference/cmdline.rst:224
 msgid "The colon ``:`` is mandatory"
@@ -1634,7 +1642,7 @@ msgid ""
 "levels (``critical``, ``error``, ``warn``, ``debug``) are set on the "
 "``openerp`` and ``werkzeug`` loggers (except for ``debug`` which is only set"
 " on ``openerp``)."
-msgstr "快捷更方便地设置具体的记录器预定的水平。 \“真正的\”水平（``critical``，``error``，``warn``，``debug``）是在``openerp``设置和``werkzeug``记录器（除``debug``这是只有设置``openerp``）。"
+msgstr "快捷更方便地设置具体的记录器预定的水平。 '真正的'水平（``critical``，``error``，``warn``，``debug``）是在``openerp``设置和``werkzeug``记录器（除``debug``这是只有设置``openerp``）。"
 
 #: ../../reference/cmdline.rst:261
 msgid ""
@@ -1912,14 +1920,14 @@ msgstr "``search``"
 msgid ""
 "for :ref:`relational fields <reference/orm/fields/relational>`, should be a "
 ":ref:`domain <reference/orm/domains>` on the field's model."
-msgstr "为：参考：`关系领域<参考/ ORM /场/关系>`，应该是：参考：'域<参考/ ORM /域>`在球场上的典范。"
+msgstr "为:ref:`关系领域<参考/ ORM /场/关系>`，应该是:ref:'域<参考/ ORM /域>`在球场上的典范。"
 
 #: ../../reference/data.rst:78
 msgid ""
 "Will evaluate the domain, search the field's model using it and set the "
 "search's result as the field's value. Will only use the first result if the "
 "field is a :class:`~openerp.fields.Many2one`"
-msgstr "将评估领域，利用其搜索领域的模式和设定搜索的结果作为该字段的值。将只使用第一个结果，如果该字段为：类：`〜openerp.fields.Many2one`"
+msgstr "将评估领域，利用其搜索领域的模式和设定搜索的结果作为该字段的值。将只使用第一个结果，如果该字段为:class:`〜openerp.fields.Many2one`"
 
 #: ../../reference/data.rst:85
 msgid "``ref``"
@@ -1929,13 +1937,13 @@ msgstr "``ref``"
 msgid ""
 "if a ``ref`` attribute is provided, its value must be a valid "
 ":term:`external id`, which will be looked up and set as the field's value."
-msgstr "如果提供了``ref``属性，它的值必须是有效的：期限：`外部ID`，这将是抬起头，设置为字段的值。"
+msgstr "如果提供了``ref``属性，它的值必须是有效的:term:`外部ID`，这将是抬起头，设置为字段的值。"
 
 #: ../../reference/data.rst:85
 msgid ""
 "Mostly for :class:`~openerp.fields.Many2one` and "
 ":class:`~openerp.fields.Reference` fields"
-msgstr "主要用于：类：`〜openerp.fields.Many2one`和：类：`〜openerp.fields.Reference`领域"
+msgstr "主要用于:class:`〜openerp.fields.Many2one`和:class:`〜openerp.fields.Reference`领域"
 
 #: ../../reference/data.rst:88
 msgid ""
@@ -1967,7 +1975,7 @@ msgstr "``file``"
 msgid ""
 "ensures that the field content is a valid file path in the current model, "
 "saves the pair :samp:`{module},{path}` as the field value"
-msgstr "确保该字段的内容是在当前模型一个有效的文件路径，保存对：SAMP：`{模块}，{路径}`作为字段值"
+msgstr "确保该字段的内容是在当前模型一个有效的文件路径，保存对:samp:`{模块}，{路径}`作为字段值"
 
 #: ../../reference/data.rst:102
 msgid "``char``"
@@ -2058,7 +2066,7 @@ msgstr "中：短期：`创纪录的外部ID`删除"
 msgid ""
 "a :ref:`domain <reference/orm/domains>` to find records of the model to "
 "remove"
-msgstr "答：参考：'域<参考/ ORM /域>`来找到模型的记录删除"
+msgstr "答:ref:'域<参考/ ORM /域>`来找到模型的记录删除"
 
 #: ../../reference/data.rst:142
 msgid "``id`` and ``search`` are exclusive"
@@ -2108,7 +2116,7 @@ msgid ""
 "Because some important structural models of Odoo are complex and involved, "
 "data files provide shorter alternatives to defining them using :ref:`record "
 "tags <reference/data/record>`:"
-msgstr "由于Odoo的一些重要结构模型非常复杂，涉及到数据文件提供给使用定义它们更短的替代方案：参考：`记录标记<参考/数据/记录>`："
+msgstr "由于Odoo的一些重要结构模型非常复杂，涉及到数据文件提供给使用定义它们更短的替代方案:ref:`记录标记<参考/数据/记录>`："
 
 #: ../../reference/data.rst:175
 msgid "``menuitem``"
@@ -2127,7 +2135,7 @@ msgstr "父菜单"
 msgid ""
 "If a ``parent`` attribute is set, it should be the :term:`external id` of an"
 " other menu item, used as the new item's parent"
-msgstr "如果``parent``属性设置，它应该是：期限：`的其他菜单项的外部ID`，用作新项目的父"
+msgstr "如果``parent``属性设置，它应该是:term:`的其他菜单项的外部ID`，用作新项目的父"
 
 #: ../../reference/data.rst:182
 msgid ""
@@ -2141,7 +2149,7 @@ msgstr "如果没有``parent``提供，试图解释``name``属性为``/`` - 分�
 msgid ""
 "Otherwise the menu is defined as a \"top-level\" menu item (*not* a menu "
 "with no parent)"
-msgstr "否则，菜单被定义为一个\“顶层\”菜单项（*不*没有父菜单）"
+msgstr "否则，菜单被定义为一个'顶层'菜单项（*不*没有父菜单）"
 
 #: ../../reference/data.rst:189
 msgid "Menu name"
@@ -2177,7 +2185,7 @@ msgstr "如果指定了``action``属性应该是：条件：执行操作的'外�
 
 #: ../../reference/data.rst:200
 msgid "the menu item's :term:`external id`"
-msgstr "菜单项的：期限：`外部ID`"
+msgstr "菜单项的:term:`外部ID`"
 
 #: ../../reference/data.rst:205
 msgid "``template``"
@@ -2187,11 +2195,11 @@ msgstr "``template``"
 msgid ""
 "Creates a :ref:`QWeb view <reference/views/qweb>` requiring only the "
 "``arch`` section of the view, and allowing a few *optional* attributes:"
-msgstr "创建：参考：`QWeb查看<参考/视图/ qweb>`要求来看，只有``arch``部分，并允许一些*可选*属性："
+msgstr "创建:ref:`QWeb查看<参考/视图/ qweb>`要求来看，只有``arch``部分，并允许一些*可选*属性："
 
 #: ../../reference/data.rst:211
 msgid "the view's :term:`external identifier`"
-msgstr "该视图的：期限：`外部identifier`"
+msgstr "该视图的:term:`外部identifier`"
 
 #: ../../reference/data.rst:213
 msgid "``name``, ``inherit_id``, ``priority``"
@@ -2201,7 +2209,7 @@ msgstr "``name``，``inherit_id``，``priority``"
 msgid ""
 "same as the corresponding field on ``ir.ui.view`` (nb: ``inherit_id`` should"
 " be an :term:`external identifier`)"
-msgstr "同为相应的字段``ir.ui.view``（注意：``inherit_id``应该是：期限：`外部identifier`）"
+msgstr "同为相应的字段``ir.ui.view``（注意：``inherit_id``应该是:term:`外部identifier`）"
 
 #: ../../reference/data.rst:216
 msgid "``primary``"
@@ -2231,7 +2239,7 @@ msgstr "``page``"
 msgid ""
 "if set to ``\"True\"``, the template is a website page (linkable to, "
 "deletable)"
-msgstr "如果设置为``\“真正的\”``，该模板是一个网站的页面（可链接到，可删除）"
+msgstr "如果设置为``'真正的'``，该模板是一个网站的页面（可链接到，可删除）"
 
 #: ../../reference/data.rst:226
 msgid "``optional``"
@@ -2273,7 +2281,7 @@ msgstr "造就了一批散装相同型号的简单记录时XML数据文件是灵
 msgid ""
 "For this case, data files can also use csv_, this is often the case for "
 ":ref:`access rights <reference/security/acl>`:"
-msgstr "对于这种情况，数据文件，也可以使用csv_，这往往是这样的：REF：访问权限<参考/安全/ ACL>``："
+msgstr "对于这种情况，数据文件，也可以使用csv_，这往往是这样的:ref:访问权限<参考/安全/ ACL>``："
 
 #: ../../reference/data.rst:248
 msgid "the file name is :file:`{model_name}.csv`"
@@ -2283,7 +2291,7 @@ msgstr "该文件的名称是：文件：`{} MODEL_NAME .csv`"
 msgid ""
 "the first row lists the fields to write, with the special field ``id`` for "
 ":term:`external identifiers` (used for creation or update)"
-msgstr "第一行列出的字段来写，用专业的``id``为：期限：`外部identifiers`（用于创建或更新）"
+msgstr "第一行列出的字段来写，用专业的``id``为:term:`外部identifiers`（用于创建或更新）"
 
 #: ../../reference/data.rst:251
 msgid "each row thereafter creates a new record"
@@ -3093,13 +3101,13 @@ msgstr "对于每一行（记录）："
 msgid ""
 "the first column is the :term:`external id` of the record to create or "
 "update"
-msgstr "第一列是：期限：`记录创建或更新的外部ID`"
+msgstr "第一列是:term:`记录创建或更新的外部ID`"
 
 #: ../../reference/data.rst:271
 msgid ""
 "the second column is the :term:`external id` of the country object to link "
 "to (country objects must have been defined beforehand)"
-msgstr "第二列是：期限：`全国对象链接到外部ID`（国家对象必须已预先定义）"
+msgstr "第二列是:term:`全国对象链接到外部ID`（国家对象必须已预先定义）"
 
 #: ../../reference/data.rst:273
 msgid "the third column is the ``name`` field for ``res.country.state``"
@@ -3281,13 +3289,13 @@ msgstr "请使用以下方式："
 
 #: ../../reference/guidelines.rst:146
 msgid "For a menu: :samp:`{<model_name>}_menu`"
-msgstr "对于菜单：SAMP：`{<MODEL_NAME>} _ menu`"
+msgstr "对于菜单:samp:`{<MODEL_NAME>} _ menu`"
 
 #: ../../reference/guidelines.rst:147
 msgid ""
 "For a view: :samp:`{<model_name>}_view_{<view_type>}`, where *view_type* is "
 "``kanban``, ``form``, ``tree``, ``search``, ..."
-msgstr "对于一个观点：SAMP：`{<MODEL_NAME>} _观点_ {<的view_type>}`，其中*的view_type *是``kanban``，``form``，``tree``，``search``， ..."
+msgstr "对于一个观点:samp:`{<MODEL_NAME>} _观点_ {<的view_type>}`，其中*的view_type *是``kanban``，``form``，``tree``，``search``， ..."
 
 #: ../../reference/guidelines.rst:149
 msgid ""
@@ -3295,13 +3303,13 @@ msgid ""
 "Others are suffixed with :samp:`_{<detail>}`, where *detail* is a lowercase "
 "string briefly explaining the action. This is used only if multiple actions "
 "are declared for the model."
-msgstr "对于一个动作：主操作方面：SAMP：`{<MODEL_NAME>} _ action`。其他人则后缀：SAMP：`_ {<详细>}`，其中*详细*是一个小写的字符串，简要说明操作。这是仅用于多个动作的模式声明。"
+msgstr "对于一个动作：主操作方面:samp:`{<MODEL_NAME>} _ action`。其他人则后缀:samp:`_ {<详细>}`，其中*详细*是一个小写的字符串，简要说明操作。这是仅用于多个动作的模式声明。"
 
 #: ../../reference/guidelines.rst:154
 msgid ""
 "For a group: :samp:`{<model_name>}_group_{<group_name>}` where *group_name* "
 "is the name of the group, generally 'user', 'manager', ..."
-msgstr "对于组：SAMP：`{<MODEL_NAME>} _组_ {<组>}`，其中*组名*是组，一般“用户”，“经理”，的名称..."
+msgstr "对于组:samp:`{<MODEL_NAME>} _组_ {<组>}`，其中*组名*是组，一般“用户”，“经理”，的名称..."
 
 #: ../../reference/guidelines.rst:156
 msgid ""
@@ -3309,14 +3317,14 @@ msgid ""
 "*concerned_group* is the short name of the concerned group ('user' for the "
 "'model_name_group_user', 'public' for public user, 'company' for multi-"
 "company rules, ...)."
-msgstr "对于一个规则：SAMP：`{<MODEL_NAME>} _规则_ {<concerned_group>}`，其中* concerned_group *是关注组（'用户'的'model_name_group_user“的简称，”公开“公开的用户，”公司多公司规定，...）。"
+msgstr "对于一个规则:samp:`{<MODEL_NAME>} _规则_ {<concerned_group>}`，其中* concerned_group *是关注组（'用户'的'model_name_group_user“的简称，”公开“公开的用户，”公司多公司规定，...）。"
 
 #: ../../reference/guidelines.rst:200
 msgid ""
 "View names use dot notation ``my.model.view_type`` or "
 "``my.model.view_type.inherit`` instead of *\"This is the form view of My "
 "Model\"*."
-msgstr "查看名称使用点符号``my.model.view_type``或``my.model.view_type.inherit``，而不是* \“这是我的模型\表单视图”*。"
+msgstr "查看名称使用点符号``my.model.view_type``或``my.model.view_type.inherit``，而不是* '这是我的模型表单视图”*。"
 
 #: ../../reference/guidelines.rst:206
 msgid "Inherited XML"
@@ -3329,7 +3337,7 @@ msgid ""
 "extend a view once.  Suffix the orginal name with "
 ":samp:`_inherit_{<current_module_name>}` where *current_module_name* is the "
 "technical name of the module extending the view."
-msgstr "继承视图的命名模式是：SAMP：`{<base_view>} _继承_ {<current_module_name>}`。一个模块可能只扩展视图一次。后缀原单名：SAMP：`_inherit _ {<current_module_name>}`，其中* current_module_name *是扩展视图模块的技术名称。"
+msgstr "继承视图的命名模式是:samp:`{<base_view>} _继承_ {<current_module_name>}`。一个模块可能只扩展视图一次。后缀原单名:samp:`_inherit _ {<current_module_name>}`，其中* current_module_name *是扩展视图模块的技术名称。"
 
 #: ../../reference/guidelines.rst:223 ../../reference/qweb.rst:319
 msgid "Python"
@@ -3671,7 +3679,7 @@ msgid ""
 "(long enough) including the name of the module that has been changed and the"
 " reason behind the change. Do not use single words like \"bugfix\" or "
 "\"improvements\"."
-msgstr "始终有一个有意义的提交信息：它应该是不言而喻的（足够长），其中包括已被更改模块的名称和变化背后的原因。不要使用单个词汇，如\“错误修正\”或\“进步\”。"
+msgstr "始终有一个有意义的提交信息：它应该是不言而喻的（足够长），其中包括已被更改模块的名称和变化背后的原因。不要使用单个词汇，如'错误修正'或'进步'。"
 
 #: ../../reference/guidelines.rst:412
 msgid ""
@@ -3783,7 +3791,7 @@ msgstr "包裹WERKZEUG Request对象"
 msgid ""
 "the original :class:`werkzeug.wrappers.Request` object provided to the "
 "request"
-msgstr "原文：类：`werkzeug.wrappers.Request`对象提供给请求"
+msgstr "原文:class:`werkzeug.wrappers.Request`对象提供给请求"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest:15
 msgid ""
@@ -3795,7 +3803,7 @@ msgstr "产品类别：`〜请求参数collections.Mapping`，一般不会因为
 msgid ""
 "The :class:`~openerp.api.Environment` bound to current request. Raises a "
 ":class:`RuntimeError` if the current requests is not bound to a database."
-msgstr "该产品类别：`〜openerp.api.Environment`势必当前请求。提出了：类：`RuntimeError`如果当前请求没有绑定到数据库。"
+msgstr "该产品类别：`〜openerp.api.Environment`势必当前请求。提出了:class:`RuntimeError`如果当前请求没有绑定到数据库。"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest.context:1
 msgid ""
@@ -3806,7 +3814,7 @@ msgstr "产品类别：`〜上下文collections.Mapping`值当前请求"
 msgid ""
 "a :class:`OpenERPSession` holding the HTTP session data for the current http"
 " session"
-msgstr "答：类：`OpenERPSession`持有HTTP会话数据为目前HTTP会话"
+msgstr "答:class:`OpenERPSession`持有HTTP会话数据为目前HTTP会话"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest.cr:1
 msgid ""
@@ -3821,13 +3829,13 @@ msgstr "访问光标在当前请求使用``none``身份验证将引发异常。"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest.debug:1
 msgid "Indicates whether the current request is in \"debug\" mode"
-msgstr "表示当前请求是否处于\“调试\”模式"
+msgstr "表示当前请求是否处于'调试'模式"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest.session_id:1
 msgid ""
 "opaque identifier for the :class:`OpenERPSession` instance of the current "
 "request"
-msgstr "不透明的标识符：类：'当前请求的OpenERPSession`实例"
+msgstr "不透明的标识符:class:'当前请求的OpenERPSession`实例"
 
 #: ../../../openerp/http.pydocstring of openerp.http.WebRequest.session_id:6
 msgid "Use the ``sid`` attribute on :attr:`.session`"
@@ -4003,7 +4011,7 @@ msgid ""
 "In addition to the :class:`werkzeug.wrappers.Response` parameters, this "
 "class's constructor can take the following additional parameters for QWeb "
 "Lazy Rendering."
-msgstr "除了：类：`werkzeug.wrappers.Response`参数，这个类的构造函数可以采取QWeb延迟渲染以下附加参数。"
+msgstr "除了:class:`werkzeug.wrappers.Response`参数，这个类的构造函数可以采取QWeb延迟渲染以下附加参数。"
 
 #: ../../../openerp/http.pydocstring of openerp.http.Response:9
 msgid ""
@@ -4021,7 +4029,7 @@ msgstr "这些属性可作为响应对象参数，并且可以在任何时间呈
 msgid ""
 "Also exposes all the attributes and methods of "
 ":class:`werkzeug.wrappers.Response`."
-msgstr "也暴露了所有的属性和方法：类：`werkzeug.wrappers.Response`。"
+msgstr "也暴露了所有的属性和方法:class:`werkzeug.wrappers.Response`。"
 
 #: ../../../openerp/http.pydocstring of openerp.http.Response.render:1
 msgid "Renders the Response's template, returns the result"
@@ -4043,7 +4051,7 @@ msgid ""
 ":class:`~openerp.models.Model`, but can't use the same mechanism as the pre-"
 "requisites (a database with loaded modules) may not be available yet (e.g. "
 "no database created, or no database selected)."
-msgstr "控制器需要提供可扩展性，很像：类：`〜openerp.models.Model`，但不能使用相同的机制为先决条件（与加载的模块数据库）可能无法使用，但（如没有数据库创建或者没有数据库选择）。"
+msgstr "控制器需要提供可扩展性，很像:class:`〜openerp.models.Model`，但不能使用相同的机制为先决条件（与加载的模块数据库）可能无法使用，但（如没有数据库创建或者没有数据库选择）。"
 
 #: ../../reference/http.rst:51
 msgid ""
@@ -4064,14 +4072,14 @@ msgstr "和定义方法装饰有：函数：`〜openerp.http.route` ::"
 msgid ""
 "To *override* a controller, :ref:`inherit <python:tut-inheritance>` from its"
 " class and override relevant methods, re-exposing them if necessary::"
-msgstr "要*覆盖*控制器，：参考：`继承<巨蟒：啧啧继承>从其类'，并覆盖相关的方法，再次暴露他们，如果有必要::"
+msgstr "要*覆盖*控制器，:ref:`继承<巨蟒：啧啧继承>从其类'，并覆盖相关的方法，再次暴露他们，如果有必要::"
 
 #: ../../reference/http.rst:74
 msgid ""
 "decorating with :func:`~openerp.http.route` is necessary to keep the method "
 "(and route) visible: if the method is redefined without decorating, it will "
 "be \"unpublished\""
-msgstr "装潢用：函数：`〜openerp.http.route`是需要保持方法（和航线）可见：如果该方法被重新定义，而不装潢，将\“未发表\”"
+msgstr "装潢用：函数：`〜openerp.http.route`是需要保持方法（和航线）可见：如果该方法被重新定义，而不装潢，将'未发表'"
 
 #: ../../reference/http.rst:77
 msgid ""
@@ -4114,7 +4122,7 @@ msgstr "提供广泛的生命周期管理与安全功能（如自动摧毁孩子
 
 #: ../../reference/javascript.rst:24
 msgid "Automatic rendering with :ref:`qweb <reference/qweb>`"
-msgstr "自动渲染有：参考：`qweb <参考/ qweb>`"
+msgstr "自动渲染有:ref:`qweb <参考/ qweb>`"
 
 #: ../../reference/javascript.rst:25
 msgid "Backbone-compatible shortcuts"
@@ -4128,7 +4136,7 @@ msgstr "DOM根"
 msgid ""
 "A :class:`~Widget` is responsible for a section of the page materialized by "
 "the DOM root of the widget."
-msgstr "答：类：`〜Widget`负责物化小部件的DOM根页面的一部分。"
+msgstr "答:class:`〜Widget`负责物化小部件的DOM根页面的一部分。"
 
 #: ../../reference/javascript.rst:33
 msgid "A widget's DOM root is available via two attributes:"
@@ -4152,7 +4160,7 @@ msgid ""
 "set, the template will be rendered after the widget has been initialized but"
 " before it has been started. The root element generated by the template will"
 " be set as the DOM root of the widget."
-msgstr "应设置为一个名字：REF：`QWeb模板<参考/ qweb>`。如果设置，该模板将被渲染的插件已初始化之后，但它已被启动之前。由模板产生的根元素将被设置为小部件的DOM的根。"
+msgstr "应设置为一个名字:ref:`QWeb模板<参考/ qweb>`。如果设置，该模板将被渲染的插件已初始化之后，但它已被启动之前。由模板产生的根元素将被设置为小部件的DOM的根。"
 
 #: ../../reference/javascript.rst:54
 msgid ""
@@ -4189,14 +4197,14 @@ msgid ""
 "Renders the widget's DOM root and sets it. The default implementation will "
 "render a set template or generate an element as described above, and will "
 "call :func:`~Widget.setElement` on the result."
-msgstr "呈现小部件的DOM根，并设置它。默认的实现将呈现一组模板或如上所述生成的元素，并会拨打：FUNC：`〜Widget.setElement`的结果。"
+msgstr "呈现小部件的DOM根，并设置它。默认的实现将呈现一组模板或如上所述生成的元素，并会拨打:func:`〜Widget.setElement`的结果。"
 
 #: ../../reference/javascript.rst:85
 msgid ""
 "Any override to :func:`~Widget.renderElement` which does not call its "
 "``_super`` **must** call :func:`~Widget.setElement` with whatever it "
 "generated or the widget's behavior is undefined."
-msgstr "任何覆盖到：FUNC：`〜Widget.renderElement`不调用它的``_super`` **必须**电话：FUNC：有什么它产生或控件的行为是不确定的`〜Widget.setElement`。"
+msgstr "任何覆盖到:func:`〜Widget.renderElement`不调用它的``_super`` **必须**电话:func:有什么它产生或控件的行为是不确定的`〜Widget.setElement`。"
 
 #: ../../reference/javascript.rst:92
 msgid ""
@@ -4205,7 +4213,7 @@ msgid ""
 "requires that the widget correctly sets and unsets its events (and children "
 "widgets). Generally, :func:`~Widget.renderElement` should not be called "
 "repeatedly unless the widget advertizes this feature."
-msgstr "默认：FUNC：`〜Widget.renderElement`可以反复调用，它将取代* *先前的DOM根（使用``replaceWith``）。然而，这要求微件正确设置和取消设置其事件（孩子和窗口小部件）。通常情况下，：FUNC：`〜Widget.renderElement`不应该被重复调用，除非小部件advertizes此功能。"
+msgstr "默认:func:`〜Widget.renderElement`可以反复调用，它将取代* *先前的DOM根（使用``replaceWith``）。然而，这要求微件正确设置和取消设置其事件（孩子和窗口小部件）。通常情况下，:func:`〜Widget.renderElement`不应该被重复调用，除非小部件advertizes此功能。"
 
 #: ../../reference/javascript.rst:100
 msgid "Using a widget"
@@ -4297,7 +4305,7 @@ msgid ""
 ":func:`~Widget.start` method has finished executing. The widget's "
 "parent/creator must wait for a widget to be fully started before interacting"
 " with it"
-msgstr "小部件是*不*保证正常工作，直到其：FUNC：`〜Widget.start`方法执行结束。窗口小部件的父/创建者必须等待一个小部件与它交互之前全面打响"
+msgstr "小部件是*不*保证正常工作，直到其:func:`〜Widget.start`方法执行结束。窗口小部件的父/创建者必须等待一个小部件与它交互之前全面打响"
 
 #: ../../reference/javascript.rst:161 ../../reference/javascript.rst:202
 msgid "deferred_ object"
@@ -4340,7 +4348,7 @@ msgid ""
 ":func:`~Widget.alive` can be used to wrap an RPC call, ensuring that "
 "whatever operations should be executed when the call ends are only executed "
 "if the widget is still alive::"
-msgstr "：FUNC：`〜Widget.alive`可以用来包装一个RPC调用，确保一切行动应被执行时，通话结束后才会执行，如果小部件还活着::"
+msgstr ":func:`〜Widget.alive`可以用来包装一个RPC调用，确保一切行动应被执行时，通话结束后才会执行，如果小部件还活着::"
 
 #: ../../reference/javascript.rst:197
 msgid "a deferred_ object to wrap"
@@ -4424,7 +4432,7 @@ msgstr "甲插件通常需要以内的页面的其部分响应用户行动。这
 
 #: ../../reference/javascript.rst:252
 msgid "To this end, :class:`~Widget` provides a shortcut:"
-msgstr "为此，：类：`〜Widget`提供了一条捷径："
+msgstr "为此，:class:`〜Widget`提供了一条捷径："
 
 #: ../../reference/javascript.rst:256
 msgid ""
@@ -4460,13 +4468,13 @@ msgid ""
 "This method is in charge of unbinding :attr:`~Widget.events` from the DOM "
 "root when the widget is destroyed or the DOM root is reset, in order to "
 "avoid leaving \"phantom\" events."
-msgstr "这种方法是负责解除绑定：ATTR：`〜Widget.events`从DOM根当小部件被销毁或DOM根复位，以免留下\“幻影\”事件。"
+msgstr "这种方法是负责解除绑定：ATTR：`〜Widget.events`从DOM根当小部件被销毁或DOM根复位，以免留下'幻影'事件。"
 
 #: ../../reference/javascript.rst:289
 msgid ""
 "It should be overridden to un-set any event set in an override of "
 ":func:`~Widget.delegateEvents`."
-msgstr "应该覆盖到未设置的覆盖设置的任何事件：FUNC：`〜Widget.delegateEvents`。"
+msgstr "应该覆盖到未设置的覆盖设置的任何事件:func:`〜Widget.delegateEvents`。"
 
 #: ../../reference/javascript.rst:292
 msgid ""
@@ -4484,7 +4492,7 @@ msgid ""
 ":func:`~Class.extend` method), and provides a number of abstract properties "
 "and concrete methods (which you may or may not want to override). Creating a"
 " subclass looks like this::"
-msgstr "产品类别：`〜Widget`的子类以标准方式（通过：FUNC：`〜Class.extend`方法），并提供了一​​些抽象属性和具体方法（您可能会或可能不希望重写）了。创建一个子类看起来像这样::"
+msgstr "产品类别：`〜Widget`的子类以标准方式（通过:func:`〜Class.extend`方法），并提供了一​​些抽象属性和具体方法（您可能会或可能不希望重写）了。创建一个子类看起来像这样::"
 
 #: ../../reference/javascript.rst:329
 msgid "The new class can then be used in the following manner::"
@@ -4495,20 +4503,20 @@ msgid ""
 "After these two lines have executed (and any promise returned by "
 ":func:`~Widget.appendTo` has been resolved if needed), the widget is ready "
 "to be used."
-msgstr "经过这两条线已经执行（和返回的任何承诺：FUNC：`〜Widget.appendTo`已如果需要解决），小部件就可以使用了。"
+msgstr "经过这两条线已经执行（和返回的任何承诺:func:`〜Widget.appendTo`已如果需要解决），小部件就可以使用了。"
 
 #: ../../reference/javascript.rst:340
 msgid ""
 "the insertion methods will start the widget themselves, and will return the "
 "result of :func:`~Widget.start()`."
-msgstr "插入方法将开始小部件本身，并将返回的结果：FUNC：`〜Widget.start（）`。"
+msgstr "插入方法将开始小部件本身，并将返回的结果:func:`〜Widget.start（）`。"
 
 #: ../../reference/javascript.rst:343
 msgid ""
 "If for some reason you do not want to call these methods, you will have to "
 "first call :func:`~Widget.render()` on the widget, then insert it into your "
 "DOM and start it."
-msgstr "如果由于某种原因，你不想调用这些方法，你将不得不第一次调用：FUNC：`〜Widget.render（）`的小部件，然后将其插入到DOM并启动它。"
+msgstr "如果由于某种原因，你不想调用这些方法，你将不得不第一次调用:func:`〜Widget.render（）`的小部件，然后将其插入到DOM并启动它。"
 
 #: ../../reference/javascript.rst:347
 msgid ""
@@ -4548,7 +4556,7 @@ msgid ""
 "unintended behavior. Generic class names should be prefixed with e.g. the "
 "name of the component they belong to (creating \"informal\" namespaces, much"
 " as in C or Objective-C)."
-msgstr "避免可预见/常见CSS类名。类的名称，如\“内容\”或\“导航\”可能匹配所需的意义/语义，但它可能是一个其他的开发者也会有同样的需要，创造一个命名冲突和意外情况。通用类名称的前缀应该与他们属于（创建\“非正式\”的命名空间，就像在C或Objective-C的）的组件，例如名称。"
+msgstr "避免可预见/常见CSS类名。类的名称，如'内容'或'导航'可能匹配所需的意义/语义，但它可能是一个其他的开发者也会有同样的需要，创造一个命名冲突和意外情况。通用类名称的前缀应该与他们属于（创建'非正式'的命名空间，就像在C或Objective-C的）的组件，例如名称。"
 
 #: ../../reference/javascript.rst:373
 msgid ""
@@ -4559,7 +4567,7 @@ msgid ""
 "lead to unintended or incorrect behavior.  Odoo Web's :class:`~Widget` has "
 "an attribute providing its DOM root (:attr:`~Widget.$el`), and a shortcut to"
 " select nodes directly (:func:`~Widget.$`)."
-msgstr "应避免全球选择器。因为一个部件可以在一个单一的页（在Odoo一个例子是仪表板）中使用几次，询问应限制在一个给定的组件的范围。未经过滤的选项比如``$（选择）``或``document.querySelectorAll（选择）``通常会导致意外或不正确的行为。 Odoo网站的产品类别：`〜Widget`有一个属性提供了DOM根（：ATTR：`〜小工具$ el`），以及一个快捷方式直接选择节点（：FUNC：`〜小工具$`）。"
+msgstr "应避免全球选择器。因为一个部件可以在一个单一的页（在Odoo一个例子是仪表板）中使用几次，询问应限制在一个给定的组件的范围。未经过滤的选项比如``$（选择）``或``document.querySelectorAll（选择）``通常会导致意外或不正确的行为。 Odoo网站的产品类别：`〜Widget`有一个属性提供了DOM根（：ATTR：`〜小工具$ el`），以及一个快捷方式直接选择节点（:func:`〜小工具$`）。"
 
 #: ../../reference/javascript.rst:381
 msgid ""
@@ -4576,7 +4584,7 @@ msgid ""
 "All interactive components (components displaying information to the screen "
 "or intercepting DOM events) must inherit from :class:`~Widget` and correctly"
 " implement and use its API and life cycle."
-msgstr "所有交互式组件（组件的信息显示在屏幕或拦截DOM事件）都必须继承：类：`〜Widget`，正确实施和使用其API和生命周期。"
+msgstr "所有交互式组件（组件的信息显示在屏幕或拦截DOM事件）都必须继承:class:`〜Widget`，正确实施和使用其API和生命周期。"
 
 #: ../../reference/javascript.rst:412 ../../reference/javascript.rst:1142
 msgid "RPC"
@@ -4602,7 +4610,7 @@ msgid ""
 "all of them will return Deferred_ objects (whether they resolve those with "
 "values or not). Understanding how those work before before moving on is "
 "probably necessary."
-msgstr "所有的网络API有：参考：`异步<参考/异步>`。其结果是，所有的人都将返回Deferred_对象（无论它们解决那些值或者不是）。了解如何在继续之前以前的那些工作，可能是必要的。"
+msgstr "所有的网络API有:ref:`异步<参考/异步>`。其结果是，所有的人都将返回Deferred_对象（无论它们解决那些值或者不是）。了解如何在继续之前以前的那些工作，可能是必要的。"
 
 #: ../../reference/javascript.rst:428
 msgid "High-level API: calling into Odoo models"
@@ -4614,21 +4622,21 @@ msgid ""
 "server) is done via :class:`Model` (exported in ``web.Model``). It maps onto"
 " the Odoo server objects via two primary methods, :func:`~Model.call` and "
 ":func:`~Model.query`."
-msgstr "类：`Model`（在``web.Model``出口）进入Odoo对象的方法（通过XML-RPC从服务器上可用）通过完成的。它映射到Odoo服务对象主要通过两种方法：FUNC：`〜Model.call`和：FUNC：`〜Model.query`。"
+msgstr "类：`Model`（在``web.Model``出口）进入Odoo对象的方法（通过XML-RPC从服务器上可用）通过完成的。它映射到Odoo服务对象主要通过两种方法:func:`〜Model.call`和:func:`〜Model.query`。"
 
 #: ../../reference/javascript.rst:435
 msgid ""
 ":func:`~Model.call` is a direct mapping to the corresponding method of the "
 "Odoo server object. Its usage is similar to that of the Odoo Model API, with"
 " three differences:"
-msgstr "：FUNC：`〜Model.call`是直接映射到Odoo服务器对象的相应方法。其用法是类似于Odoo模型的API，有三个不同之处："
+msgstr ":func:`〜Model.call`是直接映射到Odoo服务器对象的相应方法。其用法是类似于Odoo模型的API，有三个不同之处："
 
 #: ../../reference/javascript.rst:439
 msgid ""
 "The interface is :ref:`asynchronous <reference/async>`, so instead of "
 "returning results directly RPC method calls will return Deferred_ instances,"
 " which will themselves resolve to the result of the matching RPC call."
-msgstr "该接口是：参考：`异步<参考/异步>`，所以不是返回结果直接RPC方法调用返回Deferred_情况下，将自己想办法解决，以匹配的RPC调用的结果。"
+msgstr "该接口是:ref:`异步<参考/异步>`，所以不是返回结果直接RPC方法调用返回Deferred_情况下，将自己想办法解决，以匹配的RPC调用的结果。"
 
 #: ../../reference/javascript.rst:444
 msgid ""
@@ -4650,7 +4658,7 @@ msgid ""
 ":class:`~openerp.web.Query` object which is immutable but allows building "
 "new :class:`~openerp.web.Query` instances from the first one, adding new "
 "properties or modifiying the parent object's::"
-msgstr "：FUNC：`〜Model.query`是一个建设者风格的界面，搜索快捷键（``在Odoo RPC方面search`` +``read``）。它返回一个：类：`〜openerp.web.Query`对象，它是不可变的，但允许建立新的产品类别：`从第一个〜openerp.web.Query`情况下，增加新的属性或modifiying父对象的::"
+msgstr ":func:`〜Model.query`是一个建设者风格的界面，搜索快捷键（``在Odoo RPC方面search`` +``read``）。它返回一个:class:`〜openerp.web.Query`对象，它是不可变的，但允许建立新的产品类别：`从第一个〜openerp.web.Query`情况下，增加新的属性或modifiying父对象的::"
 
 #: ../../reference/javascript.rst:471
 msgid ""
@@ -4658,13 +4666,13 @@ msgid ""
 "serialization methods, :func:`~openerp.web.Query.all` and "
 ":func:`~openerp.web.Query.first`. These methods will perform a new RPC call "
 "every time they are called."
-msgstr "只是实际执行的查询要求之一的查询序列化方法，当：FUNC：`〜openerp.web.Query.all`和：FUNC：`〜openerp.web.Query.first`。这些方法将执行新的RPC调用每一个他们被称为时间。"
+msgstr "只是实际执行的查询要求之一的查询序列化方法，当:func:`〜openerp.web.Query.all`和:func:`〜openerp.web.Query.first`。这些方法将执行新的RPC调用每一个他们被称为时间。"
 
 #: ../../reference/javascript.rst:476
 msgid ""
 "For that reason, it's actually possible to keep \"intermediate\" queries "
 "around and use them differently/add new specifications on them."
-msgstr "出于这个原因，它实际上可以保持\“中间\”查询周围，并利用它们不同的/它们添加新的规格。"
+msgstr "出于这个原因，它实际上可以保持'中间'查询周围，并利用它们不同的/它们添加新的规格。"
 
 #: ../../reference/javascript.rst:483
 msgid "name of the model this object is bound to"
@@ -4699,19 +4707,19 @@ msgstr "字段列表的搜索过程中获取"
 #: ../../reference/javascript.rst:502
 msgid ""
 "a :class:`~openerp.web.Query` object representing the search to perform"
-msgstr "答：类：`〜openerp.web.Query`对象，表示搜索执行"
+msgstr "答:class:`〜openerp.web.Query`对象，表示搜索执行"
 
 #: ../../reference/javascript.rst:507
 msgid ""
 "The first set of methods is the \"fetching\" methods. They perform RPC "
 "queries using the internal data of the object they're called on."
-msgstr "第一组的方法是\“抓取\”的方法。他们的表现用他们呼吁对象的内部数据RPC查询。"
+msgstr "第一组的方法是'抓取'的方法。他们的表现用他们呼吁对象的内部数据RPC查询。"
 
 #: ../../reference/javascript.rst:513
 msgid ""
 "Fetches the result of the current :class:`~openerp.web.Query` object's "
 "search."
-msgstr "获取当前的结果：类：`〜openerp.web.Query`对象的搜索。"
+msgstr "获取当前的结果:class:`〜openerp.web.Query`对象的搜索。"
 
 #: ../../reference/javascript.rst:516
 msgid "Deferred<Array<>>"
@@ -4721,7 +4729,7 @@ msgstr "递延<阵<>>"
 msgid ""
 "Fetches the **first** result of the current :class:`~openerp.web.Query`, or "
 "``null`` if the current :class:`~openerp.web.Query` does have any result."
-msgstr "获取当前的**第**结果：类：`〜openerp.web.Query`，或``null``如果当前的：class：`〜openerp.web.Query`不会有任何结果。"
+msgstr "获取当前的**第**结果:class:`〜openerp.web.Query`，或``null``如果当前的：class：`〜openerp.web.Query`不会有任何结果。"
 
 #: ../../reference/javascript.rst:524
 msgid "Deferred<Object | null>"
@@ -4731,7 +4739,7 @@ msgstr "递延<对象|空>"
 msgid ""
 "Fetches the number of records the current :class:`~openerp.web.Query` would "
 "retrieve."
-msgstr "获取的记录数当前：类：`〜openerp.web.Query`将检索。"
+msgstr "获取的记录数当前:class:`〜openerp.web.Query`将检索。"
 
 #: ../../reference/javascript.rst:531
 msgid "Deferred<Number>"
@@ -4758,7 +4766,7 @@ msgid ""
 "The second set of methods is the \"mutator\" methods, they create a **new** "
 ":class:`~openerp.web.Query` object with the relevant (internal) attribute "
 "either augmented or replaced."
-msgstr "第二组方法是\“突变\”的方法，他们创造一个新的** **：类：`〜相关（内部）openerp.web.Query`对象的属性或者增加或更换。"
+msgstr "第二组方法是'突变'的方法，他们创造一个新的** **:class:`〜相关（内部）openerp.web.Query`对象的属性或者增加或更换。"
 
 #: ../../reference/javascript.rst:550
 msgid "Adds the provided ``ctx`` to the query, on top of any existing context"
@@ -4786,7 +4794,7 @@ msgid ""
 "Overrides the model's natural order with the provided field specifications. "
 "Behaves much like Django's :py:meth:`QuerySet.order_by "
 "<django.db.models.query.QuerySet.order_by>`:"
-msgstr "覆盖模型的自然秩序与所提供的字段规范。行为很像Django的：PY：甲：`QuerySet.order_by <django.db.models.query.QuerySet.order_by>`："
+msgstr "覆盖模型的自然秩序与所提供的字段规范。行为很像Django的：PY:meth:`QuerySet.order_by <django.db.models.query.QuerySet.order_by>`："
 
 #: ../../reference/javascript.rst:574
 msgid ""
@@ -4798,13 +4806,13 @@ msgstr "注意到1..N字段名，以最到最重要的（第一场是第一个�
 msgid ""
 "A field specifies an ascending order, unless it is prefixed with the minus "
 "sign \"``-``\" in which case the field is used in the descending order"
-msgstr "字段指定了一个升序排列，除非它前面加上减号\“``-`` \”在这种情况下字段用于降序排序"
+msgstr "字段指定了一个升序排列，除非它前面加上减号'``-`` '在这种情况下字段用于降序排序"
 
 #: ../../reference/javascript.rst:582
 msgid ""
 "Divergences from Django's sorting include a lack of random sort (``?`` "
 "field) and the inability to \"drill down\" into relations for sorting."
-msgstr "从Django的排序分歧包括缺乏随机排序（``？``场），并不能为\“向下钻取\”成关系进行排序。"
+msgstr "从Django的排序分歧包括缺乏随机排序（``？``场），并不能为'向下钻取'成关系进行排序。"
 
 #: ../../reference/javascript.rst:587
 msgid "Aggregation (grouping)"
@@ -4817,7 +4825,7 @@ msgid ""
 "grouping at level n. As a result, while "
 ":py:meth:`openerp.models.Model.read_group` works it's not a very intuitive "
 "API."
-msgstr "Odoo具有强大的分组的能力，但它们是奇怪的，因为它们是递归形式的-，和电平n + 1个依赖于通过在级n分组直接提供的数据。其结果是，虽然：PY：甲：`openerp.models.Model.read_group`作品这不是一个很直观的API。"
+msgstr "Odoo具有强大的分组的能力，但它们是奇怪的，因为它们是递归形式的-，和电平n + 1个依赖于通过在级n分组直接提供的数据。其结果是，虽然：PY:meth:`openerp.models.Model.read_group`作品这不是一个很直观的API。"
 
 #: ../../reference/javascript.rst:595
 msgid ""
@@ -4825,7 +4833,7 @@ msgid ""
 " in favor of calling a method of :class:`~openerp.web.Query`, :py:meth:`much"
 " in the way it is one in SQLAlchemy <sqlalchemy.orm.query.Query.group_by>` "
 "[#terminal]_::"
-msgstr "Odoo网络避开直接调用：赞成调用的方法的`〜openerp.models.Model.read_group`：产品类别：PY：甲基`〜openerp.web.Query`，：PY：甲：`多的方式这是一家在SQLAlchem​​y的<sqlalchem​​y.orm.query.Query.group_by>`[#terminal] _ ::"
+msgstr "Odoo网络避开直接调用：赞成调用的方法的`〜openerp.models.Model.read_group`：产品类别：PY：甲基`〜openerp.web.Query`，：PY:meth:`多的方式这是一家在SQLAlchem​​y的<sqlalchem​​y.orm.query.Query.group_by>`[#terminal] _ ::"
 
 #: ../../reference/javascript.rst:604
 msgid ""
@@ -4852,13 +4860,13 @@ msgstr "对``group_by``的结果和两个完全不同的代码路径进行检查
 msgid ""
 "Or a more coherent code path using :func:`when`'s ability to coerce values "
 "into deferreds::"
-msgstr "或者更连贯的代码路径使用：FUNC：`when`的强迫值到deferreds能力::"
+msgstr "或者更连贯的代码路径使用:func:`when`的强迫值到deferreds能力::"
 
 #: ../../reference/javascript.rst:637
 msgid ""
 "The result of a (successful) :func:`~openerp.web.Query.group_by` is an array"
 " of :class:`~openerp.web.QueryGroup`:"
-msgstr "FUNC：一个（成功）结果`〜openerp.web.Query.group_by`是一个数组：类：`〜openerp.web.QueryGroup`："
+msgstr "FUNC：一个（成功）结果`〜openerp.web.Query.group_by`是一个数组:class:`〜openerp.web.QueryGroup`："
 
 #: ../../reference/javascript.rst:644
 msgid "returns the group's attribute ``key``. Known attributes are:"
@@ -4897,13 +4905,13 @@ msgid ""
 "equivalent to :func:`Model.query` but pre-filtered to only include the "
 "records within this group. Returns a :class:`~openerp.web.Query` which can "
 "be further manipulated as usual."
-msgstr "相当于：FUNC：`Model.query`但预过滤，只包括该组中的记录。返回：类：`〜openerp.web.Query`可以进一步操纵如常。"
+msgstr "相当于:func:`Model.query`但预过滤，只包括该组中的记录。返回:class:`〜openerp.web.Query`可以进一步操纵如常。"
 
 #: ../../reference/javascript.rst:664
 msgid ""
 "returns a deferred to an array of :class:`~openerp.web.QueryGroup` below "
 "this one"
-msgstr "返回一个推迟到数组：类：`〜下面这一个openerp.web.QueryGroup`"
+msgstr "返回一个推迟到数组:class:`〜下面这一个openerp.web.QueryGroup`"
 
 #: ../../reference/javascript.rst:668
 msgid "Low-level API: RPC calls to Python side"
@@ -4920,7 +4928,7 @@ msgid ""
 "For this, a lower-level API exists on on :class:`~Session` objects (the "
 "class is exported in ``web.Session``, but an instance isusually available "
 "through ``web.session``): the ``rpc`` method."
-msgstr "对于这一点，较低级别的API存在上：类：`〜Session`对象（类出口在``web.Session``，但一个实例isusually可以通过``web.session``）：在` `rpc``方法。"
+msgstr "对于这一点，较低级别的API存在上:class:`〜Session`对象（类出口在``web.Session``，但一个实例isusually可以通过``web.session``）：在` `rpc``方法。"
 
 #: ../../reference/javascript.rst:678
 msgid ""
@@ -4928,13 +4936,13 @@ msgid ""
 ":ref:`route <reference/http/routing>` to call) and a mapping of attributes "
 "to values (passed as keyword arguments to the Python method). This function "
 "fetches the return value of the Python methods, converted to JSON."
-msgstr "这种方法只需要一个绝对路径（JSON的绝对URL：参考：`航线<参考/ HTTP /路由>`调用）和属性的映射值（传递关键字参数到Python的方法）。该功能获取的Python的方法的返回值，转换成JSON。"
+msgstr "这种方法只需要一个绝对路径（JSON的绝对URL:ref:`航线<参考/ HTTP /路由>`调用）和属性的映射值（传递关键字参数到Python的方法）。该功能获取的Python的方法的返回值，转换成JSON。"
 
 #: ../../reference/javascript.rst:683
 msgid ""
 "For instance, to call the ``resequence`` of the "
 ":class:`~web.controllers.main.DataSet` controller::"
-msgstr "例如，要调用的的``resequence``：类：`〜web.controllers.main.DataSet`控制器::"
+msgstr "例如，要调用的的``resequence``:class:`〜web.controllers.main.DataSet`控制器::"
 
 #: ../../reference/javascript.rst:699
 msgid "Web Client"
@@ -5260,7 +5268,7 @@ msgid ""
 "Odoo tests live in a :func:`~openerp.testing.section`, which is itself part "
 "of a module. The first argument to a section is the name of the section, the"
 " second one is the section body."
-msgstr "所有的测试助手和结构生活``openerp.testing``模块内。 Odoo测试住在：FUNC：`〜openerp.testing.section`，这本身就是一个模块的一部分。的第一个参数的截面是段的名称，所述第二个是部分身体。"
+msgstr "所有的测试助手和结构生活``openerp.testing``模块内。 Odoo测试住在:func:`〜openerp.testing.section`，这本身就是一个模块的一部分。的第一个参数的截面是段的名称，所述第二个是部分身体。"
 
 #: ../../reference/javascript.rst:902
 msgid ""
@@ -5268,7 +5276,7 @@ msgid ""
 ":func:`~openerp.testing.section` to the callback, is used to register a "
 "given test case which will be run whenever the test runner actually does its"
 " job. Odoo Web test case use standard `QUnit assertions`_ within them."
-msgstr "：FUNC：`测试<openerp.testing.case>`，由提供：FUNC：`〜openerp.testing.section`回调，用于注册一个给定的测试用例每当测试运行实际上做这将运行它的工作。 Odoo Web测试的情况下使用标准的`QUnit assertions`_在其中。"
+msgstr ":func:`测试<openerp.testing.case>`，由提供:func:`〜openerp.testing.section`回调，用于注册一个给定的测试用例每当测试运行实际上做这将运行它的工作。 Odoo Web测试的情况下使用标准的`QUnit assertions`_在其中。"
 
 #: ../../reference/javascript.rst:908
 msgid ""
@@ -5319,7 +5327,7 @@ msgstr "之间的实际和预期的深比较：递归到容器（对象和数组
 
 #: ../../reference/javascript.rst:951
 msgid "inverse operation to :func:`deepEqual`"
-msgstr "反向操作：FUNC：`deepEqual`"
+msgstr "反向操作:func:`deepEqual`"
 
 #: ../../reference/javascript.rst:955
 msgid ""
@@ -5341,7 +5349,7 @@ msgstr "将检查``actual``和``expected``松散相等，使用``==``运营商�
 
 #: ../../reference/javascript.rst:972
 msgid "inverse operation to :func:`equal`"
-msgstr "反向操作：FUNC：`equal`"
+msgstr "反向操作:func:`equal`"
 
 #: ../../reference/javascript.rst:975
 msgid "Getting an Odoo instance"
@@ -5372,7 +5380,7 @@ msgid ""
 "As in the wider client, arbitrarily accessing document content is strongly "
 "discouraged during tests. But DOM access is still needed to e.g. fully "
 "initialize :class:`widgets <~openerp.Widget>` before testing them."
-msgstr "由于在更广泛的客户端，任意访问文档内容强烈测试期间劝阻。但访问DOM仍然需要如完全初始化：类：`小部件<〜openerp.Widget>`测试之前。"
+msgstr "由于在更广泛的客户端，任意访问文档内容强烈测试期间劝阻。但访问DOM仍然需要如完全初始化:class:`小部件<〜openerp.Widget>`测试之前。"
 
 #: ../../reference/javascript.rst:1028
 msgid ""
@@ -5399,7 +5407,7 @@ msgid ""
 "templates, you can request their loading through the "
 ":attr:`~TestOptions.templates` option to the :func:`test case function "
 "<openerp.testing.case>`."
-msgstr "为了避免相应的处理成本，默认模板不加载到QWeb。 ATTR：如果您需要渲染，例如部件利用QWeb模板，可以通过要求其装载`〜TestOptions.templates`选项到：FUNC：`测试用例功能<openerp.testing.case>`。"
+msgstr "为了避免相应的处理成本，默认模板不加载到QWeb。 ATTR：如果您需要渲染，例如部件利用QWeb模板，可以通过要求其装载`〜TestOptions.templates`选项到:func:`测试用例功能<openerp.testing.case>`。"
 
 #: ../../reference/javascript.rst:1059
 msgid ""
@@ -5417,7 +5425,7 @@ msgid ""
 "first to the last line and once the last line has executed the test is done."
 " But the web client is full of :ref:`asynchronous code <reference/async>`, "
 "and thus test cases need to be async-aware."
-msgstr "测试用例例子到目前为止都是同步的，它们从第一个到最后一个行执行一次最后一行已经执行了测试完成。但Web客户端充满了：REF：`异步代码<参考/异步>`，因而测试用例需要是异步感知。"
+msgstr "测试用例例子到目前为止都是同步的，它们从第一个到最后一个行执行一次最后一行已经执行了测试完成。但Web客户端充满了:ref:`异步代码<参考/异步>`，因而测试用例需要是异步感知。"
 
 #: ../../reference/javascript.rst:1104
 msgid ""
@@ -5430,7 +5438,7 @@ msgid ""
 "This example also uses the :class:`options parameter <TestOptions>` to "
 "specify the number of assertions the case should expect, if less or more "
 "assertions are specified the case will count as failed."
-msgstr "这个例子也使用了：类：`选项参数<TestOptions>`指定断言的情况下应该想到，如果少了以上断言规定的情况下，将算作失败的次数。"
+msgstr "这个例子也使用了:class:`选项参数<TestOptions>`指定断言的情况下应该想到，如果少了以上断言规定的情况下，将算作失败的次数。"
 
 #: ../../reference/javascript.rst:1123
 msgid ""
@@ -5483,7 +5491,7 @@ msgid ""
 "essentially) the call will set up the mocking of an RPC call straight to the"
 " Odoo server (through XMLRPC) as performed via e.g. "
 ":func:`openerp.web.Model.call`."
-msgstr "如果匹配模式``型号：method``（如果它包含一个冒号，本质上）的调用将建立一个RPC调用直奔Odoo服务器（通过XMLRPC）的嘲弄通过例如为执行：FUNC：`的OpenERP .web.Model.call`。"
+msgstr "如果匹配模式``型号：method``（如果它包含一个冒号，本质上）的调用将建立一个RPC调用直奔Odoo服务器（通过XMLRPC）的嘲弄通过例如为执行:func:`的OpenERP .web.Model.call`。"
 
 #: ../../reference/javascript.rst:1166
 msgid ""
@@ -5547,7 +5555,7 @@ msgid ""
 "so e.g. :attr:`~TestOptions.rpc` can be set for a "
 ":func:`~openerp.testing.section` and then differently set for some "
 ":func:`~openerp.testing.case` of that :func:`~openerp.testing.section`"
-msgstr "FUNC：它可以传递到各个选项`〜openerp.testing.section`或：FUNC：`〜openerp.testing.case`。不测：ATTR：`〜TestOptions.setup`和：ATTR：`〜TestOptions.teardown`，上一个选项：FUNC：`〜openerp.testing.case`将覆盖在相应的选项：FUNC：`〜openerp.testing .section`因此如：ATTR：FUNC：`〜openerp.testing.section`，然后不同的一些设置：FUNC：`〜那openerp.testing.case``〜TestOptions.rpc`可以为设置： FUNC：`〜openerp.testing.section`"
+msgstr "FUNC：它可以传递到各个选项`〜openerp.testing.section`或:func:`〜openerp.testing.case`。不测：ATTR：`〜TestOptions.setup`和：ATTR：`〜TestOptions.teardown`，上一个选项:func:`〜openerp.testing.case`将覆盖在相应的选项:func:`〜openerp.testing .section`因此如：ATTR:func:`〜openerp.testing.section`，然后不同的一些设置:func:`〜那openerp.testing.case``〜TestOptions.rpc`可以为设置： FUNC：`〜openerp.testing.section`"
 
 #: ../../reference/javascript.rst:1272
 msgid ""
@@ -5560,13 +5568,13 @@ msgid ""
 "Test case setup, run right before each test case. A section's "
 ":func:`~TestOptions.setup` is run before the case's own, if both are "
 "specified."
-msgstr "测试案例设置，每个测试用例前正确运行。 A节的：FUNC：`〜TestOptions.setup`之前运行的情况下自己，如果两者都指定。"
+msgstr "测试案例设置，每个测试用例前正确运行。 A节的:func:`〜TestOptions.setup`之前运行的情况下自己，如果两者都指定。"
 
 #: ../../reference/javascript.rst:1283
 msgid ""
 "Test case teardown, a case's :func:`~TestOptions.teardown` is run before the"
 " corresponding section if both are present."
-msgstr "测试用例拆解，案件的：FUNC：`〜TestOptions.teardown`的相应部分之前运行，如果两者都存在。"
+msgstr "测试用例拆解，案件的:func:`〜TestOptions.teardown`的相应部分之前运行，如果两者都存在。"
 
 #: ../../reference/javascript.rst:1288
 msgid ""
@@ -5580,7 +5588,7 @@ msgid ""
 "RPC method to use during tests, one of ``\"mock\"`` or ``\"rpc\"``. Any "
 "other value will disable RPC for the test (if they were enabled by the suite"
 " for instance)."
-msgstr "RPC方法在测试过程中使用，对``\“模拟\”``或``\“RPC \”``之一。任何其他值将禁用RPC的测试（如果他们的套件，例如启用）。"
+msgstr "RPC方法在测试过程中使用，对``'模拟'``或``'RPC '``之一。任何其他值将禁用RPC的测试（如果他们的套件，例如启用）。"
 
 #: ../../reference/javascript.rst:1313
 msgid ""
@@ -5693,7 +5701,7 @@ msgstr "如果一切正常，你现在应该看到的测试与列表（希望）
 msgid ""
 "Congratulation, you have just performed a successful \"offline\" run of the "
 "OpenERP Web test suite."
-msgstr "恭喜你，你刚刚成功执行了\“离线\”的OpenERP的Web测试套件的运行。"
+msgstr "恭喜你，你刚刚成功执行了'离线'的OpenERP的Web测试套件的运行。"
 
 #: ../../reference/javascript.rst:1398
 msgid ""
@@ -5709,7 +5717,7 @@ msgstr "不是所有的DOM事件与事件代表团兼容"
 msgid ""
 "with a small twist: :py:meth:`sqlalchemy.orm.query.Query.group_by` is not "
 "terminal, it returns a query which can still be altered."
-msgstr "与一小搓：：PY：甲：`sqlalchem​​y.orm.query.Query.group_by`不是终端，它返回它仍然可以改变的查询。"
+msgstr "与一小搓：：PY:meth:`sqlalchem​​y.orm.query.Query.group_by`不是终端，它返回它仍然可以改变的查询。"
 
 #: ../../reference/module.rst:5
 msgid "Modules"
@@ -5851,7 +5859,7 @@ msgstr "如果``True``，那么这个模块将被自动如果所有的依赖也�
 msgid ""
 "It is generally used for \"link modules\" implementing synergic integration "
 "between two otherwise independent modules."
-msgstr "它一般用于\“链接模块\”执行两个原本独立模块之间协同集成。"
+msgstr "它一般用于'链接模块'执行两个原本独立模块之间协同集成。"
 
 #: ../../reference/module.rst:83
 msgid ""
@@ -5875,7 +5883,7 @@ msgid ""
 "primary development API going forward. It also provides information about "
 "porting from or bridging with the \"old API\" of versions 7 and earlier, but"
 " does not explicitly document that API. See the old documentation for that."
-msgstr "这页记录了新的API中Odoo 8.0加入这应该是主要的开发API前进。它也提供了有关从早期移植或与版本7的\“旧的API \”桥接和信息，但没有明确记载该API。看到老文档的。"
+msgstr "这页记录了新的API中Odoo 8.0加入这应该是主要的开发API前进。它也提供了有关从早期移植或与版本7的'旧的API '桥接和信息，但没有明确记载该API。看到老文档的。"
 
 #: ../../reference/orm.rst:19
 msgid ""
@@ -5900,7 +5908,7 @@ msgid ""
 "Iterating on a recordset will yield new sets of *a single record* "
 "(\"singletons\"), much like iterating on a Python string yields strings of a"
 " single characters::"
-msgstr "在迭代的记录将产生的*单个记录*新集（\“单身\”），很像迭代在Python字符串的单个字符的字符串收益率::"
+msgstr "在迭代的记录将产生的*单个记录*新集（'单身'），很像迭代在Python字符串的单个字符的字符串收益率::"
 
 #: ../../reference/orm.rst:45
 msgid "Field access"
@@ -5911,7 +5919,7 @@ msgid ""
 "Recordsets provide an \"Active Record\" interface: model fields can be read "
 "and written directly from the record, but only on singletons (single-record "
 "recordsets). Setting a field's value triggers an update to the database::"
-msgstr "记录集提供了一个\“活动记录\”界面：示范田可以读取并直接从记录写的，但仅限于单件（单记录的记录）。设置字段的值触发更新到数据库::"
+msgstr "记录集提供了一个'活动记录'界面：示范田可以读取并直接从记录写的，但仅限于单件（单记录的记录）。设置字段的值触发更新到数据库::"
 
 #: ../../reference/orm.rst:57
 msgid ""
@@ -5979,7 +5987,7 @@ msgid ""
 ":func:`~python:itertools.ifilter`, ...) however these return either a "
 ":class:`python:list` or an :term:`python:iterator`, removing the ability to "
 "call methods on their result, or to use set operations."
-msgstr "记录集是可迭代所以平时Python的工具可用于改造（：FUNC：`蟒蛇：map`，：FUNC：`蟒蛇：sorted`，：FUNC：`〜蟒蛇：itertools.ifilter`，...），但这些收益或者是：类：`蟒蛇：list`或：期限：`蟒蛇：iterator`，除去调用他们的结果的方法，或者采用集合运算的能力。"
+msgstr "记录集是可迭代所以平时Python的工具可用于改造（:func:`蟒蛇：map`，:func:`蟒蛇：sorted`，:func:`〜蟒蛇：itertools.ifilter`，...），但这些收益或者是:class:`蟒蛇：list`或:term:`蟒蛇：iterator`，除去调用他们的结果的方法，或者采用集合运算的能力。"
 
 #: ../../reference/orm.rst:110
 msgid ""
@@ -5989,7 +5997,7 @@ msgstr "因此，记录集提供这些操作返回记录本身（如果可能）
 
 #: ../../reference/orm.rst:122
 msgid ":meth:`~openerp.models.Model.filtered`"
-msgstr "：甲：`〜openerp.models.Model.filtered`"
+msgstr ":meth:`〜openerp.models.Model.filtered`"
 
 #: ../../reference/orm.rst:114
 msgid ""
@@ -6000,7 +6008,7 @@ msgstr "返回一个包含只记录满足谓词提供的功能的记录。谓词
 
 #: ../../reference/orm.rst:129
 msgid ":meth:`~openerp.models.Model.sorted`"
-msgstr "：甲：`〜openerp.models.Model.sorted`"
+msgstr ":meth:`〜openerp.models.Model.sorted`"
 
 #: ../../reference/orm.rst:125
 msgid ""
@@ -6010,7 +6018,7 @@ msgstr "返回记录集排序所提供的关键功能。如果不提供密钥，
 
 #: ../../reference/orm.rst:147
 msgid ":meth:`~openerp.models.Model.mapped`"
-msgstr "：甲：`〜openerp.models.Model.mapped`"
+msgstr ":meth:`〜openerp.models.Model.mapped`"
 
 #: ../../reference/orm.rst:132
 msgid ""
@@ -6032,7 +6040,7 @@ msgid ""
 " the ORM: the database cursor (for database queries), the current user (for "
 "access rights checking) and the current context (storing arbitrary "
 "metadata). The environment also stores caches."
-msgstr "的：类：`〜所使用的ORM openerp.api.Environment`存储各种上下文数据：数据库光标（数据库查询），当前用户（用于访问权限检查），当前的上下文（存储任意元数据）。环境还存储高速缓存。"
+msgstr "的:class:`〜所使用的ORM openerp.api.Environment`存储各种上下文数据：数据库光标（数据库查询），当前用户（用于访问权限检查），当前的上下文（存储任意元数据）。环境还存储高速缓存。"
 
 #: ../../reference/orm.rst:157
 msgid ""
@@ -6062,7 +6070,7 @@ msgstr "环境可以从一个记录进行定制。这将返回使用改变环境
 
 #: ../../reference/orm.rst:196
 msgid ":meth:`~openerp.models.Model.sudo`"
-msgstr "：甲：`〜openerp.models.Model.sudo`"
+msgstr ":meth:`〜openerp.models.Model.sudo`"
 
 #: ../../reference/orm.rst:186
 msgid ""
@@ -6073,7 +6081,7 @@ msgstr "创建与所提供的用户设置一个新的环境，使用系统管理
 
 #: ../../reference/orm.rst:208
 msgid ":meth:`~openerp.models.Model.with_context`"
-msgstr "：甲：`〜openerp.models.Model.with_context`"
+msgstr ":meth:`〜openerp.models.Model.with_context`"
 
 #: ../../reference/orm.rst:199
 msgid ""
@@ -6089,7 +6097,7 @@ msgstr "可以采取任何数量的按关键词参数，它们被加入到任何
 
 #: ../../reference/orm.rst:211
 msgid ":meth:`~openerp.models.Model.with_env`"
-msgstr "：甲：`〜openerp.models.Model.with_env`"
+msgstr ":meth:`〜openerp.models.Model.with_env`"
 
 #: ../../reference/orm.rst:211
 msgid "replaces the existing environment entirely"
@@ -6101,24 +6109,24 @@ msgstr "常见的ORM方法"
 
 #: ../../reference/orm.rst:230
 msgid ":meth:`~openerp.models.Model.search`"
-msgstr "：甲：`〜openerp.models.Model.search`"
+msgstr ":meth:`〜openerp.models.Model.search`"
 
 #: ../../reference/orm.rst:219
 msgid ""
 "Takes a :ref:`search domain <reference/orm/domains>`, returns a recordset of"
 " matching records. Can return a subset of matching records (``offset`` and "
 "``limit`` parameters) and be ordered (``order`` parameter)::"
-msgstr "需要：参考：`搜索域<参考/ ORM /域>`，返回匹配记录的记录。可以返回匹配记录的一个子集（``offset``和``limit``参数）并责令（``order``参数）::"
+msgstr "需要:ref:`搜索域<参考/ ORM /域>`，返回匹配记录的记录。可以返回匹配记录的一个子集（``offset``和``limit``参数）并责令（``order``参数）::"
 
 #: ../../reference/orm.rst:229
 msgid ""
 "to just check if any record matches a domain, or count the number of records"
 " which do, use :meth:`~openerp.models.Model.search_count`"
-msgstr "只是检查是否有任何记录中域相匹配，或计数的记录里面做数量，用途：甲：`〜openerp.models.Model.search_count`"
+msgstr "只是检查是否有任何记录中域相匹配，或计数的记录里面做数量，用途:meth:`〜openerp.models.Model.search_count`"
 
 #: ../../reference/orm.rst:237
 msgid ":meth:`~openerp.models.Model.create`"
-msgstr "：甲：`〜openerp.models.Model.create`"
+msgstr ":meth:`〜openerp.models.Model.create`"
 
 #: ../../reference/orm.rst:233
 msgid ""
@@ -6128,7 +6136,7 @@ msgstr "采用数字字段的值，然后返回一个包含创建的记录的记
 
 #: ../../reference/orm.rst:243
 msgid ":meth:`~openerp.models.Model.write`"
-msgstr "：甲：`〜openerp.models.Model.write`"
+msgstr ":meth:`〜openerp.models.Model.write`"
 
 #: ../../reference/orm.rst:240
 msgid ""
@@ -6138,7 +6146,7 @@ msgstr "采用数字字段的值，并将其写入到其记录的所有记录。
 
 #: ../../reference/orm.rst:252
 msgid ":meth:`~openerp.models.Model.browse`"
-msgstr "：甲：`〜openerp.models.Model.browse`"
+msgstr ":meth:`〜openerp.models.Model.browse`"
 
 #: ../../reference/orm.rst:246
 msgid ""
@@ -6146,11 +6154,11 @@ msgid ""
 "record ids are obtained from outside Odoo (e.g. round-trip through external "
 "system) or :ref:`when calling methods in the old API "
 "<reference/orm/oldapi>`::"
-msgstr "采用的是数据库ID或ID的列表，并返回一个记录，用时记录ID从获得Odoo外（例如，通过外部系统往返）或：参考：`调用旧的API <方法时，参考/ ORM / oldapi >`::"
+msgstr "采用的是数据库ID或ID的列表，并返回一个记录，用时记录ID从获得Odoo外（例如，通过外部系统往返）或:ref:`调用旧的API <方法时，参考/ ORM / oldapi >`::"
 
 #: ../../reference/orm.rst:266
 msgid ":meth:`~openerp.models.Model.exists`"
-msgstr "：甲：`〜openerp.models.Model.exists`"
+msgstr ":meth:`〜openerp.models.Model.exists`"
 
 #: ../../reference/orm.rst:255
 msgid ""
@@ -6165,7 +6173,7 @@ msgstr "或者调用一个方法可能已删除了部分记录后::"
 
 #: ../../reference/orm.rst:273
 msgid ":meth:`~openerp.api.Environment.ref`"
-msgstr "：甲：`〜openerp.api.Environment.ref`"
+msgstr ":meth:`〜openerp.api.Environment.ref`"
 
 #: ../../reference/orm.rst:269
 msgid ""
@@ -6175,7 +6183,7 @@ msgstr "环境方法返回的记录匹配提供：术语：`外部ID` ::"
 
 #: ../../reference/orm.rst:281
 msgid ":meth:`~openerp.models.Model.ensure_one`"
-msgstr "：甲：`〜openerp.models.Model.ensure_one`"
+msgstr ":meth:`〜openerp.models.Model.ensure_one`"
 
 #: ../../reference/orm.rst:276
 msgid ""
@@ -6207,7 +6215,7 @@ msgstr "默认情况下，该领域的标签（用户可见的名字）是字段
 msgid ""
 "For the various field types and parameters, see :ref:`the fields reference "
 "<reference/orm/fields>`."
-msgstr "对于这些不同的字段类型和参数，请参阅：参考：`领域的参考<参考/ ORM /域>`。"
+msgstr "对于这些不同的字段类型和参数，请参阅:ref:`领域的参考<参考/ ORM /域>`。"
 
 #: ../../reference/orm.rst:305
 msgid "Default values are defined as parameters on fields, either a value::"
@@ -6230,7 +6238,7 @@ msgid ""
 "the ``compute`` parameter. **It must assign the computed value to the "
 "field**. If it uses the values of other *fields*, it should specify those "
 "fields using :func:`~openerp.api.depends`::"
-msgstr "字段可以计算（而不是直接来自于数据库读取）使用``compute``参数。 **必须的计算值分配给现场**。如果使用其他*领域*的值，就应该使用指定的字段：FUNC：`〜openerp.api.depends` ::"
+msgstr "字段可以计算（而不是直接来自于数据库读取）使用``compute``参数。 **必须的计算值分配给现场**。如果使用其他*领域*的值，就应该使用指定的字段:func:`〜openerp.api.depends` ::"
 
 #: ../../reference/orm.rst:332
 msgid "dependencies can be dotted paths when using sub-fields::"
@@ -6248,7 +6256,7 @@ msgid ""
 "searching on a computed field can also be enabled by setting the ``search`` "
 "parameter. The value is a method name returning a "
 ":ref:`reference/orm/domains`::"
-msgstr "搜索上一计算字段也可以通过设置``search``参数启用。该值是一个方法名返回：参考：`参考/ ORM / domains` ::"
+msgstr "搜索上一计算字段也可以通过设置``search``参数启用。该值是一个方法名返回:ref:`参考/ ORM / domains` ::"
 
 #: ../../reference/orm.rst:353
 msgid ""
@@ -6316,7 +6324,7 @@ msgstr "这两种计算领域和新的API onchanges是由客户端自动调用�
 msgid ""
 "It is possible to suppress the trigger from a specific field by adding "
 "``on_change=\"0\"`` in a view::"
-msgstr "有可能通过在视图中加入``on_change = \“0 \”``抑制从一个特定字段触发::"
+msgstr "有可能通过在视图中加入``on_change = '0 '``抑制从一个特定字段触发::"
 
 #: ../../reference/orm.rst:421
 msgid ""
@@ -6351,14 +6359,14 @@ msgid ""
 "database in raw SQL, or further uses of models may become incoherent. It is "
 "necessary to clear caches when using ``CREATE``, ``UPDATE`` or ``DELETE`` in"
 " SQL, but not ``SELECT`` (which simply reads the database)."
-msgstr "由于车型使用相同的光标和：类：`〜openerp.api.Environment`拥有多项高速缓存，这些缓存必须失效时，*改变*原始SQL或模型进一步使用的数据库可能会变得语无伦次。它在使用``CREATE``，``UPDATE``或``DELETE``在SQL，而不是``SELECT``（只读取数据库）必须清除缓存。"
+msgstr "由于车型使用相同的光标和:class:`〜openerp.api.Environment`拥有多项高速缓存，这些缓存必须失效时，*改变*原始SQL或模型进一步使用的数据库可能会变得语无伦次。它在使用``CREATE``，``UPDATE``或``DELETE``在SQL，而不是``SELECT``（只读取数据库）必须清除缓存。"
 
 #: ../../reference/orm.rst:447
 msgid ""
 "Clearing caches can be performed using the "
 ":meth:`~openerp.api.Environment.invalidate_all` method of the "
 ":class:`~openerp.api.Environment` object."
-msgstr "甲：类：的`〜openerp.api.Environment.invalidate_all`方法`〜openerp.api.Environment`对象清除缓存可以使用进行。"
+msgstr "甲:class:的`〜openerp.api.Environment.invalidate_all`方法`〜openerp.api.Environment`对象清除缓存可以使用进行。"
 
 #: ../../reference/orm.rst:455
 msgid "Compatibility between new API and old API"
@@ -6425,23 +6433,23 @@ msgstr "两个装饰可以公开一种新型的方法将旧的API："
 
 #: ../../reference/orm.rst:506
 msgid ":func:`~openerp.api.model`"
-msgstr "：FUNC：`〜openerp.api.model`"
+msgstr ":func:`〜openerp.api.model`"
 
 #: ../../reference/orm.rst:499
 msgid ""
 "the method is exposed as not using ids, its recordset will generally be "
 "empty. Its \"old API\" signature is ``cr, uid, *arguments, context``::"
-msgstr "该方法作为不使用的ID暴露出来，它的记录集将通常为空。它的\“旧的API \”签名是``CR，UID，*参数，context`` ::"
+msgstr "该方法作为不使用的ID暴露出来，它的记录集将通常为空。它的'旧的API '签名是``CR，UID，*参数，context`` ::"
 
 #: ../../reference/orm.rst:516
 msgid ":func:`~openerp.api.multi`"
-msgstr "：FUNC：`〜openerp.api.multi`"
+msgstr ":func:`〜openerp.api.multi`"
 
 #: ../../reference/orm.rst:509
 msgid ""
 "the method is exposed as taking a list of ids (possibly empty), its \"old "
 "API\" signature is ``cr, uid, ids, *arguments, context``::"
-msgstr "该方法公开采取IDS（可能为空）的列表，它的\“旧的API \”签名是``CR，UID，IDS，*参数，context`` ::"
+msgstr "该方法公开采取IDS（可能为空）的列表，它的'旧的API '签名是``CR，UID，IDS，*参数，context`` ::"
 
 #: ../../reference/orm.rst:518
 msgid ""
@@ -6451,7 +6459,7 @@ msgstr "因为新的风格​​的API趋于返回的记录和旧式的API趋于
 
 #: ../../reference/orm.rst:537
 msgid ":func:`~openerp.api.returns`"
-msgstr "：FUNC：`〜openerp.api.returns`"
+msgstr ":func:`〜openerp.api.returns`"
 
 #: ../../reference/orm.rst:522
 msgid ""
@@ -6509,7 +6517,7 @@ msgstr "如果：ATTR：`._name`没有设置，以就地扩展一个车型名称
 
 #: ../../reference/orm.rst:569
 msgid "See :ref:`reference/orm/inheritance`."
-msgstr "请参阅：参考：`参考/ ORM / inheritance`。"
+msgstr "请参阅:ref:`参考/ ORM / inheritance`。"
 
 #: ../../reference/orm.rst:573
 msgid ""
@@ -6528,7 +6536,7 @@ msgstr "无论是数据库表应该创建（默认值：值为``True``）"
 #: ../../reference/orm.rst:582
 msgid ""
 "If set to ``False``, override :meth:`.init` to create the database table"
-msgstr "如果设置为``False``，覆盖：甲：`.init`创建数据库表"
+msgstr "如果设置为``False``，覆盖:meth:`.init`创建数据库表"
 
 #: ../../reference/orm.rst:587
 msgid ""
@@ -6563,7 +6571,7 @@ msgstr "中``（constraint_function，消息，域）``定义Python的限制列�
 
 #: ../../reference/orm.rst:618
 msgid "use :func:`~openerp.api.constrains`"
-msgstr "使用方法：FUNC：`〜openerp.api.constrains`"
+msgstr "使用方法:func:`〜openerp.api.constrains`"
 
 #: ../../reference/orm.rst:622
 msgid ""
@@ -6595,13 +6603,13 @@ msgstr "创建该模型的新纪录。"
 msgid ""
 "The new record is initialized using the values from ``vals`` and if "
 "necessary those from :meth:`~.default_get`."
-msgstr "新的记录使用初始化从``vals``值，如有必要，这些来自：甲：`〜.default_get`。"
+msgstr "新的记录使用初始化从``vals``值，如有必要，这些来自:meth:`〜.default_get`。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.create:6
 msgid ""
 "values for the model's fields, as a dictionary::      {'field_name': "
 "field_value, ...}  see :meth:`~.write` for details"
-msgstr "该模型的字段的值，作为字典:: {'FIELD_NAME“：FIELD_VALUE，...}参见：甲：`〜.write`详细内容"
+msgstr "该模型的字段的值，作为字典:: {'FIELD_NAME“：FIELD_VALUE，...}参见:meth:`〜.write`详细内容"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.create:7
 msgid "values for the model's fields, as a dictionary::"
@@ -6609,7 +6617,7 @@ msgstr "该模型的字段的值，作为字典::"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.create:11
 msgid "see :meth:`~.write` for details"
-msgstr "看：甲：`〜.write`详细内容"
+msgstr "看:meth:`〜.write`详细内容"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.create:12
 msgid "new record created"
@@ -6685,7 +6693,7 @@ msgid ""
 "fields to update and the value to set on them e.g::      {'foo': 1, 'bar': "
 "\"Qux\"}  will set the field ``foo`` to ``1`` and the field ``bar`` to "
 "``\"Qux\"`` if those are valid (otherwise it will trigger an error)."
-msgstr "字段更新和值对它们设置，例如:: {'富'：1，'巴'：\“Qux \”}将设置字段``foo``到``1``和外地`` bar``到``\“Qux \”``如果这些都有效（否则会引发一个错误）。"
+msgstr "字段更新和值对它们设置，例如:: {'富'：1，'巴'：'Qux '}将设置字段``foo``到``1``和外地`` bar``到``'Qux '``如果这些都有效（否则会引发一个错误）。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:3
 msgid "fields to update and the value to set on them e.g::"
@@ -6695,7 +6703,7 @@ msgstr "字段更新和值对它们如设置::"
 msgid ""
 "will set the field ``foo`` to ``1`` and the field ``bar`` to ``\"Qux\"`` if "
 "those are valid (otherwise it will trigger an error)."
-msgstr "将设置字段``foo``到``1``和外地``bar``到``\“Qux \”``如果这些都有效（否则会引发一个错误）。"
+msgstr "将设置字段``foo``到``1``和外地``bar``到``'Qux '``如果这些都有效（否则会引发一个错误）。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:10
 msgid ""
@@ -6716,25 +6724,25 @@ msgid ""
 "For numeric fields (:class:`~openerp.fields.Integer`, "
 ":class:`~openerp.fields.Float`) the value should be of the corresponding "
 "type"
-msgstr "对于数字字段（：类：`〜openerp.fields.Integer`，产品类别：`〜openerp.fields.Float`）的值应该是对应的类型"
+msgstr "对于数字字段（:class:`〜openerp.fields.Integer`，产品类别：`〜openerp.fields.Float`）的值应该是对应的类型"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:18
 msgid ""
 "For :class:`~openerp.fields.Boolean`, the value should be a "
 ":class:`python:bool`"
-msgstr "适用于：类：`〜openerp.fields.Boolean`，该值应该是：类：`蟒蛇：bool`"
+msgstr "适用于:class:`〜openerp.fields.Boolean`，该值应该是:class:`蟒蛇：bool`"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:20
 msgid ""
 "For :class:`~openerp.fields.Selection`, the value should match the selection"
 " values (generally :class:`python:str`, sometimes :class:`python:int`)"
-msgstr "适用于：类：`〜openerp.fields.Selection`，该值应符合选择值（一般为：类：`蟒蛇：str`，有时：类：`蟒蛇：int`）"
+msgstr "适用于:class:`〜openerp.fields.Selection`，该值应符合选择值（一般为:class:`蟒蛇：str`，有时:class:`蟒蛇：int`）"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:23
 msgid ""
 "For :class:`~openerp.fields.Many2one`, the value should be the database "
 "identifier of the record to set"
-msgstr "适用于：类：`〜openerp.fields.Many2one`，该值应为记录的数据库标识设置"
+msgstr "适用于:class:`〜openerp.fields.Many2one`，该值应为记录的数据库标识设置"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:25
 msgid "Other non-relational fields use a string for value"
@@ -6749,14 +6757,14 @@ msgid ""
 "formatted according to "
 ":const:`openerp.tools.misc.DEFAULT_SERVER_DATE_FORMAT` and "
 ":const:`openerp.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT`"
-msgstr "由于历史和兼容性的原因，类别：`〜openerp.fields.Date`和：类：`〜openerp.fields.Datetime`字段使用字符串作为值（写入和读出），而不是：类：`〜蟒蛇：日期时间。 date`或产品类别：`〜蟒蛇：datetime.datetime`。这些日期字符串是UTC的，并且其格式为：常量：`openerp.tools.misc.DEFAULT_SERVER_DATE_FORMAT`和：常量：`openerp.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT`"
+msgstr "由于历史和兼容性的原因，类别：`〜openerp.fields.Date`和:class:`〜openerp.fields.Datetime`字段使用字符串作为值（写入和读出），而不是:class:`〜蟒蛇：日期时间。 date`或产品类别：`〜蟒蛇：datetime.datetime`。这些日期字符串是UTC的，并且其格式为：常量：`openerp.tools.misc.DEFAULT_SERVER_DATE_FORMAT`和：常量：`openerp.tools.misc.DEFAULT_SERVER_DATETIME_FORMAT`"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:39
 msgid ""
 ":class:`~openerp.fields.One2many` and :class:`~openerp.fields.Many2many` use"
 " a special \"commands\" format to manipulate the set of records stored "
 "in/associated with the field."
-msgstr "产品类别：`〜openerp.fields.One2many`和：类：`〜openerp.fields.Many2many`使用特殊的\“命令\”的形式来操纵一套存储在/与字段关联的记录。"
+msgstr "产品类别：`〜openerp.fields.One2many`和:class:`〜openerp.fields.Many2many`使用特殊的'命令'的形式来操纵一套存储在/与字段关联的记录。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.write:43
 msgid ""
@@ -6846,7 +6854,7 @@ msgstr "在列表中标记为``_``值高于被忽略，并且可以是任何东�
 msgid ""
 "Reads the requested fields for the records in ``self``, low-level/RPC "
 "method. In Python code, prefer :meth:`~.browse`."
-msgstr "读为``self``，低水平/ RPC方法记录的请求领域。在Python代码，喜欢：甲：`〜.browse`。"
+msgstr "读为``self``，低水平/ RPC方法记录的请求领域。在Python代码，喜欢:meth:`〜.browse`。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.read:4
 msgid "list of field names to return (default is all fields)"
@@ -6870,13 +6878,13 @@ msgstr "科研"
 msgid ""
 "Searches for records based on the ``args`` :ref:`search domain "
 "<reference/orm/domains>`."
-msgstr "搜索记录基础上，``args``：参考：`搜索域<参考/ ORM /域>`。"
+msgstr "搜索记录基础上，``args``:ref:`搜索域<参考/ ORM /域>`。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.search:4
 msgid ""
 ":ref:`A search domain <reference/orm/domains>`. Use an empty list to match "
 "all records."
-msgstr "：参考：`一个搜索域<参考/ ORM /域>`。使用空列表中的所有记录匹配。"
+msgstr ":ref:`一个搜索域<参考/ ORM /域>`。使用空列表中的所有记录匹配。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.search:6
 msgid "number of results to ignore (default: none)"
@@ -6913,7 +6921,7 @@ msgstr "如果用户试图绕过访问规则读请求的对象上。"
 msgid ""
 "Returns the number of records in the current model matching :ref:`the "
 "provided domain <reference/orm/domains>`."
-msgstr "返回当前模型匹配的记录数：REF：'提供的域<参考/ ORM /域>`。"
+msgstr "返回当前模型匹配的记录数:ref:'提供的域<参考/ ORM /域>`。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.name_search:1
 msgid ""
@@ -6934,7 +6942,7 @@ msgid ""
 "This method is equivalent to calling :meth:`~.search` with a search domain "
 "based on ``display_name`` and then :meth:`~.name_get` on the result of the "
 "search."
-msgstr "此方法等效于调用：甲：`〜.search`基于``display_name``，然后搜索域：甲：`〜.name_get`的搜索结果。"
+msgstr "此方法等效于调用:meth:`〜.search`基于``display_name``，然后搜索域:meth:`〜.name_get`的搜索结果。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.name_search:13
 msgid "the name pattern to match"
@@ -6944,7 +6952,7 @@ msgstr "名字模式匹配"
 msgid ""
 "optional search domain (see :meth:`~.search` for syntax), specifying further"
 " restrictions"
-msgstr "可选的搜索域（参见：甲：`〜.search`语法），规定进一步的限制"
+msgstr "可选的搜索域（参见:meth:`〜.search`语法），规定进一步的限制"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.name_search:16
 msgid "domain operator for matching ``name``, such as ``'like'`` or ``'='``."
@@ -7176,7 +7184,7 @@ msgstr "对``（ID，text_repr）``每个记录列表"
 msgid ""
 "Create a new record by calling :meth:`~.create` with only one value "
 "provided: the display name of the new record."
-msgstr "通过调用创建一个新的纪录：甲：`〜.create`只有一个提供的值：新记录的显示名称。"
+msgstr "通过调用创建一个新的纪录:meth:`〜.create`只有一个提供的值：新记录的显示名称。"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.name_create:4
 msgid ""
@@ -7191,7 +7199,7 @@ msgstr "创造纪录的显示名称"
 
 #: ../../../openerp/models.pydocstring of openerp.models.Model.name_create:10
 msgid "the :meth:`~.name_get` pair value of the created record"
-msgstr "中：甲：`〜.name_get`对已创建的记录值"
+msgstr "中:meth:`〜.name_get`对已创建的记录值"
 
 #: ../../reference/orm.rst:679
 msgid "Automatic fields"
@@ -7199,7 +7207,7 @@ msgstr "自动场"
 
 #: ../../reference/orm.rst:682
 msgid "Identifier :class:`field <openerp.fields.Field>`"
-msgstr "标识符：类：`现场<openerp.fields.Field>`"
+msgstr "标识符:class:`现场<openerp.fields.Field>`"
 
 #: ../../reference/orm.rst:686
 msgid ""
@@ -7246,7 +7254,7 @@ msgstr "一些字段名称为超出自动化领域的预先定义的行为保留
 msgid ""
 "default value for :attr:`~._rec_name`, used to display records in context "
 "where a representative \"naming\" is necessary."
-msgstr "ATTR：为默认值`〜._rec_name`，用于在上下文中显示的记录，其中有代表性的\“命名\”是必要的。"
+msgstr "ATTR：为默认值`〜._rec_name`，用于在上下文中显示的记录，其中有代表性的'命名'是必要的。"
 
 #: ../../reference/orm.rst:725
 msgid ":class:`~openerp.fields.Char`"
@@ -7308,7 +7316,7 @@ msgstr "方法装饰"
 msgid ""
 "This module provides the elements for managing two different API styles, "
 "namely the \"traditional\" and \"record\" styles."
-msgstr "该模块提供了管理两种不同API风格，即\“传统\”和\“记录\”风格的元素。"
+msgstr "该模块提供了管理两种不同API风格，即'传统'和'记录'风格的元素。"
 
 #: ../../../openerp/api.pydocstring of openerp.api:4
 msgid ""
@@ -7317,7 +7325,7 @@ msgid ""
 "``context``, ``ids``) are passed explicitly to all methods. In the "
 "\"record\" style, those parameters are hidden into model instances, which "
 "gives it a more object-oriented feel."
-msgstr "在\“传统\”的风格，比如数据库光标，用户ID，上下文字典和记录ID（通常表示为``cr``，``uid``，``context``，``参数ids`` ）明确地传递给所有方法。在\“记录\”的风格，这些参数都隐入模型实例，这使得它更加面向对象的感觉。"
+msgstr "在'传统'的风格，比如数据库光标，用户ID，上下文字典和记录ID（通常表示为``cr``，``uid``，``context``，``参数ids`` ）明确地传递给所有方法。在'记录'的风格，这些参数都隐入模型实例，这使得它更加面向对象的感觉。"
 
 #: ../../../openerp/api.pydocstring of openerp.api:10
 msgid "For instance, the statements::"
@@ -7331,7 +7339,7 @@ msgstr "也可写为::"
 msgid ""
 "Methods written in the \"traditional\" style are automatically decorated, "
 "following some heuristics based on parameter names."
-msgstr "写在\“传统\”式的方法是自动装饰，下面根据参数名称一些启发。"
+msgstr "写在'传统'式的方法是自动装饰，下面根据参数名称一些启发。"
 
 #: ../../../openerp/api.pydocstring of openerp.api.one:1
 msgid ""
@@ -7369,7 +7377,7 @@ msgid ""
 "Return a decorator that specifies the field dependencies of a \"compute\" "
 "method (for new-style function fields). Each argument must be a string that "
 "consists in a dot-separated sequence of field names::"
-msgstr "返回一个装饰，指定一个\“计算\”法领域的依赖关系（新样式的功能域）。每个参数必须是一个字符串，由字段名称中的一个圆点分隔的序列::"
+msgstr "返回一个装饰，指定一个'计算'法领域的依赖关系（新样式的功能域）。每个参数必须是一个字符串，由字段名称中的一个圆点分隔的序列::"
 
 #: ../../../openerp/api.pydocstring of openerp.api.depends:15
 msgid ""
@@ -7392,7 +7400,7 @@ msgstr "援引在其上的命名字段中的一个已经被修改的记录。"
 msgid ""
 "Should raise :class:`~openerp.exceptions.ValidationError` if the validation "
 "failed."
-msgstr "应提高：类：`〜openerp.exceptions.ValidationError`如果验证失败。"
+msgstr "应提高:class:`〜openerp.exceptions.ValidationError`如果验证失败。"
 
 #: ../../../openerp/api.pydocstring of openerp.api.onchange:1
 msgid ""
@@ -7660,7 +7668,7 @@ msgid ""
 " definition by redefining a field with the same name and same type on the "
 "subclass. In that case, the attributes of the field are taken from the "
 "parent class and overridden by the ones given in subclasses."
-msgstr "字段被定义为一个模型类类属性。如果模型扩展（参见：类：`〜openerp.models.Model`），人们还可以通过重新定义一个字段与子类相同的名称和相同类型的扩展字段定义。在这种情况下，场的属性取自父类并且由那些在子类给定的覆盖。"
+msgstr "字段被定义为一个模型类类属性。如果模型扩展（参见:class:`〜openerp.models.Model`），人们还可以通过重新定义一个字段与子类相同的名称和相同类型的扩展字段定义。在这种情况下，场的属性取自父类并且由那些在子类给定的覆盖。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Field:149
 msgid ""
@@ -7672,7 +7680,7 @@ msgstr "例如，下面只有第二类添加场上``state``工具提示::"
 #: ../../../openerp/fields.pydocstring of openerp.fields.Text:1
 #: ../../../openerp/fields.pydocstring of openerp.fields.Html:1
 msgid "Bases: :class:`openerp.fields._String`"
-msgstr "基地：类：`openerp.fields._String`"
+msgstr "基地:class:`openerp.fields._String`"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Char:1
 msgid ""
@@ -7700,7 +7708,7 @@ msgstr "启用字段的值的翻译;使用`翻译= TRUE`翻译字段值作为一
 #: ../../../openerp/fields.pydocstring of openerp.fields.Date:1
 #: ../../../openerp/fields.pydocstring of openerp.fields.Datetime:1
 msgid "Bases: :class:`openerp.fields.Field`"
-msgstr "基地：类：`openerp.fields.Field`"
+msgstr "基地:class:`openerp.fields.Field`"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Float:1
 msgid "The precision digits are given by the attribute"
@@ -7716,7 +7724,7 @@ msgstr "一对（总共，小数），或采取一个数据库光标并返回一
 msgid ""
 "Very similar to :class:`~.Char` but used for longer contents, does not have "
 "a size and usually displayed as a multiline text box."
-msgstr "非常相似：类：`〜.Char`但用于较长内容，不具有大小，通常显示为多行文本框。"
+msgstr "非常相似:class:`〜.Char`但用于较长内容，不具有大小，通常显示为多行文本框。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Selection:1
 msgid ""
@@ -7735,7 +7743,7 @@ msgid ""
 "The attribute ``selection`` is mandatory except in the case of :ref:`related"
 " fields <field-related>` or :ref:`field extensions <field-incremental-"
 "definition>`."
-msgstr "属性``selection``是强制性的，除了在案件：REF：`相关领域<字段相关>`或：参考：`领域扩展<现场增量定义>`。"
+msgstr "属性``selection``是强制性的，除了在案件:ref:`相关领域<字段相关>`或:ref:`领域扩展<现场增量定义>`。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Date.context_today:1
 msgid ""
@@ -7751,11 +7759,11 @@ msgstr "可选的日期时间值来使用，而不是当前日期和时间（必
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Date.from_string:1
 msgid "Convert an ORM ``value`` into a :class:`date` value."
-msgstr "转换一个ORM``value``成：类：`date`值。"
+msgstr "转换一个ORM``value``成:class:`date`值。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Date.to_string:1
 msgid "Convert a :class:`date` value into the format expected by the ORM."
-msgstr "转换：类：`date`值转换成预期的ORM的格式。"
+msgstr "转换:class:`date`值转换成预期的ORM的格式。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Date.today:1
 msgid ""
@@ -7770,7 +7778,7 @@ msgid ""
 "is *not* meant for use as a _defaults initializer, because datetime fields "
 "are automatically converted upon display on client side. For _defaults you "
 ":meth:`fields.datetime.now` should be used instead."
-msgstr "返回给定时间戳记转换为客户端的时区。这种方法是不* *意指用作_defaults初始化，因为日期时间字段在显示自动转换在客户端。对于_defaults你：甲：`fields.datetime.now`应该使用。"
+msgstr "返回给定时间戳记转换为客户端的时区。这种方法是不* *意指用作_defaults初始化，因为日期时间字段在显示自动转换在客户端。对于_defaults你:meth:`fields.datetime.now`应该使用。"
 
 #: ../../../openerp/fields.pydocstring of
 #: openerp.fields.Datetime.context_timestamp:7
@@ -7787,7 +7795,7 @@ msgstr "时间戳转换成时区感知日期时间上下文时区"
 #: ../../../openerp/fields.pydocstring of
 #: openerp.fields.Datetime.from_string:1
 msgid "Convert an ORM ``value`` into a :class:`datetime` value."
-msgstr "转换一个ORM``value``成：类：`datetime`值。"
+msgstr "转换一个ORM``value``成:class:`datetime`值。"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Datetime.now:1
 msgid ""
@@ -7797,7 +7805,7 @@ msgstr "返回当前日期和时间在期望的ORM的格式。这个函数可用
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Datetime.to_string:1
 msgid "Convert a :class:`datetime` value into the format expected by the ORM."
-msgstr "转换：类：`datetime`值转换成预期的ORM的格式。"
+msgstr "转换:class:`datetime`值转换成预期的ORM的格式。"
 
 #: ../../reference/orm.rst:822
 msgid "Relational fields"
@@ -7805,7 +7813,7 @@ msgstr "关系领域"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Many2one:1
 msgid "Bases: :class:`openerp.fields._Relational`"
-msgstr "基地：类：`openerp.fields._Relational`"
+msgstr "基地:class:`openerp.fields._Relational`"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Many2one:1
 msgid ""
@@ -7864,7 +7872,7 @@ msgstr "属性``comodel_name``是强制性的，除非在相关领域或领域�
 #: ../../../openerp/fields.pydocstring of openerp.fields.One2many:1
 #: ../../../openerp/fields.pydocstring of openerp.fields.Many2many:1
 msgid "Bases: :class:`openerp.fields._RelationalMulti`"
-msgstr "基地：类：`openerp.fields._RelationalMulti`"
+msgstr "基地:class:`openerp.fields._RelationalMulti`"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.One2many:1
 msgid ""
@@ -7901,13 +7909,13 @@ msgstr "存储该关系数据库中的表中的可选的名称（字符串）"
 msgid ""
 "optional name of the column referring to \"these\" records in the table "
 "``relation`` (string)"
-msgstr "列指的是\“这些\”表中的``记录的relation``可选名称（字符串）"
+msgstr "列指的是'这些'表中的``记录的relation``可选名称（字符串）"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Many2many:14
 msgid ""
 "optional name of the column referring to \"those\" records in the table "
 "``relation`` (string)"
-msgstr "列指的是\“的\”表中的``记录的relation``可选名称（字符串）"
+msgstr "列指的是'的'表中的``记录的relation``可选名称（字符串）"
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Many2many:17
 msgid ""
@@ -7918,7 +7926,7 @@ msgstr "属性``relation``，``column1``和``column2``是可选的。如果没�
 
 #: ../../../openerp/fields.pydocstring of openerp.fields.Reference:1
 msgid "Bases: :class:`openerp.fields.Selection`"
-msgstr "基地：类：`openerp.fields.Selection`"
+msgstr "基地:class:`openerp.fields.Selection`"
 
 #: ../../reference/orm.rst:839
 msgid "Inheritance and extension"
@@ -7971,7 +7979,7 @@ msgid ""
 "the second model has inherited from the first model's ``check`` method and "
 "its ``name`` field, but overridden the ``call`` method, as when using "
 "standard :ref:`Python inheritance <python:tut-inheritance>`."
-msgstr "第二个模型已经从第一个模型的``check``方法及其``name``场使用标准时继承，但覆盖了``call``方法，如：参考：`Python的继承<巨蟒：啧啧继承>`。"
+msgstr "第二个模型已经从第一个模型的``check``方法及其``name``场使用标准时继承，但覆盖了``call``方法，如:ref:`Python的继承<巨蟒：啧啧继承>`。"
 
 #: ../../reference/orm.rst:882
 msgid "Extension"
@@ -7990,7 +7998,7 @@ msgstr "当使用：ATTR：`〜openerp.models.Model._inherit`但离开了：ATTR
 msgid ""
 "it will also yield the various :ref:`automatic fields "
 "<reference/orm/model/automatic>` unless they've been disabled"
-msgstr "它也将产生不同的：REF：'自动字段<参考/ ORM /模式/自动>`，除非他们已经被禁用"
+msgstr "它也将产生不同的:ref:'自动字段<参考/ ORM /模式/自动>`，除非他们已经被禁用"
 
 #: ../../reference/orm.rst:908
 msgid "Delegation"
@@ -8004,7 +8012,7 @@ msgid ""
 "any field not found on the current model to \"children\" models. The "
 "delegation is performed via :class:`~openerp.fields.Reference` fields "
 "automatically set up on the parent model:"
-msgstr "第三继承机制提供了更多的灵活性（可以在运行时改变），但更省电：采用：ATTR：`〜openerp.models.Model._inherits`模型*代表*任何领域的当前模型没有找到查找到\“孩子\”模式。类：代表团通过执行`〜openerp.fields.Reference`领域的自动设置上父模型："
+msgstr "第三继承机制提供了更多的灵活性（可以在运行时改变），但更省电：采用：ATTR：`〜openerp.models.Model._inherits`模型*代表*任何领域的当前模型没有找到查找到'孩子'模式。类：代表团通过执行`〜openerp.fields.Reference`领域的自动设置上父模型："
 
 #: ../../reference/orm.rst:925
 msgid "will result in:"
@@ -8267,13 +8275,13 @@ msgid ""
 "methods still written in the old API should be automatically bridged by the "
 "ORM, no need to switch to the old API, just call them as if they were a new "
 "API method. See :ref:`reference/orm/oldapi/bridging` for more details."
-msgstr "仍然写在旧的​​API方法应该由ORM自动桥接，无需切换到旧的API，就打电话给他们，好像他们是一个新的API方法。请参阅：参考：`参考/ ORM / oldapi / bridging`了解更多详情。"
+msgstr "仍然写在旧的​​API方法应该由ORM自动桥接，无需切换到旧的API，就打电话给他们，好像他们是一个新的API方法。请参阅:ref:`参考/ ORM / oldapi / bridging`了解更多详情。"
 
 #: ../../reference/orm.rst:1043
 msgid ""
 ":meth:`~openerp.models.Model.search` returns a recordset, no point in e.g. "
 "browsing its result"
-msgstr "：甲：`〜openerp.models.Model.search`返回记录集，在如不点浏览其结果"
+msgstr ":meth:`〜openerp.models.Model.search`返回记录集，在如不点浏览其结果"
 
 #: ../../reference/orm.rst:1045
 msgid ""
@@ -8288,7 +8296,7 @@ msgid ""
 "uses. It is better to have too many dependencies (will recompute the field "
 "in cases where that is not needed) than not enough (will forget to recompute"
 " the field and then values will be incorrect)"
-msgstr "：FUNC：`〜openerp.api.depends`上``计算=``方法**必须是完整的**，就必须列出所有** **领域和子领域该计算方法使用。最好是有太多的依赖（将重新计算在这不需要情况下，场）比没有足够的（会忘记重新计算字段，然后值将是不正确的）"
+msgstr ":func:`〜openerp.api.depends`上``计算=``方法**必须是完整的**，就必须列出所有** **领域和子领域该计算方法使用。最好是有太多的依赖（将重新计算在这不需要情况下，场）比没有足够的（会忘记重新计算字段，然后值将是不正确的）"
 
 #: ../../reference/orm.rst:1052
 msgid ""
@@ -8302,7 +8310,7 @@ msgid ""
 "the decorators :func:`~openerp.api.model` and :func:`~openerp.api.multi` are"
 " for bridging *when calling from the old API context*, for internal or pure "
 "new-api (e.g. compute) they are useless"
-msgstr "在装饰：FUNC：`〜openerp.api.model`和：FUNC：`〜openerp.api.multi`是桥接*从旧的API中*打电话时，内部或纯粹的新API（如计算），他们也没用"
+msgstr "在装饰:func:`〜openerp.api.model`和:func:`〜openerp.api.multi`是桥接*从旧的API中*打电话时，内部或纯粹的新API（如计算），他们也没用"
 
 #: ../../reference/orm.rst:1058
 msgid ""
@@ -8329,7 +8337,7 @@ msgid ""
 "provide ``compute=``, ``inverse=`` and ``search=`` methods by name (as a "
 "string), this makes them overridable (removes the need for an intermediate "
 "\"trampoline\" function)"
-msgstr "提供``计算=````逆=``和``搜索=``按名称方法（字符串），这使得它们覆盖的（不再需要中间\“蹦床\”功能）"
+msgstr "提供``计算=````逆=``和``搜索=``按名称方法（字符串），这使得它们覆盖的（不再需要中间'蹦床'功能）"
 
 #: ../../reference/orm.rst:1070
 msgid ""
@@ -8349,7 +8357,7 @@ msgstr "正常的新API导入``从OpenERP的进口领域，models``。如果兼�
 msgid ""
 "avoid the :func:`~openerp.api.one` decorator, it probably does not do what "
 "you expect"
-msgstr "避免：FUNC：`〜openerp.api.one`装饰，它可能不会做你所期望的"
+msgstr "避免:func:`〜openerp.api.one`装饰，它可能不会做你所期望的"
 
 #: ../../reference/orm.rst:1078
 msgid ""
@@ -8359,7 +8367,7 @@ msgid ""
 ":attr:`~openerp.models.Model.write_date` fields: they are now created as "
 "regular \"legitimate\" fields, and can be read and written like any other "
 "field out-of-the-box"
-msgstr "除去明确的定义：ATTR：`〜openerp.models.Model.create_uid`，：ATTR：`〜openerp.models.Model.create_date`，：ATTR：`〜openerp.models.Model.write_uid`和：attr：属性` 〜openerp.models.Model.write_date`领域：他们现在创建为常规\“合法\”领域，可以读取和写入像任何其他领域外的开箱"
+msgstr "除去明确的定义：ATTR：`〜openerp.models.Model.create_uid`，：ATTR：`〜openerp.models.Model.create_date`，：ATTR：`〜openerp.models.Model.write_uid`和：attr：属性` 〜openerp.models.Model.write_date`领域：他们现在创建为常规'合法'领域，可以读取和写入像任何其他领域外的开箱"
 
 #: ../../reference/orm.rst:1084
 msgid ""
@@ -8374,7 +8382,7 @@ msgid ""
 " the first implementation and calls from a new-API context will be "
 "dispatched to the second implementation. One implementation can call (and "
 "frequently does) call the other by switching context."
-msgstr "当直的转换是不可能的（语义不能桥接）或\“旧的API \”版本是不理想的，并为新的API可以改进，有可能使用完全不同的\“旧的API \”和\“新API \“的实现用同样的方法名称：FUNC：`〜openerp.api.v7`和：FUNC：`〜openerp.api.v8`。该方法首先应使用旧的API样式定义，并装饰有：函数：`〜openerp.api.v7`，它应该被重新定义使用完全相同的名称，但新的API的风格和装饰着：FUNC ：`〜openerp.api.v8`。从旧的API方面的电话将被分派到第一次执行，并从一个新的API调用方面将派出第二个执行。一个实现可以调用（并且经常确实）拨打对方通过切换上下文。"
+msgstr "当直的转换是不可能的（语义不能桥接）或'旧的API '版本是不理想的，并为新的API可以改进，有可能使用完全不同的'旧的API '和'新API '的实现用同样的方法名称:func:`〜openerp.api.v7`和:func:`〜openerp.api.v8`。该方法首先应使用旧的API样式定义，并装饰有：函数：`〜openerp.api.v7`，它应该被重新定义使用完全相同的名称，但新的API的风格和装饰着：FUNC ：`〜openerp.api.v8`。从旧的API方面的电话将被分派到第一次执行，并从一个新的API调用方面将派出第二个执行。一个实现可以调用（并且经常确实）拨打对方通过切换上下文。"
 
 #: ../../reference/orm.rst:1096
 msgid ""
@@ -8389,7 +8397,7 @@ msgid ""
 ":attr:`~openerp.models.Model._fields`, which provides access to instances of"
 " new-style :class:`openerp.fields.Field` instances (rather than old-style "
 ":class:`openerp.osv.fields._column`)."
-msgstr "使用的：ATTR：`〜openerp.models.Model._columns`或：attr：属性：`〜openerp.models.Model._all_columns`应改为`〜openerp.models.Model._fields`，它提供了访问对新风格的实例：类：`openerp.fields.Field`实例（而不是旧式的：类：`openerp.osv.fields._column`）。"
+msgstr "使用的：ATTR：`〜openerp.models.Model._columns`或：attr：属性：`〜openerp.models.Model._all_columns`应改为`〜openerp.models.Model._fields`，它提供了访问对新风格的实例:class:`openerp.fields.Field`实例（而不是旧式的:class:`openerp.osv.fields._column`）。"
 
 #: ../../reference/orm.rst:1104
 msgid ""
@@ -8431,7 +8439,7 @@ msgid ""
 " also recognizes the third positional parameter being called ``uid`` or "
 "``user`` and the fourth being called ``id`` or ``ids``. It also recognizes "
 "the presence of any parameter called ``context``."
-msgstr "方法进行匹配\“老风格的API \”，如果他们的第二个位置参数（后``self``）被称为是``cr``或``cursor``。该系统还可以识别第三个位置参数被称为``uid``或``user``和第四被称为``id``或``ids``。它还承认所谓的``context``任何参数的存在。"
+msgstr "方法进行匹配'老风格的API '，如果他们的第二个位置参数（后``self``）被称为是``cr``或``cursor``。该系统还可以识别第三个位置参数被称为``uid``或``user``和第四被称为``id``或``ids``。它还承认所谓的``context``任何参数的存在。"
 
 #: ../../reference/orm.rst:1143
 msgid ""
@@ -8454,7 +8462,7 @@ msgid ""
 "disabling it entirely, by decorating a method with "
 ":func:`~openerp.api.noguess` there will be no bridging and methods will be "
 "called the exact same way from the new and old API styles"
-msgstr "禁用它完全由装饰方法：FUNC：`〜openerp.api.noguess`不会有桥接和方法将被调用的新老API风格完全相同的方式"
+msgstr "禁用它完全由装饰方法:func:`〜openerp.api.noguess`不会有桥接和方法将被调用的新老API风格完全相同的方式"
 
 #: ../../reference/orm.rst:1156
 msgid ""
@@ -8464,7 +8472,7 @@ msgstr "明确界定的桥梁，这主要是为这是正确匹配（因为参数
 
 #: ../../reference/orm.rst:1160
 msgid ":func:`~openerp.api.cr`"
-msgstr "：FUNC：`〜openerp.api.cr`"
+msgstr ":func:`〜openerp.api.cr`"
 
 #: ../../reference/orm.rst:1160
 msgid ""
@@ -8474,7 +8482,7 @@ msgstr "会自动在前面加上当前光标有明确规定的参数，在位置
 
 #: ../../reference/orm.rst:1163
 msgid ":func:`~openerp.api.cr_uid`"
-msgstr "：FUNC：`〜openerp.api.cr_uid`"
+msgstr ":func:`〜openerp.api.cr_uid`"
 
 #: ../../reference/orm.rst:1163
 msgid ""
@@ -8484,7 +8492,7 @@ msgstr "会自动在前面加上显式地提供当前光标和用户ID参数"
 
 #: ../../reference/orm.rst:1166
 msgid ":func:`~openerp.api.cr_uid_ids`"
-msgstr "：FUNC：`〜openerp.api.cr_uid_ids`"
+msgstr ":func:`〜openerp.api.cr_uid_ids`"
 
 #: ../../reference/orm.rst:1166
 msgid ""
@@ -8494,7 +8502,7 @@ msgstr "会自动预先设置当前光标，用户的ID和记录的ID，以明�
 
 #: ../../reference/orm.rst:1174
 msgid ":func:`~openerp.api.cr_uid_id`"
-msgstr "：FUNC：`〜openerp.api.cr_uid_id`"
+msgstr ":func:`〜openerp.api.cr_uid_id`"
 
 #: ../../reference/orm.rst:1169
 msgid ""
@@ -8514,14 +8522,14 @@ msgid ""
 "All of these methods have a ``_context``-suffixed version (e.g. "
 ":func:`~openerp.api.cr_uid_context`) which also passes the current context "
 "*by keyword*."
-msgstr "所有这些方法都有一个``_context``-后缀版本（例如：FUNC：`〜openerp.api.cr_uid_context`），这也传递了当前上下文*按关键字*。"
+msgstr "所有这些方法都有一个``_context``-后缀版本（例如:func:`〜openerp.api.cr_uid_context`），这也传递了当前上下文*按关键字*。"
 
 #: ../../reference/orm.rst:1179
 msgid ""
 "dual implementations using :func:`~openerp.api.v7` and "
 ":func:`~openerp.api.v8` will be ignored as they provide their own "
 "\"bridging\""
-msgstr "使用双实现：FUNC：`〜openerp.api.v7`和：FUNC：`〜openerp.api.v8`将被忽略，因为它们提供自己的\“架桥\”"
+msgstr "使用双实现:func:`〜openerp.api.v7`和:func:`〜openerp.api.v8`将被忽略，因为它们提供自己的'架桥'"
 
 #: ../../reference/qweb.rst:9 ../../reference/views.rst:1220
 msgid "QWeb"
@@ -8539,7 +8547,7 @@ msgid ""
 "Template directives are specified as XML attributes prefixed with ``t-``, "
 "for instance ``t-if`` for :ref:`reference/qweb/conditionals`, with elements "
 "and other attributes being rendered directly."
-msgstr "模板指令指定为前缀``T-``，例如``T-if``的XML属性：ref：`参考/ qweb / conditionals`，包含元素和其他属性被直接呈现。"
+msgstr "模板指令指定为前缀``T-``，例如``T-if``的XML属性:ref:`参考/ qweb / conditionals`，包含元素和其他属性被直接呈现。"
 
 #: ../../reference/qweb.rst:19
 msgid ""
@@ -8620,7 +8628,7 @@ msgid ""
 "QWeb has an iteration directive ``foreach`` which take an expression "
 "returning the collection to iterate on, and a second parameter ``t-as`` "
 "providing the name to use for the \"current item\" of the iteration::"
-msgstr "QWeb有一个迭代指令``foreach``这需要一个表达式返回集合迭代上，而第二个参数``T-as``提供迭代的名称，用于在\“当前项目\”::"
+msgstr "QWeb有一个迭代指令``foreach``这需要一个表达式返回集合迭代上，而第二个参数``T-as``提供迭代的名称，用于在'当前项目'::"
 
 #: ../../reference/qweb.rst:111 ../../reference/qweb.rst:198
 #: ../../reference/qweb.rst:210 ../../reference/qweb.rst:221
@@ -8658,7 +8666,7 @@ msgstr "``$ as``将被传递给``T-as``的名字被替换"
 
 #: ../../reference/qweb.rst:138
 msgid ":samp:`{$as}_all`"
-msgstr "：SAMP：`{$为} _all`"
+msgstr ":samp:`{$为} _all`"
 
 #: ../../reference/qweb.rst:139
 msgid "the object being iterated over"
@@ -8666,7 +8674,7 @@ msgstr "该对象被迭代"
 
 #: ../../reference/qweb.rst:141
 msgid ":samp:`{$as}_value`"
-msgstr "：SAMP：`{$为} _value`"
+msgstr ":samp:`{$为} _value`"
 
 #: ../../reference/qweb.rst:141
 msgid ""
@@ -8676,7 +8684,7 @@ msgstr "当前迭代值，等同于``$ as``列表和整数，但映射它提供�
 
 #: ../../reference/qweb.rst:143
 msgid ":samp:`{$as}_index`"
-msgstr "：SAMP：`{$为} _index`"
+msgstr ":samp:`{$为} _index`"
 
 #: ../../reference/qweb.rst:144
 msgid ""
@@ -8685,7 +8693,7 @@ msgstr "当前迭代指数（迭代的第一个项目的索引0）"
 
 #: ../../reference/qweb.rst:145
 msgid ":samp:`{$as}_size`"
-msgstr "：SAMP：`{$为} _size`"
+msgstr ":samp:`{$为} _size`"
 
 #: ../../reference/qweb.rst:146
 msgid "the size of the collection if it is available"
@@ -8693,36 +8701,36 @@ msgstr "集合的大小，如果它是可用的"
 
 #: ../../reference/qweb.rst:148
 msgid ":samp:`{$as}_first`"
-msgstr "：SAMP：`{$为} _first`"
+msgstr ":samp:`{$为} _first`"
 
 #: ../../reference/qweb.rst:148
 msgid ""
 "whether the current item is the first of the iteration (equivalent to "
 ":samp:`{$as}_index == 0`)"
-msgstr "无论是目前的项目是第一次迭代（相当于：SAMP：`{$为} _index == 0`）"
+msgstr "无论是目前的项目是第一次迭代（相当于:samp:`{$为} _index == 0`）"
 
 #: ../../reference/qweb.rst:152
 msgid ":samp:`{$as}_last`"
-msgstr "：SAMP：`{$为} _last`"
+msgstr ":samp:`{$为} _last`"
 
 #: ../../reference/qweb.rst:151
 msgid ""
 "whether the current item is the last of the iteration (equivalent to "
 ":samp:`{$as}_index + 1 == {$as}_size`), requires the iteratee's size be "
 "available"
-msgstr "无论是目前的项目是最后一个迭代（相当于：SAMP：`{$为} _index + 1 == {$为} _size`），要求iteratee的大小可"
+msgstr "无论是目前的项目是最后一个迭代（相当于:samp:`{$为} _index + 1 == {$为} _size`），要求iteratee的大小可"
 
 #: ../../reference/qweb.rst:154
 msgid ":samp:`{$as}_parity`"
-msgstr "：SAMP：`{$为} _parity`"
+msgstr ":samp:`{$为} _parity`"
 
 #: ../../reference/qweb.rst:155
 msgid "either ``\"even\"`` or ``\"odd\"``, the parity of the current iteration round"
-msgstr "无论是``\“即使\”``或``\“奇\”``，当前迭代的奇偶轮"
+msgstr "无论是``'即使'``或``'奇'``，当前迭代的奇偶轮"
 
 #: ../../reference/qweb.rst:157
 msgid ":samp:`{$as}_even`"
-msgstr "：SAMP：`{$为} _even`"
+msgstr ":samp:`{$为} _even`"
 
 #: ../../reference/qweb.rst:157
 msgid ""
@@ -8732,7 +8740,7 @@ msgstr "一个布尔标志，指示当前迭代轮是偶数指数"
 
 #: ../../reference/qweb.rst:162
 msgid ":samp:`{$as}_odd`"
-msgstr "：SAMP：`{$为} _odd`"
+msgstr ":samp:`{$为} _odd`"
 
 #: ../../reference/qweb.rst:160
 msgid ""
@@ -8761,7 +8769,7 @@ msgstr "QWeb可以计算上即时属性和设置在输出节点上的计算的�
 
 #: ../../reference/qweb.rst:199
 msgid ":samp:`t-att-{$name}`"
-msgstr "：SAMP：`T-ATT  -  {$名}`"
+msgstr ":samp:`T-ATT  -  {$名}`"
 
 #: ../../reference/qweb.rst:193
 msgid ""
@@ -8771,18 +8779,18 @@ msgstr "所谓``创建$ name``的属性，该属性值，并将结果设置为�
 
 #: ../../reference/qweb.rst:213
 msgid ":samp:`t-attf-{$name}`"
-msgstr "：SAMP：`T-AttF设定 -  {$名}`"
+msgstr ":samp:`T-AttF设定 -  {$名}`"
 
 #: ../../reference/qweb.rst:202
 msgid ""
 "same as previous, but the parameter is a :term:`format string` instead of "
 "just an expression, often useful to mix literal and non-literal string (e.g."
 " classes)::"
-msgstr "同以前的，但参数是：期限：`格式string`而不只是一种表达，通常是有用的混合文字和非文字字符串（如类）::"
+msgstr "同以前的，但参数是:term:`格式string`而不只是一种表达，通常是有用的混合文字和非文字字符串（如类）::"
 
 #: ../../reference/qweb.rst:222
 msgid ":samp:`t-att=mapping`"
-msgstr "：SAMP：`T-ATT = mapping`"
+msgstr ":samp:`T-ATT = mapping`"
 
 #: ../../reference/qweb.rst:216
 msgid ""
@@ -8792,7 +8800,7 @@ msgstr "如果该参数是一个映射，每一个（键，值）对生成一个
 
 #: ../../reference/qweb.rst:233
 msgid ":samp:`t-att=pair`"
-msgstr "：SAMP：`T-ATT = pair`"
+msgstr ":samp:`T-ATT = pair`"
 
 #: ../../reference/qweb.rst:225
 msgid ""
@@ -8898,7 +8906,7 @@ msgstr "资产包"
 
 #: ../../reference/qweb.rst:330
 msgid "\"smart records\" fields formatting"
-msgstr "\“智能记载\”的字段格式"
+msgstr "'智能记载'的字段格式"
 
 #: ../../reference/qweb.rst:332
 msgid ""
@@ -8906,7 +8914,7 @@ msgid ""
 "(``a.b``) on a \"smart\" record (result of the ``browse`` method). It is "
 "able to automatically format based on field type, and is integrated in the "
 "website's rich text edition."
-msgstr "进行现场访问（``ab``）在\“智能\”记录（``browse``方法的结果）时，``T-field``指令只能用。它能够根据字段类型，自动格式化，并集成在网站的富文本编辑。"
+msgstr "进行现场访问（``ab``）在'智能'记录（``browse``方法的结果）时，``T-field``指令只能用。它能够根据字段类型，自动格式化，并集成在网站的富文本编辑。"
 
 #: ../../reference/qweb.rst:337
 msgid ""
@@ -8930,7 +8938,7 @@ msgstr "调用使用PDB的``set_trace`` API调试器。参数应该是一个模�
 
 #: ../../reference/qweb.rst:349
 msgid "is equivalent to ``importlib.import_module(\"pdb\").set_trace()``"
-msgstr "相当于``importlib.import_module（\“PDB \”）。set_trace（）``"
+msgstr "相当于``importlib.import_module（'PDB '）。set_trace（）``"
 
 #: ../../reference/qweb.rst:352 ../../reference/qweb.rst:519
 msgid "Helpers"
@@ -8946,13 +8954,13 @@ msgid ""
 " in which case templates stored in the database (as :ref:`views "
 "<reference/views/qweb>`) can be trivially rendered by calling "
 ":meth:`openerp.http.HttpRequest.render`:"
-msgstr "QWeb大多数的Python端的用途是在控制器（并在HTTP请求），在这种情况下模板存储在数据库中（如：参考：`观点<参考/视图/ qweb>`）可以平凡致电呈现：甲： `openerp.http.HttpRequest.render`："
+msgstr "QWeb大多数的Python端的用途是在控制器（并在HTTP请求），在这种情况下模板存储在数据库中（如:ref:`观点<参考/视图/ qweb>`）可以平凡致电呈现:meth: `openerp.http.HttpRequest.render`："
 
 #: ../../reference/qweb.rst:368
 msgid ""
 "This automatically creates a :class:`~openerp.http.Response` object which "
 "can be returned from the controller (or further customized to suit)."
-msgstr "这会自动创建一个：类：可从控制器返回（或进一步定制，以适应）`〜openerp.http.Response`对象。"
+msgstr "这会自动创建一个:class:可从控制器返回（或进一步定制，以适应）`〜openerp.http.Response`对象。"
 
 #: ../../reference/qweb.rst:372
 msgid "View-based"
@@ -8968,7 +8976,7 @@ msgstr "在更深的层次比前助手是``ir.ui.view``的``render``方法："
 msgid ""
 "Renders a QWeb view/template by database id or :term:`external id`. "
 "Templates are automatically loaded from ``ir.ui.view`` records."
-msgstr "渲染一个QWeb视图/模板，数据库ID或者：期限：`外部ID`。模板是从``ir.ui.view``记录自动加载。"
+msgstr "渲染一个QWeb视图/模板，数据库ID或者:term:`外部ID`。模板是从``ir.ui.view``记录自动加载。"
 
 #: ../../reference/qweb.rst:382
 msgid "Sets up a number of default values in the rendering context:"
@@ -8980,7 +8988,7 @@ msgstr "``request``"
 
 #: ../../reference/qweb.rst:385
 msgid "the current :class:`~openerp.http.WebRequest` object, if any"
-msgstr "当前：类：`〜openerp.http.WebRequest`对象，如果有的话"
+msgstr "当前:class:`〜openerp.http.WebRequest`对象，如果有的话"
 
 #: ../../reference/qweb.rst:386
 msgid "``debug``"
@@ -8992,7 +9000,7 @@ msgstr "当前请求（如果有的话）是否在``debug``模式"
 
 #: ../../reference/qweb.rst:388
 msgid ":func:`quote_plus <werkzeug.urls.url_quote_plus>`"
-msgstr "：FUNC：`quote_plus <werkzeug.urls.url_quote_plus>`"
+msgstr ":func:`quote_plus <werkzeug.urls.url_quote_plus>`"
 
 #: ../../reference/qweb.rst:389
 msgid "url-encoding utility function"
@@ -9000,7 +9008,7 @@ msgstr "URL编码的效用函数"
 
 #: ../../reference/qweb.rst:390
 msgid ":mod:`json`"
-msgstr "：MOD：`json`"
+msgstr ":mod:`json`"
 
 #: ../../reference/qweb.rst:391 ../../reference/qweb.rst:393
 #: ../../reference/qweb.rst:395
@@ -9009,11 +9017,11 @@ msgstr "相应的标准库模块"
 
 #: ../../reference/qweb.rst:392
 msgid ":mod:`time`"
-msgstr "：MOD：`time`"
+msgstr ":mod:`time`"
 
 #: ../../reference/qweb.rst:394
 msgid ":mod:`datetime`"
-msgstr "：MOD：`datetime`"
+msgstr ":mod:`datetime`"
 
 #: ../../reference/qweb.rst:396
 msgid ""
@@ -9042,7 +9050,7 @@ msgid ""
 "name of the Odoo model to use for rendering, can be used to expand or "
 "customize QWeb locally (by creating a \"new\" qweb based on ``ir.qweb`` with"
 " alterations)"
-msgstr "用于渲染的Odoo模型的名称，可以用来扩展或局部地定制QWeb（通过创建\“新\”qweb根据``ir.qweb``与改建）"
+msgstr "用于渲染的Odoo模型的名称，可以用来扩展或局部地定制QWeb（通过创建'新'qweb根据``ir.qweb``与改建）"
 
 #: ../../reference/qweb.rst:409 ../../reference/qweb.rst:531
 msgid "API"
@@ -9064,14 +9072,14 @@ msgstr "基地QWeb渲染引擎"
 msgid ""
 "to customize ``t-field`` rendering, subclass ``ir.qweb.field`` and create "
 "new models called :samp:`ir.qweb.field.{widget}`"
-msgstr "定制``T-field``渲染，子``ir.qweb.field``，创造新的模式叫做：SAMP：`ir.qweb.field {小部件}`"
+msgstr "定制``T-field``渲染，子``ir.qweb.field``，创造新的模式叫做:samp:`ir.qweb.field {小部件}`"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb:5
 msgid ""
 "alternatively, override :meth:`~.get_converter_for` and return an arbitrary "
 "model to use as field converter"
-msgstr "另外，覆盖：甲：`〜.get_converter_for`并返回一个任意模型场变换使用"
+msgstr "另外，覆盖:meth:`〜.get_converter_for`并返回一个任意模型场变换使用"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb:8
@@ -9084,14 +9092,14 @@ msgstr "要注意的是，如果你需要扩展或改变这可能是与其他子
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb.get_converter_for:1
 msgid "returns a :class:`~openerp.models.Model` used to render a ``t-field``."
-msgstr "返回：类：`〜openerp.models.Model`用于渲染``T-field``。"
+msgstr "返回:class:`〜openerp.models.Model`用于渲染``T-field``。"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb.get_converter_for:4
 msgid ""
 "By default, tries to get the model named :samp:`ir.qweb.field.{field_type}`,"
 " falling back on ``ir.qweb.field``."
-msgstr "默认情况下，试图获得命名的模型：SAMP：`ir.qweb.field {field_type}`上``ir.qweb.field``回落。"
+msgstr "默认情况下，试图获得命名的模型:samp:`ir.qweb.field {field_type}`上``ir.qweb.field``回落。"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb.get_converter_for:7
@@ -9101,7 +9109,7 @@ msgstr "类型或场的小窗口来呈现"
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb.get_widget_for:1
 msgid "returns a :class:`~openerp.models.Model` used to render a ``t-esc``"
-msgstr "返回：类：`〜openerp.models.Model`用于渲染``T-esc``"
+msgstr "返回:class:`〜openerp.models.Model`用于渲染``T-esc``"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.QWeb.get_widget_for:4
@@ -9150,7 +9158,7 @@ msgstr "这种特殊的“T-通话”标签可以以聚合中使用/缩小JavaSc
 msgid ""
 "eg: <span t-record=\"browse_record(res.partner, 1)\" t-field=\"phone\">+1 "
 "555 555 8069</span>"
-msgstr "例如：<跨度T-纪录= \“browse_record（res.partner，1）\”T-场= \“电话\”> + 1 555 555 8069 </ SPAN>"
+msgstr "例如：<跨度T-纪录= 'browse_record（res.partner，1）'T-场= '电话'> + 1 555 555 8069 </ SPAN>"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.FieldConverter:1
@@ -9165,7 +9173,7 @@ msgstr "：甲基：`〜.to_html`距离QWeb这种转换的进入点，它："
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.FieldConverter:5
 msgid "converts the record value to html using :meth:`~.record_to_html`"
-msgstr "转换记录值的HTML使用：甲：`〜.record_to_html`"
+msgstr "转换记录值的HTML使用:meth:`〜.record_to_html`"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.FieldConverter:6
@@ -9177,7 +9185,7 @@ msgstr "生成的元数据属性（``数据-OE-``）到根的结果节点上设�
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.FieldConverter:8
 msgid "generates the root result node itself through :meth:`~.render_element`"
-msgstr "产生的根源结果节点本身通过：甲：`〜.render_element`"
+msgstr "产生的根源结果节点本身通过:meth:`〜.render_element`"
 
 #: ../../../openerp/addons/base/ir/ir_qweb.pydocstring of
 #: openerp.addons.base.ir.ir_qweb.FieldConverter.attributes:1
@@ -9443,19 +9451,19 @@ msgid ""
 "(core is the ``web.core`` module) An instance of :js:class:`QWeb2.Engine` "
 "with all module-defined template files loaded, and references to standard "
 "helper objects ``_`` (underscore), ``_t`` (translation function) and JSON_."
-msgstr "（核心是``web.core``模块）的实例：JS：类：`QWeb2.Engine`与加载的所有模块定义的模板文件，并引用标准辅助对象``_``（下划线）， ``_t``（转换功能）和JSON_。"
+msgstr "（核心是``web.core``模块）的实例:js:class:`QWeb2.Engine`与加载的所有模块定义的模板文件，并引用标准辅助对象``_``（下划线）， ``_t``（转换功能）和JSON_。"
 
 #: ../../reference/qweb.rst:527
 msgid ""
 ":js:func:`core.qweb.render <QWeb2.Engine.render>` can be used to easily "
 "render basic module templates"
-msgstr "：JS：FUNC：`core.qweb.render <QWeb2.Engine.render>`可以用来方便地呈现基本模块模板"
+msgstr ":js:func:`core.qweb.render <QWeb2.Engine.render>`可以用来方便地呈现基本模块模板"
 
 #: ../../reference/qweb.rst:535
 msgid ""
 "The QWeb \"renderer\", handles most of QWeb's logic (loading, parsing, "
 "compiling and rendering templates)."
-msgstr "该QWeb \“呈现\”，处理大部分QWeb的逻辑（加载，解析，编译和执行模板）。"
+msgstr "该QWeb '呈现'，处理大部分QWeb的逻辑（加载，解析，编译和执行模板）。"
 
 #: ../../reference/qweb.rst:538
 msgid ""
@@ -9466,7 +9474,7 @@ msgstr "OpenERP的网站实例化一个是核心模块中的用户，并出口�
 
 #: ../../reference/qweb.rst:542
 msgid "A :js:class:`QWeb2.Engine` also serves as a \"template namespace\"."
-msgstr "答：JS：类：`QWeb2.Engine`也作为一个\“模板命名空间\”。"
+msgstr "答:js:class:`QWeb2.Engine`也作为一个'模板命名空间'。"
 
 #: ../../reference/qweb.rst:546
 msgid ""
@@ -9493,7 +9501,7 @@ msgid ""
 "if you need a separate template namespace with, in OpenERP Web, Kanban views"
 " get their own :js:class:`QWeb2.Engine` instance so their templates don't "
 "collide with more general \"module\" templates):"
-msgstr "该引擎公开这可能是在某些情况下非常有用（例如，如果你需要一个单独的模板命名空间，在OpenERP的网页，看板的观点得到自己的另一种方法：JS：类：`QWeb2.Engine`实例，以便他们的模板不碰撞更一般的\“模块\”模板）："
+msgstr "该引擎公开这可能是在某些情况下非常有用（例如，如果你需要一个单独的模板命名空间，在OpenERP的网页，看板的观点得到自己的另一种方法:js:class:`QWeb2.Engine`实例，以便他们的模板不碰撞更一般的'模块'模板）："
 
 #: ../../reference/qweb.rst:563
 msgid ""
@@ -9533,7 +9541,7 @@ msgstr "QWeb将遍历文档（所提供的根的子节点）的第一级和装�
 msgid ""
 "A :js:class:`QWeb2.Engine` also exposes various attributes for behavior "
 "customization:"
-msgstr "答：JS：类：`QWeb2.Engine`也暴露了行为定制各种属性："
+msgstr "答:js:class:`QWeb2.Engine`也暴露了行为定制各种属性："
 
 #: ../../reference/qweb.rst:586
 msgid ""
@@ -9546,7 +9554,7 @@ msgid ""
 "Boolean flag putting the engine in \"debug mode\". Normally, QWeb intercepts"
 " any error raised during template execution. In debug mode, it leaves all "
 "exceptions go through without intercepting them."
-msgstr "布尔标志，把发动机\“调试模式\”。通常情况下，QWeb拦截模板执行过程中提出的任何错误。在调试模式下，它使所有的异常经历，而不拦截它们。"
+msgstr "布尔标志，把发动机'调试模式'。通常情况下，QWeb拦截模板执行过程中提出的任何错误。在调试模式下，它使所有的异常经历，而不拦截它们。"
 
 #: ../../reference/qweb.rst:598
 msgid ""
@@ -9583,7 +9591,7 @@ msgid ""
 "Reports are written in HTML/QWeb, like all regular views in Odoo. You can "
 "use the usual :ref:`QWeb control flow tools <reference/qweb>`. The PDF "
 "rendering itself is performed by wkhtmltopdf_."
-msgstr "报告将写入HTML / QWeb，就像Odoo所有常规视图。你可以用通常的：REF：`QWeb控制流工具<参考/ qweb>`。 PDF呈现本身由wkhtmltopdf_执行。"
+msgstr "报告将写入HTML / QWeb，就像Odoo所有常规视图。你可以用通常的:ref:`QWeb控制流工具<参考/ qweb>`。 PDF呈现本身由wkhtmltopdf_执行。"
 
 #: ../../reference/reports.rst:13
 msgid ""
@@ -9594,7 +9602,7 @@ msgid ""
 "Finally, if you need access to more than your model, you can define a "
 ":ref:`reference/reports/custom_reports` class that gives you access to more "
 "models and records in the template."
-msgstr "如果你想创建一个特定的模式的报告，您需要定义是：参考：`参考/报告/ report`和：REF：`参考/报告/ templates`它将使用。如果你愿意，你也可以指定一个特定的：参考：`参考/报告/ paper_formats`此报告。最后，如​​果你需要获得超过你的模型，你可以定义：参考：`参考/报告/ custom_reports`类，让你获得更多的车型和记录在模板中。"
+msgstr "如果你想创建一个特定的模式的报告，您需要定义是:ref:`参考/报告/ report`和:ref:`参考/报告/ templates`它将使用。如果你愿意，你也可以指定一个特定的:ref:`参考/报告/ paper_formats`此报告。最后，如​​果你需要获得超过你的模型，你可以定义:ref:`参考/报告/ custom_reports`类，让你获得更多的车型和记录在模板中。"
 
 #: ../../reference/reports.rst:24
 msgid "Report"
@@ -9612,11 +9620,11 @@ msgid ""
 "report, rather than have to set up :ref:`the action "
 "<reference/actions/report>` and its surroundings manually. That ``<report>``"
 " can take the following attributes:"
-msgstr "为了简单，快捷``<报告>``元素可用于定义报表，而不是必须设置：参考：`动作手动<参考/动作/报告>`及其周边地区。这``<报告>``可以采取以下属性："
+msgstr "为了简单，快捷``<报告>``元素可用于定义报表，而不是必须设置:ref:`动作手动<参考/动作/报告>`及其周边地区。这``<报告>``可以采取以下属性："
 
 #: ../../reference/reports.rst:35
 msgid "the generated record's :term:`external id`"
-msgstr "生成记录的：期限：`外部ID`"
+msgstr "生成记录的:term:`外部ID`"
 
 #: ../../reference/reports.rst:49
 msgid ""
@@ -9663,7 +9671,7 @@ msgid ""
 "report declaration; for example ``account.report_invoice`` for the above "
 "report. Since this is a QWeb template, you can access all the fields of the "
 "``docs`` objects received by the template."
-msgstr "调用``external_layout``将添加默认的页眉和页脚在报表上。 PDF格式的身体会里面的``<DIV CLASS = \“页\”>``内容。模板的``id``必须在报告中声明指定的名称;例如``account.report_invoice``对上述报告。由于这是一个QWeb模板，您可以访问由模板收到的``docs``对象的所有领域。"
+msgstr "调用``external_layout``将添加默认的页眉和页脚在报表上。 PDF格式的身体会里面的``<DIV CLASS = '页'>``内容。模板的``id``必须在报告中声明指定的名称;例如``account.report_invoice``对上述报告。由于这是一个QWeb模板，您可以访问由模板收到的``docs``对象的所有领域。"
 
 #: ../../reference/reports.rst:112
 msgid "There are some specific variables accessible in reports, mainly:"
@@ -9699,7 +9707,7 @@ msgstr "``time``"
 
 #: ../../reference/reports.rst:121
 msgid "a reference to :mod:`python:time` from the Python standard library"
-msgstr "从Python标准库time`：引用：MOD：`蟒蛇"
+msgstr "从Python标准库time`：引用:mod:`蟒蛇"
 
 #: ../../reference/reports.rst:123
 msgid "``res.user`` record for the user printing the report"
@@ -9717,7 +9725,7 @@ msgstr "当前``user``的公司纪录"
 msgid ""
 "If you wish to access other records/models in the template, you will need "
 ":ref:`a custom report <reference/reports/custom_reports>`."
-msgstr "如果要访问其他记录/模型模板中，你将需要：参考：`自定义报告<参考/报告/ custom_reports>`。"
+msgstr "如果要访问其他记录/模型模板中，你将需要:ref:`自定义报告<参考/报告/ custom_reports>`。"
 
 #: ../../reference/reports.rst:131
 msgid "Translatable Templates"
@@ -9901,7 +9909,7 @@ msgid ""
 "records of others models, for example), you can define this model, overwrite"
 " the function ``render_html`` and pass objects in the ``docargs`` "
 "dictionnary:"
-msgstr "该报表模型有一个默认的``get_html``功能查找名为型号：SAMP：`报告{module.report_name}`。如果它存在，它会用它来调用QWeb引擎;否则一个通用的功能将被使用。如果你想通过包括更多的东西在模板中（像其他车型记录，例如）自定义您的报告，您可以定义这种模式，覆盖功能``render_html``和``docargs`` dictionnary传递对象："
+msgstr "该报表模型有一个默认的``get_html``功能查找名为型号:samp:`报告{module.report_name}`。如果它存在，它会用它来调用QWeb引擎;否则一个通用的功能将被使用。如果你想通过包括更多的东西在模板中（像其他车型记录，例如）自定义您的报告，您可以定义这种模式，覆盖功能``render_html``和``docargs`` dictionnary传递对象："
 
 #: ../../reference/reports.rst:311
 msgid "Reports are web pages"
@@ -10015,7 +10023,7 @@ msgid ""
 " matches the rule (and is accessible) or does not (and is not accessible). "
 "The domain is evaluated with two variables in context: ``user`` is the "
 "current user's record and ``time`` is the `time module`_"
-msgstr "答：参考：'域<参考/ ORM /域>`用来检查是否给定的记录相匹配的规则（和访问）或没有（无法访问）。域名评估与环境两个变量：``user``是当前用户的记录和``time``是'时间module`_"
+msgstr "答:ref:'域<参考/ ORM /域>`用来检查是否给定的记录相匹配的规则（和访问）或没有（无法访问）。域名评估与环境两个变量：``user``是当前用户的记录和``time``是'时间module`_"
 
 #: ../../reference/security.rst:59
 msgid ""
@@ -10059,7 +10067,7 @@ msgid ""
 "An ORM :class:`~openerp.fields.Field` can have a ``groups`` attribute "
 "providing a list of groups (as a comma-separated string of :term:`external "
 "identifiers`)."
-msgstr "一个ORM：类：`〜openerp.fields.Field`可以有一个``groups``属性提供组的列表（以逗号分隔的字符串：期限：`外部identifiers`）。"
+msgstr "一个ORM:class:`〜openerp.fields.Field`可以有一个``groups``属性提供组的列表（以逗号分隔的字符串:term:`外部identifiers`）。"
 
 #: ../../reference/security.rst:87
 msgid ""
@@ -10159,7 +10167,7 @@ msgstr "返回所提供的记录对象：短期：`外部identifier`"
 msgid ""
 "fully-qualified :term:`external identifier`, in the form "
 ":samp:`{module}.{identifier}`"
-msgstr "完全合格的：短期：`外部identifier`，形式为：SAMP：`{模块} {标识符}`"
+msgstr "完全合格的：短期：`外部identifier`，形式为:samp:`{模块} {标识符}`"
 
 #: ../../../openerp/tests/common.pydocstring of
 #: openerp.tests.common.TransactionCase.browse_ref:6
@@ -10186,7 +10194,7 @@ msgstr "产品类别：`〜openerp.models.BaseModel`"
 msgid ""
 "Returns database ID for the provided :term:`external identifier`, shortcut "
 "for ``get_object_reference``"
-msgstr "返回数据库ID为提供：期限：`外部identifier`，快捷``get_object_reference``"
+msgstr "返回数据库ID为提供:term:`外部identifier`，快捷``get_object_reference``"
 
 #: ../../../openerp/tests/common.pydocstring of
 #: openerp.tests.common.TransactionCase.ref:7
@@ -10245,7 +10253,7 @@ msgid ""
 "The most common situation is to use "
 ":class:`~openerp.tests.common.TransactionCase` and test a property of a "
 "model in each method::"
-msgstr "最常见的情况是使用：类：`〜openerp.tests.common.TransactionCase`并在每个方法测试模型的属性::"
+msgstr "最常见的情况是使用:class:`〜openerp.tests.common.TransactionCase`并在每个方法测试模型的属性::"
 
 #: ../../reference/testing.rst:74
 msgid "Running tests"
@@ -10278,7 +10286,7 @@ msgid ""
 "result, even if you haven't done any specific work towards translation you "
 "can export your module's translatable terms and may find content to work "
 "with."
-msgstr "许多术语在你的模块是\“含蓄翻译\”这样一来，即使你没有做对翻译的具体工作，你可以导出你的模块的翻译术语和可能会发现内容的工作。"
+msgstr "许多术语在你的模块是'含蓄翻译'这样一来，即使你没有做对翻译的具体工作，你可以导出你的模块的翻译术语和可能会发现内容的工作。"
 
 #: ../../reference/translations.rst:19
 msgid ""
@@ -10329,7 +10337,7 @@ msgstr "隐出口"
 #: ../../reference/translations.rst:48
 msgid ""
 "Odoo automatically exports translatable strings from \"data\"-type content:"
-msgstr "Odoo自动导出翻译字符串从\“数据\” - 类型的内容："
+msgstr "Odoo自动导出翻译字符串从'数据' - 类型的内容："
 
 #: ../../reference/translations.rst:50
 msgid ""
@@ -10343,13 +10351,13 @@ msgid ""
 "exported except inside ``t-translation=\"off\"`` blocks, the content of the "
 "``title``, ``alt``, ``label`` and ``placeholder`` attributes are also "
 "exported"
-msgstr "QWeb模板（包括服务器端和客户端），所有的文本节点远销除了内部``​​T-翻译= \“关\”``块时，``title``的内容，``alt`` ``label``和``placeholder``属性还出口"
+msgstr "QWeb模板（包括服务器端和客户端），所有的文本节点远销除了内部``​​T-翻译= '关'``块时，``title``的内容，``alt`` ``label``和``placeholder``属性还出口"
 
 #: ../../reference/translations.rst:57
 msgid ""
 "for :class:`~openerp.fields.Field`, unless their model is marked with "
 "``_translate = False``:"
-msgstr "为：类：`〜openerp.fields.Field`，除非他们的模型上标有``_translate = False``："
+msgstr "为:class:`〜openerp.fields.Field`，除非他们的模型上标有``_translate = False``："
 
 #: ../../reference/translations.rst:60
 msgid "their ``string`` and ``help`` attributes are exported"
@@ -10381,7 +10389,7 @@ msgid ""
 " code, Odoo cannot automatically export translatable terms so they must be "
 "marked explicitly for export. This is done by wrapping a literal string in a"
 " function call."
-msgstr "当谈到在Python代码或JavaScript代码更\“势在必行\”的情况下，Odoo不能自动导出翻译方面，使他们必须明确标明用于出口。这是由包裹在一个函数调用一个字符串进行。"
+msgstr "当谈到在Python代码或JavaScript代码更'势在必行'的情况下，Odoo不能自动导出翻译方面，使他们必须明确标明用于出口。这是由包裹在一个函数调用一个字符串进行。"
 
 #: ../../reference/translations.rst:75
 msgid "In Python, the wrapping function is :func:`openerp._`::"
@@ -10390,7 +10398,7 @@ msgstr "在Python中，包装的功能是：函数：`openerp._` ::"
 #: ../../reference/translations.rst:79
 msgid ""
 "In JavaScript, the wrapping function is generally :js:func:`openerp.web._t`:"
-msgstr "在JavaScript中，包装功能一般为：JS：FUNC：`openerp.web._t`："
+msgstr "在JavaScript中，包装功能一般为:js:func:`openerp.web._t`："
 
 #: ../../reference/translations.rst:87
 msgid ""
@@ -10438,13 +10446,13 @@ msgid ""
 "the latter, all the views for the right type and model will be searched, and"
 " the one with the lowest ``priority`` number will be returned (it is the "
 "\"default view\")."
-msgstr "客户端程序可以通过``id``，或``（型号，类型）``要求的意见。对于后者，对于正确的类型和型号所有的意见都会被搜索，并具有最低``priority``号将返回（这是\“默认视图\”）。"
+msgstr "客户端程序可以通过``id``，或``（型号，类型）``要求的意见。对于后者，对于正确的类型和型号所有的意见都会被搜索，并具有最低``priority``号将返回（这是'默认视图'）。"
 
 #: ../../reference/views.rst:29
 msgid ""
 "``priority`` also defines the order of application during :ref:`view "
 "inheritance <reference/views/inheritance>`"
-msgstr "``priority``还定义了应用程序的顺序时：参考：`观的继承<参考/视图/继承>`"
+msgstr "``priority``还定义了应用程序的顺序时:ref:`观的继承<参考/视图/继承>`"
 
 #: ../../reference/views.rst:31
 msgid "``arch``"
@@ -10468,7 +10476,7 @@ msgstr "``inherit_id``"
 msgid ""
 "the current view's parent view, see :ref:`reference/views/inheritance`, "
 "unset by default"
-msgstr "当前视图的父视图，请参阅：参考：`参考/视图/ inheritance`，未设置默认"
+msgstr "当前视图的父视图，请参阅:ref:`参考/视图/ inheritance`，未设置默认"
 
 #: ../../reference/views.rst:42 ../../reference/views.rst:416
 msgid "``mode``"
@@ -10479,7 +10487,7 @@ msgid ""
 "inheritance mode, see :ref:`reference/views/inheritance`. If ``inherit_id`` "
 "is unset the ``mode`` can only be ``primary``. If ``inherit_id`` is set, "
 "``extension`` by default but can be explicitly set to ``primary``"
-msgstr "遗传方式，请参阅：参考：`参考/视图/ inheritance`。如果``inherit_id``没有设置的``mode``只能是``primary``。如果``inherit_id``设置，``默认extension``但可以明确设置为``primary``"
+msgstr "遗传方式，请参阅:ref:`参考/视图/ inheritance`。如果``inherit_id``没有设置的``mode``只能是``primary``。如果``inherit_id``设置，``默认extension``但可以明确设置为``primary``"
 
 #: ../../reference/views.rst:46
 msgid "``application``"
@@ -10646,7 +10654,7 @@ msgid ""
 "by default, selecting a list view's row opens the corresponding :ref:`form "
 "view <reference/views/form>`. The ``editable`` attributes makes the list "
 "view itself editable in-place."
-msgstr "默认情况下，选择一个列表视图的行会打开相应：REF：`表单视图<参考/视图/表>`。该``editable``属性使得列表视图本身可编辑的就地。"
+msgstr "默认情况下，选择一个列表视图的行会打开相应:ref:`表单视图<参考/视图/表>`。该``editable``属性使得列表视图本身可编辑的就地。"
 
 #: ../../reference/views.rst:128
 msgid ""
@@ -10660,7 +10668,7 @@ msgid ""
 "derived from the list view. Most attributes valid on a :ref:`form view "
 "<reference/views/form>`'s fields and buttons are thus accepted by list views"
 " although they may not have any meaning if the list view is non-editable"
-msgstr "该架构内联：REF：`表单视图<参考/视图/表>`从列表视图中获得。参考：`表单视图<参考/视图/ form>中这样`的字段和按钮都接受列表视图，尽管他们可能没有任何意义，如果列表视图是不可编辑上的大多数属性有效"
+msgstr "该架构内联:ref:`表单视图<参考/视图/表>`从列表视图中获得。参考：`表单视图<参考/视图/ form>中这样`的字段和按钮都接受列表视图，尽管他们可能没有任何意义，如果列表视图是不可编辑上的大多数属性有效"
 
 #: ../../reference/views.rst:142 ../../reference/views.rst:817
 msgid "``default_order``"
@@ -10968,7 +10976,7 @@ msgid ""
 "if the list view is ``editable``, any field attribute from the :ref:`form "
 "view <reference/views/form>` is also valid and will be used when setting up "
 "the inline form view"
-msgstr "如果列表视图是``editable``，从任何字段属性：参考：`表单视图<参考/视图/表>`也是有效的，将设立在线表单视图时，可以使用"
+msgstr "如果列表视图是``editable``，从任何字段属性:ref:`表单视图<参考/视图/表>`也是有效的，将设立在线表单视图时，可以使用"
 
 #: ../../reference/views.rst:289
 msgid "Forms"
@@ -10989,7 +10997,7 @@ msgstr "结构部件"
 msgid ""
 "Structural components provide structure or \"visual\" features with little "
 "logic. They are used as elements or sets of elements in form views."
-msgstr "结构组件提供结构或很少有逻辑\“视觉\”的特点。它们被用作在形式次元素或元素组。"
+msgstr "结构组件提供结构或很少有逻辑'视觉'的特点。它们被用作在形式次元素或元素组。"
 
 #: ../../reference/views.rst:310
 msgid "``notebook``"
@@ -11107,7 +11115,7 @@ msgstr "语义成分扎入，并允许与Odoo系统交互。可用的语义成�
 msgid ""
 "call into the Odoo system, similar to :ref:`list view buttons "
 "<reference/views/list/button>`"
-msgstr "调入Odoo系统，类似于：REF：'列表视图按钮<参考/视图/表/按钮>`"
+msgstr "调入Odoo系统，类似于:ref:'列表视图按钮<参考/视图/表/按钮>`"
 
 #: ../../reference/views.rst:351
 msgid ""
@@ -11124,7 +11132,7 @@ msgid ""
 "fields have a default rendering based on their type (e.g. "
 ":class:`~openerp.fields.Char`, :class:`~openerp.fields.Many2one`). The "
 "``widget`` attributes allows using a different rendering method and context."
-msgstr "域有一个默认的渲染根据自己的类型（如：类：`〜openerp.fields.Char`，产品类别：`〜openerp.fields.Many2one`）。该``widget``属性允许使用不同的绘制方法和背景。"
+msgstr "域有一个默认的渲染根据自己的类型（如:class:`〜openerp.fields.Char`，产品类别：`〜openerp.fields.Many2one`）。该``widget``属性允许使用不同的绘制方法和背景。"
 
 #: ../../reference/views.rst:367
 msgid "``options``"
@@ -11176,7 +11184,7 @@ msgstr "``oe_no_button``"
 msgid ""
 "avoids displaying the navigation button in a "
 ":class:`~openerp.fields.Many2one`"
-msgstr "避免了在显示导航按钮：类：`〜openerp.fields.Many2one`"
+msgstr "避免了在显示导航按钮:class:`〜openerp.fields.Many2one`"
 
 #: ../../reference/views.rst:382
 msgid "``oe_avatar``"
@@ -11186,7 +11194,7 @@ msgstr "``oe_avatar``"
 msgid ""
 "for image fields, displays images as \"avatar\" (square, 90x90 maximum size,"
 " some image decorations)"
-msgstr "图像领域，显示图像为\“阿凡达\”（广场，90x90最大尺寸，一些图像装饰）"
+msgstr "图像领域，显示图像为'阿凡达'（广场，90x90最大尺寸，一些图像装饰）"
 
 #: ../../reference/views.rst:385
 msgid "only displays the field for specific users"
@@ -11204,7 +11212,7 @@ msgstr "调用指定的方法时，该字段的值进行编辑，可以生成更
 
 #: ../../reference/views.rst:392
 msgid "Use :func:`openerp.api.onchange` on the model"
-msgstr "使用方法：FUNC：`openerp.api.onchange`型号"
+msgstr "使用方法:func:`openerp.api.onchange`型号"
 
 #: ../../reference/views.rst:395
 msgid "dynamic meta-parameters based on record values"
@@ -11272,7 +11280,7 @@ msgid ""
 "for :class:`~openerp.fields.One2many`, display mode (view type) to use for "
 "the field's linked records. One of ``tree``, ``form``, ``kanban`` or "
 "``graph``. The default is ``tree`` (a list display)"
-msgstr "为：类：`〜openerp.fields.One2many`，显示模式（视图类型），用于该领域的链接的记录。一个``tree``，``form``，``kanban``或``graph``。默认值是``tree``（列表显示）"
+msgstr "为:class:`〜openerp.fields.One2many`，显示模式（视图类型），用于该领域的链接的记录。一个``tree``，``form``，``kanban``或``graph``。默认值是``tree``（列表显示）"
 
 #: ../../reference/views.rst:418 ../../reference/views.rst:1161
 msgid "``help``"
@@ -11299,7 +11307,7 @@ msgstr "``password``"
 msgid ""
 "indicates that a :class:`~openerp.fields.Char` field stores a password and "
 "that its data shouldn't be displayed"
-msgstr "指示：类：`〜openerp.fields.Char`字段存储密码，它的数据不应该显示"
+msgstr "指示:class:`〜openerp.fields.Char`字段存储密码，它的数据不应该显示"
 
 #: ../../reference/views.rst:432
 msgid "Business Views guidelines"
@@ -11378,7 +11386,7 @@ msgstr "突出显示的按钮（红色默认）强调合乎逻辑的下一步，
 #: ../../reference/views.rst:481
 msgid ""
 "Technically, buttons are highlighted by adding the class \"oe_highlight\"::"
-msgstr "从技术上讲，按钮是通过添加类\“oe_highlight \”强调::"
+msgstr "从技术上讲，按钮是通过添加类'oe_highlight '强调::"
 
 #: ../../reference/views.rst:486
 msgid "The Status"
@@ -11426,7 +11434,7 @@ msgid ""
 "attribute ``col=\"n\"`` is used.  The columns have the same width (1/n th of"
 " the group's width). Use a ``<group>`` element to produce a column of "
 "fields."
-msgstr "默认情况下，该元素``<集团>``定义了两列在里面，除非一个属性``COL = \“N \”``使用。列具有相同的宽度（1 / n个组的宽度）。使用``<基团>``元素，以产生场的一列。"
+msgstr "默认情况下，该元素``<集团>``定义了两列在里面，除非一个属性``COL = 'N '``使用。列具有相同的宽度（1 / n个组的宽度）。使用``<基团>``元素，以产生场的一列。"
 
 #: ../../reference/views.rst:526
 msgid ""
@@ -11436,14 +11444,14 @@ msgstr "为了给一个标题为部分中，添加一个``string``属性为``<�
 
 #: ../../reference/views.rst:530
 msgid "this replaces the former use of ``<separator string=\"XXX\"/>``."
-msgstr "这取代了以前使用``<分隔字符串= \“XXX \”/>``的。"
+msgstr "这取代了以前使用``<分隔字符串= 'XXX '/>``的。"
 
 #: ../../reference/views.rst:531
 msgid ""
 "The ``<field>`` element does not produce a label, except as direct children "
 "of a ``<group>`` element\\ [#backwards-compatibility]_.  Use :samp:`<label "
 "for=\"{field_name}>` to produce a label of a field."
-msgstr "该``<字段>``元素不会产生一个标签，只是一个``<集团>``元素\\ [＃向后兼容性] _的直接孩子。用途：SAMP：`<标签= \“{FIELD_NAME}>`，以产生一个场的一个标签。"
+msgstr "该``<字段>``元素不会产生一个标签，只是一个``<集团>``元素\\ [＃向后兼容性] _的直接孩子。用途:samp:`<标签= '{FIELD_NAME}>`，以产生一个场的一个标签。"
 
 #: ../../reference/views.rst:536
 msgid "Sheet Headers"
@@ -11484,7 +11492,7 @@ msgid ""
 "Meeting\" have an important place in the use of the CRM. Instead of placing "
 "them in the \"More\" menu, put them directly in the sheet as buttons (on the"
 " top) to make them more visible and more easily accessible."
-msgstr "许多相关的操作或链接可以显示在表格。例如，在机会表单，动作\“预约来电\”和\“预定会议\”已经在使用CRM的重要场所。相反，将它们放置在\“更多\”菜单，把它们直接在表的按钮（顶部），使他们更加明显和更容易获得。"
+msgstr "许多相关的操作或链接可以显示在表格。例如，在机会表单，动作'预约来电'和'预定会议'已经在使用CRM的重要场所。相反，将它们放置在'更多'菜单，把它们直接在表的按钮（顶部），使他们更加明显和更容易获得。"
 
 #: ../../reference/views.rst:579
 msgid ""
@@ -11514,7 +11522,7 @@ msgid ""
 "To make :ref:`view extension <reference/views/inheritance>` simpler, it is "
 "recommended to put a ``name`` attribute on ``<group>`` elements, so new "
 "fields can easily be added at the right place."
-msgstr "为了让：参考：`视图扩展<参考/视图/继承>`简单，建议把``name``属性的``<集团>``元素，所以新的领域可以很容易地在合适的添加的地方。"
+msgstr "为了让:ref:`视图扩展<参考/视图/继承>`简单，建议把``name``属性的``<集团>``元素，所以新的领域可以很容易地在合适的添加的地方。"
 
 #: ../../reference/views.rst:614
 msgid "Special Case: Subtotals"
@@ -11542,7 +11550,7 @@ msgid ""
 "One can also group fields together by rendering them \"inline\" inside an "
 "explicit block element like ``<div>``. This allows grouping semantically "
 "related fields as if they were a single (composite) fields."
-msgstr "人们也可以组字段在一起使它们\“内联\”明确块元素里面像``<DIV>``。这允许分组语义相关的领域，就像它们是单个（复合）字段。"
+msgstr "人们也可以组字段在一起使它们'内联'明确块元素里面像``<DIV>``。这允许分组语义相关的领域，就像它们是单个（复合）字段。"
 
 #: ../../reference/views.rst:643
 msgid ""
@@ -11599,7 +11607,7 @@ msgstr "对话框的形式指引"
 
 #: ../../reference/views.rst:715
 msgid "Example: \"Schedule a Call\" from an opportunity."
-msgstr "例如：\“预约来电\”的一个机会。"
+msgstr "例如：'预约来电'的一个机会。"
 
 #: ../../reference/views.rst:720
 msgid ""
@@ -11645,7 +11653,7 @@ msgstr "保持取消按钮（用户不能关闭窗口）"
 
 #: ../../reference/views.rst:737
 msgid "the button \"Apply\" must be red"
-msgstr "按钮\“应用\”必须是红色的"
+msgstr "按钮'应用'必须是红色的"
 
 #: ../../reference/views.rst:743
 msgid "Graphs"
@@ -11781,7 +11789,7 @@ msgid ""
 "non-editable :ref:`form view <reference/views/form>`. Records may be grouped"
 " in columns for use in workflow visualisation or manipulation (e.g. tasks or"
 " work-progress management), or ungrouped (used simply to visualize records)."
-msgstr "看板视图是一个'看板board`_可视化：它显示的记录为\“牌\”，半路之间：REF：'列表视图<参考/视图/列表>`和不可编辑：参考：`表单视图<参考/视图/表>`。记录可在工作流程的可视化和操纵使用的列进行分组（如任务或工作进度管理），或取消分组（使用简单的可视化记录）。"
+msgstr "看板视图是一个'看板board`_可视化：它显示的记录为'牌'，半路之间:ref:'列表视图<参考/视图/列表>`和不可编辑:ref:`表单视图<参考/视图/表>`。记录可在工作流程的可视化和操纵使用的列进行分组（如任务或工作进度管理），或取消分组（使用简单的可视化记录）。"
 
 #: ../../reference/views.rst:809
 msgid ""
@@ -11865,13 +11873,13 @@ msgid ""
 "split into multiple templates for clarity, but kanban views *must* define at"
 " least one root template ``kanban-box``, which will be rendered once for "
 "each record."
-msgstr "定义列表：参考：`参考/ qweb`模板。卡定义可以被分成多个模板清晰，但看板意见*必须*至少定义一个根模板``看板box``，这将是为每个记录呈现的一次。"
+msgstr "定义列表:ref:`参考/ qweb`模板。卡定义可以被分成多个模板清晰，但看板意见*必须*至少定义一个根模板``看板box``，这将是为每个记录呈现的一次。"
 
 #: ../../reference/views.rst:849
 msgid ""
 "The kanban view uses mostly-standard :ref:`javascript qweb "
 "<reference/qweb/javascript>` and provides the following context variables:"
-msgstr "看板观点大都采用标准：参考：`的JavaScript qweb <参考/ qweb / JavaScript的>`并提供以下环境变量："
+msgstr "看板观点大都采用标准:ref:`的JavaScript qweb <参考/ qweb / JavaScript的>`并提供以下环境变量："
 
 #: ../../reference/views.rst:852
 msgid "``instance``"
@@ -11879,14 +11887,14 @@ msgstr "``instance``"
 
 #: ../../reference/views.rst:853
 msgid "the current :ref:`reference/javascript/client` instance"
-msgstr "当前：REF：`参考/ JavaScript的/ client`实例"
+msgstr "当前:ref:`参考/ JavaScript的/ client`实例"
 
 #: ../../reference/views.rst:855
 msgid ""
 "the current :js:class:`KanbanRecord`, can be used to fetch some meta-"
 "information. These methods are also available directly in the template "
 "context and don't need to be accessed via ``widget``"
-msgstr "当前：JS：类：`KanbanRecord`，可以用来获取一些元信息。这些方法也可以直接在模板上下文中可用​​并且不需要经由``widget``访问"
+msgstr "当前:js:class:`KanbanRecord`，可以用来获取一些元信息。这些方法也可以直接在模板上下文中可用​​并且不需要经由``widget``访问"
 
 #: ../../reference/views.rst:859
 msgid ""
@@ -11914,7 +11922,7 @@ msgstr "按钮和字段"
 msgid ""
 "While most of the Kanban templates are standard :ref:`reference/qweb`, the "
 "Kanban view processes ``field``, ``button`` and ``a`` elements specially:"
-msgstr "虽然大多数的看板模板标准：参考：`参考/ qweb`，看板查看进程``field``，``button``和``a``元素特别："
+msgstr "虽然大多数的看板模板标准:ref:`参考/ qweb`，看板查看进程``field``，``button``和``a``元素特别："
 
 #: ../../reference/views.rst:874
 msgid ""
@@ -11936,7 +11944,7 @@ msgstr "``action``，``object``"
 msgid ""
 "standard behavior for :ref:`Odoo buttons <reference/views/list/button>`, "
 "most attributes relevant to standard Odoo buttons can be used."
-msgstr "标准的行为：参考：`Odoo按钮<参考/视图/表/按钮>`，大多数属性相关的标准Odoo按钮都可以使用。"
+msgstr "标准的行为:ref:`Odoo按钮<参考/视图/表/按钮>`，大多数属性相关的标准Odoo按钮都可以使用。"
 
 #: ../../reference/views.rst:886
 msgid "``open``"
@@ -11966,7 +11974,7 @@ msgstr "的JavaScript API"
 msgid ""
 ":js:class:`Widget` handling the rendering of a single record to a card. "
 "Available within its own rendering as ``widget`` in the template context."
-msgstr "：JS：类：`Widget`处理一条记录到记忆卡中的呈现。可在自己的渲染为``widget``在模板环境。"
+msgstr ":js:class:`Widget`处理一条记录到记忆卡中的呈现。可在自己的渲染为``widget``在模板环境。"
 
 #: ../../reference/views.rst:909
 msgid ""
@@ -12136,7 +12144,7 @@ msgstr "领域提供该事件的每个记录的末尾持续时间命名。可以
 msgid ""
 "If the field is ``False`` for a record, it's assumed to be a \"point event\""
 " and the end date will be set to the start date"
-msgstr "如果该字段为``False``的记录，它认为是一个\“点事件\”和结束日期将被设置为起始日期"
+msgstr "如果该字段为``False``的记录，它认为是一个'点事件'和结束日期将被设置为起始日期"
 
 #: ../../reference/views.rst:1012
 msgid "name of the field providing the duration of the event"
@@ -12267,7 +12275,7 @@ msgid ""
 " other view's content (generally aggregated views e.g. "
 ":ref:`reference/views/list` or :ref:`reference/views/graph`). Beyond that "
 "difference in use case, they are defined the same way."
-msgstr "搜索视图是从以前的视图类型，因为它们不显示*量*休息：虽然它们适用于一个特定的模式，它们是用来过滤其他视图的内容（一般汇总的意见，例如：参考：`参考/视图/名单`或：参考：`参考/视图/ graph`）。以外使用的情况下的差异，它们被定义的方式相同。"
+msgstr "搜索视图是从以前的视图类型，因为它们不显示*量*休息：虽然它们适用于一个特定的模式，它们是用来过滤其他视图的内容（一般汇总的意见，例如:ref:`参考/视图/名单`或:ref:`参考/视图/ graph`）。以外使用的情况下的差异，它们被定义的方式相同。"
 
 #: ../../reference/views.rst:1085
 msgid ""
@@ -12308,7 +12316,7 @@ msgid ""
 "``provided_value`` is the value provided by the user, possibly filtered or "
 "transformed (e.g. a user is expected to provide the *label* of a selection "
 "field's value, not the value itself)."
-msgstr "默认情况下，场生成表单域：SAMP：`[（{名}，{运营商}，{provided_value}）]`，其中``name``是字段的名称和``provided_value``是所提供的价值用户，可能是过滤或转化（例如，一个用户被预期提供的选择字段的值，而不是值本身的*标记*）。"
+msgstr "默认情况下，场生成表单域:samp:`[（{名}，{运营商}，{provided_value}）]`，其中``name``是字段的名称和``provided_value``是所提供的价值用户，可能是过滤或转化（例如，一个用户被预期提供的选择字段的值，而不是值本身的*标记*）。"
 
 #: ../../reference/views.rst:1109
 msgid ""
@@ -12347,7 +12355,7 @@ msgid ""
 "the domain and context are inclusive and both are generated if if a "
 "``context`` is specified. To only generate context values, set "
 "``filter_domain`` to an empty list: ``filter_domain=\"[]\"``"
-msgstr "域和上下文的包容性，如果指定了``context``既产生。只生成背景值，设置``filter_domain``到一个空表：``filter_domain = \“[] \”``"
+msgstr "域和上下文的包容性，如果指定了``context``既产生。只生成背景值，设置``filter_domain``到一个空表：``filter_domain = '[] '``"
 
 #: ../../reference/views.rst:1130
 msgid "make the field only available to specific users"
@@ -12357,13 +12365,13 @@ msgstr "使现场只提供给特定用户"
 msgid ""
 "use specific search widget for the field (the only use case in standard Odoo"
 " 8.0 is a ``selection`` widget for :class:`~openerp.fields.Many2one` fields)"
-msgstr "使用特定的搜索窗口小部件领域（唯一的用例的标准Odoo 8.0是一个``selection``小部件：类：`〜openerp.fields.Many2one`字段）"
+msgstr "使用特定的搜索窗口小部件领域（唯一的用例的标准Odoo 8.0是一个``selection``小部件:class:`〜openerp.fields.Many2one`字段）"
 
 #: ../../reference/views.rst:1136
 msgid ""
 "if the field can provide an auto-completion (e.g. "
 ":class:`~openerp.fields.Many2one`), filters the possible completion results."
-msgstr "如果字段可以提供自动完成（如：类：`〜openerp.fields.Many2one`），过滤可能的完成结果。"
+msgstr "如果字段可以提供自动完成（如:class:`〜openerp.fields.Many2one`），过滤可能的完成结果。"
 
 #: ../../reference/views.rst:1189
 msgid "``filter``"
@@ -12389,7 +12397,7 @@ msgstr "过滤器的标签"
 msgid ""
 "an Odoo :ref:`domain <reference/orm/domains>`, will be appended to the "
 "action's domain as part of the search domain"
-msgstr "一个Odoo：参考：'域<参考/ ORM /域>`，将被追加到诉讼的域名作为搜索域的一部分"
+msgstr "一个Odoo:ref:'域<参考/ ORM /域>`，将被追加到诉讼的域名作为搜索域的一部分"
 
 #: ../../reference/views.rst:1154
 msgid ""
@@ -12402,7 +12410,7 @@ msgid ""
 "logical name for the filter, can be used to :ref:`enable it by default "
 "<reference/views/search/defaults>`, can also be used as :ref:`inheritance "
 "hook <reference/views/inheritance>`"
-msgstr "为过滤逻辑名，可用于：参考：`默认情况下启用它<参考/视图/搜索/默认值>`，也可以用作：参考：`继承钩<参考/视图/继承>`"
+msgstr "为过滤逻辑名，可用于:ref:`默认情况下启用它<参考/视图/搜索/默认值>`，也可以用作:ref:`继承钩<参考/视图/继承>`"
 
 #: ../../reference/views.rst:1161
 msgid ""
@@ -12465,7 +12473,7 @@ msgstr "会自动启用``bar``过滤器和搜索``foo``领域* ACRO *。"
 msgid ""
 "QWeb views are standard :ref:`reference/qweb` templates inside a view's "
 "``arch``. They don't have a specific root element."
-msgstr "QWeb的观点是标准：REF：内部的视图的```arch``参考/ qweb`模板。它们不具有特定的根元素。"
+msgstr "QWeb的观点是标准:ref:内部的视图的```arch``参考/ qweb`模板。它们不具有特定的根元素。"
 
 #: ../../reference/views.rst:1225
 msgid ""
@@ -12478,7 +12486,7 @@ msgstr "一个QWeb观点只能包含一个模板\\ [#template_inherit] _，和�
 msgid ""
 ":ref:`reference/data/template` should be used as a shortcut to define QWeb "
 "views."
-msgstr "：参考：`参考/数据/ template`应作为界定QWeb意见的快捷方式。"
+msgstr ":ref:`参考/数据/ template`应作为界定QWeb意见的快捷方式。"
 
 #: ../../reference/views.rst:1232
 msgid "for backwards compatibility reasons"
@@ -12501,7 +12509,7 @@ msgstr "由于历史的原因，它有它的起源在树型意见后重新利用
 msgid ""
 "or no template if it's an inherited view, then :ref:`it should only contain "
 "xpath elements <reference/views/inheritance>`"
-msgstr "或者没有模板，如果它是一个继承的观点，那么：参考：`它应该只包含XPath的元素<参考/视图/继承>`"
+msgstr "或者没有模板，如果它是一个继承的观点，那么:ref:`它应该只包含XPath的元素<参考/视图/继承>`"
 
 #: ../../reference/workflows.rst:4
 msgid "Workflows"
@@ -12512,13 +12520,13 @@ msgid ""
 "In Odoo, a workflow is a technical artefact to manage a set of \"things to "
 "do\" associated to the records of a model. The workflow provides a higher-"
 "level way to organize tasks to perform with or on a record."
-msgstr "在Odoo，工作流是一个技术人工制品来管理一组\“的事情做\”关联模型的记录。工作流提供了一个较高级别的方式来组织任务或上的记录来执行。"
+msgstr "在Odoo，工作流是一个技术人工制品来管理一组'的事情做'关联模型的记录。工作流提供了一个较高级别的方式来组织任务或上的记录来执行。"
 
 #: ../../reference/workflows.rst:10
 msgid ""
 "More specifically, a workflow is a directed graph where the nodes are called"
 " \"activities\" and the arcs are called \"transitions\"."
-msgstr "更具体地，工作流是一个有向图，其中节点被称为\“活动\”和弧称为\“跃迁\”。"
+msgstr "更具体地，工作流是一个有向图，其中节点被称为'活动'和弧称为'跃迁'。"
 
 #: ../../reference/workflows.rst:13
 msgid ""
@@ -12603,7 +12611,7 @@ msgid ""
 "\"workflow\" is given together with records for the activities and the "
 "transitions. For instance, here is a simple sequence of two activities "
 "defined in XML"
-msgstr "定义与数据文件的工作流程很简单：一个记录\“工作流程\”与的活动和过渡记录一起给予。例如，下面是两个活动的XML定义的简单序列"
+msgstr "定义与数据文件的工作流程很简单：一个记录'工作流程'与的活动和过渡记录一起给予。例如，下面是两个活动的XML定义的简单序列"
 
 #: ../../reference/workflows.rst:91
 msgid ""
@@ -12617,7 +12625,7 @@ msgid ""
 "In the example code above, a workflow called \"test_workflow\" is created. "
 "It is made up of two activies, named \"a\" and \"b\", and one transition, "
 "going from \"a\" to \"b\"."
-msgstr "在上面的示例代码，创建了一个名为\“test_workflow \”的工作流程。它是由两个activies，名为\“一个\”和\“B \”，和一种过渡，从\“一个\”打算\“B \”。"
+msgstr "在上面的示例代码，创建了一个名为'test_workflow '的工作流程。它是由两个activies，名为'一个'和'B '，和一种过渡，从'一个'打算'B '。"
 
 #: ../../reference/workflows.rst:99
 msgid ""
@@ -12634,14 +12642,14 @@ msgid ""
 "activity is of kind ``function``, which means that the action ``print_a()`` "
 "is a method call on the model ``test.workflow`` (the usual ``cr, uid, ids, "
 "context`` arguments are passed for you)."
-msgstr "当工作流实例化，它以活动\“一\”。这项活动是种``function``，这意味着行动``print_a（）``是型号``test.workflow``一个方法调用（通常的``CR，UID，IDS，context` `参数传递给你）。"
+msgstr "当工作流实例化，它以活动'一'。这项活动是种``function``，这意味着行动``print_a（）``是型号``test.workflow``一个方法调用（通常的``CR，UID，IDS，context` `参数传递给你）。"
 
 #: ../../reference/workflows.rst:110
 msgid ""
 "The transition between \"a\" and \"b\" does not specify any condition. This "
 "means that the workflow instance immediately goes from \"a\" to \"b\" after "
 "\"a\" has been processed, and thus also processes activity \"b\"."
-msgstr "与\“一\”和\“B \”的转变不指定任何条件。这意味着，工作流实例立即变为从\“一个\”到\“B \”之后\“一个\”已被处理，并且因此还可以处理活动\“B \”。"
+msgstr "与'一'和'B '的转变不指定任何条件。这意味着，工作流实例立即变为从'一个'到'B '之后'一个'已被处理，并且因此还可以处理活动'B '。"
 
 #: ../../reference/workflows.rst:115
 msgid "Activities"
@@ -12725,7 +12733,7 @@ msgid ""
 "giving a signal name in the attribute ``signal_send``. Odoo processes those "
 "activities by sending the value of ``signal_send`` prefixed by \"subflow.\""
 "  to the parent workflow instance."
-msgstr "当工作流被嵌入的活性（作为子流）的工作流的，该sublow可以通过在属性``signal_send``给出的信号名从它自己的活动将信号发送到父工作流程。 Odoo通过发送``signal_send``由\前缀值处理这些活动“子流程。\”到父工作流实例。"
+msgstr "当工作流被嵌入的活性（作为子流）的工作流的，该sublow可以通过在属性``signal_send``给出的信号名从它自己的活动将信号发送到父工作流程。 Odoo通过发送``signal_send``由前缀值处理这些活动“子流程。'到父工作流实例。"
 
 #: ../../reference/workflows.rst:166
 msgid ""
@@ -12741,7 +12749,7 @@ msgstr "服务器操作"
 msgid ""
 "An activity can run a \"Server Action\" by specifying its ID in the "
 "attribute ``action_id``."
-msgstr "一个活动可以通过指定其ID属性中的``action_id``运行\“服务器操作\”。"
+msgstr "一个活动可以通过指定其ID属性中的``action_id``运行'服务器操作'。"
 
 #: ../../reference/workflows.rst:176
 msgid "Python action"
@@ -12853,7 +12861,7 @@ msgstr "虚拟（``dummy``，默认）"
 msgid ""
 "Do nothing at all, or call a server action. Often used as dispatch or gather"
 " \"hubs\" for transitions."
-msgstr "什么也不做，或者调用服务器动作。常被用作分派或收集\“中心\”的过渡。"
+msgstr "什么也不做，或者调用服务器动作。常被用作分派或收集'中心'的过渡。"
 
 #: ../../reference/workflows.rst:236
 msgid "Function (``function``)"
@@ -12933,7 +12941,7 @@ msgid ""
 "evaluated) is just \"True\", which trivially evaluates to ``True``. Note "
 "that the condition may be several lines long; in that case, the value of the"
 " last one determines whether the transition can be taken."
-msgstr "默认情况下，该属性``condition``（即要计算的表达式）只是\“真正的\”，这平凡的计算结果为值为``True``。注意，条件可以是几行长;在那种情况下，最后一个的值确定过渡是否可以采取。"
+msgstr "默认情况下，该属性``condition``（即要计算的表达式）只是'真正的'，这平凡的计算结果为值为``True``。注意，条件可以是几行长;在那种情况下，最后一个的值确定过渡是否可以采取。"
 
 #: ../../reference/workflows.rst:281
 msgid ""
@@ -13006,4 +13014,3 @@ msgstr "触发器都记录在数据库中记录的ID（连同型号名称），�
 #: ../../reference/workflows.rst:326
 msgid "triggers are not re-installed whenever the transition is re-tried."
 msgstr "触发器没有被重新安装时的过渡重新尝试。"
-
