@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 04:27+0800\n"
-"PO-Revision-Date: 2015-09-07 11:23+0000\n"
+"POT-Creation-Date: 2015-09-07 23:09+0800\n"
+"PO-Revision-Date: 2015-09-07 16:54+0000\n"
 "Last-Translator: jeffery chen fan <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgid ""
 "analysis or integration with various tools. Part of the "
 ":ref:`reference/orm/model` API is easily available over XML-RPC_ and "
 "accessible from a variety of languages."
-msgstr "Odoo通常是内部通过模块扩展，但它的许多功能和它的所有数据也可以从外部分析或与各种工具集成在外面。 REF：部分`参考/ ORM / model` API是容易获得的基于XML-RPC_和可从各种语言。"
+msgstr "Odoo通常是内部通过模块扩展，但它的许多功能和它的所有数据也可以从外部分析或与各种工具集成在外面。 :ref:`reference/orm/model` API是容易获得的基于XML-RPC_和可从各种语言。"
 
 #: ../../api_integration.rst:27
 msgid "Connection"
@@ -157,7 +157,7 @@ msgstr "列出记录"
 #: ../../api_integration.rst:340
 msgid ""
 "Records can be listed and filtered via :meth:`~openerp.models.Model.search`."
-msgstr "可以列出，并通过过滤记录：甲：`〜openerp.models.Model.search`。"
+msgstr "可以列出，并通过过滤记录:meth:`~openerp.models.Model.search`。"
 
 #: ../../api_integration.rst:342
 msgid ""
@@ -165,7 +165,7 @@ msgid ""
 "<reference/orm/domains>` filter (possibly empty), and returns the database "
 "identifiers of all records matching the filter. To list customer companies "
 "for instance:"
-msgstr "：甲：`〜openerp.models.Model.search`需要一个强制性的：参考：'域<参考/ ORM /域>`过滤器（可能为空），并返回所有匹配的筛选记录的数据库标识符。要列出客户的公司，例如："
+msgstr ":meth:`~openerp.models.Model.search`需要一个强制性的:ref:'域<reference/ ORM /域>`过滤器（可能为空），并返回所有匹配的筛选记录的数据库标识符。要列出客户的公司，例如："
 
 #: ../../api_integration.rst:385
 msgid "Pagination"
@@ -189,7 +189,7 @@ msgid ""
 "number of records matching the query. It takes the same :ref:`domain "
 "<reference/orm/domains>` filter as :meth:`~openerp.models.Model.search` and "
 "no other parameter."
-msgstr "而不是获取结果可能是巨大的列表，并指望他们，：甲：`〜openerp.models.Model.search_count`可以用来检索匹配的记录的查询只的数量。它采用相同的：REF：'域<参考/ ORM /域>`过滤器：甲：`〜openerp.models.Model.search`并没有其他的参数。"
+msgstr "而不是获取结果可能是巨大的列表，并指望他们，:meth:`~openerp.models.Model.search_count`可以用来检索匹配的记录的查询只的数量。它采用相同的：:ref:'域<reference/orm/domains>`过滤器:meth:`~openerp.models.Model.search`并没有其他的参数。"
 
 #: ../../api_integration.rst:480
 msgid ""
@@ -209,11 +209,11 @@ msgid ""
 ":meth:`~openerp.models.Model.search`) and optionally a list of fields to "
 "fetch. By default, it will fetch all the fields the current user can read, "
 "which tends to be a huge amount."
-msgstr "甲：`〜openerp.models.Model.read`方法，该方法ID列表（如返回：甲：`〜openerp.models.Model.search`）和可选的名单通过记录数据访问领域获取。默认情况下，它会获取所有当前用户可以阅读领域，这往往是一个巨大的数额。"
+msgstr ":meth:`~openerp.models.Model.read`方法，该方法ID列表（如返回:meth:`~openerp.models.Model.search`）和可选的名单通过记录数据访问字段获取。默认情况下，它会获取所有当前用户可以阅读字段，这往往是一个巨大的数额。"
 
 #: ../../api_integration.rst:555
 msgid "Conversedly, picking only three fields deemed interesting."
-msgstr "Conversedly，采摘只有三个领域视为有趣。"
+msgstr "Conversedly，采摘只有三个字段视为有趣。"
 
 #: ../../api_integration.rst:595
 msgid "even if the ``id`` field is not requested, it is always returned"
@@ -227,7 +227,7 @@ msgstr "列出记录字段"
 msgid ""
 ":meth:`~openerp.models.Model.fields_get` can be used to inspect a model's "
 "fields and check which ones seem to be of interest."
-msgstr "：甲：`〜openerp.models.Model.fields_get`可以用来检验模型的领域，并检查哪些似乎兴趣。"
+msgstr ":meth:`~openerp.models.Model.fields_get`可以用来检验模型的字段，并检查哪些似乎兴趣。"
 
 #: ../../api_integration.rst:603
 msgid ""
@@ -249,14 +249,14 @@ msgid ""
 "is equivalent to a :meth:`~openerp.models.Model.search` followed by a "
 ":meth:`~openerp.models.Model.read`, but avoids having to perform two "
 "requests and keep ids around."
-msgstr "因为它是一个非常常见的任务，Odoo提供：甲：`〜openerp.models.Model.search_read`快捷而作为其名称的音符相当于：甲：`〜openerp.models.Model.search`其次是：甲：`〜openerp.models.Model.read`，但避免了执行两个请求，并保持周围的ID。"
+msgstr "因为它是一个非常常见的任务，Odoo提供:meth:`~openerp.models.Model.search_read`快捷而作为其名称的音符相当于:meth:`~openerp.models.Model.search`其次是:meth:`~openerp.models.Model.read`，但避免了执行两个请求，并保持周围的ID。"
 
 #: ../../api_integration.rst:690
 msgid ""
 "Its arguments are similar to :meth:`~openerp.models.Model.search`'s, but it "
 "can also take a list of ``fields`` (like :meth:`~openerp.models.Model.read`,"
 " if that list is not provided it will fetch all fields of matched records):"
-msgstr "它的参数是类似于：甲：`〜openerp.models.Model.search`的，但它也可以利用``fields``（如列表：甲：`〜openerp.models.Model.read`，如果没有提供该列表将获取匹配的记录的所有字段）："
+msgstr "它的参数是类似于:meth:`~openerp.models.Model.search`的，但它也可以利用``fields``（如列表:meth:`~openerp.models.Model.read`，如果没有提供该列表将获取匹配的记录的所有字段）："
 
 #: ../../api_integration.rst:771
 msgid "Create records"
@@ -266,34 +266,34 @@ msgstr "创建记录"
 msgid ""
 "Records of a model are created using :meth:`~openerp.models.Model.create`. "
 "The method will create a single record and return its database identifier."
-msgstr "创建使用模型的记录：甲：`〜openerp.models.Model.create`。该方法将创建一个记录，并返回它的数据库识别符。"
+msgstr "创建使用模型的记录:meth:`~openerp.models.Model.create`。该方法将创建一个记录，并返回它的数据库识别符。"
 
 #: ../../api_integration.rst:776
 msgid ""
 ":meth:`~openerp.models.Model.create` takes a mapping of fields to values, "
 "used to initialize the record. For any field which has a default value and "
 "is not set through the mapping argument, the default value will be used."
-msgstr "：甲基：`〜openerp.models.Model.create`需要字段以值的映射，用于初始化记录。为具有默认值，并且不通过映射的参数设置的任何领域，默认值将被使用。"
+msgstr ":meth:`~openerp.models.Model.create`需要字段以值的映射，用于初始化记录。为具有默认值，并且不通过映射的参数设置的任何字段，默认值将被使用。"
 
 #: ../../api_integration.rst:816
 msgid ""
 "while most value types are what would be expected (integer for "
 ":class:`~openerp.fields.Integer`, string for :class:`~openerp.fields.Char` "
 "or :class:`~openerp.fields.Text`),"
-msgstr "而大多数值类型是什么可以预期（整数：类：`〜openerp.fields.Integer`，字符串：类：`〜openerp.fields.Char`或产品类别：`〜openerp.fields.Text`） ，"
+msgstr "而大多数值类型是什么可以预期（整数:class:`~openerp.fields.Integer`，字符串:class:`~openerp.fields.Char`或:class:`~openerp.fields.Text`） ，"
 
 #: ../../api_integration.rst:820
 msgid ""
 ":class:`~openerp.fields.Date`, :class:`~openerp.fields.Datetime` and "
 ":class:`~openerp.fields.Binary` fields use string values"
-msgstr "产品类别：`〜openerp.fields.Date`，产品类别：`〜openerp.fields.Datetime`和：类：`〜openerp.fields.Binary`字段使用字符串值"
+msgstr ":class:`~openerp.fields.Date`，:class:`~openerp.fields.Datetime`和:class:`~openerp.fields.Binary`字段使用字符串值"
 
 #: ../../api_integration.rst:822
 msgid ""
 ":class:`~openerp.fields.One2many` and :class:`~openerp.fields.Many2many` use"
 " a special command protocol detailed in :meth:`the documentation to the "
 "write method <openerp.models.Model.write>`."
-msgstr "产品类别：`〜openerp.fields.One2many`和：类：`〜openerp.fields.Many2many`使用中详细描述一个特殊的命令协议：甲：`文件的写入方法<openerp.models.Model.write>` 。"
+msgstr ":class:`~openerp.fields.One2many`和:class:`~openerp.fields.Many2many`使用中详细描述一个特殊的命令协议:meth:`文件的写入方法<openerp.models.Model.write>` 。"
 
 #: ../../api_integration.rst:827
 msgid "Update records"
@@ -304,7 +304,7 @@ msgid ""
 "Records can be updated using :meth:`~openerp.models.Model.write`, it takes a"
 " list of records to update and a mapping of updated fields to values similar"
 " to :meth:`~openerp.models.Model.create`."
-msgstr "记录可以使用更新：甲：`〜openerp.models.Model.write`，它需要一个记录列表更新和更新的领域，以类似值的映射：甲：`〜openerp.models.Model.create` 。"
+msgstr "记录可以使用更新:meth:`~openerp.models.Model.write`，它需要一个记录列表更新和更新的字段，以类似值的映射:meth:`~openerp.models.Model.create` 。"
 
 #: ../../api_integration.rst:833
 msgid ""
@@ -322,7 +322,7 @@ msgstr "删除记录"
 msgid ""
 "Records can be deleted in bulk by providing their ids to "
 ":meth:`~openerp.models.Model.unlink`."
-msgstr "甲基：：`〜openerp.models.Model.unlink`记录可以在散装通过提供它们的ID被删除。"
+msgstr ":meth:`~openerp.models.Model.unlink`记录可以在散装通过提供它们的ID被删除。"
 
 #: ../../api_integration.rst:939
 msgid "Inspection and introspection"
@@ -335,7 +335,7 @@ msgid ""
 "most model metadata inside a few meta-models which allow both querying the "
 "system and altering models and fields (with some limitations) on the fly "
 "over XML-RPC."
-msgstr "虽然我们以前使用的：甲：`〜openerp.models.Model.fields_get`查询模型，并一直在使用，从一开始的任意模型，Odoo卖场最模型元数据内的几个元模型，允许两个查询系统已经和改变模型，对过XML-RPC飞场（有一些限制）。"
+msgstr "虽然我们以前使用的:meth:`~openerp.models.Model.fields_get`查询模型，并一直在使用，从一开始的任意模型，Odoo卖场最模型元数据内的几个元模型，允许两个查询系统已经和改变模型，对过XML-RPC飞场（有一些限制）。"
 
 #: ../../api_integration.rst:955
 msgid "``ir.model``"
@@ -343,7 +343,7 @@ msgstr "``ir.model``"
 
 #: ../../api_integration.rst:957
 msgid "Provides information about Odoo models via its various fields"
-msgstr "通过它的各个领域提供有关Odoo车型信息"
+msgstr "通过它的各个字段提供有关Odoo车型信息"
 
 #: ../../api_integration.rst:959 ../../api_integration.rst:1108
 #: ../../api_integration.rst:1406
@@ -380,7 +380,7 @@ msgstr "``field_id``"
 msgid ""
 "list of the model's fields through a :class:`~openerp.fields.One2many` to "
 ":ref:`reference/webservice/inspection/fields`"
-msgstr "类：`〜openerp.fields.One2many`为：REF：`参考/ Web服务/检验/ fields`模型的领域，通过列表"
+msgstr ":class:`~openerp.fields.One2many`为：:ref:`reference/webservice/inspection/fields`模型的字段，通过列表"
 
 #: ../../api_integration.rst:970
 msgid "``view_ids``"
@@ -390,7 +390,7 @@ msgstr "``view_ids``"
 msgid ""
 ":class:`~openerp.fields.One2many` to the :ref:`reference/views` defined for "
 "the model"
-msgstr "产品类别：`〜openerp.fields.One2many`到：REF：`参考/ views`定义的模型"
+msgstr ":class:`~openerp.fields.One2many`到：:ref:`reference/ views`定义的模型"
 
 #: ../../api_integration.rst:974
 msgid "``access_ids``"
@@ -400,7 +400,7 @@ msgstr "``access_ids``"
 msgid ""
 ":class:`~openerp.fields.One2many` relation to the "
 ":ref:`reference/security/acl` set on the model"
-msgstr "产品类别：`〜openerp.fields.One2many`关系到：REF：`参考/安全/ acl`在模型上设置"
+msgstr ":class:`~openerp.fields.One2many`关系到：:ref:`reference/安全/ acl`在模型上设置"
 
 #: ../../api_integration.rst:976
 msgid "``ir.model`` can be used to"
@@ -450,7 +450,7 @@ msgstr "``ir.model.fields``"
 msgid ""
 "Provides information about the fields of Odoo models and allows adding "
 "custom fields without using Python code"
-msgstr "提供有关Odoo车型领域的信息，并允许在不使用Python代码添加自定义字段"
+msgstr "提供有关Odoo车型字段的信息，并允许在不使用Python代码添加自定义字段"
 
 #: ../../api_integration.rst:1106
 msgid "``model_id``"
@@ -460,11 +460,11 @@ msgstr "``model_id``"
 msgid ""
 ":class:`~openerp.fields.Many2one` to "
 ":ref:`reference/webservice/inspection/models` to which the field belongs"
-msgstr "产品类别：`〜openerp.fields.Many2one`为：REF：`参考/ Web服务/检验/ models`到外地所属"
+msgstr ":class:`~openerp.fields.Many2one`为：:ref:`reference/ Web服务/检验/ models`到外地所属"
 
 #: ../../api_integration.rst:1109
 msgid "the field's technical name (used in ``read`` or ``write``)"
-msgstr "该领域的技术名称（``read``或使用``write``）"
+msgstr "该字段的技术名称（``read``或使用``write``）"
 
 #: ../../api_integration.rst:1110
 msgid "``field_description``"
@@ -480,7 +480,7 @@ msgstr "``ttype``"
 
 #: ../../api_integration.rst:1113
 msgid "the :ref:`type <reference/orm/fields>` of field to create"
-msgstr "参考：ref：字段的`型<参考/ ORM /域>`创建"
+msgstr ":ref::ref:字段的`型<reference/orm/fields>`创建"
 
 #: ../../api_integration.rst:1115
 msgid ""
@@ -504,7 +504,7 @@ msgstr "``groups``"
 msgid ""
 ":ref:`field-level access control <reference/security/fields>`, a "
 ":class:`~openerp.fields.Many2many` to ``res.groups``"
-msgstr "：参考：`字段级的访问控制<参考/安全/域>`，答：类：`〜openerp.fields.Many2many`到``res.groups``"
+msgstr ":ref:`字段级的访问控制<reference/安全/域>`，答:class:`~openerp.fields.Many2many`到``res.groups``"
 
 #: ../../api_integration.rst:1124
 msgid ""
@@ -516,19 +516,19 @@ msgstr "``selection``，``size``，``on_delete``，``relation``，``relation_fie
 msgid ""
 "type-specific properties and customizations, see :ref:`the fields "
 "documentation <reference/orm/fields>` for details"
-msgstr "键入特定的属性和自定义设置，请参阅：参考：`领域的文档<参考/ ORM /域>`的详细信息"
+msgstr "键入特定的属性和自定义设置，请参阅:ref:`字段的文档<reference/orm/fields>`的详细信息"
 
 #: ../../api_integration.rst:1126
 msgid ""
 "Like custom models, only new fields created with ``state=\"manual\"`` are "
 "activated as actual fields on the model."
-msgstr "像定制机型，只与``状态= '手动'`创造了新的领域'被激活作为模型的实际领域。"
+msgstr "像定制机型，只与``状态= '手动'`创造了新的字段'被激活作为模型的实际字段。"
 
 #: ../../api_integration.rst:1129
 msgid ""
 "computed fields can not be added via ``ir.model.fields``, some field meta-"
 "information (defaults, onchange) can not be set either"
-msgstr "计算领域无法通过``ir.model.fields``增加，一些外地元信息（默认值，的onchange）不能设置任何"
+msgstr "计算字段无法通过``ir.model.fields``增加，一些外地元信息（默认值，的onchange）不能设置任何"
 
 #: ../../api_integration.rst:1276
 msgid "Workflow manipulations"
@@ -539,7 +539,7 @@ msgid ""
 ":ref:`reference/workflows` can be moved along by sending them *signals*. "
 "Instead of using the top-level ``execute_kw``, signals are sent using "
 "``exec_workflow``."
-msgstr "：参考：`参考/ workflows`可以同时通过发送*信号*感动。代替使用顶层``execute_kw``的，信号通过``exec_workflow``发送。"
+msgstr ":ref:`reference/workflows`可以同时通过发送*信号*感动。代替使用顶层``execute_kw``的，信号通过``exec_workflow``发送。"
 
 #: ../../api_integration.rst:1282
 msgid ""
@@ -559,7 +559,7 @@ msgstr "报告打印"
 msgid ""
 "Available reports can be listed by searching the ``ir.actions.report.xml`` "
 "model, fields of interest being"
-msgstr "可用的报告可以列出通过搜索``ir.actions.report.xml``模式，利益存在的领域"
+msgstr "可用的报告可以列出通过搜索``ir.actions.report.xml``模式，利益存在的字段"
 
 #: ../../api_integration.rst:1404
 msgid ""

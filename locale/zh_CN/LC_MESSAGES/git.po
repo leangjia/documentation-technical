@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 04:27+0800\n"
-"PO-Revision-Date: 2015-09-07 11:19+0000\n"
+"POT-Creation-Date: 2015-09-07 23:09+0800\n"
+"PO-Revision-Date: 2015-09-07 16:30+0000\n"
 "Last-Translator: jeffery chen fan <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgid ""
 "The working copy and each remote contain multiple branches. Local branches "
 "can be listed by ``git branch``, remote branches can be listed with ``git "
 "branch -r``. Both types can be listed with ``git branch -a``."
-msgstr "工作副本，每个远程包含多个分支机构。当地分行可以列出``混帐branch``，远程分支机构可以列出``的Git分支-r``。这两种类型可以列出``的Git分支-a``。"
+msgstr "工作副本，每个远程包含多个分支机构。当地分行可以列出``git branch``，远程分支机构可以列出``的Git分支-r``。这两种类型可以列出``的Git分支-a``。"
 
 #: ../../git.rst:41
 msgid ""
@@ -141,7 +141,7 @@ msgstr "使用``git checkout -b <branch_name> <source_branch>``创建开发分�
 msgid ""
 "do your changes, stage them with ``git add`` and commit them with ``git "
 "commit``"
-msgstr "做你的变化，``混帐add``阶段他们并承诺他们``混帐commit``"
+msgstr "做你的变化，``git add``阶段他们并承诺他们``git commit``"
 
 #: ../../git.rst:77
 msgid "if your branch is long-lived, you may want to update it to its parent"
@@ -162,7 +162,7 @@ msgid ""
 "to push the branch to the development repository, use ``git push -u dev "
 "<branchname>``, this will automatically create a branch called "
 "``<branchname>`` on dev. Next time around you do not have to use ``-u``"
-msgstr "推分支的开发库，使用``混帐推-u开发<分支名称>``，这将自动创建一个名为``<分支名称>``在Dev分支。下一次你身边没有使用``-u``"
+msgstr "推分支的开发库，使用``git 推-u开发<分支名称>``，这将自动创建一个名为``<分支名称>``在Dev分支。下一次你身边没有使用``-u``"
 
 #: ../../git.rst:86
 msgid "once the feature is done, create a pull request"
@@ -188,39 +188,39 @@ msgstr "查看历史：``git log``"
 msgid ""
 "``git log`` fulfills the same role as ``bzr log`` and is fairly similar, "
 "with a few differences:"
-msgstr "``混帐log``满足作为``BZR log``相同的角色，是相当类似的，有一些不同之处："
+msgstr "``git log``满足作为``BZR log``相同的角色，是相当类似的，有一些不同之处："
 
 #: ../../git.rst:118
 msgid ""
 "``git log`` has no ``-r`` argument, its first argument (optional) is a "
 "revision spec"
-msgstr "``混帐log``没有``-r``的说法，它的第一个参数（可选）是一个修订规范"
+msgstr "``git log``没有``-r``的说法，它的第一个参数（可选）是一个修订规范"
 
 #: ../../git.rst:120
 msgid ""
 "``git log`` always operates on ranges, if a single commit is provided (via "
 "hash, tag, branch or other) it will list the specified commit *and all of "
 "its ancestors*. To see a single commit, use ``git show``."
-msgstr "``混帐log``始终工作在范围内，如果一个提交设置（通过哈希，标签，分公司或其他），它会列出指定提交*和它的所有祖先*。要查看单个提交，使用``混帐show``。"
+msgstr "``git log``始终工作在范围内，如果一个提交设置（通过哈希，标签，分公司或其他），它会列出指定提交*和它的所有祖先*。要查看单个提交，使用``git show``。"
 
 #: ../../git.rst:123
 msgid ""
 "``git log``'s second positional argument is a path (file or directory). "
 "Because both are optional, if both a revision and a file match the revision "
 "will be selected. It is recommended to use ``--`` before a file path::"
-msgstr "``混帐log``的第二个位置参数是一个路径（文件或目录）。因为两者都是可选的，如果两个修订和一个文件相匹配的修改将被选择。建议使用``--``文件路径之前::"
+msgstr "``git log``的第二个位置参数是一个路径（文件或目录）。因为两者都是可选的，如果两个修订和一个文件相匹配的修改将被选择。建议使用``--``文件路径之前::"
 
 #: ../../git.rst:130
 msgid ""
 "``git log`` will actually work if given a directory, instead of pegging the "
 "CPU forever"
-msgstr "`如果给一个目录'混帐log``将实际工作，而不是永远挂在CPU，"
+msgstr "`如果给一个目录'git log``将实际工作，而不是永远挂在CPU，"
 
 #: ../../git.rst:132
 msgid ""
 "``git log`` works with removed files or directories without having to "
 "provide a revision during which the file or directory still existed"
-msgstr "``混帐log``与删除的文件或目录的工作，而无需提供一个版本中的文件或者目录仍存在"
+msgstr "``git log``与删除的文件或目录的工作，而无需提供一个版本中的文件或者目录仍存在"
 
 #: ../../git.rst:134
 msgid ""
@@ -230,7 +230,7 @@ msgid ""
 "``D`` prefix), ``--name-only`` will just list the changed files, ``--stat`` "
 "generates a diffstat view, ``--grep`` filters by grepping on the commit "
 "message, …"
-msgstr "``混帐log``有*很多*的选项自定义输出，如``-p``会显示更改为每个文件\\ [＃日志贴片空] _``--name状态``会列出修改过的文件，以及他们如何改变SVN式（带``M``或``D``前缀），``--name-only``将只列出修改过的文件，`` - -stat``产生diffstat来看，``--grep``过滤器由grepping在提交信息，..."
+msgstr "``git log``有*很多*的选项自定义输出，如``-p``会显示更改为每个文件\\ [＃日志贴片空] _``--name状态``会列出修改过的文件，以及他们如何改变SVN式（带``M``或``D``前缀），``--name-only``将只列出修改过的文件，`` - -stat``产生diffstat来看，``--grep``过滤器由grepping在提交信息，..."
 
 #: ../../git.rst:142
 msgid "Reverting uncommitted changes"
@@ -240,7 +240,7 @@ msgstr "撤销未提交的更改"
 msgid ""
 "Do *not* use ``git revert``, it does something completely different than "
 "``bzr revert``"
-msgstr "*不*使用``混帐revert``，但它的东西比``BZR revert``完全不同"
+msgstr "*不*使用``git revert``，但它的东西比``BZR revert``完全不同"
 
 #: ../../git.rst:147
 msgid ""
@@ -269,18 +269,18 @@ msgstr "``的git diff``是相当类似于``BZR diff``：将比较该工作副本
 msgid ""
 "``git diff`` compares the working copy and the staging area, not the latest "
 "commit"
-msgstr "``混帐diff``比较工作副本和临时区域，而不是最新的承诺"
+msgstr "``git diff``比较工作副本和临时区域，而不是最新的承诺"
 
 #: ../../git.rst:161
 msgid "``git diff --staged`` compares the staging area and the latest commit"
-msgstr "``git的差异--staged``比较临时区域和最新提交"
+msgstr "``git diff --staged``比较临时区域和最新提交"
 
 #: ../../git.rst:162
 msgid ""
 "``git diff HEAD`` ignores the staging area and compares the working copy "
 "with the latest commit. More generally ``git diff <commit>`` will diff the "
 "working copy and the specified commit"
-msgstr "``git的差异HEAD``忽略临时区域和比较工作副本与最新提交。更普遍的``git的差异<提交>``会的差异比较工作副本和指定提交"
+msgstr "``git diff HEAD``忽略临时区域和比较工作副本与最新提交。更普遍的``git diff <提交>``会的差异比较工作副本和指定提交"
 
 #: ../../git.rst:165
 msgid ""
@@ -293,7 +293,7 @@ msgid ""
 "``git diff --stat`` provides a diffstat-view of the diff, and can be "
 "combined with other flags. It can be used as an intermediate between ``git "
 "status`` and ``git status -s``"
-msgstr "``git的差异--stat``提供diffstat视图把差异，并且可以与其它标志组合。它可以作为一个中间的``混帐status``和``git的状态-s``"
+msgstr "``git diff --stat``提供diffstat视图把差异，并且可以与其它标志组合。它可以作为一个中间的``git status``和``git的状态-s``"
 
 #: ../../git.rst:172
 msgid "Update to a previous revision"
@@ -303,7 +303,7 @@ msgstr "更新到以前版本"
 msgid ""
 "``git checkout`` takes an arbitrary commit, the equivalent to ``bzr update "
 "-r<rev>`` is thus ``git checkout <rev>``."
-msgstr "``混帐checkout``接受一个任意提交，相当于``BZR更新-r <转>``因此``git的结帐<转>``。"
+msgstr "``git checkout``接受一个任意提交，相当于``BZR更新-r <转>``因此``git的结帐<转>``。"
 
 #: ../../git.rst:178
 msgid "File from the past"
@@ -335,7 +335,7 @@ msgstr "不正确最后提交：将其删除"
 msgid ""
 "If the last commit has to be removed entirely (similar to ``bzr uncommit``),"
 " use ``git reset HEAD~1``."
-msgstr "如果最后提交已被完全删除（类似于``BZR uncommit``），使用``git的复位HEAD〜1``。"
+msgstr "如果最后提交已被完全删除（类似于``BZR uncommit``），使用``git的复位HEAD~1``。"
 
 #: ../../git.rst:197
 msgid ""
@@ -378,7 +378,7 @@ msgid ""
 " flags, the first is for the index (difference between the last commit and "
 "the index) and the and the second is for the working copy (difference "
 "between the index and the working copy)."
-msgstr "默认``status``命令是非常详细的（虽然有用，它提供了有关恢复的东西）。该``-s``旗提供了一个SVN一样的显示，而不是与文件刚一上市和：简称：`A（新增）`：简称：`M（修改）`或：简称：`D（删除） `标志旁边。每个文件可以有2个标志，第一个是和第二（上次提交与指数之差）的指数是（索引和工作副本之间的差异）的工作拷贝。"
+msgstr "默认``status``命令是非常详细的（虽然有用，它提供了有关恢复的东西）。该``-s``旗提供了一个SVN一样的显示，而不是与文件刚一上市和:abbr:`A（新增）`:abbr:`M（修改）`或:abbr:`D（删除） `标志旁边。每个文件可以有2个标志，第一个是和第二（上次提交与指数之差）的指数是（索引和工作副本之间的差异）的工作拷贝。"
 
 #: ../../git.rst:226
 msgid "``checkout`` shortcut"
