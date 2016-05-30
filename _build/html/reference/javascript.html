@@ -1,0 +1,964 @@
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Javascript &mdash; odoo 9.0 文档</title>
+    
+    <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/patchqueue.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/patchqueue.js"></script>
+    <script type="text/javascript" src="../_static/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap.js"></script>
+    <script type="text/javascript" src="../_static/doc.js"></script>
+    <script type="text/javascript" src="../_static/jquery.noconflict.js"></script>
+    <link rel="top" title="odoo 9.0 文档" href="../index.html" />
+    <link rel="up" title="参考" href="../reference.html" />
+    <link rel="next" title="翻译模块" href="translations.html" />
+    <link rel="prev" title="QWeb" href="qweb.html" /> 
+  </head>
+  <body role="document"><header class="o_main_header o_has_sub_nav o_inverted ">
+    <div class="o_main_header_main">
+      <a class="pull-left o_logo" href="/"></a>
+      <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="mdi-navigation-menu"></span>
+      </a>
+      <div class="o_header_buttons">
+        <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+      </div>
+      <ul class="o_primary_nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Apps</a>
+          <div class="dropdown-menu o_secondary_nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3 o_website_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Websites
+                    <div>Build great user experience</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/website-builder">Website Builder</a></li>
+                    <li><a href="https://www.odoo.com/page/e-commerce">eCommerce</a></li>
+                    <li><a href="https://www.odoo.com/page/blog-engine">Blogs</a></li>
+                    <li><a href="https://www.odoo.com/page/community-builder">Forums</a></li>
+                    <li><a href="https://www.odoo.com/page/slides">Slides</a></li>
+                    <li><a href="https://adspike.odoo.com">SEA</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_sale_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Sales
+                    <div>Boost your success rate</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/sales">Sales</a></li>
+                    <li><a href="https://www.odoo.com/page/crm">CRM</a></li>
+                    <li><a href="https://www.odoo.com/page/billing">Invoicing</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Point of Sale</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/point-of-sale">Shops</a></li>
+                        <li><a href="https://www.odoo.com/page/pos-restaurant">Restaurants</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/subscriptions">Subscriptions</a></li>
+                    <li><a href="https://www.odoo.com/page/sign">Sign</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_operation_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Operations
+                    <div>It's all about efficiency</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/accounting/">Accounting</a></li>
+                    <li><a href="https://www.odoo.com/page/project-management/">Project</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Human Resources</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/recruitment">Recruitment</a></li>
+                        <li><a href="https://www.odoo.com/page/employees">Employees</a></li>
+                        <li><a href="https://www.odoo.com/page/expenses">Expenses</a></li>
+                        <li><a href="https://www.odoo.com/page/appraisal">Appraisal</a></li>
+                        <li><a href="https://www.odoo.com/page/fleet">Fleet</a></li>
+                        <li><a href="https://www.odoo.com/page/leaves">Leaves</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/warehouse">Inventory</a></li>
+                    <li><a href="https://www.odoo.com/page/purchase">Purchase</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Manufacturing</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/manufacturing">MRP</a></li>
+                        <li><a href="https://www.odoo.com/page/plm">PLM</a></li>
+                        <li><a href="https://www.odoo.com/page/maintenance">Maintenance</a></li>
+                        <li><a href="https://www.odoo.com/page/quality">Quality</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_productivity_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Productivity Tools
+                    <div>Great Tools = Happy People</div>
+                  </div>
+                  <ul>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Communication</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/discuss">Discuss</a></li>
+                        <li><a href="https://www.odoo.com/page/discuss-groups">Mailing Lists</a></li>
+                        <li><a href="https://www.odoo.com/page/notes">Notes</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Appointment</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/timesheet">Timesheet</a></li>
+                    <li><a href="https://www.odoo.com/page/email-marketing">Email Marketing</a></li>
+                    <li><a href="https://www.odoo.com/page/events">Events</a></li>
+                    <li><a href="https://www.odoo.com/page/survey">Survey</a></li>
+                    <li><a href="https://www.odoo.com/page/live-chat">Live Chat</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a href="http://www.odoo.com/apps/modules" class="o_store_link"><i class="fa fa-cube fa-fw"></i> Third party apps</a>
+          </div>
+        </li>
+        <li><a href="https://www.odoo.com/page/tour">Tour</a></li>
+        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
+        <li><a href="https://www.odoo.com/page/docs">Docs</a></li>
+      </ul>
+    </div>
+    <nav class="navbar o_sub_nav">
+      <div class="container">
+        <div class="navbar-header visible-xs">
+            <button type="button" class="navbar-toggle collapsed text-left btn-block" data-toggle="collapse" data-target="#o_sub-menu" aria-expanded="false">
+              Navigate
+              <span class="mdi-hardware-keyboard-arrow-down pull-right"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="o_sub-menu">
+          <ol class="o_breadcrumb breadcrumb nav navbar-left">
+              
+              
+
+
+
+
+
+    
+        
+            <li><a href="../index.html">Developer Doc</a></li>
+        
+    
+    <li class="active"><a href="#">Javascript</a></li>
+
+              
+          </ol>
+
+          <div class="call-to-action navbar-right hidden-xs">
+            <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+          </div>
+
+          <ul class="navbar-nav navbar-right nav o_sub_nav_actions">
+            
+              <li class="divider"></li>
+            
+
+            
+            
+
+
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            
+
+            
+            
+
+<li><a href="http://www.odoo.com/documentation/user/9.0/index.html">User</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/index.html">Developer</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/api_integration.html">API</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/setup/install.html">Installation</a></li>
+<li><a href="http://www.odoo.com/page/odoo-white-paper">White Papers</a></li>
+<li><a href="http://www.odoo.com/page/legal">Legal</a></li>
+            
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><div id="wrap" class="">
+    
+    
+    
+    <figure class="card top has_banner">
+      <span class="card-img" style="background-image: url('../_static/banners/javascript.jpg');"></span>
+      <div class="container text-center">
+        <h1> Javascript </h1>
+      </div>
+    </figure>
+    
+    
+    
+    <div class="container ">
+      <main class="container-fluid ">
+        
+        <div class="row">
+          
+          <aside>
+            <div class="navbar-aside text-center">
+              <ul class="list-group text-left nav"><li class="list-group-item"><a href="#widgets" class="ripple internal reference">挂件</a><ul ><li class="list-group-item"><a href="#dom-root" class="ripple internal reference">DOM根</a><ul ><li class="list-group-item"><a href="#using-a-widget" class="ripple internal reference">使用挂件</a></li><li class="list-group-item"><a href="#accessing-dom-content" class="ripple internal reference">访问DOM内容</a></li><li class="list-group-item"><a href="#resetting-the-dom-root" class="ripple internal reference">重置DOM根</a></li></ul></li><li class="list-group-item"><a href="#dom-events-handling" class="ripple internal reference">DOM事件处理</a></li><li class="list-group-item"><a href="#subclassing-widget" class="ripple internal reference">子类化的widget</a></li><li class="list-group-item"><a href="#development-guidelines" class="ripple internal reference">开发指南</a></li></ul></li><li class="list-group-item"><a href="#rpc" class="ripple internal reference">RPC</a><ul ><li class="list-group-item"><a href="#high-level-api-calling-into-odoo-models" class="ripple internal reference">High-level API: calling into Odoo models</a><ul ><li class="list-group-item"><a href="#aggregation-grouping" class="ripple internal reference">Aggregation (grouping)</a></li></ul></li><li class="list-group-item"><a href="#low-level-api-rpc-calls-to-python-side" class="ripple internal reference">Low-level API: RPC calls to Python side</a></li></ul></li><li class="list-group-item"><a href="#web-client" class="ripple internal reference">Web客户端</a><ul ><li class="list-group-item"><a href="#javascript-module-system-overview" class="ripple internal reference">Javascript的模块系统概述</a></li><li class="list-group-item"><a href="#web-client-structure" class="ripple internal reference">Web客户端结构</a></li><li class="list-group-item"><a href="#javascript-conventions" class="ripple internal reference">Javascript的约定</a></li></ul></li><li class="list-group-item"><a href="#testing-in-odoo-web-client" class="ripple internal reference">Odoo Web客户端的测试</a><ul ><li class="list-group-item"><a href="#javascript-unit-testing" class="ripple internal reference">Javascript的单元测试</a></li><li class="list-group-item"><a href="#writing-a-test-case" class="ripple internal reference">编写测试用例</a></li><li class="list-group-item"><a href="#assertions" class="ripple internal reference">断言</a></li><li class="list-group-item"><a href="#getting-an-odoo-instance" class="ripple internal reference">获得一个Odoo实例</a></li><li class="list-group-item"><a href="#dom-scratchpad" class="ripple internal reference">DOM便签</a></li><li class="list-group-item"><a href="#loading-templates" class="ripple internal reference">加载模板</a></li><li class="list-group-item"><a href="#asynchronous-cases" class="ripple internal reference">异步的情况下</a></li><li class="list-group-item"><a href="#id3" class="ripple internal reference">RPC</a></li><li class="list-group-item"><a href="#testing-api" class="ripple internal reference">测试API</a></li><li class="list-group-item"><a href="#running-through-python" class="ripple internal reference">通过Python的运行</a></li></ul></li></ul>
+              
+              <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/9.0/doc/reference/javascript.rst" class="gith-link">
+                  Edit on GitHub
+              </a></p>
+              
+            </div>
+          </aside>
+          
+          <article class="doc-body ">
+            
+            
+  <section id="javascript"></section><section id="widgets"><h2 >挂件</h2><section class="code-class"><h6 id="Widget"><code><em >class </em>Widget()</code></h6><p >Exported in <code >web.Widget</code>, the base class for all visual components.
+It corresponds to an MVC view, and provides a number of service to
+simplify handling of a section of a page:</p><ul ><li ><p >手柄部件之间的父/子关系</p></li><li >Provides extensive lifecycle management with safety features (e.g.
+automatically destroying children widgets during the destruction of a
+parent)</li><li >Automatic rendering with <a href="qweb.html#reference-qweb" class="internal alert-link reference"><span >qweb</span></a></li><li ><p >Backbone兼容的捷径</p></li></ul></section></section><section id="dom-root"><h3 >DOM根</h3><p >A <a href="#Widget" class="internal reference" title="Widget"><code class="js-class xref js">Widget()</code></a> is responsible for a section of the page
+materialized by the DOM root of the widget.</p><p >A widget's DOM root is available via two attributes:</p><section class="code-attribute"><h6 id="Widget.el"><code>Widget.el</code></h6><p >设置为根小部件的原始DOM元素</p></section><section class="code-attribute"><h6 id="Widget._S_el"><code>Widget.$el</code></h6><p >jQuery wrapper around <a href="#Widget.el" class="internal alert-link reference" title="Widget.el"><code class="js-attr xref js">el</code></a></p></section><p >There are two main ways to define and generate this DOM root:</p><section class="code-attribute"><h6 id="Widget.template"><code>Widget.template</code></h6><p >Should be set to the name of a <a href="qweb.html#reference-qweb" class="internal alert-link reference"><span >QWeb template</span></a>.
+If set, the template will be rendered after the widget has been
+initialized but before it has been started. The root element generated by
+the template will be set as the DOM root of the widget.</p></section><section class="code-attribute"><h6 id="Widget.tagName"><code>Widget.tagName</code></h6><p >Used if the widget has no template defined. Defaults to <code >div</code>,
+will be used as the tag name to create the DOM element to set as
+the widget's DOM root. It is possible to further customize this
+generated DOM root with the following attributes:</p><section class="code-attribute"><h6 id="Widget.id"><code>Widget.id</code></h6><p >用于生成所产生的DOM根的``id``属性。</p></section><section class="code-attribute"><h6 id="Widget.className"><code>Widget.className</code></h6><p >用于生成生成的DOM根``class``属性。</p></section><section class="code-attribute"><h6 id="Widget.attributes"><code>Widget.attributes</code></h6><p >Mapping (object literal) of attribute names to attribute
+values. Each of these k:v pairs will be set as a DOM attribute
+on the generated DOM root.</p></section><p >所有这些情况下使用一个模板上的插件指定。</p></section><p >DOM的根也可以通过overridding编程定义</p><section class="code-function"><h6 id="Widget.renderElement"><code>Widget.renderElement()</code></h6><p >Renders the widget's DOM root and sets it. The default
+implementation will render a set template or generate an element
+as described above, and will call
+<a href="#Widget.setElement" class="internal alert-link reference" title="Widget.setElement"><code class="js-func xref js">setElement()</code></a> on the result.</p><p >Any override to <a href="#Widget.renderElement" class="internal alert-link reference" title="Widget.renderElement"><code class="js-func xref js">renderElement()</code></a> which
+does not call its <code >_super</code> <strong >must</strong> call
+<a href="#Widget.setElement" class="internal alert-link reference" title="Widget.setElement"><code class="js-func xref js">setElement()</code></a> with whatever it
+generated or the widget's behavior is undefined.</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >The default <a href="#Widget.renderElement" class="internal alert-link reference" title="Widget.renderElement"><code class="js-func xref js">renderElement()</code></a> can
+be called repeatedly, it will <em >replace</em> the previous DOM root
+(using <code >replaceWith</code>). However, this requires that the
+widget correctly sets and unsets its events (and children
+widgets). Generally, <a href="#Widget.renderElement" class="internal alert-link reference" title="Widget.renderElement"><code class="js-func xref js">renderElement()</code></a> should
+not be called repeatedly unless the widget advertizes this feature.</p></div></section></section><section id="using-a-widget"><h4 >使用挂件</h4><p >A widget's lifecycle has 3 main phases:</p><ul ><li ><p >创建和小部件的实例的初始化</p><section class="code-function"><h6 id="Widget.init"><code>Widget.init(<em>parent</em>)</code></h6><p >挂件，同步的初始化方法，可以覆盖从挂件的创建者/家长需要更多的参数</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >parent</strong> (<a href="#Widget" class="internal alert-link reference" title="Widget"><code class="js-class xref js">Widget()</code></a>) -- 新的小部件的父，用来处理自动销毁和事件传播。可``null``以供小窗口没有父。</li></ul></div></div></div></section></li><li ><p >DOM injection and startup, this is done by calling one of:</p><section class="code-function"><h6 id="Widget.appendTo"><code>Widget.appendTo(<em>element</em>)</code></h6><p >Renders the widget and inserts it as the last child of the target, uses
+<a href="http://api.jquery.com/appendTo/" class="external reference alert-link">.appendTo()</a></p></section><section class="code-function"><h6 id="Widget.prependTo"><code>Widget.prependTo(<em>element</em>)</code></h6><p >Renders the widget and inserts it as the first child of the target, uses
+<a href="http://api.jquery.com/prependTo/" class="external reference alert-link">.prependTo()</a></p></section><section class="code-function"><h6 id="Widget.insertAfter"><code>Widget.insertAfter(<em>element</em>)</code></h6><p >Renders the widget and inserts it as the preceding sibling of the target,
+uses <a href="http://api.jquery.com/insertAfter/" class="external reference alert-link">.insertAfter()</a></p></section><section class="code-function"><h6 id="Widget.insertBefore"><code>Widget.insertBefore(<em>element</em>)</code></h6><p >Renders the widget and inserts it as the following sibling of the target,
+uses <a href="http://api.jquery.com/insertBefore/" class="external reference alert-link">.insertBefore()</a></p></section><p >All of these methods accept whatever the corresponding jQuery method accepts
+(CSS selectors, DOM nodes or jQuery objects). They all return a <a href="http://api.jquery.com/category/deferred-object/" class="external reference">deferred</a>
+and are charged with three tasks:</p><ul ><li >rendering the widget's root element via
+<a href="#Widget.renderElement" class="internal reference" title="Widget.renderElement"><code class="js-func xref js">renderElement()</code></a></li><li ><p >插入使用任何它们匹配的jQuery方法在DOM挂件的根元素</p></li><li ><p >开始小部件，并返回启动它的结果</p><section class="code-function"><h6 id="Widget.start"><code>Widget.start()</code></h6><p >widget的异步启动，一旦它在DOM被注入，通常用于执行异步RPC调用获取任何远程数据所必需的部件，以完成其工作。</p><p >必须返回一个deferred_以指示其工作已经完成。</p><p >A widget is <em >not guaranteed</em> to work correctly until its
+<a href="#Widget.start" class="internal alert-link reference" title="Widget.start"><code class="js-func xref js">start()</code></a> method has finished executing. The
+widget's parent/creator must wait for a widget to be fully started
+before interacting with it</p><div class="code-fields"><div class="code-field"><div class="code-field-name">返回</div><div class="code-field-body"><a href="http://api.jquery.com/category/deferred-object/" class="external reference alert-link">deferred</a> object</div></div></div></section></li></ul></li><li ><p >挂件的破坏和清理</p><section class="code-function"><h6 id="Widget.destroy"><code>Widget.destroy()</code></h6><p >破坏了widget的儿童，解除绑定的事件，并从DOM删除其根。自动调用时，小部件的父被销毁，必须显式调用，如果该部件有没有父母，或者如果它被删除，但其父仍然存在。</p><p >小部件被破坏是从它的父自动解除链接。</p></section></li></ul><p >Related to widget destruction is an important utility method:</p><section class="code-function"><h6 id="Widget.alive"><code>Widget.alive(<em>deferred</em>[, <em>reject=false</em>])</code></h6><p >与RPC和销毁显著的问题是，一个RPC调用可能需要很长的时间来执行，而小部件被销毁，或者被摧毁后，试图在一个破碎/无效状态的一个小部件执行其操作返回。</p><p >这是错误或怪异的行为的一个常见来源。</p><p ><a href="#Widget.alive" class="internal alert-link reference" title="Widget.alive"><code class="js-func xref js">alive()</code></a> can be used to wrap an RPC call,
+ensuring that whatever operations should be executed when the call ends
+are only executed if the widget is still alive:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="k">this</span><span class="p">.</span><span class="nx">alive</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">query</span><span class="p">().</span><span class="nx">all</span><span class="p">()).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">records</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// would break if executed after the widget is destroyed, wrapping</span>
+    <span class="c1">// rpc in alive() prevents execution</span>
+    <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">records</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">record</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">self</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="nx">self</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="nx">record</span><span class="p">));</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >deferred</strong> -- 包装一个deferred_对象</li><li ><strong >reject</strong> -- by default, if the RPC call returns after the widget has
+been destroyed the returned <a href="http://api.jquery.com/category/deferred-object/" class="external reference alert-link">deferred</a> is left in limbo
+(neither resolved nor rejected). If <code >reject</code> is set to
+<code >true</code>, the <a href="http://api.jquery.com/category/deferred-object/" class="external reference alert-link">deferred</a> will be rejected instead.</li></ul></div></div><div class="code-field"><div class="code-field-name">返回</div><div class="code-field-body"><a href="http://api.jquery.com/category/deferred-object/" class="external reference alert-link">deferred</a> object</div></div></div></section><section class="code-function"><h6 id="Widget.isDestroyed"><code>Widget.isDestroyed()</code></h6><div class="code-fields"><div class="code-field"><div class="code-field-name">返回</div><div class="code-field-body">值为``True``如果挂件正在或已经被破坏了，[UNKNOWN NODE problematic]false``否则</div></div></div></section></section><section id="accessing-dom-content"><h4 >访问DOM内容</h4><dl ><dt >因为一个小部件只负责低于其DOM的根的内容，有</dt><dd >is a shortcut for selecting sub-sections of a widget's DOM:</dd></dl><section class="code-function"><h6 id="Widget._S_"><code>Widget.$(<em>selector</em>)</code></h6><p >Applies the CSS selector specified as parameter to the widget's
+DOM root:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="k">this</span><span class="p">.</span><span class="nx">$</span><span class="p">(</span><span class="nx">selector</span><span class="p">);</span>
+</pre></div>
+</div>
+<p >is functionally identical to:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="k">this</span><span class="p">.</span><span class="nx">$el</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="nx">selector</span><span class="p">);</span>
+</pre></div>
+</div>
+<div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >selector</strong> (<em >String</em>) -- CSS选择器</li></ul></div></div><div class="code-field"><div class="code-field-name">返回</div><div class="code-field-body">jQuery对象</div></div></div><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >这个辅助方法类似于``Backbone.View。$``</p></div></section></section><section id="resetting-the-dom-root"><h4 >重置DOM根</h4><section class="code-function"><h6 id="Widget.setElement"><code>Widget.setElement(<em>element</em>)</code></h6><p >重新设置挂件的DOM根提供的元素，也处理重新设定的DOM根的各种别名以及解封，重新设定授权事件。</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >element</strong> (<em >Element</em>) -- DOM元素或jQuery对象设置为小部件的DOM根</li></ul></div></div></div><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >应与`骨干setElement`_基本上兼容</p></div></section></section><section id="dom-events-handling"><h3 >DOM事件处理</h3><p >甲插件通常需要以内的页面的其部分响应用户行动。这需要结合事件的DOM元素。</p><p >To this end, <a href="#Widget" class="internal reference" title="Widget"><code class="js-class xref js">Widget()</code></a> provides a shortcut:</p><section class="code-attribute"><h6 id="Widget.events"><code>Widget.events</code></h6><p >Events are a mapping of an event selector (an event name and an optional
+CSS selector separated by a space) to a callback. The callback can
+be the name of a widget's method or a function object. In either case, the
+<code >this</code> will be set to the widget:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">events</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s1">&#39;click p.oe_some_class a&#39;</span><span class="o">:</span> <span class="s1">&#39;some_method&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;change input&#39;</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">e</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
+    <span class="p">}</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+<p >The selector is used for jQuery's <a href="http://api.jquery.com/delegate/" class="external reference alert-link">event delegation</a>, the
+callback will only be triggered for descendants of the DOM root
+matching the selector<a href="#eventsdelegation" class="footnote-ref" id="id1">1</a>. If the selector is left out
+(only an event name is specified), the event will be set directly on the
+widget's DOM root.</p></section><section class="code-function"><h6 id="Widget.delegateEvents"><code>Widget.delegateEvents()</code></h6><p >This method is in charge of binding <a href="#Widget.events" class="internal alert-link reference" title="Widget.events"><code class="js-attr xref js">events</code></a> to the
+DOM. It is automatically called after setting the widget's DOM root.</p><p >It can be overridden to set up more complex events than the
+<a href="#Widget.events" class="internal alert-link reference" title="Widget.events"><code class="js-attr xref js">events</code></a> map allows, but the parent should always be
+called (or <a href="#Widget.events" class="internal alert-link reference" title="Widget.events"><code class="js-attr xref js">events</code></a> won't be handled correctly).</p></section><section class="code-function"><h6 id="Widget.undelegateEvents"><code>Widget.undelegateEvents()</code></h6><p >This method is in charge of unbinding <a href="#Widget.events" class="internal alert-link reference" title="Widget.events"><code class="js-attr xref js">events</code></a> from
+the DOM root when the widget is destroyed or the DOM root is reset, in
+order to avoid leaving &quot;phantom&quot; events.</p><p >It should be overridden to un-set any event set in an override of
+<a href="#Widget.delegateEvents" class="internal alert-link reference" title="Widget.delegateEvents"><code class="js-func xref js">delegateEvents()</code></a>.</p></section><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >这种行为应该与'骨干delegateEvents`_兼容，除了不接受任何参数。</p></div></section><section id="subclassing-widget"><h3 >子类化的widget</h3><p ><a href="#Widget" class="internal reference" title="Widget"><code class="js-class xref js">Widget()</code></a> is subclassed in the standard manner (via the
+<code class="js-func xref js">extend()</code> method), and provides a number of
+abstract properties and concrete methods (which you may or may not want to
+override). Creating a subclass looks like this:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="kd">var</span> <span class="nx">MyWidget</span> <span class="o">=</span> <span class="nx">Widget</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+    <span class="c1">// QWeb template to use when rendering the object</span>
+    <span class="nx">template</span><span class="o">:</span> <span class="s2">&quot;MyQWebTemplate&quot;</span><span class="p">,</span>
+    <span class="nx">events</span><span class="o">:</span> <span class="p">{</span>
+        <span class="c1">// events binding example</span>
+        <span class="s1">&#39;click .my-button&#39;</span><span class="o">:</span> <span class="s1">&#39;handle_click&#39;</span><span class="p">,</span>
+    <span class="p">},</span>
+
+    <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">parent</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">_super</span><span class="p">(</span><span class="nx">parent</span><span class="p">);</span>
+        <span class="c1">// insert code to execute before rendering, for object</span>
+        <span class="c1">// initialization</span>
+    <span class="p">},</span>
+    <span class="nx">start</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">sup</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">_super</span><span class="p">();</span>
+        <span class="c1">// post-rendering initialization code, at this point</span>
+
+        <span class="c1">// allows multiplexing deferred objects</span>
+        <span class="k">return</span> <span class="nx">$</span><span class="p">.</span><span class="nx">when</span><span class="p">(</span>
+            <span class="c1">// propagate asynchronous signal from parent class</span>
+            <span class="nx">sup</span><span class="p">,</span>
+            <span class="c1">// return own&#39;s asynchronous signal</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">rpc</span><span class="p">(</span><span class="cm">/* … */</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >The new class can then be used in the following manner:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// Create the instance</span>
+<span class="kd">var</span> <span class="nx">my_widget</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">MyWidget</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="c1">// Render and insert into DOM</span>
+<span class="nx">my_widget</span><span class="p">.</span><span class="nx">appendTo</span><span class="p">(</span><span class="s2">&quot;.some-div&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p >After these two lines have executed (and any promise returned by
+<a href="#Widget.appendTo" class="internal reference" title="Widget.appendTo"><code class="js-func xref js">appendTo()</code></a> has been resolved if needed), the widget is
+ready to be used.</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >the insertion methods will start the widget themselves, and will
+return the result of <a href="#Widget.start" class="internal alert-link reference" title="Widget.start"><code class="js-func xref js">start()</code></a>.</p><p >If for some reason you do not want to call these methods, you will
+have to first call <code class="js-func xref js">render()</code> on the
+widget, then insert it into your DOM and start it.</p></div><p >If the widget is not needed anymore (because it's transient), simply terminate
+it:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">my_widget</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+</pre></div>
+</div>
+<p >将解除所有的DOM事件，从DOM中删除widget的内容并销毁所有部件的数据。</p></section><section id="development-guidelines"><h3 >开发指南</h3><ul ><li ><p >Identifiers (<code >id</code> attribute) should be avoided. In generic applications
+and modules, <code >id</code> limits the re-usability of components and tends to make
+code more brittle. Most of the time, they can be replaced with nothing,
+classes or keeping a reference to a DOM node or jQuery element.</p><p >If an <code >id</code> is absolutely necessary (because a third-party library requires
+one), the id should be partially generated using <code >_.uniqueId()</code> e.g.:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">uniqueId</span><span class="p">(</span><span class="s1">&#39;my-widget-&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li><li >Avoid predictable/common CSS class names. Class names such as &quot;content&quot; or
+&quot;navigation&quot; might match the desired meaning/semantics, but it is likely an
+other developer will have the same need, creating a naming conflict and
+unintended behavior. Generic class names should be prefixed with e.g. the
+name of the component they belong to (creating &quot;informal&quot; namespaces, much
+as in C or Objective-C).</li><li >Global selectors should be avoided. Because a component may be used several
+times in a single page (an example in Odoo is dashboards), queries should be
+restricted to a given component's scope. Unfiltered selections such as
+<code >$(selector)</code> or <code >document.querySelectorAll(selector)</code> will generally
+lead to unintended or incorrect behavior.  Odoo Web's
+<a href="#Widget" class="internal reference" title="Widget"><code class="js-class xref js">Widget()</code></a> has an attribute providing its DOM root
+(<a href="#Widget._S_el" class="internal reference" title="Widget.$el"><code class="js-attr xref js">$el</code></a>), and a shortcut to select nodes directly
+(<a href="#Widget._S_" class="internal reference" title="Widget.$"><code class="js-func xref js">$()</code></a>).</li><li >More generally, never assume your components own or controls anything beyond
+its own personal <a href="#Widget._S_el" class="internal reference" title="Widget.$el"><code class="js-attr xref js">$el</code></a></li><li ><p >HTML模板/渲染应该使用QWeb，除非绝对微不足道。</p></li><li >All interactive components (components displaying information to the screen
+or intercepting DOM events) must inherit from <a href="#Widget" class="internal reference" title="Widget"><code class="js-class xref js">Widget()</code></a>
+and correctly implement and use its API and life cycle.</li></ul></section><section id="rpc"><h2 >RPC</h2><p >To display and interact with data, calls to the Odoo server are necessary.
+This is performed using <abbr >RPC &lt;Remote Procedure Call&gt;</abbr>.</p><p >Odoo Web provides two primary APIs to handle this: a low-level
+JSON-RPC based API communicating with the Python section of Odoo
+Web (and of your module, if you have a Python part) and a high-level
+API above that allowing your code to talk directly to high-level Odoo models.</p><p >All networking APIs are <a href="async.html#reference-async" class="internal reference"><span >asynchronous</span></a>. As a result,
+all of them will return <a href="http://api.jquery.com/category/deferred-object/" class="external reference">Deferred</a> objects (whether they resolve those with
+values or not). Understanding how those work before before moving on is
+probably necessary.</p></section><section id="high-level-api-calling-into-odoo-models"><h3 >High-level API: calling into Odoo models</h3><p >Access to Odoo object methods (made available through XML-RPC from the server)
+is done via <a href="#Model" class="internal reference" title="Model"><code class="js-class xref js">Model()</code></a> (exported in <code >web.Model</code>). It maps onto the Odoo server objects via
+two primary methods, <a href="#Model.call" class="internal reference" title="Model.call"><code class="js-func xref js">call()</code></a> and
+<a href="#Model.query" class="internal reference" title="Model.query"><code class="js-func xref js">query()</code></a>.</p><p ><a href="#Model.call" class="internal reference" title="Model.call"><code class="js-func xref js">call()</code></a> is a direct mapping to the corresponding method of
+the Odoo server object. Its usage is similar to that of the Odoo Model API,
+with three differences:</p><ul ><li >The interface is <a href="async.html#reference-async" class="internal reference"><span >asynchronous</span></a>, so instead of
+returning results directly RPC method calls will return
+<a href="http://api.jquery.com/category/deferred-object/" class="external reference">Deferred</a> instances, which will themselves resolve to the
+result of the matching RPC call.</li><li ><p >由于ECMAScript的3 / Javascript的1.5犯规特征的任何等同于``__getattr__``或``method_missing``，需要有一个明确的方法来调度RPC方法。</p></li><li ><p >No notion of pooler, the model proxy is instantiated where needed,
+not fetched from an other (somewhat global) object:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="kd">var</span> <span class="nx">Users</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Model</span><span class="p">(</span><span class="s1">&#39;res.users&#39;</span><span class="p">);</span>
+
+<span class="nx">Users</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;change_password&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;oldpassword&#39;</span><span class="p">,</span> <span class="s1">&#39;newpassword&#39;</span><span class="p">],</span>
+                  <span class="p">{</span><span class="nx">context</span><span class="o">:</span> <span class="nx">some_context</span><span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// do something with change_password result</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</li></ul><p ><a href="#Model.query" class="internal reference" title="Model.query"><code class="js-func xref js">query()</code></a> is a shortcut for a builder-style
+interface to searches (<code >search</code> + <code >read</code> in Odoo RPC terms). It
+returns a <a href="#openerp.web.Query" class="internal reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> object which is immutable but
+allows building new <a href="#openerp.web.Query" class="internal reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> instances from the
+first one, adding new properties or modifiying the parent object's:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">Users</span><span class="p">.</span><span class="nx">query</span><span class="p">([</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;login&#39;</span><span class="p">,</span> <span class="s1">&#39;user_email&#39;</span><span class="p">,</span> <span class="s1">&#39;signature&#39;</span><span class="p">])</span>
+     <span class="p">.</span><span class="nx">filter</span><span class="p">([[</span><span class="s1">&#39;active&#39;</span><span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;company_id&#39;</span><span class="p">,</span> <span class="s1">&#39;=&#39;</span><span class="p">,</span> <span class="nx">main_company</span><span class="p">]])</span>
+     <span class="p">.</span><span class="nx">limit</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+     <span class="p">.</span><span class="nx">all</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">users</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// do work with users records</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >The query is only actually performed when calling one of the query
+serialization methods, <a href="#openerp.web.Query.all" class="internal reference" title="openerp.web.Query.all"><code class="js-func xref js">all()</code></a> and
+<a href="#openerp.web.Query.first" class="internal reference" title="openerp.web.Query.first"><code class="js-func xref js">first()</code></a>. These methods will perform a new
+RPC call every time they are called.</p><p >For that reason, it's actually possible to keep &quot;intermediate&quot; queries
+around and use them differently/add new specifications on them.</p><section class="code-class"><h6 id="Model"><code><em >class </em>Model(<em>name</em>)</code></h6><section class="code-attribute"><h6 id="Model.name"><code>Model.name</code></h6><p >模型的这个对象绑定到名字</p></section><section class="code-function"><h6 id="Model.call"><code>Model.call(<em>method[, args][, kwargs]</em>)</code></h6><p >调用当前模型的``method``方法，与提供位置和关键字参数。</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >method</strong> (<em >String</em>) -- method to call over rpc on the
+<a href="#Model.name" class="internal alert-link reference" title="Model.name"><code class="js-attr xref js">name</code></a></li><li ><strong >args</strong> (<em >Array&lt;&gt;</em>) -- 位置参数传递给方法，可选</li><li ><strong >kwargs</strong> (<em >Object&lt;&gt;</em>) -- 关键字参数传递给方法，可选</li></ul></div></div><div class="code-field"><div class="code-field-name">返回类型</div><div class="code-field-body">Deferred&lt;&gt;</div></div></div></section><section class="code-function"><h6 id="Model.query"><code>Model.query(<em>fields</em>)</code></h6><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >fields</strong> (<em >Array&lt;String&gt;</em>) -- 字段列表的搜索过程中获取</li></ul></div></div><div class="code-field"><div class="code-field-name">返回</div><div class="code-field-body">a <a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> object
+representing the search to perform</div></div></div></section></section><section class="code-class"><h6 id="openerp.web.Query"><code><em >class </em>openerp.web.Query(<em>fields</em>)</code></h6><p >The first set of methods is the &quot;fetching&quot; methods. They perform
+RPC queries using the internal data of the object they're called
+on.</p><section class="code-function"><h6 id="openerp.web.Query.all"><code>openerp.web.Query.all()</code></h6><p >Fetches the result of the current <a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> object's
+search.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">返回类型</div><div class="code-field-body">Deferred&lt;Array&lt;&gt;&gt;</div></div></div></section><section class="code-function"><h6 id="openerp.web.Query.first"><code>openerp.web.Query.first()</code></h6><p >Fetches the <strong >first</strong> result of the current
+<a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a>, or <code >null</code> if the current
+<a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> does have any result.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">返回类型</div><div class="code-field-body">Deferred&lt;Object | null&gt;</div></div></div></section><section class="code-function"><h6 id="openerp.web.Query.count"><code>openerp.web.Query.count()</code></h6><p >Fetches the number of records the current
+<a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> would retrieve.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">返回类型</div><div class="code-field-body">Deferred&lt;Number&gt;</div></div></div></section><section class="code-function"><h6 id="openerp.web.Query.group_by"><code>openerp.web.Query.group_by(<em>grouping...</em>)</code></h6><p >取出的组进行查询，使用所述第一指定的分组参数</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >grouping</strong> (<em >Array&lt;String&gt;</em>) -- 列出的分组问的服务器的水平。分组实际上可以是一个数组或可变参数。</li></ul></div></div><div class="code-field"><div class="code-field-name">返回类型</div><div class="code-field-body">Deferred&lt;Array&lt;openerp.web.QueryGroup&gt;&gt; | null</div></div></div></section><p >The second set of methods is the &quot;mutator&quot; methods, they create a
+<strong >new</strong> <a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> object with the relevant
+(internal) attribute either augmented or replaced.</p><section class="code-function"><h6 id="openerp.web.Query.context"><code>openerp.web.Query.context(<em>ctx</em>)</code></h6><p >将提供的``ctx``的查询，对现有环境的顶部</p></section><section class="code-function"><h6 id="openerp.web.Query.filter"><code>openerp.web.Query.filter(<em>domain</em>)</code></h6><p >将提供的域名查询，该域名是``AND``-ED现有的查询域。</p></section><section class="code-function"><h6 id="opeenrp.web.Query.offset"><code>opeenrp.web.Query.offset(<em>offset</em>)</code></h6><p >Sets the provided offset on the query. The new offset
+<em >replaces</em> the old one.</p></section><section class="code-function"><h6 id="openerp.web.Query.limit"><code>openerp.web.Query.limit(<em>limit</em>)</code></h6><p >Sets the provided limit on the query. The new limit <em >replaces</em>
+the old one.</p></section><section class="code-function"><h6 id="openerp.web.Query.order_by"><code>openerp.web.Query.order_by(<em>fields…</em>)</code></h6><p >Overrides the model's natural order with the provided field
+specifications. Behaves much like Django's <a href="https://django.readthedocs.org/en/latest/ref/models/querysets.html#django.db.models.query.QuerySet.order_by" class="external reference alert-link" title="(在 Django v1.11)"><code class="py py-meth xref">QuerySet.order_by</code></a>:</p><ul ><li >Takes 1..n field names, in order of most to least importance
+(the first field is the first sorting key). Fields are
+provided as strings.</li><li >A field specifies an ascending order, unless it is prefixed
+with the minus sign &quot;<code >-</code>&quot; in which case the field is used
+in the descending order</li></ul><p >Divergences from Django's sorting include a lack of random sort
+(<code >?</code> field) and the inability to &quot;drill down&quot; into relations
+for sorting.</p></section></section></section><section id="aggregation-grouping"><h4 >Aggregation (grouping)</h4><p >Odoo has powerful grouping capacities, but they are kind-of strange
+in that they're recursive, and level n+1 relies on data provided
+directly by the grouping at level n. As a result, while
+<code class="py py-meth xref">openerp.models.Model.read_group()</code> works it's not a very intuitive
+API.</p><p >Odoo Web eschews direct calls to <code class="py py-meth xref">read_group()</code>
+in favor of calling a method of <a href="#openerp.web.Query" class="internal reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a>, <a href="http://docs.sqlalchemy.org/en/rel_0_9/orm/query.html#sqlalchemy.orm.query.Query.group_by" class="external reference" title="(在 SQLAlchemy v0.9)"><code class="py py-meth xref">much
+in the way it is one in SQLAlchemy</code></a>
+<a href="#terminal" class="footnote-ref" id="id2">2</a>:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">some_query</span><span class="p">.</span><span class="nx">group_by</span><span class="p">([</span><span class="s1">&#39;field1&#39;</span><span class="p">,</span> <span class="s1">&#39;field2&#39;</span><span class="p">]).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">groups</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// do things with the fetched groups</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >This method is asynchronous when provided with 1..n fields (to group
+on) as argument, but it can also be called without any field (empty
+fields collection or nothing at all). In this case, instead of
+returning a Deferred object it will return <code >null</code>.</p><p >When grouping criterion come from a third-party and may or may not
+list fields (e.g. could be an empty list), this provides two ways to
+test the presence of actual subgroups (versus the need to perform a
+regular query for records):</p><ul ><li ><p >A check on <code >group_by</code>'s result and two completely separate code
+paths:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="kd">var</span> <span class="nx">groups</span><span class="p">;</span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">groups</span> <span class="o">=</span> <span class="nx">some_query</span><span class="p">.</span><span class="nx">group_by</span><span class="p">(</span><span class="nx">gby</span><span class="p">))</span> <span class="p">{</span>
+    <span class="nx">groups</span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">gs</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// groups</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+<span class="c1">// no groups</span>
+</pre></div>
+</div>
+</li><li ><p >Or a more coherent code path using <a href="async.html#when" class="internal reference" title="when"><code class="js-func xref js">when()</code></a>'s ability to
+coerce values into deferreds:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">$</span><span class="p">.</span><span class="nx">when</span><span class="p">(</span><span class="nx">some_query</span><span class="p">.</span><span class="nx">group_by</span><span class="p">(</span><span class="nx">gby</span><span class="p">)).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">groups</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">groups</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// No grouping</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="c1">// grouping, even if there are no groups (groups</span>
+        <span class="c1">// itself could be an empty array)</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</li></ul><p >The result of a (successful) <a href="#openerp.web.Query.group_by" class="internal reference" title="openerp.web.Query.group_by"><code class="js-func xref js">group_by()</code></a> is
+an array of <a href="#openerp.web.QueryGroup" class="internal reference" title="openerp.web.QueryGroup"><code class="js-class xref js">QueryGroup()</code></a>:</p><section class="code-class"><h6 id="openerp.web.QueryGroup"><code><em >class </em>openerp.web.QueryGroup()</code></h6><section class="code-function"><h6 id="openerp.web.QueryGroup.get"><code>openerp.web.QueryGroup.get(<em>key</em>)</code></h6><p >returns the group's attribute <code >key</code>. Known attributes are:</p><dl ><dt ><code >grouped_on</code></dt><dd ><p >其中分组字段是由于该组</p></dd><dt ><code >value</code></dt><dd ><p >这组``grouped_on``的价值</p></dd><dt ><code >length</code></dt><dd ><p >记录的组中的号</p></dd><dt ><code >aggregates</code></dt><dd >a {field: value} mapping of aggregations for the group</dd></dl></section><section class="code-function"><h6 id="openerp.web.QueryGroup.query"><code>openerp.web.QueryGroup.query([<em>fields...</em>])</code></h6><p >equivalent to <a href="#Model.query" class="internal alert-link reference" title="Model.query"><code class="js-func xref js">Model.query()</code></a> but pre-filtered to
+only include the records within this group. Returns a
+<a href="#openerp.web.Query" class="internal alert-link reference" title="openerp.web.Query"><code class="js-class xref js">Query()</code></a> which can be further manipulated as
+usual.</p></section><section class="code-function"><h6 id="openerp.web.QueryGroup.subgroups"><code>openerp.web.QueryGroup.subgroups()</code></h6><p >returns a deferred to an array of <a href="#openerp.web.QueryGroup" class="internal alert-link reference" title="openerp.web.QueryGroup"><code class="js-class xref js">QueryGroup()</code></a>
+below this one</p></section></section></section><section id="low-level-api-rpc-calls-to-python-side"><h3 >Low-level API: RPC calls to Python side</h3><p >While the previous section is great for calling core OpenERP code
+(models code), it does not work if you want to call the Python side of
+Odoo Web.</p><p >For this, a lower-level API exists on on
+<code class="js-class xref js">Session()</code> objects (the class is exported in <code >web.Session</code>, but
+an instance isusually available through <code >web.session</code>): the <code >rpc</code> method.</p><p >This method simply takes an absolute path (the absolute URL of the JSON
+<a href="http.html#reference-http-routing" class="internal reference"><span >route</span></a> to call) and a mapping of attributes to
+values (passed as keyword arguments to the Python method). This function
+fetches the return value of the Python methods, converted to JSON.</p><p >For instance, to call the <code >resequence</code> of the
+<code class="js-class xref js">DataSet()</code> controller:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">session</span><span class="p">.</span><span class="nx">rpc</span><span class="p">(</span><span class="s1">&#39;/web/dataset/resequence&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">model</span><span class="o">:</span> <span class="nx">some_model</span><span class="p">,</span>
+    <span class="nx">ids</span><span class="o">:</span> <span class="nx">array_of_ids</span><span class="p">,</span>
+    <span class="nx">offset</span><span class="o">:</span> <span class="mi">42</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// resequence didn&#39;t error out</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// an error occured during during call</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section><section id="web-client"><i id="reference-javascript-client"></i><h2 >Web客户端</h2></section><section id="javascript-module-system-overview"><h3 >Javascript的模块系统概述</h3><p >A new module system (inspired from requirejs) has now been deployed.
+It has many advantages over the Odoo version 8 system.</p><ul ><li >loading order: dependencies are guaranteed to be loaded first, even if
+files are not loaded in the correct order in the bundle files.</li><li ><p >更容易文件分割成更小的逻辑单元。</p></li><li >no global variables: easier to reason.</li><li ><p >它可以检查每个依赖和家属。这使得重构简单得多，而且风险较小。</p></li></ul><p >It has also some disadvantages:</p><ul ><li ><p >文件需要使用模块的系统，如果他们想与odoo交互，因为各种对象仅在模块系统中可用的，并没有在全局变量</p></li><li ><p >不支持循环依赖。这是有道理的，但它意味着一个人需要小心。</p></li></ul><p >This is obviously a very large change and will require everyone to
+adopt new habits.  For example, the variable openerp does not exist
+anymore.  The new way of doing things is to import explicitely the module
+you need, and declaring explicitely the objects you export.  Here is a
+simple example:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">odoo</span><span class="p">.</span><span class="nx">define</span><span class="p">(</span><span class="s1">&#39;addon_name.service&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">require</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">utils</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.utils&#39;</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">Model</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;web.Model&#39;</span><span class="p">);</span>
+
+    <span class="c1">// do things with utils and Model</span>
+    <span class="kd">var</span> <span class="nx">something_useful</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
+    <span class="k">return</span>  <span class="p">{</span>
+        <span class="nx">something_useful</span><span class="o">:</span> <span class="nx">something_useful</span><span class="p">,</span>
+    <span class="p">};</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >This snippet shows a module named <code >addon_name.service</code>.  It is defined
+with the <code >odoo.define</code> function.  <code >odoo.define</code> takes a name and a
+function for arguments:</p><ul ><li ><p >名称是它是在定义的插件并描述其用途的名称的名称的串联。</p></li><li >The function is the place where the javascript module is actually
+defined.  It takes a function <code >require</code> as first argument, and
+returns something (or not, depending if it needs to export something).
+The <code >require</code> function is used to get a handle on the dependencies.
+In this case, it gives a handle on two javascript modules from the
+<code >web</code> addon, namely <code >web.utils</code> and <code >web.Model</code>.</li></ul><p >The idea is that you define what you need to import (by using the
+<code >require</code> function) and declare what you export (by returning
+something).  The web client will then make sure that your code is loaded
+properly.</p><p >Modules are contained in a file, but a file can define several modules
+(however, it is better to keep them in separate files).</p><p >Each module can return a deferred. In that case, the module is marked as loaded
+only when the deferred is resolved, and its value is equal to the resolved value.
+The module can be rejected (unloaded). This will be logged in the console as info.</p><ul ><li ><code >Missing dependencies</code>:
+These modules do not appear in the page. It is possible that the JavaScript
+file is not in the page or that the module name is wrong</li><li ><code >Failed modules</code>:
+A javascript error is detected</li><li ><code >Rejected modules</code>:
+The module returns a rejected deferred. It (and its dependent modules) is not
+loaded.</li><li ><code >Rejected linked modules</code>:
+Modules who depend on a rejected module</li><li ><code >Non loaded modules</code>:
+Modules who depend on a missing or a failed module</li></ul></section><section id="web-client-structure"><h3 >Web客户端结构</h3><p >The web client files have been refactored into smaller and simpler files.
+Here is a description of the current file structure:</p><ul ><li ><p >the <code >framework/</code> folder contains all basic low level modules.  The
+modules here are supposed to be generic.  Some of them are:</p><blockquote ><ul ><li ><p >[UNKNOWN NODE problematic]web.ajax``实现RPC调用</p></li><li ><code >web.core</code> is a generic modules.  It exports various useful
+objects and functions, such as <code >qweb</code>, <code >_t</code> or the main bus.</li><li ><p >[UNKNOWN NODE problematic]web.Widget``包含挂件类</p></li><li ><p >[UNKNOWN NODE problematic]web.Model``是一个抽象的概念了``web.ajax``打电话到该服务器模型的方法</p></li><li ><p ><code >web.session``是前者``openerp.session</code></p></li><li ><p >[UNKNOWN NODE problematic]web.utils``有用的代码片段</p></li><li ><code >web.time</code> for every time-related generic functions</li></ul></blockquote></li><li ><p >在``视图/[UNKNOWN NODE problematic]文件夹包含所有视图定义</p></li><li ><p >[UNKNOWN NODE problematic]部件/[UNKNOWN NODE problematic]是独立的部件</p></li></ul><p >The <code >js/</code> folder also contains some important files:</p><ul ><li ><p >[UNKNOWN NODE problematic]action_manager.js``是ActionManager类</p></li><li ><p >[UNKNOWN NODE problematic]boot.js``是实际执行的模块系统中的文件</p></li><li ><p >[UNKNOWN NODE problematic]menu.js``是顶部菜单的定义</p></li><li ><p >[UNKNOWN NODE problematic]web_client.js``是根小部件的WebClient</p></li><li ><p >[UNKNOWN NODE problematic]view_manager.js``包含ViewManager</p></li></ul><p >其他两个文件是``tour.js``的旅游和``compatibility.js``。后者文件是一个兼容层桥接旧体制到新的模块系统。这是每一个模块名称远销全局变量``openerp``。从理论上讲，我们的插件应该工作而没有使用可变``openerp``，并兼容模块，可以安全地禁用。</p></section><section id="javascript-conventions"><h3 >Javascript的约定</h3><p >Here are some basic conventions for the javascript code:</p><ul ><li ><p >声明你的依赖在模块的顶部。此外，他们应该按字母顺序模块名称排序。这使得它更容易理解你的模块。</p></li><li ><p >声明所有出口在年底。</p></li><li ><p >加上``使用strict``声明在每个模块开始</p></li><li >always name your module properly: <code >addon_name.description</code>.</li><li >use capital letters for classes (for example, <code >ActionManager</code> is
+defined in the module <code >web.ActionManager</code>), and lowercase for
+everything else (for example, <code >ajax</code> is defined in <code >web.ajax</code>).</li><li ><p >每个申报文件的一个模块</p></li></ul></section><section id="testing-in-odoo-web-client"><h2 >Odoo Web客户端的测试</h2></section><section id="javascript-unit-testing"><h3 >Javascript的单元测试</h3><p >Odoo网络包括手段，单元测试既Odoo Web和自己的JavaScript模块的核心代码。在JavaScript端，单元测试是基于QUnit_与一些助手和扩展与Odoo更好的整合。</p><p >To see what the runner looks like, find (or start) an Odoo server
+with the web client enabled, and navigate to <code >/web/tests</code>
+This will show the runner selector, which lists all modules with javascript
+unit tests, and allows starting any of them (or all javascript tests in all
+modules at once).</p><img src="../_images/runner.png" class="img-responsive center-block"><p >Clicking any runner button will launch the corresponding tests in the
+bundled <a href="http://qunitjs.com/" class="external reference">QUnit</a> runner:</p><img src="../_images/tests.png" class="img-responsive center-block"></section><section id="writing-a-test-case"><h3 >编写测试用例</h3><p >The first step is to list the test file(s). This is done through the
+<code >test</code> key of the Odoo manifest, by adding javascript files to it:</p><div class="highlight-python"><div class="highlight"><pre><span class="p">{</span>
+    <span class="s">&#39;name&#39;</span><span class="p">:</span> <span class="s">&quot;Demonstration of web/javascript tests&quot;</span><span class="p">,</span>
+    <span class="s">&#39;category&#39;</span><span class="p">:</span> <span class="s">&#39;Hidden&#39;</span><span class="p">,</span>
+    <span class="s">&#39;depends&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;web&#39;</span><span class="p">],</span>
+    <span class="s">&#39;test&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/test/demo.js&#39;</span><span class="p">],</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p >and to create the corresponding test file(s)</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >Test files which do not exist will be ignored, if all test files
+of a module are ignored (can not be found), the test runner will
+consider that the module has no javascript tests.</p></div><p >After that, refreshing the runner selector will display the new module
+and allow running all of its (0 so far) tests:</p><img src="../_images/runner2.png" class="img-responsive center-block"><p >The next step is to create a test case:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">openerp</span><span class="p">.</span><span class="nx">testing</span><span class="p">.</span><span class="nx">section</span><span class="p">(</span><span class="s1">&#39;basic section&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">test</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">test</span><span class="p">(</span><span class="s1">&#39;my first test&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">ok</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;this test has run&quot;</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >All testing helpers and structures live in the <code >openerp.testing</code>
+module. Odoo tests live in a <a href="#openerp.testing.section" class="internal reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a>,
+which is itself part of a module. The first argument to a section is
+the name of the section, the second one is the section body.</p><p ><a href="#openerp.testing.case" class="internal reference" title="openerp.testing.case"><code class="js-func xref js">test</code></a>, provided by the
+<a href="#openerp.testing.section" class="internal reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a> to the callback, is used to
+register a given test case which will be run whenever the test runner
+actually does its job. Odoo Web test case use standard <a href="http://api.qunitjs.com/category/assert/" class="external reference">QUnit
+assertions</a> within them.</p><p >Launching the test runner at this point will run the test and display
+the corresponding assertion message, with red colors indicating the
+test failed:</p><img src="../_images/tests2.png" class="img-responsive center-block"><p >Fixing the test (by replacing <code >false</code> to <code >true</code> in the assertion)
+will make it pass:</p><img src="../_images/tests3.png" class="img-responsive center-block"></section><section id="assertions"><h3 >断言</h3><p >As noted above, Odoo Web's tests use <a href="http://api.qunitjs.com/category/assert/" class="external reference">qunit assertions</a>. They are
+available globally (so they can just be called without references to
+anything). The following list is available:</p><section class="code-function"><h6 id="ok"><code>ok(<em>state</em>[, <em>message</em>])</code></h6><p >checks that <code >state</code> is truthy (in the javascript sense)</p></section><section class="code-function"><h6 id="strictEqual"><code>strictEqual(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >checks that the actual (produced by a method being tested) and
+expected values are identical (roughly equivalent to <code >ok(actual
+=== expected, message)</code>)</p></section><section class="code-function"><h6 id="notStrictEqual"><code>notStrictEqual(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >checks that the actual and expected values are <em >not</em> identical
+(roughly equivalent to <code >ok(actual !== expected, message)</code>)</p></section><section class="code-function"><h6 id="deepEqual"><code>deepEqual(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >deep comparison between actual and expected: recurse into
+containers (objects and arrays) to ensure that they have the same
+keys/number of elements, and the values match.</p></section><section class="code-function"><h6 id="notDeepEqual"><code>notDeepEqual(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >inverse operation to <a href="#deepEqual" class="internal alert-link reference" title="deepEqual"><code class="js-func xref js">deepEqual()</code></a></p></section><section class="code-function"><h6 id="throws"><code>throws(<em>block[, expected][, message]</em>)</code></h6><p >检查，调用它时，在``block``抛出一个错误。可选验证对``expected``的错误。</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >block</strong> (<em >Function</em>) -- </li><li ><strong >expected</strong> (<em >Error | RegExp</em>) -- 如果一个正则表达式，检查，抛出的错误的信息的正则表达式匹配。如果错误类型，检查，抛出的错误是类型。</li></ul></div></div></div></section><section class="code-function"><h6 id="equal"><code>equal(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >将检查``actual``和``expected``松散相等，使用``==``运营商和它的强制规则。</p></section><section class="code-function"><h6 id="notEqual"><code>notEqual(<em>actual</em>, <em>expected</em>[, <em>message</em>])</code></h6><p >inverse operation to <a href="#equal" class="internal alert-link reference" title="equal"><code class="js-func xref js">equal()</code></a></p></section></section><section id="getting-an-odoo-instance"><h3 >获得一个Odoo实例</h3><p >The Odoo instance is the base through which most Odoo Web
+modules behaviors (functions, objects, …) are accessed. As a result,
+the test framework automatically builds one, and loads the module
+being tested and all of its dependencies inside it. This new instance
+is provided as the first positional parameter to your test
+cases. Let's observe by adding javascript code (not test code) to the
+test module:</p><div class="highlight-python"><div class="highlight"><pre><span class="p">{</span>
+    <span class="s">&#39;name&#39;</span><span class="p">:</span> <span class="s">&quot;Demonstration of web/javascript tests&quot;</span><span class="p">,</span>
+    <span class="s">&#39;category&#39;</span><span class="p">:</span> <span class="s">&#39;Hidden&#39;</span><span class="p">,</span>
+    <span class="s">&#39;depends&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;web&#39;</span><span class="p">],</span>
+    <span class="s">&#39;js&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/src/js/demo.js&#39;</span><span class="p">],</span>
+    <span class="s">&#39;test&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/test/demo.js&#39;</span><span class="p">],</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// src/js/demo.js</span>
+<span class="nx">openerp</span><span class="p">.</span><span class="nx">web_tests_demo</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">instance</span><span class="p">.</span><span class="nx">web_tests_demo</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="nx">value_true</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">SomeType</span><span class="o">:</span> <span class="nx">instance</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">Class</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+            <span class="nx">init</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">})</span>
+    <span class="p">};</span>
+<span class="p">};</span>
+</pre></div>
+</div>
+<p >and then adding a new test case, which simply checks that the
+<code >instance</code> contains all the expected stuff we created in the
+module:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// test/demo.js</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;module content&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">ok</span><span class="p">(</span><span class="nx">instance</span><span class="p">.</span><span class="nx">web_tests_demo</span><span class="p">.</span><span class="nx">value_true</span><span class="p">,</span> <span class="s2">&quot;should have a true value&quot;</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">type_instance</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">instance</span><span class="p">.</span><span class="nx">web_tests_demo</span><span class="p">.</span><span class="nx">SomeType</span><span class="p">(</span><span class="mi">42</span><span class="p">);</span>
+    <span class="nx">strictEqual</span><span class="p">(</span><span class="nx">type_instance</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="s2">&quot;should have provided value&quot;</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section><section id="dom-scratchpad"><h3 >DOM便签</h3><p >As in the wider client, arbitrarily accessing document content is
+strongly discouraged during tests. But DOM access is still needed to
+e.g. fully initialize <code class="js-class xref js">widgets</code> before
+testing them.</p><p >Thus, a test case gets a DOM scratchpad as its second positional
+parameter, in a jQuery instance. That scratchpad is fully cleaned up
+before each test, and as long as it doesn't do anything outside the
+scratchpad your code can do whatever it wants:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// test/demo.js</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;DOM content&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">,</span> <span class="nx">$scratchpad</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">$scratchpad</span><span class="p">.</span><span class="nx">html</span><span class="p">(</span><span class="s1">&#39;&lt;div&gt;&lt;span class=&quot;foo bar&quot;&gt;ok&lt;/span&gt;&lt;/div&gt;&#39;</span><span class="p">);</span>
+    <span class="nx">ok</span><span class="p">(</span><span class="nx">$scratchpad</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;span&#39;</span><span class="p">).</span><span class="nx">hasClass</span><span class="p">(</span><span class="s1">&#39;foo&#39;</span><span class="p">),</span>
+       <span class="s2">&quot;should have provided class&quot;</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;clean scratchpad&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">,</span> <span class="nx">$scratchpad</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">ok</span><span class="p">(</span><span class="o">!</span><span class="nx">$scratchpad</span><span class="p">.</span><span class="nx">children</span><span class="p">().</span><span class="nx">length</span><span class="p">,</span> <span class="s2">&quot;should have no content&quot;</span><span class="p">);</span>
+    <span class="nx">ok</span><span class="p">(</span><span class="o">!</span><span class="nx">$scratchpad</span><span class="p">.</span><span class="nx">text</span><span class="p">(),</span> <span class="s2">&quot;should have no text&quot;</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >The top-level element of the scratchpad is not cleaned up, test
+cases can add text or DOM children but shoud not alter
+<code >$scratchpad</code> itself.</p></div></section><section id="loading-templates"><h3 >加载模板</h3><p >To avoid the corresponding processing costs, by default templates are
+not loaded into QWeb. If you need to render e.g. widgets making use of
+QWeb templates, you can request their loading through the
+<a href="#TestOptions.templates" class="internal reference" title="TestOptions.templates"><code class="js-attr xref js">templates</code></a> option to the <a href="#openerp.testing.case" class="internal reference" title="openerp.testing.case"><code class="js-func xref js">test case
+function</code></a>.</p><p >This will automatically load all relevant templates in the instance's
+qweb before running the test case:</p><div class="highlight-python"><div class="highlight"><pre><span class="p">{</span>
+    <span class="s">&#39;name&#39;</span><span class="p">:</span> <span class="s">&quot;Demonstration of web/javascript tests&quot;</span><span class="p">,</span>
+    <span class="s">&#39;category&#39;</span><span class="p">:</span> <span class="s">&#39;Hidden&#39;</span><span class="p">,</span>
+    <span class="s">&#39;depends&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;web&#39;</span><span class="p">],</span>
+    <span class="s">&#39;js&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/src/js/demo.js&#39;</span><span class="p">],</span>
+    <span class="s">&#39;test&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/test/demo.js&#39;</span><span class="p">],</span>
+    <span class="s">&#39;qweb&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;static/src/xml/demo.xml&#39;</span><span class="p">],</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-xml"><div class="highlight"><pre><span class="c">&lt;!-- src/xml/demo.xml --&gt;</span>
+<span class="nt">&lt;templates</span> <span class="na">id=</span><span class="s">&quot;template&quot;</span> <span class="na">xml:space=</span><span class="s">&quot;preserve&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;t</span> <span class="na">t-name=</span><span class="s">&quot;DemoTemplate&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;t</span> <span class="na">t-foreach=</span><span class="s">&quot;5&quot;</span> <span class="na">t-as=</span><span class="s">&quot;value&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;p&gt;&lt;t</span> <span class="na">t-esc=</span><span class="s">&quot;value&quot;</span><span class="nt">/&gt;&lt;/p&gt;</span>
+        <span class="nt">&lt;/t&gt;</span>
+    <span class="nt">&lt;/t&gt;</span>
+<span class="nt">&lt;/templates&gt;</span>
+</pre></div>
+</div>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// test/demo.js</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;templates&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">templates</span><span class="o">:</span> <span class="kc">true</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">instance</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">qweb</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="s1">&#39;DemoTemplate&#39;</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">texts</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">s</span><span class="p">).</span><span class="nx">find</span><span class="p">(</span><span class="s1">&#39;p&#39;</span><span class="p">).</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">text</span><span class="p">();</span>
+    <span class="p">}).</span><span class="nx">get</span><span class="p">();</span>
+
+    <span class="nx">deepEqual</span><span class="p">(</span><span class="nx">texts</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;3&#39;</span><span class="p">,</span> <span class="s1">&#39;4&#39;</span><span class="p">]);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section><section id="asynchronous-cases"><h3 >异步的情况下</h3><p >The test case examples so far are all synchronous, they execute from
+the first to the last line and once the last line has executed the
+test is done. But the web client is full of <a href="async.html#reference-async" class="internal reference"><span >asynchronous code</span></a>, and thus test cases need to be async-aware.</p><p >This is done by returning a <a href="async.html#Deferred" class="internal reference" title="Deferred"><code class="js-class xref js">deferred</code></a> from the
+case callback:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// test/demo.js</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;asynchronous&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">asserts</span><span class="o">:</span> <span class="mi">1</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">Deferred</span><span class="p">();</span>
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">ok</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">resolve</span><span class="p">();</span>
+    <span class="p">},</span> <span class="mi">100</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">d</span><span class="p">;</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p >This example also uses the <a href="#TestOptions" class="internal reference" title="TestOptions"><code class="js-class xref js">options parameter</code></a>
+to specify the number of assertions the case should expect, if less or
+more assertions are specified the case will count as failed.</p><p >Asynchronous test cases <em >must</em> specify the number of assertions they
+will run. This allows more easily catching situations where e.g. the
+test architecture was not warned about asynchronous operations.</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >Asynchronous test cases also have a 2 seconds timeout: if the test
+does not finish within 2 seconds, it will be considered
+failed. This pretty much always means the test will not
+resolve. This timeout <em >only</em> applies to the test itself, not to
+the setup and teardown processes.</p></div><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >If the returned deferred is rejected, the test will be failed
+unless <a href="#TestOptions.fail_on_rejection" class="internal alert-link reference" title="TestOptions.fail_on_rejection"><code class="js-attr xref js">fail_on_rejection</code></a> is set to
+<code >false</code>.</p></div></section><section id="id3"><h3 >RPC</h3><p >An important subset of asynchronous test cases is test cases which
+need to perform (and chain, to an extent) RPC calls.</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >Because they are a subset of asynchronous cases, RPC cases must
+also provide a valid <a href="#TestOptions.asserts" class="internal alert-link reference" title="TestOptions.asserts"><code class="js-attr xref js">assertions count</code></a>.</p></div><p >To enable mock RPC, set the <a href="#TestOptions.rpc" class="internal reference" title="TestOptions.rpc"><code class="js-attr xref js">rpc option</code></a> to
+<code >mock</code>. This will add a third parameter to the test case callback:</p><section class="code-function"><h6 id="mock"><code>mock(<em>rpc_spec</em>, <em>handler</em>)</code></h6><p >Can be used in two different ways depending on the shape of the
+first parameter:</p><ul ><li ><p >If it matches the pattern <code >model:method</code> (if it contains a
+colon, essentially) the call will set up the mocking of an RPC
+call straight to the Odoo server (through XMLRPC) as
+performed via e.g. <code class="js-func xref js">openerp.web.Model.call()</code>.</p><p >In that case, <code >handler</code> should be a function taking two
+arguments <code >args</code> and <code >kwargs</code>, matching the corresponding
+arguments on the server side and should simply return the value
+as if it were returned by the Python XMLRPC handler:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">test</span><span class="p">(</span><span class="s1">&#39;XML-RPC&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">rpc</span><span class="o">:</span> <span class="s1">&#39;mock&#39;</span><span class="p">,</span> <span class="nx">asserts</span><span class="o">:</span> <span class="mi">3</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">,</span> <span class="nx">$s</span><span class="p">,</span> <span class="nx">mock</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// set up mocking</span>
+    <span class="nx">mock</span><span class="p">(</span><span class="s1">&#39;people.famous:name_search&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">args</span><span class="p">,</span> <span class="nx">kwargs</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">strictEqual</span><span class="p">(</span><span class="nx">kwargs</span><span class="p">.</span><span class="nx">name</span><span class="p">,</span> <span class="s1">&#39;bob&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="p">[</span>
+            <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Microsoft Bob&quot;</span><span class="p">],</span>
+            <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;Bob the Builder&quot;</span><span class="p">],</span>
+            <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="s2">&quot;Silent Bob&quot;</span><span class="p">]</span>
+        <span class="p">];</span>
+    <span class="p">});</span>
+
+    <span class="c1">// actual test code</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nx">instance</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">Model</span><span class="p">(</span><span class="s1">&#39;people.famous&#39;</span><span class="p">)</span>
+        <span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="s1">&#39;name_search&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;bob&#39;</span><span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">result</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">strictEqual</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">length</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">&quot;shoud return 3 people&quot;</span><span class="p">);</span>
+            <span class="nx">strictEqual</span><span class="p">(</span><span class="nx">result</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="s2">&quot;Microsoft Bob&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;the most famous bob should be Microsoft Bob&quot;</span><span class="p">);</span>
+        <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</li><li ><p >Otherwise, if it matches an absolute path (e.g. <code >/a/b/c</code>) it
+will mock a JSON-RPC call to a web client controller, such as
+<code >/web/webclient/translations</code>. In that case, the handler takes
+a single <code >params</code> argument holding all of the parameters
+provided over JSON-RPC.</p><p >As previously, the handler should simply return the result value
+as if returned by the original JSON-RPC handler:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="nx">test</span><span class="p">(</span><span class="s1">&#39;JSON-RPC&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">rpc</span><span class="o">:</span> <span class="s1">&#39;mock&#39;</span><span class="p">,</span> <span class="nx">asserts</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nx">templates</span><span class="o">:</span> <span class="kc">true</span><span class="p">},</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">instance</span><span class="p">,</span> <span class="nx">$s</span><span class="p">,</span> <span class="nx">mock</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">fetched_dbs</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nx">fetched_langs</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="nx">mock</span><span class="p">(</span><span class="s1">&#39;/web/database/get_list&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">fetched_dbs</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span> <span class="s1">&#39;baz&#39;</span><span class="p">];</span>
+    <span class="p">});</span>
+    <span class="nx">mock</span><span class="p">(</span><span class="s1">&#39;/web/session/get_lang_list&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">fetched_langs</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="k">return</span> <span class="p">[[</span><span class="s1">&#39;vo_IS&#39;</span><span class="p">,</span> <span class="s1">&#39;Hopelandic / Vonlenska&#39;</span><span class="p">]];</span>
+    <span class="p">});</span>
+
+    <span class="c1">// widget needs that or it blows up</span>
+    <span class="nx">instance</span><span class="p">.</span><span class="nx">webclient</span> <span class="o">=</span> <span class="p">{</span><span class="nx">toggle_bars</span><span class="o">:</span> <span class="nx">openerp</span><span class="p">.</span><span class="nx">testing</span><span class="p">.</span><span class="nx">noop</span><span class="p">};</span>
+    <span class="kd">var</span> <span class="nx">dbm</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">instance</span><span class="p">.</span><span class="nx">web</span><span class="p">.</span><span class="nx">DatabaseManager</span><span class="p">({});</span>
+    <span class="k">return</span> <span class="nx">dbm</span><span class="p">.</span><span class="nx">appendTo</span><span class="p">(</span><span class="nx">$s</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">ok</span><span class="p">(</span><span class="nx">fetched_dbs</span><span class="p">,</span> <span class="s2">&quot;should have fetched databases&quot;</span><span class="p">);</span>
+        <span class="nx">ok</span><span class="p">(</span><span class="nx">fetched_langs</span><span class="p">,</span> <span class="s2">&quot;should have fetched languages&quot;</span><span class="p">);</span>
+        <span class="nx">deepEqual</span><span class="p">(</span><span class="nx">dbm</span><span class="p">.</span><span class="nx">db_list</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span> <span class="s1">&#39;baz&#39;</span><span class="p">]);</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</li></ul></section><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >Mock handlers can contain assertions, these assertions should be
+part of the assertions count (and if multiple calls are made to a
+handler containing assertions, it multiplies the effective number
+of assertions).</p></div></section><section id="testing-api"><h3 >测试API</h3><section class="code-function"><h6 id="openerp.testing.section"><code>openerp.testing.section(<em>name</em>, [<em>options</em>, ]<em>body</em>)</code></h6><p >A test section, serves as shared namespace for related tests (for
+constants or values to only set up once). The <code >body</code> function
+should contain the tests themselves.</p><p >Note that the order in which tests are run is essentially
+undefined, do <em >not</em> rely on it.</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >name</strong> (<em >String</em>) -- </li><li ><strong >options</strong> (<a href="#TestOptions" class="internal alert-link reference" title="TestOptions"><em >TestOptions</em></a>) -- </li><li ><strong >body</strong> (Function&lt;<a href="#openerp.testing.case" class="internal alert-link reference" title="openerp.testing.case"><code class="js-func xref js">case()</code></a>, void&gt;) -- </li></ul></div></div></div></section><section class="code-function"><h6 id="openerp.testing.case"><code>openerp.testing.case(<em>name</em>, [<em>options</em>, ]<em>callback</em>)</code></h6><p >Registers a test case callback in the test runner, the callback
+will only be run once the runner is started (or maybe not at all,
+if the test is filtered out).</p><div class="code-fields"><div class="code-field"><div class="code-field-name">参数</div><div class="code-field-body"><ul ><li ><strong >name</strong> (<em >String</em>) -- </li><li ><strong >options</strong> (<a href="#TestOptions" class="internal alert-link reference" title="TestOptions"><em >TestOptions</em></a>) -- </li><li ><strong >callback</strong> (<em >Function&lt;instance, $, Function&lt;String, Function, void&gt;&gt;</em>) -- </li></ul></div></div></div></section><section class="code-class"><h6 id="TestOptions"><code><em >class </em>TestOptions()</code></h6><p >the various options which can be passed to
+<a href="#openerp.testing.section" class="internal alert-link reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a> or
+<a href="#openerp.testing.case" class="internal alert-link reference" title="openerp.testing.case"><code class="js-func xref js">case()</code></a>. Except for
+<a href="#TestOptions.setup" class="internal alert-link reference" title="TestOptions.setup"><code class="js-attr xref js">setup</code></a> and
+<a href="#TestOptions.teardown" class="internal alert-link reference" title="TestOptions.teardown"><code class="js-attr xref js">teardown</code></a>, an option on
+<a href="#openerp.testing.case" class="internal alert-link reference" title="openerp.testing.case"><code class="js-func xref js">case()</code></a> will overwrite the corresponding
+option on <a href="#openerp.testing.section" class="internal alert-link reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a> so
+e.g. <a href="#TestOptions.rpc" class="internal alert-link reference" title="TestOptions.rpc"><code class="js-attr xref js">rpc</code></a> can be set for a
+<a href="#openerp.testing.section" class="internal alert-link reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a> and then differently set for
+some <a href="#openerp.testing.case" class="internal alert-link reference" title="openerp.testing.case"><code class="js-func xref js">case()</code></a> of that
+<a href="#openerp.testing.section" class="internal alert-link reference" title="openerp.testing.section"><code class="js-func xref js">section()</code></a></p><section class="code-attribute"><h6 id="TestOptions.asserts"><code>TestOptions.asserts</code></h6><p >一个整数，这应该试验的正常执行期间运行声明的数目。强制性异步测试。</p></section><section class="code-attribute"><h6 id="TestOptions.setup"><code>TestOptions.setup</code></h6><p >Test case setup, run right before each test case. A section's
+<a href="#TestOptions.setup" class="internal alert-link reference" title="TestOptions.setup"><code class="js-func xref js">setup()</code></a> is run before the case's own, if
+both are specified.</p></section><section class="code-attribute"><h6 id="TestOptions.teardown"><code>TestOptions.teardown</code></h6><p >Test case teardown, a case's <a href="#TestOptions.teardown" class="internal alert-link reference" title="TestOptions.teardown"><code class="js-func xref js">teardown()</code></a>
+is run before the corresponding section if both are present.</p></section><section class="code-attribute"><h6 id="TestOptions.fail_on_rejection"><code>TestOptions.fail_on_rejection</code></h6><p >If the test is asynchronous and its resulting promise is
+rejected, fail the test. Defaults to <code >true</code>, set to
+<code >false</code> to not fail the test in case of rejection:</p><div class="highlight-javascript"><div class="highlight"><pre><span class="c1">// test/demo.js</span>
+<span class="nx">test</span><span class="p">(</span><span class="s1">&#39;unfail rejection&#39;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">asserts</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">fail_on_rejection</span><span class="o">:</span> <span class="kc">false</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nx">$</span><span class="p">.</span><span class="nx">Deferred</span><span class="p">();</span>
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nx">ok</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+        <span class="nx">d</span><span class="p">.</span><span class="nx">reject</span><span class="p">();</span>
+    <span class="p">},</span> <span class="mi">100</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">d</span><span class="p">;</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section><section class="code-attribute"><h6 id="TestOptions.rpc"><code>TestOptions.rpc</code></h6><p >RPC method to use during tests, one of <code >&quot;mock&quot;</code> or
+<code >&quot;rpc&quot;</code>. Any other value will disable RPC for the test (if
+they were enabled by the suite for instance).</p></section><section class="code-attribute"><h6 id="TestOptions.templates"><code>TestOptions.templates</code></h6><p >Whether the current module (and its dependencies)'s templates
+should be loaded into QWeb before starting the test. A
+boolean, <code >false</code> by default.</p></section></section><p >The test runner can also use two global configuration values set
+directly on the <code >window</code> object:</p><ul ><li ><code >oe_all_dependencies</code> is an <code >Array</code> of all modules with a web
+component, ordered by dependency (for a module <code >A</code> with
+dependencies <code >A'</code>, any module of <code >A'</code> must come before <code >A</code> in
+the array)</li></ul></section><section id="running-through-python"><h3 >通过Python的运行</h3><p >The web client includes the means to run these tests on the
+command-line (or in a CI system), but while actually running it is
+pretty simple the setup of the pre-requisite parts has some
+complexities.</p><ol ><li ><p ><a href="http://pypi.python.org/pypi/QUnitSuite/" class="external reference">安装PhantomJS</a>。这是它允许自动运行和测试网页的无头的浏览器。 QUnitSuite_用它来实际运行qunit_测试套件。</p><p >该PhantomJS_网站提供预先生成的二进制文件，一些平台，和你的操作系统的包管理可能提供它。</p><p >If you're building <a href="http://phantomjs.org/" class="external reference">PhantomJS</a> from source, I recommend preparing
+for some knitting time as it's not exactly fast (it needs to
+compile both <a href="http://qt-project.org/" class="external reference">Qt</a> and <a href="http://www.webkit.org/" class="external reference">Webkit</a>, both being pretty big projects).</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >Because <a href="http://phantomjs.org/" class="external reference alert-link">PhantomJS</a> is webkit-based, it will not be able to test
+if Firefox, Opera or Internet Explorer can correctly run the
+test suite (and it is only an approximation for Safari and
+Chrome). It is therefore recommended to <em >also</em> run the test
+suites in actual browsers once in a while.</p></div><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >The version of <a href="http://phantomjs.org/" class="external reference alert-link">PhantomJS</a> this was build through is 1.7,
+previous versions <em >should</em> work but are not actually supported
+(and tend to just segfault when something goes wrong in
+<a href="http://phantomjs.org/" class="external reference alert-link">PhantomJS</a> itself so they're a pain to debug).</p></div></li><li ><p >Install a new database with all relevant modules (all modules with
+a web component at least), then restart the server</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >对于一些测试，源数据库需要被复制。此操作要求有与数据库连接不被复制，但Odoo目前不破坏现有/未完成的连接，所以重新启动服务器，以确保一切都在正确的状态，最简单的方法。</p></div></li><li ><p >Launch <code >oe run-tests -d $DATABASE -mweb</code> with the correct
+addons-path specified (and replacing <code >$DATABASE</code> by the source
+database you created above)</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >如果你离开了``-mweb``，亚军将尝试在所有的模块，这可能会或可能无法正常工作运行所有测试。</p></div></li></ol><p >If everything went correctly, you should now see a list of tests with
+(hopefully) <code >ok</code> next to their names, closing with a report of the
+number of tests run and the time it took:</p><div class="highlight-text"><div class="highlight"><pre>test_empty_find (openerp.addons.web.tests.test_dataset.TestDataSetController) ... ok
+test_ids_shortcut (openerp.addons.web.tests.test_dataset.TestDataSetController) ... ok
+test_regular_find (openerp.addons.web.tests.test_dataset.TestDataSetController) ... ok
+web.testing.stack: direct, value, success ... ok
+web.testing.stack: direct, deferred, success ... ok
+web.testing.stack: direct, value, error ... ok
+web.testing.stack: direct, deferred, failure ... ok
+web.testing.stack: successful setup ... ok
+web.testing.stack: successful teardown ... ok
+web.testing.stack: successful setup and teardown ... ok
+
+[snip ~150 lines]
+
+test_convert_complex_context (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+test_convert_complex_domain (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+test_convert_literal_context (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+test_convert_literal_domain (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+test_retrieve_nonliteral_context (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+test_retrieve_nonliteral_domain (openerp.addons.web.tests.test_view.DomainsAndContextsTest) ... ok
+
+----------------------------------------------------------------------
+Ran 181 tests in 15.706s
+
+OK
+</pre></div>
+</div>
+<p >Congratulation, you have just performed a successful &quot;offline&quot; run of
+the OpenERP Web test suite.</p><div role="alert" class="alert-info alert"><p class="alert-title">注解</p><p >请注意，此运行所有的Python测试的``web``模块，但所有的Web测试所有Odoo的。这可能是令人惊讶的。</p></div><div class="footnote" id="eventsdelegation"><span class="footnote-label"><a class="footnote-backref" href="#id1">[1]</a></span> <p >不是所有的DOM事件与事件代表团兼容</p></div><div class="footnote" id="terminal"><span class="footnote-label"><a class="footnote-backref" href="#id2">[2]</a></span> with a small twist: <a href="http://docs.sqlalchemy.org/en/rel_0_9/orm/query.html#sqlalchemy.orm.query.Query.group_by" class="external reference" title="(在 SQLAlchemy v0.9)"><code class="py py-meth xref">sqlalchemy.orm.query.Query.group_by()</code></a> is not
+terminal, it returns a query which can still be altered.</div></section>
+
+          </article>
+        </div>
+        
+        <div id="mask"></div>
+      </main>
+    </div>
+  </div>
+
+  <div class="floating_action_container">
+    <a id="floating_action" class="ripple" href="#">
+      <i class="mdi-action-explore"></i>
+    </a>
+    <div id="floating_action_menu">
+      <span class="bubble"></span>
+      <ul class="list-group content">
+        <li class="list-group-item ripple"><a>Cras justo odio</a></li>
+        <li class="list-group-item ripple"><a>Dapibus ac facilisis in</a></li>
+        <li class="list-group-item ripple"><a>Morbi leo risus</a></li>
+        <li class="list-group-item ripple"><a>Porta ac consectetur ac</a></li>
+        <li class="list-group-item ripple"><a>Vestibulum at eros</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div id="footer" class="container">
+      <span class="o_logo o_logo_inverse center-block o_footer_logo"></span>
+      <div class="row">
+        <div class="col-sm-7 col-md-7 col-lg-6">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Community</span>
+              <ul>
+                <li><a href="https://github.com/odoo/odoo">Github</a></li>
+                <li><a href="http://www.odoo.com/page/download">Download</a></li>
+                <li class="divider"></li>
+                <li><a href="http://runbot.odoo.com/runbot/repo/git-github-com-odoo-enterprise-7">Runbot</a></li>
+                <li><a href="https://github.com/odoo/odoo/wiki/Translations">Translations</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/odoo-community">Mailing Lists</a></li>
+                <li><a href="http://www.odoo.com/forum/help-1">Forum</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Services</span>
+              <ul>
+                <li><a href="http://www.odoo.com/pricing">Editions</a></li>
+                <li><a href="http://www.odoo.com/pricing-online">Cloud Pricing</a></li>
+                <li><a href="http://www.odoo.com/page/upgrade">Upgrade</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/partners">Find a partner</a></li>
+                <li><a href="http://www.odoo.com/page/become-a-partner">Become a partner</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/education-program">Education</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/security">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 mb64">
+              <span class="menu_title">About us</span>
+              <ul>
+                <li><a href="http://www.odoo.com/page/about-us">Our company</a></li>
+                <li><a href="http://www.odoo.com/page/contactus">Contact</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/event">Events</a></li>
+                <li><a href="http://www.odoo.com/blog/">Blog</a></li>
+                <li><a href="http://www.odoo.com/blog/6">Customers</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/jobs">Jobs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 col-md-4 col-md-offset-1 col-lg-5 col-lg-offset-1">
+          <p>
+            <small>
+              Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+              <br/><br/>
+              Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="o_footer_bottom">
+      <div class="container">
+        <a class="small" href="http://www.odoo.com/page/website-builder">Website made with <span class="o_logo o_logo_inverse o_logo_15"></span></a>
+        <div class="social-links pull-right">
+          <a href="http://www.odoo.com/web/about/facebook"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.odoo.com/web/about/twitter"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.odoo.com/web/about/linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:info@odoo.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

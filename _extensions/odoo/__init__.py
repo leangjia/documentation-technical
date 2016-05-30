@@ -8,7 +8,10 @@ import sphinx.environment
 import sphinx.builders.html
 from docutils import nodes
 def setup(app):
-    app.set_translator('html', translator.BootstrapTranslator)
+    if getattr(app.config, 'html_translator_class', None):
+        app.warn("Overriding the explicitly set  html_translator_class setting",
+                 location="odoo extension")
+    app.config.html_translator_class = 'odoo.translator.BootstrapTranslator'
 
     switcher.setup(app)
     app.add_config_value('odoo_cover_default', None, 'env')
@@ -65,10 +68,10 @@ def navbarify(node, navbar=None):
             # no subrefs -> ignore
             if not list_item.children[1].children:
                 continue
-            # otherwise replace reference node by its own children
+            # otherwise replace reference node by an inline (so it can still be styled)
             para = n.parent
             para.remove(n)
-            para.extend(n.children)
+            para.append(nodes.inline('', '', *n.children))
 
 
 def resolve_content_toctree(

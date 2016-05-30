@@ -6,8 +6,6 @@ import sphinx
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 DIR = os.path.dirname(__file__)
-locale_dirs=['locale/']
-
 sys.path.append(
     os.path.abspath(
         os.path.join(DIR, '_extensions')))
@@ -55,9 +53,9 @@ copyright = u'Odoo S.A.'
 # built documents.
 #
 # The short X.Y version.
-version = 'master'
+version = '9.0'
 # The full version, including alpha/beta/rc tags.
-release = 'master'
+release = '9.0'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -246,4 +244,3 @@ def _build_url(root, branch, pagename):
         canonical_page=(pagename + '.html').replace('index.html', '')
                                            .replace('index/', ''),
     )
-

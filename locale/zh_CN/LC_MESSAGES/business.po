@@ -1,23 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) Odoo S.A.
-# This file is distributed under the same license as the odoo package.
-# 
-# Translators:
-# jeffery chen fan <jeffery9@gmail.com>, 2015
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: odoo documentation technical\n"
+"Project-Id-Version: odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-06 04:27+0800\n"
-"PO-Revision-Date: 2015-09-07 08:39+0000\n"
-"Last-Translator: jeffery chen fan <jeffery9@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
+"POT-Creation-Date: 2016-05-30 17:20+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../business.rst:3
 msgid "Business Mementoes"
-msgstr "业务备忘录"
+msgstr ""

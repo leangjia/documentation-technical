@@ -1,0 +1,370 @@
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>部署Odoo &mdash; odoo 9.0 文档</title>
+    
+    <link rel="stylesheet" href="../_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/patchqueue.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '9.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/patchqueue.js"></script>
+    <script type="text/javascript" src="../_static/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap.js"></script>
+    <script type="text/javascript" src="../_static/doc.js"></script>
+    <script type="text/javascript" src="../_static/jquery.noconflict.js"></script>
+    <link rel="top" title="odoo 9.0 文档" href="../index.html" />
+    <link rel="up" title="安装" href="../setup.html" />
+    <link rel="next" title="使用CDN" href="cdn.html" />
+    <link rel="prev" title="安装Odoo" href="install.html" /> 
+  </head>
+  <body role="document"><header class="o_main_header o_has_sub_nav o_inverted ">
+    <div class="o_main_header_main">
+      <a class="pull-left o_logo" href="/"></a>
+      <a href="#" class="o_mobile_menu_toggle visible-xs-block pull-right">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="mdi-navigation-menu"></span>
+      </a>
+      <div class="o_header_buttons">
+        <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+      </div>
+      <ul class="o_primary_nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Apps</a>
+          <div class="dropdown-menu o_secondary_nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3 o_website_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Websites
+                    <div>Build great user experience</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/website-builder">Website Builder</a></li>
+                    <li><a href="https://www.odoo.com/page/e-commerce">eCommerce</a></li>
+                    <li><a href="https://www.odoo.com/page/blog-engine">Blogs</a></li>
+                    <li><a href="https://www.odoo.com/page/community-builder">Forums</a></li>
+                    <li><a href="https://www.odoo.com/page/slides">Slides</a></li>
+                    <li><a href="https://adspike.odoo.com">SEA</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_sale_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Sales
+                    <div>Boost your success rate</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/sales">Sales</a></li>
+                    <li><a href="https://www.odoo.com/page/crm">CRM</a></li>
+                    <li><a href="https://www.odoo.com/page/billing">Invoicing</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Point of Sale</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/point-of-sale">Shops</a></li>
+                        <li><a href="https://www.odoo.com/page/pos-restaurant">Restaurants</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/subscriptions">Subscriptions</a></li>
+                    <li><a href="https://www.odoo.com/page/sign">Sign</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_operation_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Operations
+                    <div>It's all about efficiency</div>
+                  </div>
+                  <ul>
+                    <li><a href="https://www.odoo.com/page/accounting/">Accounting</a></li>
+                    <li><a href="https://www.odoo.com/page/project-management/">Project</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Human Resources</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/recruitment">Recruitment</a></li>
+                        <li><a href="https://www.odoo.com/page/employees">Employees</a></li>
+                        <li><a href="https://www.odoo.com/page/expenses">Expenses</a></li>
+                        <li><a href="https://www.odoo.com/page/appraisal">Appraisal</a></li>
+                        <li><a href="https://www.odoo.com/page/fleet">Fleet</a></li>
+                        <li><a href="https://www.odoo.com/page/leaves">Leaves</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/warehouse">Inventory</a></li>
+                    <li><a href="https://www.odoo.com/page/purchase">Purchase</a></li>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Manufacturing</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/manufacturing">MRP</a></li>
+                        <li><a href="https://www.odoo.com/page/plm">PLM</a></li>
+                        <li><a href="https://www.odoo.com/page/maintenance">Maintenance</a></li>
+                        <li><a href="https://www.odoo.com/page/quality">Quality</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-3 o_productivity_apps">
+                  <div class="o_nav_app_family">
+                    <span></span> Productivity Tools
+                    <div>Great Tools = Happy People</div>
+                  </div>
+                  <ul>
+                    <li class="dropdown">
+                      <a href="#0" class="dropdown-toggle">Communication</a>
+                      <ul>
+                        <li><a href="https://www.odoo.com/page/discuss">Discuss</a></li>
+                        <li><a href="https://www.odoo.com/page/discuss-groups">Mailing Lists</a></li>
+                        <li><a href="https://www.odoo.com/page/notes">Notes</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Appointment</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="https://www.odoo.com/page/timesheet">Timesheet</a></li>
+                    <li><a href="https://www.odoo.com/page/email-marketing">Email Marketing</a></li>
+                    <li><a href="https://www.odoo.com/page/events">Events</a></li>
+                    <li><a href="https://www.odoo.com/page/survey">Survey</a></li>
+                    <li><a href="https://www.odoo.com/page/live-chat">Live Chat</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a href="http://www.odoo.com/apps/modules" class="o_store_link"><i class="fa fa-cube fa-fw"></i> Third party apps</a>
+          </div>
+        </li>
+        <li><a href="https://www.odoo.com/page/tour">Tour</a></li>
+        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
+        <li><a href="https://www.odoo.com/page/docs">Docs</a></li>
+      </ul>
+    </div>
+    <nav class="navbar o_sub_nav">
+      <div class="container">
+        <div class="navbar-header visible-xs">
+            <button type="button" class="navbar-toggle collapsed text-left btn-block" data-toggle="collapse" data-target="#o_sub-menu" aria-expanded="false">
+              Navigate
+              <span class="mdi-hardware-keyboard-arrow-down pull-right"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="o_sub-menu">
+          <ol class="o_breadcrumb breadcrumb nav navbar-left">
+              
+              
+
+
+
+
+
+    
+        
+            <li><a href="../index.html">Developer Doc</a></li>
+        
+    
+    <li class="active"><a href="#">部署Odoo</a></li>
+
+              
+          </ol>
+
+          <div class="call-to-action navbar-right hidden-xs">
+            <a href="http://www.odoo.com/trial" class="btn btn-primary">Start Now</a>
+          </div>
+
+          <ul class="navbar-nav navbar-right nav o_sub_nav_actions">
+            
+              <li class="divider"></li>
+            
+
+            
+            
+
+
+            
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            
+
+            
+            
+
+<li><a href="http://www.odoo.com/documentation/user/9.0/index.html">User</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/index.html">Developer</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/api_integration.html">API</a></li>
+<li><a href="http://www.odoo.com/documentation/9.0/setup/install.html">Installation</a></li>
+<li><a href="http://www.odoo.com/page/odoo-white-paper">White Papers</a></li>
+<li><a href="http://www.odoo.com/page/legal">Legal</a></li>
+            
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><div id="wrap" class="">
+    
+    
+    
+    <figure class="card top has_banner">
+      <span class="card-img" style="background-image: url('../_static/banners/deploying_odoo.jpg');"></span>
+      <div class="container text-center">
+        <h1> 部署Odoo </h1>
+      </div>
+    </figure>
+    
+    
+    
+    <div class="container ">
+      <main class="container-fluid ">
+        
+        <div class="row">
+          
+          <aside>
+            <div class="navbar-aside text-center">
+              <ul class="list-group text-left nav"><li class="list-group-item"><a href="#dbfilter" class="ripple internal reference">dbfilter</a></li><li class="list-group-item"><a href="#postgresql" class="ripple internal reference">PostgreSQL</a><ul ><li class="list-group-item"><a href="#configuring-odoo" class="ripple internal reference">配置O​​doo</a></li></ul></li><li class="list-group-item"><a href="#https" class="ripple internal reference">HTTPS</a></li><li class="list-group-item"><a href="#builtin-server" class="ripple internal reference">内建服务器</a><ul ><li class="list-group-item"><a href="#livechat" class="ripple internal reference">在线聊天</a></li></ul></li><li class="list-group-item"><a href="#odoo-as-a-wsgi-application" class="ripple internal reference">Odoo作为WSGI应用</a><ul ><li class="list-group-item"><a href="#cron-workers" class="ripple internal reference">Cron Workers</a></li><li class="list-group-item"><a href="#id4" class="ripple internal reference">在线聊天</a></li></ul></li><li class="list-group-item"><a href="#serving-static-files" class="ripple internal reference">提供静态文件服务</a></li><li class="list-group-item"><a href="#security" class="ripple internal reference">安全</a><ul ><li class="list-group-item"><a href="#super-admin-password" class="ripple internal reference">&quot;Super-admin&quot; 密码</a></li></ul></li></ul>
+              
+              <p class="gith-container"><a href="https://github.com/odoo/odoo/edit/9.0/doc/setup/deploy.rst" class="gith-link">
+                  Edit on GitHub
+              </a></p>
+              
+            </div>
+          </aside>
+          
+          <article class="doc-body ">
+            
+            
+  <section id="deploying-odoo"><p >This document describes basic steps to set up Odoo in production. It follows
+<a href="install.html#setup-install" class="internal reference"><span >installation</span></a>, but should not be used for development
+systems.</p></section><section id="dbfilter"><h2 >dbfilter</h2><p >Odoo是一个多租户系统：单Odoo系统可以运行，并服务于若干数据库实例。这也是高度可定制的，与（正装从模块开始）自定义取决于'当前数据库'。</p><p >这不是一个问题，与后端（Web客户端）作为一个已登录的用户的公司时：数据库可以在登录时进行选择，随后加载自定义。</p><p >然而，它是一个问题未记录用户（门户网站），该未绑定到一个数据库：Odoo需要知道哪个数据库应该用于操作或获取数据。如果多租户不使用这不是一个问题，有只使用一个数据库，但如果有多个数据库访问Odoo需要一个规则来知道它应该使用哪一个。</p><p >That is one of the purposes of <a href="../reference/cmdline.html#cmdoption-odoo.py--db-filter" class="internal reference"><code class="std xref std-option">--db-filter</code></a>:
+it specifies the default database for the Odoo system. The value is a
+<a href="https://docs.python.org/2/library/re.html" class="external reference">regular expression</a>, possibly including the dynamically injected hostname
+or subdomain through which the Odoo system is accessed.</p><p >如果Odoo主机生产多个数据库，特别是如果``website``时，它** [UNKNOWN NODE problematic]必须使用dbfilter或一些功能将无法正常使用或不使用的。</p></section><section id="postgresql"><h2 >PostgreSQL</h2><p >默认情况下，PostgreSQL只允许通过Unix套接字和回环连接的连接（从'本地主机'，PostgreSQL服务器安装在同一台机器）。</p><p >如果你想Odoo和PostgreSQL在同一台机器上执行UNIX套接字是罚款，并没有提供主机时默认的，但如果你想Odoo和PostgreSQL在不同的机器[＃不同的机器]执行_它将需要`听网络interfaces`_ [＃遥控插座] _，或者：</p><ul ><li ><p >只接受环回连接和`使用Odoo其上运行的机器和PostgreSQL在其上运行一个之间建立SSH tunnel`_​​，然后配置Odoo连接到隧道的结束</p></li><li ><p >接受连接到其Odoo安装，可能在SSL机器（见`PostgreSQL的连接settings`_了解详细信息），然后配置Odoo到通过网络连接</p></li></ul></section><section id="configuring-odoo"><i id="setup-deploy-odoo"></i><h3 >配置O​​doo</h3><p >Out of the box, Odoo connects to a local postgres over UNIX socket via port
+5432. This can be overridden using <a href="../reference/cmdline.html#reference-cmdline-server-database" class="internal reference"><span >the database options</span></a> when your Postgres deployment is not
+local and/or does not use the installation defaults.</p><p >The <a href="install.html#setup-install-packaged" class="internal reference"><span >packaged installers</span></a> will automatically
+create a new user (<code >odoo</code>) and set it as the database user.</p><ul ><li ><p >数据库管理界面是由``admin_passwd``设置保护。此设置只能使用配置文件的设置，并执行数据库改变之前，简单地检查。它应该被设置为随机产生的值，以确保第三方不能使用该接口。</p></li><li >all database operations use the <a href="../reference/cmdline.html#reference-cmdline-server-database" class="internal reference"><span >database options</span></a>, including the database management
+screen. For the database management screen to work requires that the user
+have <code >createdb</code> right.</li><li ><p >用户可以随时放下他们自己的数据库。对于数据库管理屏幕是完全非功能性，用户需要与``无createdb``创建和数据库必须由不同的用户所拥有。</p><div role="alert" class="alert-warning alert"><p class="alert-title">警告</p><p >用户*不能*是超级用户</p></div></li></ul></section><section id="https"><h2 >HTTPS</h2><p >无论是通过网页/ Web客户端或Web服务访问的真实，Odoo在传输cleatext认证信息。这意味着Odoo的安全部署必须使用HTTPS [#switching] _。 SSL终端可以通过几乎所有的SSL终止代理服务器来实现，但需要以下设置：</p><ul ><li >enable Odoo's <a href="../reference/cmdline.html#cmdoption-odoo.py--proxy-mode" class="internal reference"><code class="std xref std-option">proxy mode</code></a>. This should only
+be enabled when Odoo is behind a reverse proxy</li><li ><p >建立SSL终止代理（<a href="http://nginx.com/resources/admin-guide/nginx-ssl-termination/" class="external reference">Nginx的终止example</a>）</p></li><li ><p >建立了代理本身（<a href="http://nginx.com/resources/admin-guide/reverse-proxy/" class="external reference">Nginx的代理example</a>）</p></li><li ><p >您的SSL终止代理也应该自动重定向到安全端口非安全连接</p></li></ul></section><section id="builtin-server"><h2 >内建服务器</h2><p >Odoo包括内置的HTTP服务器，或者使用多线程和多。</p><p >为生产使用，推荐使用多处理服务器，因为它提高了稳定性，使得有些更好地利用计算资源，并且可以是更好地监测和资源的限制。</p><ul ><li >Multiprocessing is enabled by configuring <a href="../reference/cmdline.html#cmdoption-odoo.py--workers" class="internal reference"><code class="std xref std-option">a non-zero number of
+worker processes</code></a>, the number of workers should be based
+on the number of cores in the machine (possibly with some room for cron
+workers depending on how much cron work is predicted)</li><li ><p >Worker的限制可以基于硬件配置，以避免资源枯竭</p></li></ul><div role="alert" class="alert-warning alert"><p class="alert-title">警告</p><p >目前多模式不可用在Windows</p></div></section><section id="livechat"><h3 >在线聊天</h3><p >In multiprocessing, a dedicated LiveChat worker is automatically started and
+listening on <a href="../reference/cmdline.html#cmdoption-odoo.py--longpolling-port" class="internal reference"><code class="std xref std-option">the longpolling port</code></a> but
+the client will not connect to it.</p><p >Instead you must have a proxy redirecting requests whose URL starts with
+<code >/longpolling/</code> to the longpolling port. Other request should be proxied to
+the <a href="../reference/cmdline.html#cmdoption-odoo.py--xmlrpc-port" class="internal reference"><code class="std xref std-option">normal HTTP port</code></a></p></section><section id="odoo-as-a-wsgi-application"><h2 >Odoo作为WSGI应用</h2><p >另外，也可以安装Odoo作为标准WSGI_应用。 Odoo提供了基础的WSGI启动脚本``OpenERP-wsgi.py``。该脚本可以定制（复制之后），直接在配置:mod:[UNKNOWN NODE title_reference] 正确地设置，而不是通过命令行或配置文件。</p><p >然而，WSGI服务器只会暴露了web客户端，网页和Web服务API的主要HTTP端点。由于Odoo不控制创建工人了它不能设置cron或在线咨询工作者</p></section><section id="cron-workers"><h3 >Cron Workers</h3><p >要运行cron作业的Odoo部署作为WSGI应用要求</p><ul ><li ><p >经典Odoo（通过``odoo.py``运行）</p></li><li ><p >连接到数据库中，cron作业已被运行（通过:option:[UNKNOWN NODE title_reference]）</p></li><li ><p >不应该暴露到网络。为了确保cron不能通过网络访问，可以使用:option:[UNKNOWN NODE title_reference]</p></li></ul></section><section id="id4"><h3 >在线聊天</h3><p >第二问题子系统WSGI部署是在线咨询：其中最HTTP连接是相对短的，并迅速释放他们的工作进程的下一个请求，ID登录要求每个客户端，以执行近实时通知一个长期连接。</p><p >这是与基于过程的工人模式的冲突，因为它会占用工作进程，并阻止新用户访问系统。然而，那些长期存在的连接做的很少，大多停留停放等待通知。</p><p >这些解决方案支持在线咨询/在WSGI应用motifications是：</p><ul ><li ><p >部署Odoo的线程版本（instread的基于流程的preforking一个）和重定向只要求以`网址`/ longpolling /[UNKNOWN NODE problematic]到Odoo，这是最简单和longpolling URL可以加倍作为cron的实例。</p></li><li >deploy an evented Odoo via <code >openerp-gevent</code> and proxy requests starting
+with <code >/longpolling/</code> to
+<a href="../reference/cmdline.html#cmdoption-odoo.py--longpolling-port" class="internal reference"><code class="std xref std-option">the longpolling port</code></a>.</li></ul></section><section id="serving-static-files"><h2 >提供静态文件服务</h2><p >为了便于开发，Odoo直接在它的模块为所有静态文件。这可能不是很理想，当谈到表演，静态文件通常应该由静态HTTP服务器提供服务。</p><p >Odoo静态文件活在每个模块的``静态/[UNKNOWN NODE problematic]文件夹，所以静态文件通过拦截所有的请求送达:samp:[UNKNOWN NODE title_reference]，并查找正确的模块（和文件）的各种插件路径。</p></section><section id="security"><h2 >安全</h2></section><section id="super-admin-password"><h3 >&quot;Super-admin&quot; 密码</h3><p ><a href="#setup-deploy-odoo" class="internal reference"><span >配置O​​doo</span></a>  提到传入的``admin_passwd``。</p><p >此设置用于所有的数据库管理界面（创建，删除，倒出或恢复数据库）。</p><p >如果管理的屏幕一定不能访问，或只能从机器中选定的一组访问，使用代理服务器的功能，阻止访问所有航线开始``/网络/ database``除了（也许）``/网络/数据库/ selector``其中显示数据库选择画面。</p><p >如果数据库管理屏幕应留便利，[UNKNOWN NODE problematic]admin_passwd``设置必须从它的``admin``更改默认值：此密码是允许数据库修改操作前检查。</p><p >应当安全地存储，并且应该随机例如产生</p><div class="highlight-console"><div class="highlight"><pre><span class="gp">$</span> python -c <span class="s1">&#39;import base64, os; print(base64.b64encode(os.urandom(24)))&#39;</span>
+</pre></div>
+</div>
+<p >这将产生一个32字符的伪随机的可打印字符串。</p><div class="footnote" id="different-machines"><span class="footnote-label"><a class="footnote-backref" href="#id1">[1]</a></span> <p >有多个Odoo安装使用相同的PostgreSQL数据库，或提供更多的计算资源，以两个软件。</p></div><div class="footnote" id="remote-socket"><span class="footnote-label"><a class="footnote-backref" href="#id2">[2]</a></span> <p >技术上像socat_一个工具可用于跨网络代理的UNIX插座，但是这主要是为软件，它可以只使用过的UNIX插座</p></div><div class="footnote" id="switching"><span class="footnote-label"><a class="footnote-backref" href="#id3">[3]</a></span> <p >或者是只通过内部分组交换网络可访问的，但是这需要有担保交换机，保护对抗`ARP spoofing`_和排除的WiFi的使用。甚至通过安全分组交换网络，部署通过HTTPS建议，和可能的成本降低为'自签名'证书更容易部署在受控环境比在互联网上。</p></div></section>
+
+          </article>
+        </div>
+        
+        <div id="mask"></div>
+      </main>
+    </div>
+  </div>
+
+  <div class="floating_action_container">
+    <a id="floating_action" class="ripple" href="#">
+      <i class="mdi-action-explore"></i>
+    </a>
+    <div id="floating_action_menu">
+      <span class="bubble"></span>
+      <ul class="list-group content">
+        <li class="list-group-item ripple"><a>Cras justo odio</a></li>
+        <li class="list-group-item ripple"><a>Dapibus ac facilisis in</a></li>
+        <li class="list-group-item ripple"><a>Morbi leo risus</a></li>
+        <li class="list-group-item ripple"><a>Porta ac consectetur ac</a></li>
+        <li class="list-group-item ripple"><a>Vestibulum at eros</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div id="footer" class="container">
+      <span class="o_logo o_logo_inverse center-block o_footer_logo"></span>
+      <div class="row">
+        <div class="col-sm-7 col-md-7 col-lg-6">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Community</span>
+              <ul>
+                <li><a href="https://github.com/odoo/odoo">Github</a></li>
+                <li><a href="http://www.odoo.com/page/download">Download</a></li>
+                <li class="divider"></li>
+                <li><a href="http://runbot.odoo.com/runbot/repo/git-github-com-odoo-enterprise-7">Runbot</a></li>
+                <li><a href="https://github.com/odoo/odoo/wiki/Translations">Translations</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/odoo-community">Mailing Lists</a></li>
+                <li><a href="http://www.odoo.com/forum/help-1">Forum</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <span class="menu_title">Services</span>
+              <ul>
+                <li><a href="http://www.odoo.com/pricing">Editions</a></li>
+                <li><a href="http://www.odoo.com/pricing-online">Cloud Pricing</a></li>
+                <li><a href="http://www.odoo.com/page/upgrade">Upgrade</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/partners">Find a partner</a></li>
+                <li><a href="http://www.odoo.com/page/become-a-partner">Become a partner</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/education-program">Education</a></li>
+                <li class="divider"></li>
+                <li><a href="http://www.odoo.com/page/security">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 mb64">
+              <span class="menu_title">About us</span>
+              <ul>
+                <li><a href="http://www.odoo.com/page/about-us">Our company</a></li>
+                <li><a href="http://www.odoo.com/page/contactus">Contact</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/event">Events</a></li>
+                <li><a href="http://www.odoo.com/blog/">Blog</a></li>
+                <li><a href="http://www.odoo.com/blog/6">Customers</a></li>
+                <li class="divider" />
+                <li><a href="http://www.odoo.com/jobs">Jobs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 col-md-4 col-md-offset-1 col-lg-5 col-lg-offset-1">
+          <p>
+            <small>
+              Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.
+              <br/><br/>
+              Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="o_footer_bottom">
+      <div class="container">
+        <a class="small" href="http://www.odoo.com/page/website-builder">Website made with <span class="o_logo o_logo_inverse o_logo_15"></span></a>
+        <div class="social-links pull-right">
+          <a href="http://www.odoo.com/web/about/facebook"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.odoo.com/web/about/twitter"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.odoo.com/web/about/linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:info@odoo.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

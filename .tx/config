@@ -2,6 +2,11 @@
 host = https://www.transifex.com
 type = PO
 
+[odoo-documentation-technical._glossary]
+file_filter = locale/<lang>/LC_MESSAGES/glossary.po
+source_file = _build/locale/glossary.pot
+source_lang = en
+
 [odoo-documentation-technical.api_integration]
 file_filter = locale/<lang>/LC_MESSAGES/api_integration.po
 source_file = _build/locale/api_integration.pot
@@ -15,11 +20,6 @@ source_lang = en
 [odoo-documentation-technical.git]
 file_filter = locale/<lang>/LC_MESSAGES/git.po
 source_file = _build/locale/git.pot
-source_lang = en
-
-[odoo-documentation-technical._glossary]
-file_filter = locale/<lang>/LC_MESSAGES/glossary.po
-source_file = _build/locale/glossary.pot
 source_lang = en
 
 [odoo-documentation-technical.howtos]
@@ -46,4 +46,3 @@ source_lang = en
 file_filter = locale/<lang>/LC_MESSAGES/tutorials.po
 source_file = _build/locale/tutorials.pot
 source_lang = en
-
