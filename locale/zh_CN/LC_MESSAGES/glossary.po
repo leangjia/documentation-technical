@@ -1,47 +1,56 @@
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the odoo package.
+# 
+# Translators:
+# Jeffery Chenn <jeffery9@gmail.com>, 2015
+# Jeffery Chenn <jeffery9@gmail.com>, 2015-2016
+# Uming Peng <umingpeng@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: odoo 9.0\n"
+"Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-30 17:20+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2016-05-30 19:35+0800\n"
+"PO-Revision-Date: 2016-05-31 07:03+0000\n"
+"Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "术语"
 
 #: ../../glossary.rst:8
 msgid "external idexternal identifierexternal identifiers"
-msgstr ""
+msgstr "external id 外部标识 外部标识"
 
 #: ../../glossary.rst:12
 msgid ""
 "string identifier stored in ``ir.model.data``, can be used to refer to a "
 "record regardless of its database identifier during data imports or "
 "export/import roundtrips."
-msgstr ""
+msgstr "字符串标识符存储在 ``ir.model.data`` , 可以用于指向一个记录代表它的数据库标识符, 用在数据导入导出操作。"
 
 #: ../../glossary.rst:16
 msgid ""
 "External identifiers are in the form :samp:`{module}.{id}` (e.g. "
 "``account.invoice_graph``). From within a module, the :samp:`{module}.` "
 "prefix can be left out."
-msgstr ""
+msgstr "外部标识符形式为: :samp:`{module}.{id}` (e.g. `` account.invoice_graph `` ) 。在模块内部形式为: :samp:`{module}.` 前缀可以忽略。"
 
 #: ../../glossary.rst:20
 msgid ""
 "Sometimes referred to as \"xml id\" or ``xml_id`` as XML-based "
 ":ref:`reference/data` make extensive use of them."
-msgstr ""
+msgstr "经常作为 ``xml id`` 或者 ``xml_id`` 引用, XML :ref:`reference/data` 大量使用它。"
 
 #: ../../glossary.rst:22
 msgid "format string"
-msgstr ""
+msgstr "格式化字符串"
 
 #: ../../glossary.rst:24
 msgid ""
