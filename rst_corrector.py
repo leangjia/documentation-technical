@@ -29,24 +29,39 @@ def main():
     new_po_file = open(new_po_filename,'w')
     for line in po_file.readlines():
         if line.startswith('msgstr'):
-            line = fun(line, '*')
-
             line = re.sub(r'\* \*', '**', line)
             line = re.sub(r'` `', '``', line)
-            line = re.sub(r'``', '"', line)
+
             line = re.sub(r'：', ':', line)
             line = re.sub(r'，', ', ', line)
+            line = re.sub(r'”', '"', line)
+            # line = re.sub(r'\[', ' [', line)
+            # line = re.sub(r'\]', '] ', line)
+
+            line = fun(line, '*')
+            # line = fun(line, '`')
+            line = fun(line, "'")
+            # line = fun(line, ':')
+            line = fun(line, '"')
 
             line = re.sub(r'[ ]*\*\*[ ]*', '**', line)
-            line = re.sub(r'[ ]*"[ ]*', '"', line)
+            line = re.sub(r'` `', '``', line)
+            line = re.sub(r'[ ]*``[ ]*', '``', line)
+            line = re.sub(r'[ ]*`[ ]*', '`', line)
             line = re.sub(r"[ ]*'[ ]*", "'", line)
+            line = re.sub(r'[ ]*"[ ]*', '"', line)
+            # line = re.sub(r'[ ]*:[ ]*', ':', line)
 
             line = fun(line, '**')
-            line = fun(line, ':')
-            line = fun(line, '`')
             line = fun(line, '``')
-            line = fun(line, "'")
+            line = fun(line, "`")
             line = fun(line, '"')
+
+            line = re.sub(r'[ ]*``[ ]*', '``', line)
+            line = fun(line, '``')
+
+            # line = re.sub(r'[ ]*``[ ]*', '``', line)
+            # line = re.sub(r'[ ]*`[ ]*', '`', line)
 
             line = re.sub(r'[ ]+', ' ', line)
             line = re.sub(r':[ ]+`', ':`', line)
