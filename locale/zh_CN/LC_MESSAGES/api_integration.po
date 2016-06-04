@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
-"PO-Revision-Date: 2016-05-31 07:03+0000\n"
+"PO-Revision-Date: 2016-06-04 14:51+0000\n"
 "Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid ""
 "analysis or integration with various tools. Part of the "
 ":ref:`reference/orm/model` API is easily available over XML-RPC_ and "
 "accessible from a variety of languages."
-msgstr "Odoo通常是内部通过模块扩展, 但它的许多功能和它的所有数据也可以从外部分析或与各种工具集成在外面。 :ref:`reference/orm/model` API是容易获得的基于XML-RPC_和可从各种语言。"
+msgstr "Odoo通常通过模块扩展内部, 但它的许多功能以及它所有的数据也在外面可用，用于外部分析以及与各种工具集成。 :ref:`reference/orm/model` 的部分API通过XML-RPC_容易可用，以及用各种语言访问。"
 
 #: ../../api_integration.rst:27
 msgid "Connection"
@@ -74,7 +74,7 @@ msgstr "点击 :guilabel:`更换密码` 按钮"
 #: ../../api_integration.rst:109
 msgid ""
 "Set a :guilabel:`New Password` value then click :guilabel:`Change Password`."
-msgstr ""
+msgstr "设置 :guilabel:`New Password` 值，然后点击 :guilabel:`Change Password`."
 
 #: ../../api_integration.rst:112
 msgid ""
@@ -163,7 +163,7 @@ msgstr "数据库, 字符串"
 
 #: ../../api_integration.rst:301
 msgid "the user id (retrieved through ``authenticate``), an integer"
-msgstr "用户ID（通过 ``authenticate`` 检索）, 整数"
+msgstr "用户ID（通过 ``authenticate`` 检索）, 一个整数"
 
 #: ../../api_integration.rst:302
 msgid "the user's password, a string"
@@ -208,7 +208,7 @@ msgid ""
 "<reference/orm/domains>` filter (possibly empty), and returns the database "
 "identifiers of all records matching the filter. To list customer companies "
 "for instance:"
-msgstr ":meth:`~openerp.models.Model.search` 需要一个强制性的 :ref:'域<reference/ ORM /域> `过滤器（可能为空）, 并返回所有匹配的筛选记录的数据库标识符。要列出客户的公司, 例如:"
+msgstr ":meth:`~openerp.models.Model.search` 需要一个强制性的  :ref:`domain <reference/orm/domains>` 过滤器（可能为空）, 并返回所有匹配筛选的记录的数据库标识符。要列出客户公司, 例如:"
 
 #: ../../api_integration.rst:408
 msgid "Pagination"
@@ -223,7 +223,7 @@ msgstr "在默认情况下搜索将返回所有匹配的情况下, 这可能是�
 
 #: ../../api_integration.rst:456
 msgid "Count records"
-msgstr "计数"
+msgstr "记录计数"
 
 #: ../../api_integration.rst:458
 msgid ""
@@ -523,7 +523,7 @@ msgstr " ``ttype`` "
 
 #: ../../api_integration.rst:1136
 msgid "the :ref:`type <reference/orm/fields>` of field to create"
-msgstr ":ref: :ref: 字段的 `型<reference/orm/fields>` 创建"
+msgstr " 创建的字段的 :ref:`类型 <reference/orm/fields>` "
 
 #: ../../api_integration.rst:1138
 msgid ""

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
-"PO-Revision-Date: 2016-05-31 07:05+0000\n"
+"PO-Revision-Date: 2016-06-04 14:56+0000\n"
 "Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "构建模块"
 
 #: ../../howtos/backend.rst:11
 msgid "This tutorial requires :ref:`having installed Odoo <setup/install>`"
-msgstr "此教程需要 :ref:`有安装好的Odoo <setup/install>` "
+msgstr "此教程需要 :ref:`有已安装的Odoo <setup/install>` "
 
 #: ../../howtos/backend.rst:14
 msgid "Start/Stop the Odoo server"
@@ -50,7 +50,7 @@ msgid ""
 "In order to start the server, simply invoke the command :ref:`odoo.py "
 "<reference/cmdline>` in the shell, adding the full path to the file if "
 "necessary:"
-msgstr "为了启动服务器, 只需调用命令: :ref:`odoo.py <reference/cmdline>` 在外壳, 加入的完整路径, 如果有必要的文件:"
+msgstr "启动服务器, 只需在Shell调用命令 :ref:`odoo.py <reference/cmdline>` , 如果有必要, 加入的完整路径到文件里:"
 
 #: ../../howtos/backend.rst:31
 msgid ""
@@ -66,7 +66,7 @@ msgstr "构建Odoo模块"
 msgid ""
 "Both server and client extensions are packaged as *modules* which are "
 "optionally loaded in a *database*."
-msgstr "服务器和客户端扩展打包成 *模块* 这是一个 *数据库* 可选加载。"
+msgstr "服务器和客户端扩展封装成 *模块* ，它在 *数据库* 中可选加载。"
 
 #: ../../howtos/backend.rst:40
 msgid ""
@@ -139,14 +139,14 @@ msgstr "Each module is a directory within a *module directory* . Module director
 msgid ""
 "most command-line options can also be set using :ref:`a configuration file "
 "<reference/cmdline/config>`"
-msgstr "使用大多数命令行选项也可以设定 :ref: 配置文件'<reference/cmdline/config> `"
+msgstr "大多数命令行选项也可以使用 :ref:`配置文件<reference/cmdline/config> `  设置"
 
 #: ../../howtos/backend.rst:79
 msgid ""
 "An Odoo module is declared by its :ref:`manifest "
 "<reference/module/manifest>`. See the :ref:`manifest documentation "
 "<reference/module/manifest>` information about it."
-msgstr "An Odoo module is declared by its :ref:`manifest <reference/module/manifest>` . See the :ref:`manifest documentation <reference/module/manifest>` information about it."
+msgstr "Odoo 模块通过它的 :ref:`manifest <reference/module/manifest>` 声明 . 查看 :ref:`manifest文档 <reference/module/manifest>` 关于它的信息."
 
 #: ../../howtos/backend.rst:83
 msgid ""
@@ -167,7 +167,7 @@ msgid ""
 "Odoo provides a mechanism to help set up a new module, :ref:`odoo.py "
 "<reference/cmdline/server>` has a subcommand :ref:`scaffold "
 "<reference/cmdline/scaffold>` to create an empty module:"
-msgstr "Odoo提供了一种机制, 以帮助建立一个新的模块, :ref:`odoo.py <reference/cmdline/server>` 有一个子命令 :ref:`支架<reference/cmdline/scaffold>` 创建一个空的模块:"
+msgstr "Odoo提供了一个机制帮助建立一个新的模块, :ref:`odoo.py <reference/cmdline/server>` 有一个子命令 :ref:`scaffold<reference/cmdline/scaffold>` 用来创建一个空的模块:"
 
 #: ../../howtos/backend.rst:101
 msgid ""
@@ -459,7 +459,7 @@ msgstr "通过在视图中单击按钮（如果这些连接动作）"
 
 #: ../../howtos/backend.rst:270
 msgid "as contextual actions on object"
-msgstr "在对象上下文动作"
+msgstr "作为对象的上下文动作"
 
 #: ../../howtos/backend.rst:272
 msgid ""
@@ -1184,7 +1184,7 @@ msgstr "活动对象 - 默认值"
 msgid ""
 "Define the start_date default value as today (see "
 ":class:`~openerp.fields.Date`)."
-msgstr "定义START_DATE默认值今天（参见 :class:`~openerp.fields.Date` ）。"
+msgstr "定义 start_date 默认值为今天 (see :class:`~openerp.fields.Date`)."
 
 #: ../../howtos/backend.rst:853
 msgid ""
@@ -1371,7 +1371,7 @@ msgstr "修改会话树视图中的会话持续时间少于5天蓝色这样的�
 
 #: ../../howtos/backend.rst:1021
 msgid "Modify the session tree view:"
-msgstr "修改会话树视图:"
+msgstr "修改会话树状视图:"
 
 #: ../../howtos/backend.rst:1026
 msgid "Calendars"
@@ -1678,7 +1678,7 @@ msgstr "添加一个整数 ``color`` 外地来的 *会话* 模型"
 
 #: ../../howtos/backend.rst:1228
 msgid "Add the kanban view and update the action"
-msgstr "添加看板查看和更新​​动作"
+msgstr "添加看板查看，并更新​​动作"
 
 #: ../../howtos/backend.rst:1233
 msgid "Workflows"
@@ -1789,7 +1789,7 @@ msgstr "从 **草稿自动转换会话 *确认* 过半时会话的份儿。"
 
 #: ../../howtos/backend.rst:1304
 msgid "Server actions"
-msgstr "服务器操作"
+msgstr "服务器动作"
 
 #: ../../howtos/backend.rst:1306
 msgid ""
@@ -2181,7 +2181,7 @@ msgstr "an ``ir.actions.report.xml`` , for which a ``<report>`` shortcut element
 #: ../../howtos/backend.rst:1607
 msgid ""
 "A standard :ref:`QWeb view <reference/views/qweb>` for the actual report:"
-msgstr "标准 :ref:`QWeb查看<reference/views/qweb>` 实际报告:"
+msgstr "实际报告的标准的 :ref:`QWeb视图<reference/views/qweb>`:"
 
 #: ../../howtos/backend.rst:1629
 msgid ""
@@ -2226,7 +2226,7 @@ msgstr ""
 msgid ""
 "``web.base.url.freeze``, when set to ``True``, will stop the automatic "
 "updates to ``web.base.url``."
-msgstr ""
+msgstr "``web.base.url.freeze``, 当设置为 ``True`` 时, 将自动停止``web.base.url`` 的自动更新."
 
 #: ../../howtos/backend.rst:1660
 msgid "Create a report for the Session model"
@@ -2678,7 +2678,7 @@ msgid ""
 "Odoo’s themes are packaged like modules. Even if you are designing a very "
 "simple website for your company or client, you need to package the theme "
 "like an Odoo module."
-msgstr "Odoo的主题是包装类似的模块。即使你设计一个非常简单的网站为您的公司或客户, 您需要打包的主题, 像Odoo模块。"
+msgstr "Odoo的主题是包装类似的模块。即使你设计一个非常简单的网站为您的公司或客户, 您需要像Odoo模块那样封装主题。"
 
 #: ../../howtos/themes.rst:206
 msgid "``main folder``"
@@ -3744,7 +3744,7 @@ msgstr " ``oepetstore /静态/ XML / petstore.xml`` "
 
 #: ../../howtos/web.rst:83
 msgid "Mostly empty, will hold :ref:`reference/qweb` templates"
-msgstr "大部分是空的, 将举办 :ref:`reference/qweb` 模板"
+msgstr "不多数空白, 将保持 :ref:`reference/qweb` 模板"
 
 #: ../../howtos/web.rst:102
 msgid "``oepetstore/static/js/petstore.js``"
@@ -4611,7 +4611,7 @@ msgstr "关键是事件名称, 可能与精制CSS选择器在这种情况下, �
 
 #: ../../howtos/web.rst:985
 msgid "the value is the action to perform when the event is triggered"
-msgstr "该值执行操作时, 该事件被触发"
+msgstr "当事件触发时，值是要执行的动作"
 
 #: ../../howtos/web.rst:987
 msgid "It can be either a function::"
@@ -5211,7 +5211,7 @@ msgstr "在服务器端, 我们只是简单地定义了 ``ir.actions.client`` �
 
 #: ../../howtos/web.rst:1791
 msgid "and a menu opening the action:"
-msgstr "和一个菜单打开的动作:"
+msgstr "以及一个菜单开启动作:"
 
 #: ../../howtos/web.rst:1799
 msgid "Architecture of the Views"
@@ -5237,7 +5237,7 @@ msgstr "当 ``ActionManager`` 实例收到类型的 ``ir.actions.act_window`` �
 
 #: ../../howtos/web.rst:1817
 msgid "The Views"
-msgstr "该意见"
+msgstr "该视图"
 
 #: ../../howtos/web.rst:1819
 msgid ""
@@ -5828,7 +5828,7 @@ msgstr "存储数据"
 
 #: ../../howtos/website.rst:118
 msgid ":ref:`Odoo models <reference/orm/model>` map to database tables."
-msgstr ":ref:`Odoo models <reference/orm/model>` map to database tables."
+msgstr ":ref:`Odoo 模型 <reference/orm/model>` 映射到数据库表."
 
 #: ../../howtos/website.rst:120
 msgid ""
@@ -6319,7 +6319,7 @@ msgstr "我们正在创造我们的课程为 **发表默认情况下, 这样他�
 
 #: ../../howtos/website.rst:454
 msgid "Altering existing views"
-msgstr "改变现有的意见"
+msgstr "改变现有的视图"
 
 #: ../../howtos/website.rst:456
 msgid "So far, we have briefly seen:"
@@ -6331,7 +6331,7 @@ msgstr "创建新车型"
 
 #: ../../howtos/website.rst:459
 msgid "the creation of new views"
-msgstr "创造新的意见"
+msgstr "新视图的创建"
 
 #: ../../howtos/website.rst:460
 msgid "the creation of new records"
@@ -6367,7 +6367,7 @@ msgstr "因为我们的课程都是免费的, 没有任何理由来显示他们�
 
 #: ../../howtos/website.rst:478
 msgid "Altering view architectures is done in 3 steps:"
-msgstr "改变视图的架构完成3个步骤:"
+msgstr "改变视图架构3个步骤就可以完成:"
 
 #: ../../howtos/website.rst:480
 msgid "Create a new view"
