@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
-"PO-Revision-Date: 2016-06-04 14:51+0000\n"
+"PO-Revision-Date: 2016-06-11 11:41+0000\n"
 "Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../api_integration.rst:9
 msgid "Web Service API"
-msgstr "Web服务API"
+msgstr "网络服务API"
 
 #: ../../api_integration.rst:11
 msgid ""
@@ -53,7 +53,7 @@ msgid ""
 "authentication system, not by the instance itself). To use XML-RPC on Odoo "
 "Online instances, you will need to set a password on the user account you "
 "want to use:"
-msgstr ""
+msgstr "For Odoo Online instances (<domain>.odoo.com), users are created without a *local* password (as a person you are logged in via the Odoo Online authentication system, not by the instance itself). To use XML-RPC on Odoo Online instances, you will need to set a password on the user account you want to use:"
 
 #: ../../api_integration.rst:105
 msgid "Log in your instance with an administrator account"
@@ -65,7 +65,7 @@ msgstr "进入 :menuselection:`设置 --> 用户 --> 用户` "
 
 #: ../../api_integration.rst:107
 msgid "Click on the user you want to use for XML-RPC access"
-msgstr ""
+msgstr "Click on the user you want to use for XML-RPC access"
 
 #: ../../api_integration.rst:108
 msgid "Click the :guilabel:`Change Password` button"
@@ -82,7 +82,7 @@ msgid ""
 "*https://mycompany.odoo.com*), the *database name* is the name of the "
 "instance (e.g. *mycompany*). The *username* is the configured user's login "
 "as shown by the *Change Password* screen."
-msgstr ""
+msgstr "The *server url* is the instance's domain (e.g. *https://mycompany.odoo.com*), the *database name* is the name of the instance (e.g. *mycompany*). The *username* is the configured user's login as shown by the *Change Password* screen."
 
 #: ../../api_integration.rst:150
 msgid "demo"
@@ -292,7 +292,7 @@ msgid ""
 "suggests is equivalent to a :meth:`~openerp.models.Model.search` followed by"
 " a :meth:`~openerp.models.Model.read`, but avoids having to perform two "
 "requests and keep ids around."
-msgstr ""
+msgstr "Because it is a very common task, Odoo provides a :meth:`~openerp.models.Model.search_read` shortcut which as its name suggests is equivalent to a :meth:`~openerp.models.Model.search` followed by a :meth:`~openerp.models.Model.read`, but avoids having to perform two requests and keep ids around."
 
 #: ../../api_integration.rst:713
 msgid ""
@@ -369,7 +369,7 @@ msgstr ":meth:`~openerp.models.Model.unlink` 记录可以在散装通过提供�
 
 #: ../../api_integration.rst:962
 msgid "Inspection and introspection"
-msgstr "检查和反省"
+msgstr "检查和反射"
 
 #: ../../api_integration.rst:969
 msgid ""
@@ -382,7 +382,7 @@ msgstr "虽然我们以前使用的 :meth:`~openerp.models.Model.fields_get` 查
 
 #: ../../api_integration.rst:978
 msgid "``ir.model``"
-msgstr " ``ir.model`` "
+msgstr "``ir.model``"
 
 #: ../../api_integration.rst:980
 msgid "Provides information about Odoo models via its various fields"
@@ -391,7 +391,7 @@ msgstr "通过它的各个字段提供有关Odoo车型信息"
 #: ../../api_integration.rst:982 ../../api_integration.rst:1131
 #: ../../api_integration.rst:1429
 msgid "``name``"
-msgstr " ``name`` "
+msgstr "``name``"
 
 #: ../../api_integration.rst:983
 msgid "a human-readable description of the model"
@@ -399,7 +399,7 @@ msgstr "该模型的人类可读的描述"
 
 #: ../../api_integration.rst:984 ../../api_integration.rst:1427
 msgid "``model``"
-msgstr " ``model`` "
+msgstr "``model``"
 
 #: ../../api_integration.rst:985
 msgid "the name of each model in the system"
@@ -407,7 +407,7 @@ msgstr "系统中的每个模型的名称"
 
 #: ../../api_integration.rst:987 ../../api_integration.rst:1138
 msgid "``state``"
-msgstr " ``state`` "
+msgstr "``state``"
 
 #: ../../api_integration.rst:987
 msgid ""
@@ -417,33 +417,33 @@ msgstr "无论是在Python代码生成模型（ ``base`` ）或通过创建一�
 
 #: ../../api_integration.rst:990
 msgid "``field_id``"
-msgstr " ``field_id`` "
+msgstr "``field_id``"
 
 #: ../../api_integration.rst:990
 msgid ""
 "list of the model's fields through a :class:`~openerp.fields.One2many` to "
 ":ref:`reference/webservice/inspection/fields`"
-msgstr ":class:`~openerp.fields.One2many` 为: :ref:`reference/webservice/inspection/fields` 模型的字段, 通过列表"
+msgstr "模型的字段清单通过 :class:`~openerp.fields.One2many` 到 :ref:`reference/webservice/inspection/fields`"
 
 #: ../../api_integration.rst:993
 msgid "``view_ids``"
-msgstr " ``view_ids`` "
+msgstr "``view_ids``"
 
 #: ../../api_integration.rst:993
 msgid ""
 ":class:`~openerp.fields.One2many` to the :ref:`reference/views` defined for "
 "the model"
-msgstr ":class:`~openerp.fields.One2many` 到: :ref:`reference/ views` 定义的模型"
+msgstr ":class:`~openerp.fields.One2many` 到 :ref:`reference/views` 定义用于模型"
 
 #: ../../api_integration.rst:997
 msgid "``access_ids``"
-msgstr " ``access_ids`` "
+msgstr "``access_ids``"
 
 #: ../../api_integration.rst:996
 msgid ""
 ":class:`~openerp.fields.One2many` relation to the "
 ":ref:`reference/security/acl` set on the model"
-msgstr ":class:`~openerp.fields.One2many` 关系到: :ref:`reference/安全/ acl` 在模型上设置"
+msgstr ":class:`~openerp.fields.One2many` 关联到 :ref:`reference/security/acl`  设置在模型"
 
 #: ../../api_integration.rst:999
 msgid "``ir.model`` can be used to"
@@ -463,11 +463,11 @@ msgstr "获得关于特定模型信息（通常通过列出与它相关联的字
 
 #: ../../api_integration.rst:1005
 msgid "create new models dynamically over RPC"
-msgstr "通过RPC动态创建新车型"
+msgstr "通过RPC动态创建模型"
 
 #: ../../api_integration.rst:1009
 msgid "\"custom\" model names must start with ``x_``"
-msgstr "'自定义'型号名称必须以 ``x_`` "
+msgstr "\"自定义\" 名称必须以 ``x_`` 开头"
 
 #: ../../api_integration.rst:1010
 msgid ""
@@ -487,7 +487,7 @@ msgstr "自定义模型最初将只包含'内置'适用于所有型号的字段:
 
 #: ../../api_integration.rst:1123
 msgid "``ir.model.fields``"
-msgstr " ``ir.model.fields`` "
+msgstr "``ir.model.fields``"
 
 #: ../../api_integration.rst:1125
 msgid ""
@@ -497,17 +497,17 @@ msgstr "提供有关Odoo车型字段的信息, 并允许在不使用Python代码
 
 #: ../../api_integration.rst:1129
 msgid "``model_id``"
-msgstr " ``model_id`` "
+msgstr "``model_id``"
 
 #: ../../api_integration.rst:1129
 msgid ""
 ":class:`~openerp.fields.Many2one` to "
 ":ref:`reference/webservice/inspection/models` to which the field belongs"
-msgstr ":class:`~openerp.fields.Many2one` 为: :ref:`reference/ Web服务/检验/ models` 到外地所属"
+msgstr ":class:`~openerp.fields.Many2one` 到 :ref:`reference/webservice/inspection/models` 到它所属的字段"
 
 #: ../../api_integration.rst:1132
 msgid "the field's technical name (used in ``read`` or ``write``)"
-msgstr "该字段的技术名称（ ``read`` 或使用 ``write`` ）"
+msgstr "该字段的技术名称（用于 ``read`` 或``write`` ）"
 
 #: ../../api_integration.rst:1133
 msgid "``field_description``"
@@ -515,15 +515,15 @@ msgstr " ``field_description`` "
 
 #: ../../api_integration.rst:1134
 msgid "the field's user-readable label (e.g. ``string`` in ``fields_get``)"
-msgstr "该字段的用户可读的标签（例如 ``string`` 在 ``fields_get`` ）"
+msgstr "该字段的用户可读的标签（例如  ``fields_get`` 的 ``string``  ）"
 
 #: ../../api_integration.rst:1135
 msgid "``ttype``"
-msgstr " ``ttype`` "
+msgstr "``ttype``"
 
 #: ../../api_integration.rst:1136
 msgid "the :ref:`type <reference/orm/fields>` of field to create"
-msgstr " 创建的字段的 :ref:`类型 <reference/orm/fields>` "
+msgstr "要 创建的字段的 :ref:`类型 <reference/orm/fields>` "
 
 #: ../../api_integration.rst:1138
 msgid ""
@@ -533,7 +533,7 @@ msgstr "通过Python代码字段是否创建（ ``base`` ）, 或通过 ``ir.mod
 
 #: ../../api_integration.rst:1140
 msgid "``required``, ``readonly``, ``translate``"
-msgstr " ``required`` , ``readonly`` , ``translate`` "
+msgstr "``required``, ``readonly``, ``translate``"
 
 #: ../../api_integration.rst:1141
 msgid "enables the corresponding flag on the field"
@@ -541,7 +541,7 @@ msgstr "使相应的标志上的场"
 
 #: ../../api_integration.rst:1143
 msgid "``groups``"
-msgstr " ``groups`` "
+msgstr "``groups``"
 
 #: ../../api_integration.rst:1143
 msgid ""
@@ -553,7 +553,7 @@ msgstr ":ref:`字段级的访问控制<reference/安全/域>` , 答 :class:`~ope
 msgid ""
 "``selection``, ``size``, ``on_delete``, ``relation``, ``relation_field``, "
 "``domain``"
-msgstr " ``selection`` , ``size`` , ``on_delete`` , ``relation`` , ``relation_field`` , ``domain`` "
+msgstr "``selection``, ``size``, ``on_delete``, ``relation``, ``relation_field``, ``domain``"
 
 #: ../../api_integration.rst:1146
 msgid ""
@@ -616,7 +616,7 @@ msgstr "人类可读的报告名称"
 
 #: ../../api_integration.rst:1432
 msgid "``report_name``"
-msgstr " ``report_name`` "
+msgstr "``report_name``"
 
 #: ../../api_integration.rst:1432
 msgid "the technical name of the report, used to print it"

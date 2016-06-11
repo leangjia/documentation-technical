@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
-"PO-Revision-Date: 2016-06-04 14:47+0000\n"
+"PO-Revision-Date: 2016-06-11 12:36+0000\n"
 "Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "当前动作的类别, 确定哪些字段可以被使用, 以及动作�
 #: ../../reference/views.rst:250 ../../reference/views.rst:1125
 #: ../../reference/views.rst:1185
 msgid "``name``"
-msgstr " ``name`` "
+msgstr "``name``"
 
 #: ../../reference/actions.rst:19
 msgid ""
@@ -131,7 +131,7 @@ msgstr "展示视图的模型"
 
 #: ../../reference/actions.rst:56
 msgid "``views``"
-msgstr " ``views`` "
+msgstr "``views``"
 
 #: ../../reference/actions.rst:50
 msgid ""
@@ -204,7 +204,7 @@ msgstr "记录数为默认的列表中显示。默认为8​​0, 在Web客户�
 
 #: ../../reference/actions.rst:77
 msgid "``auto_search`` (optional)"
-msgstr " ``auto_search`` (可选)"
+msgstr "``auto_search`` (可选)"
 
 #: ../../reference/actions.rst:76
 msgid ""
@@ -232,7 +232,7 @@ msgstr "在数据库窗口中的操作有一些不同的字段应该由客户端
 
 #: ../../reference/actions.rst:104
 msgid "``view_mode``"
-msgstr " ``view_mode`` "
+msgstr "``view_mode``"
 
 #: ../../reference/actions.rst:104
 msgid ""
@@ -242,7 +242,7 @@ msgstr "逗号分隔的视图类型列表作为字符串。所有这些类型的
 
 #: ../../reference/actions.rst:107
 msgid "``view_ids``"
-msgstr " ``view_ids`` "
+msgstr "``view_ids``"
 
 #: ../../reference/actions.rst:107
 msgid ""
@@ -252,7 +252,7 @@ msgstr "M2M \\ [＃notquitem2m] _查看对象, 定义了 ``views`` 的初始内�
 
 #: ../../reference/actions.rst:112
 msgid "``view_id``"
-msgstr " ``view_id`` "
+msgstr "``view_id``"
 
 #: ../../reference/actions.rst:110
 msgid ""
@@ -264,7 +264,7 @@ msgstr "具体的视图加入到 ``views`` 列表中的情况下, 它的类型�
 #: ../../reference/actions.rst:114
 msgid ""
 "These are mostly used when defining actions from :ref:`reference/data`:"
-msgstr ":ref:`reference/data` 这些定义, 从行为时, 大多使用:"
+msgstr "当从 :ref:`reference/data` 定义动作时，大多数使用这些:"
 
 #: ../../reference/actions.rst:125
 msgid ""
@@ -311,7 +311,7 @@ msgstr "激活动作时要打开的地址"
 
 #: ../../reference/actions.rst:155 ../../reference/upgrade_api.rst:411
 msgid "``target``"
-msgstr " ``target`` "
+msgstr "``target``"
 
 #: ../../reference/actions.rst:154
 msgid ""
@@ -363,7 +363,7 @@ msgstr " ``model_id`` "
 msgid ""
 "Odoo model linked to the action, made available in :ref:`evaluation contexts"
 " <reference/actions/server/context>`"
-msgstr "裁判:挂动作Odoo模式, 提供 `评价上下文<reference/actions/server/context>` "
+msgstr "Odoo 模型链接到动作,  通过 :ref:`evaluation contexts <reference/actions/server/context>` 变得可用"
 
 #: ../../reference/actions.rst:190
 msgid "``condition`` (optional)"
@@ -407,7 +407,7 @@ msgstr "代码段可以定义一个称为 ``action`` 变量, 这将被返回给�
 msgid ""
 "will ask the client to open a form for the record if it fulfills some "
 "condition"
-msgstr ""
+msgstr "will ask the client to open a form for the record if it fulfills some condition"
 
 #: ../../reference/actions.rst:239
 msgid ""
@@ -415,11 +415,11 @@ msgid ""
 "<reference/data>`, other types aside from "
 ":ref:`reference/actions/server/multi` are simpler than Python code to define"
 " from the UI, but not from :ref:`data files <reference/data>`."
-msgstr "这往往是从创建的唯一动作类型 :ref:`数据文件<reference/data>` , 其他类型的除了 :ref:`参考/动作/服务器/ multi` 比Python代码简单的从UI定义, 但不能从 :ref:`数据文件<reference/data>` 。"
+msgstr "这往往是从创建的唯一动作类型 :ref:`数据文件<reference/data>` , 其他类型的除了 :ref:`reference/actions/server/multi` 比Python代码简单的从UI定义, 但不能从 :ref:`数据文件<reference/data>` 。"
 
 #: ../../reference/actions.rst:247
 msgid "``object_create``"
-msgstr " ``object_create`` "
+msgstr "``object_create``"
 
 #: ../../reference/actions.rst:249
 msgid ""
@@ -446,7 +446,7 @@ msgstr "通过 ``model_id`` 指定的模型创建了创纪录"
 
 #: ../../reference/actions.rst:257
 msgid "``new_other``"
-msgstr " ``new_other`` "
+msgstr "``new_other``"
 
 #: ../../reference/actions.rst:258
 msgid "creates a record in the model specified by ``crud_model_id``"
@@ -514,7 +514,7 @@ msgstr "模式, 即创建一个新的记录, 如果 ``use_create`` 设置为 ``n
 
 #: ../../reference/actions.rst:279 ../../reference/actions.rst:314
 msgid "``ref_object``"
-msgstr " ``ref_object`` "
+msgstr "``ref_object``"
 
 #: ../../reference/actions.rst:279
 msgid ""
@@ -544,13 +544,13 @@ msgstr "many2one到 ``ir.model.fields`` , 指明该新创建的记录应设置�
 
 #: ../../reference/actions.rst:289
 msgid "``object_write``"
-msgstr " ``object_write`` "
+msgstr "``object_write``"
 
 #: ../../reference/actions.rst:291
 msgid ""
 "Similar to :ref:`reference/actions/server/object_create` but alters an "
 "existing records instead of creating one"
-msgstr "类似的 :ref:`reference/actions/server/object_create` 但会改变现有的记录, 而不是创建1"
+msgstr "与 :ref:`reference/actions/server/object_create`  类似，但它改变现有的记录, 而不是创建一个"
 
 #: ../../reference/actions.rst:303
 msgid "``use_write``"
@@ -570,7 +570,7 @@ msgstr "写入当前记录"
 
 #: ../../reference/actions.rst:300
 msgid "``other``"
-msgstr " ``other`` "
+msgstr "``other``"
 
 #: ../../reference/actions.rst:300
 msgid ""
@@ -601,7 +601,7 @@ msgstr "Python表达式返回记录或对象ID, 以便决定使用时 ``use_writ
 #: ../../reference/actions.rst:310 ../../reference/actions.rst:312
 #: ../../reference/actions.rst:314
 msgid "see :ref:`reference/actions/server/object_create`"
-msgstr "请参阅 :ref:`reference/actions/server/object_create` "
+msgstr "查看 :ref:`reference/actions/server/object_create` "
 
 #: ../../reference/actions.rst:319
 msgid "``multi``"
@@ -664,7 +664,7 @@ msgstr "有多个键的或周围服务器操作的评估上下文中可用​​
 
 #: ../../reference/actions.rst:351
 msgid "``self``"
-msgstr " ``self`` "
+msgstr "``self``"
 
 #: ../../reference/actions.rst:352
 msgid "the model object linked to the action via ``model_id``"
@@ -672,7 +672,7 @@ msgstr "通过 ``model_id`` 链接到动作的模型对象"
 
 #: ../../reference/actions.rst:354
 msgid "``object``, ``obj``"
-msgstr " ``object`` , ``obj`` "
+msgstr "``object``, ``obj``"
 
 #: ../../reference/actions.rst:354
 msgid ""
@@ -702,7 +702,7 @@ msgstr " ``cr`` "
 
 #: ../../reference/actions.rst:361
 msgid "the current cursor"
-msgstr "当前光标"
+msgstr "当前游标"
 
 #: ../../reference/actions.rst:362 ../../reference/reports.rst:115
 msgid "``user``"
@@ -724,7 +724,7 @@ msgstr "执行上下文"
 
 #: ../../reference/actions.rst:367
 msgid "``Warning``"
-msgstr " ``Warning`` "
+msgstr "``Warning``"
 
 #: ../../reference/actions.rst:367
 msgid "constructor for the ``Warning`` exception"
@@ -765,11 +765,11 @@ msgstr " ``report_type`` (强制)"
 
 #: ../../reference/actions.rst:385 ../../reference/reports.rst:42
 msgid "either ``qweb-pdf`` for PDF reports or ``qweb-html`` for HTML"
-msgstr "无论是 ``qweb-pdf`` 的PDF报告或 ``qweb-html`` 为HTML"
+msgstr "无论是PDF报告的 ``qweb-pdf`` 还是  HTML的 ``qweb-html`` "
 
 #: ../../reference/actions.rst:386 ../../reference/reports.rst:43
 msgid "``report_name``"
-msgstr " ``report_name`` "
+msgstr "``report_name``"
 
 #: ../../reference/actions.rst:387 ../../reference/reports.rst:44
 msgid "the name of your report (which will be the name of the PDF output)"
@@ -797,7 +797,7 @@ msgstr ":class:`~openerp.fields.Many2one` 场要使用此报告（如果不指�
 
 #: ../../reference/actions.rst:399 ../../reference/reports.rst:51
 msgid "``attachment_use``"
-msgstr " ``attachment_use`` "
+msgstr "``attachment_use``"
 
 #: ../../reference/actions.rst:395
 msgid ""
@@ -814,7 +814,7 @@ msgstr "可用于必须只能使用一次生成的报告（例如出于法律原
 
 #: ../../reference/actions.rst:403 ../../reference/reports.rst:54
 msgid "``attachment``"
-msgstr " ``attachment`` "
+msgstr "``attachment``"
 
 #: ../../reference/actions.rst:402
 msgid ""
@@ -832,7 +832,7 @@ msgstr "触发一个完全在客户实现的动作。"
 
 #: ../../reference/actions.rst:413
 msgid "``tag``"
-msgstr " ``tag`` "
+msgstr "``tag``"
 
 #: ../../reference/actions.rst:413
 msgid ""
@@ -1361,7 +1361,7 @@ msgstr "多模式仅适用于基于Unix的系统"
 
 #: ../../reference/cmdline.rst:43
 msgid "A number of options allow limiting and recycling workers:"
-msgstr ""
+msgstr "A number of options allow limiting and recycling workers:"
 
 #: ../../reference/cmdline.rst:47
 msgid ""
@@ -1424,12 +1424,12 @@ msgstr "默认为120。"
 msgid ""
 "number of workers dedicated to cron jobs. Defaults to 2. The workers are "
 "threads in multi-threading mode and processes in multi-processing mode."
-msgstr ""
+msgstr "number of workers dedicated to cron jobs. Defaults to 2. The workers are threads in multi-threading mode and processes in multi-processing mode."
 
 #: ../../reference/cmdline.rst:89
 msgid ""
 "For multi-processing mode, this is in addition to the HTTP worker processes."
-msgstr ""
+msgstr "For multi-processing mode, this is in addition to the HTTP worker processes."
 
 #: ../../reference/cmdline.rst:94
 msgid "provide an alternate configuration file"
@@ -1440,7 +1440,7 @@ msgid ""
 "saves the server configuration to the current configuration file "
 "(:file:`{$HOME}/.openerp_serverrc` by default, and can be overridden using "
 ":option:`-c`)"
-msgstr ""
+msgstr "saves the server configuration to the current configuration file (:file:`{$HOME}/.openerp_serverrc` by default, and can be overridden using :option:`-c`)"
 
 #: ../../reference/cmdline.rst:104
 msgid ""
@@ -1555,7 +1555,7 @@ msgid ""
 " logging (``warning`` only), and log output is sent to ``stdout``. Various "
 "options are available to redirect logging to other destinations and to "
 "customize the amount of logging output"
-msgstr ""
+msgstr "By default, Odoo displays all logging of level_ ``info`` except for workflow logging (``warning`` only), and log output is sent to ``stdout``. Various options are available to redirect logging to other destinations and to customize the amount of logging output"
 
 #: ../../reference/cmdline.rst:194
 msgid ""
@@ -1951,7 +1951,7 @@ msgstr "可用的类型有:"
 
 #: ../../reference/data.rst:96
 msgid "``xml``, ``html``"
-msgstr " ``xml`` , ``html`` "
+msgstr "``xml``, ``html``"
 
 #: ../../reference/data.rst:95
 msgid ""
@@ -1962,7 +1962,7 @@ msgstr "提取 ``field`` 的孩子作为一个单一的文件, 任何评估:短�
 
 #: ../../reference/data.rst:99
 msgid "``file``"
-msgstr " ``file`` "
+msgstr "``file``"
 
 #: ../../reference/data.rst:99
 msgid ""
@@ -1972,7 +1972,7 @@ msgstr "确保该字段的内容是在当前模型一个有效的文件路径, �
 
 #: ../../reference/data.rst:102
 msgid "``char``"
-msgstr " ``char`` "
+msgstr "``char``"
 
 #: ../../reference/data.rst:102
 msgid ""
@@ -1981,7 +1981,7 @@ msgstr "直接设置字段内容没有改变该字段的值"
 
 #: ../../reference/data.rst:105
 msgid "``base64``"
-msgstr " ``base64`` "
+msgstr "``base64``"
 
 #: ../../reference/data.rst:105
 msgid ""
@@ -1991,7 +1991,7 @@ msgstr "base64_-编码字段的内容, 与 ``file`` *attribute* 属性结合来�
 
 #: ../../reference/data.rst:108
 msgid "``int``"
-msgstr " ``int`` "
+msgstr "``int``"
 
 #: ../../reference/data.rst:108
 msgid ""
@@ -2000,7 +2000,7 @@ msgstr "该字段的内容转换为整数, 并将其设置该字段的值"
 
 #: ../../reference/data.rst:111
 msgid "``float``"
-msgstr " ``float`` "
+msgstr "``float``"
 
 #: ../../reference/data.rst:111
 msgid ""
@@ -2009,7 +2009,7 @@ msgstr "该字段的内容转换为浮动, 并将其设置字段的值"
 
 #: ../../reference/data.rst:116
 msgid "``list``, ``tuple``"
-msgstr " ``list`` , ``tuple`` "
+msgstr "``list``, ``tuple``"
 
 #: ../../reference/data.rst:114
 msgid ""
@@ -2020,7 +2020,7 @@ msgstr "应该包含任何数目的 ``value`` 元件具有相同属性如 ``fiel
 
 #: ../../reference/data.rst:126
 msgid "``eval``"
-msgstr " ``eval`` "
+msgstr "``eval``"
 
 #: ../../reference/data.rst:119
 msgid ""
@@ -2039,7 +2039,7 @@ msgstr "评价范围内包含各种模块（ ``time`` , ``datetime`` , ``timedel
 
 #: ../../reference/data.rst:129 ../../reference/views.rst:897
 msgid "``delete``"
-msgstr " ``delete`` "
+msgstr "``delete``"
 
 #: ../../reference/data.rst:131
 msgid ""
@@ -2067,7 +2067,7 @@ msgstr " ``id`` 和 ``search`` 互斥"
 
 #: ../../reference/data.rst:145
 msgid "``function``"
-msgstr " ``function`` "
+msgstr "``function``"
 
 #: ../../reference/data.rst:147
 msgid ""
@@ -2085,7 +2085,7 @@ msgstr "参数可以使用 ``eval`` （应该评估的参数序列与调用方�
 
 #: ../../reference/data.rst:156
 msgid "``workflow``"
-msgstr " ``workflow`` "
+msgstr "``workflow``"
 
 #: ../../reference/data.rst:158
 msgid ""
@@ -2113,7 +2113,7 @@ msgstr "由于Odoo的一些重要结构模型非常复杂难缠, 数据文件提
 
 #: ../../reference/data.rst:175
 msgid "``menuitem``"
-msgstr " ``menuitem`` "
+msgstr "``menuitem``"
 
 #: ../../reference/data.rst:177
 msgid ""
@@ -2168,7 +2168,7 @@ msgstr "一个 ``groups`` 属性被解释为一个逗号分隔的序列 :term:`�
 
 #: ../../reference/data.rst:197 ../../reference/views.rst:215
 msgid "``action``"
-msgstr " ``action`` "
+msgstr "``action``"
 
 #: ../../reference/data.rst:197
 msgid ""
@@ -2182,7 +2182,7 @@ msgstr "菜单项的 :term:`external id`"
 
 #: ../../reference/data.rst:205
 msgid "``template``"
-msgstr " ``template`` "
+msgstr "``template``"
 
 #: ../../reference/data.rst:207
 msgid ""
@@ -2196,7 +2196,7 @@ msgstr "视图的 :term:`external identifier`"
 
 #: ../../reference/data.rst:213
 msgid "``name``, ``inherit_id``, ``priority``"
-msgstr " ``name`` , ``inherit_id`` , ``priority`` "
+msgstr "``name``, ``inherit_id``, ``priority``"
 
 #: ../../reference/data.rst:213
 msgid ""
@@ -2206,7 +2206,7 @@ msgstr "同为相应的字段 ``ir.ui.view`` （注意:``inherit_id`` 应该是 
 
 #: ../../reference/data.rst:216
 msgid "``primary``"
-msgstr " ``primary`` "
+msgstr "``primary``"
 
 #: ../../reference/data.rst:216
 msgid ""
@@ -2218,7 +2218,7 @@ msgstr "如果设置为 ``True和结合了`` inherit_id ``, 定义视图作为�
 #: ../../reference/views.rst:259 ../../reference/views.rst:385
 #: ../../reference/views.rst:1156 ../../reference/views.rst:1191
 msgid "``groups``"
-msgstr " ``groups`` "
+msgstr "``groups``"
 
 #: ../../reference/data.rst:219
 msgid "comma-separated list of group :term:`external identifiers`"
@@ -2226,7 +2226,7 @@ msgstr "逗号分隔的组列表 :term:`external identifiers`"
 
 #: ../../reference/data.rst:221
 msgid "``page``"
-msgstr " ``page`` "
+msgstr "``page``"
 
 #: ../../reference/data.rst:221
 msgid ""
@@ -2236,7 +2236,7 @@ msgstr "如果设置为 ``'真正的'`` , 该模板是一个网站的页面（�
 
 #: ../../reference/data.rst:226
 msgid "``optional``"
-msgstr " ``optional`` "
+msgstr "``optional``"
 
 #: ../../reference/data.rst:224
 msgid ""
@@ -2247,7 +2247,7 @@ msgstr " ``enabled`` 或 ``disabled`` , 视图是否可以被禁用（在网站�
 
 #: ../../reference/data.rst:229
 msgid "``report``"
-msgstr " ``report`` "
+msgstr "``report``"
 
 #: ../../reference/data.rst:231
 msgid "Creates a ``ir.actions.report.xml`` record with a few default values."
@@ -2298,7 +2298,7 @@ msgstr "下面是数据文件的第一行定义美国各州 ``res.country.state.
 
 #: ../../reference/data.rst:260
 msgid "rendered in a more readable format:"
-msgstr "呈现在一个更可读的格式:"
+msgstr "呈现为一个更可读的格式:"
 
 #: ../../../openerp/addons/base/res/res.country.state.csv:1
 msgid "id"
@@ -2306,7 +2306,7 @@ msgstr "ID"
 
 #: ../../../openerp/addons/base/res/res.country.state.csv:1
 msgid "country_id:id"
-msgstr "COUNTRY_ID:ID"
+msgstr "country_id:id"
 
 #: ../../../openerp/addons/base/res/res.country.state.csv:1
 msgid "name"
@@ -3120,14 +3120,14 @@ msgid ""
 "the quality of the code (e.g. better readability of source) and Odoo Apps. "
 "Indeed, proper code eases maintenance, aids debugging, lowers complexity and"
 " promotes reliability."
-msgstr ""
+msgstr "This page introduces the new Odoo Coding Guidelines. Those aim to improve the quality of the code (e.g. better readability of source) and Odoo Apps. Indeed, proper code eases maintenance, aids debugging, lowers complexity and promotes reliability."
 
 #: ../../reference/guidelines.rst:11
 msgid ""
 "These guidelines should be applied to every new module, and new "
 "developpment. These guidelines will be applied to old module **only** in "
 "case of code refactoring (migration to new API, big refactoring, ...)."
-msgstr ""
+msgstr "These guidelines should be applied to every new module, and new developpment. These guidelines will be applied to old module **only** in case of code refactoring (migration to new API, big refactoring, ...)."
 
 #: ../../reference/guidelines.rst:15
 msgid ""
@@ -3137,7 +3137,7 @@ msgid ""
 "order to apply these guidelines, to avoid disrupting the revision history of"
 " each line. For more details, see our `pull request guide <https://odoo.com"
 "/submit-pr>`_."
-msgstr ""
+msgstr "These guidelines are written with new modules and new files in mind. When modifying existing files, the original style of the file strictly supersedes any other style guidelines. In other words, never modify existing files in order to apply these guidelines, to avoid disrupting the revision history of each line. For more details, see our `pull request guide <https://odoo.com/submit-pr>`_."
 
 #: ../../reference/guidelines.rst:22
 msgid "Module structure"
@@ -3152,7 +3152,7 @@ msgid ""
 "A module is organised in important directories. Those contain the business "
 "logic; having a look at them should make understand the purpose of the "
 "module."
-msgstr ""
+msgstr "A module is organised in important directories. Those contain the business logic; having a look at them should make understand the purpose of the module."
 
 #: ../../reference/guidelines.rst:28
 msgid "*data/* : demo and data xml"
@@ -3184,14 +3184,14 @@ msgstr "组成模块的其他可选目录."
 msgid ""
 "*wizard/* : regroups the transient models (formerly *osv_memory*) and their "
 "views."
-msgstr ""
+msgstr "*wizard/* : regroups the transient models (formerly *osv_memory*) and their views."
 
 #: ../../reference/guidelines.rst:37
 msgid ""
 "*report/* : contains the reports (RML report **[deprecated]**, models based "
 "on SQL views (for reporting) and other complex reports). Python objects and "
 "XML views are included in this directory."
-msgstr ""
+msgstr "*report/* : contains the reports (RML report **[deprecated]**, models based on SQL views (for reporting) and other complex reports). Python objects and XML views are included in this directory."
 
 #: ../../reference/guidelines.rst:38
 msgid "*tests/* : contains the Python/YML tests"
@@ -3251,7 +3251,7 @@ msgid ""
 "you need to inherit an existing controller from another module, its name "
 "will be *<module_name>.py*. Unlike *models*, each controller class should be"
 " contained in a separated file."
-msgstr ""
+msgstr "For *controllers*, the only file should be named *main.py*. Otherwise, if you need to inherit an existing controller from another module, its name will be *<module_name>.py*. Unlike *models*, each controller class should be contained in a separated file."
 
 #: ../../reference/guidelines.rst:66
 msgid ""
@@ -3264,17 +3264,17 @@ msgid ""
 "will be *<module_name>.ext* (i.e.: *project.js*). Don't link data (image, "
 "libraries) outside Odoo: do not use an URL to an image but copy it in our "
 "codebase instead."
-msgstr ""
+msgstr "For *static files*, since the resources can be used in different contexts (frontend, backend, both), they will be included in only one bundle. So, CSS/Less, JavaScript and XML files should be suffixed with the name of the bundle type. i.e.: *im_chat_common.css*, *im_chat_common.js* for 'assets_common' bundle, and *im_chat_backend.css*, *im_chat_backend.js* for 'assets_backend' bundle. If the module owns only one file, the convention will be *<module_name>.ext* (i.e.: *project.js*). Don't link data (image, libraries) outside Odoo: do not use an URL to an image but copy it in our codebase instead."
 
 #: ../../reference/guidelines.rst:71
 msgid ""
 "Regarding *data*, split them by purpose: data or demo. The filename will be "
 "the *main_model* name, suffixed by *_data.xml* or *_demo.xml*."
-msgstr ""
+msgstr "对于 *数据* , 按用途拆分为: 数据或演示。文件名会是 *main_model*  名称, 后缀以 *_demo.xml* 或 *_data.xml*。"
 
 #: ../../reference/guidelines.rst:74
 msgid "Regarding *wizards*, naming convention is :"
-msgstr "关于 *向导*, 命名规则是 :"
+msgstr "对于 *向导*, 命名规则是 :"
 
 #: ../../reference/guidelines.rst:76
 msgid ":file:`{<main_transient>}.py`"
@@ -3289,11 +3289,11 @@ msgid ""
 "Where *<main_transient>* is the name of the dominant transient model, just "
 "like for *models*. <main_transient>.py can contains the models "
 "'model.action' and 'model.action.line'."
-msgstr ""
+msgstr "Where *<main_transient>* is the name of the dominant transient model, just like for *models*. <main_transient>.py can contains the models 'model.action' and 'model.action.line'."
 
 #: ../../reference/guidelines.rst:81
 msgid "For *statistics reports*, their names should look like :"
-msgstr ""
+msgstr "For *statistics reports*, their names should look like :"
 
 #: ../../reference/guidelines.rst:83
 msgid ":file:`{<report_name_A>}_report.py`"
@@ -3306,7 +3306,7 @@ msgstr ":file:`{<report_name_A>}_report_views.py` (often pivot and graph views)"
 
 #: ../../reference/guidelines.rst:86
 msgid "For *printable reports*, you should have :"
-msgstr ""
+msgstr "For *printable reports*, you should have :"
 
 #: ../../reference/guidelines.rst:88
 msgid ""
@@ -3361,7 +3361,7 @@ msgstr "对于现场报关, ``name`` 属性是第一位。然后把 *值* 无论
 msgid ""
 "Try to group the record by model. In case of dependencies between "
 "action/menu/views, this convention may not be applicable."
-msgstr ""
+msgstr "Try to group the record by model. In case of dependencies between action/menu/views, this convention may not be applicable."
 
 #: ../../reference/guidelines.rst:165
 msgid "Use naming convention defined at the next point"
@@ -3401,7 +3401,7 @@ msgstr "act_window: 假如记录语法不能做你想要的，使用它"
 
 #: ../../reference/guidelines.rst:190
 msgid "The 4 first tags are prefered over the *record* notation."
-msgstr ""
+msgstr "4个第一标签通过 *记录* 表示法被优先使用。"
 
 #: ../../reference/guidelines.rst:194
 msgid "Naming xml_id"
@@ -3451,7 +3451,7 @@ msgstr "对于一个规则 :samp:`{<model_name>}_rule_{<concerned_group>}` , 其
 msgid ""
 "For a group : :samp:`{<model_name>}_group_{<group_name>}` where *group_name*"
 " is the name of the group, generally 'user', 'manager', ..."
-msgstr ""
+msgstr "对于组 :samp:`{<model_name>}_group_{<group_name>}` , 其中 *group_name* 是组的名称, 通常是“用户\" , “经理 \", ..."
 
 #: ../../reference/guidelines.rst:265
 msgid ""
@@ -3490,7 +3490,7 @@ msgstr "使用棉绒可以帮助显示语法和语义警告或错误。 Odoo源�
 
 #: ../../reference/guidelines.rst:296
 msgid "E501: line too long"
-msgstr "E501:线太长"
+msgstr "E501:太长行"
 
 #: ../../reference/guidelines.rst:297
 msgid "E301: expected 1 blank line, found 0"
@@ -3577,7 +3577,7 @@ msgid ""
 "Useless variable : Temporary variables can make the code clearer by giving "
 "names to objects, but that doesn't mean you should create temporary "
 "variables all the time:"
-msgstr ""
+msgstr "Useless variable : Temporary variables can make the code clearer by giving names to objects, but that doesn't mean you should create temporary variables all the time:"
 
 #: ../../reference/guidelines.rst:386
 msgid "Multiple return points are OK, when they're simpler"
@@ -3587,20 +3587,20 @@ msgstr "当返回结果很简单时，多个返回点是可以的。"
 msgid ""
 "Know your builtins : You should at least have a basic understanding of all "
 "the Python builtins (http://docs.python.org/library/functions.html)"
-msgstr ""
+msgstr "Know your builtins : You should at least have a basic understanding of all the Python builtins (http://docs.python.org/library/functions.html)"
 
 #: ../../reference/guidelines.rst:414
 msgid ""
 "Also, ``if 'key' in my_dict`` and ``if my_dict.get('key')`` have very "
 "different meaning, be sure that you're using the right one."
-msgstr ""
+msgstr "Also, ``if 'key' in my_dict`` and ``if my_dict.get('key')`` have very different meaning, be sure that you're using the right one."
 
 #: ../../reference/guidelines.rst:417
 msgid ""
 "Learn list comprehensions : Use list comprehension, dict comprehension, and "
 "basic manipulation using ``map``, ``filter``, ``sum``, ... They make the "
 "code easier to read."
-msgstr ""
+msgstr "Learn list comprehensions : Use list comprehension, dict comprehension, and basic manipulation using ``map``, ``filter``, ``sum``, ... They make the code easier to read."
 
 #: ../../reference/guidelines.rst:430
 msgid ""
@@ -3608,7 +3608,7 @@ msgid ""
 "value when evaluated in a boolean context (such as an if). Among these are "
 "collections (lists, dicts, sets, ...) which are \"falsy\" when empty and "
 "\"truthy\" when containing items:"
-msgstr ""
+msgstr "Collections are booleans too : In python, many objects have \"boolean-ish\" value when evaluated in a boolean context (such as an if). Among these are collections (lists, dicts, sets, ...) which are \"falsy\" when empty and \"truthy\" when containing items:"
 
 #: ../../reference/guidelines.rst:441
 msgid ""
@@ -3628,7 +3628,7 @@ msgstr "使用 dict.setdefault"
 msgid ""
 "As a good developper, document your code (docstring on methods, simple "
 "comments for tricky part of code)"
-msgstr ""
+msgstr "As a good developper, document your code (docstring on methods, simple comments for tricky part of code)"
 
 #: ../../reference/guidelines.rst:479
 msgid ""
@@ -3636,7 +3636,7 @@ msgid ""
 "interesting: "
 "http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html (a "
 "little bit outdated, but quite relevant)"
-msgstr ""
+msgstr "In additions to these guidelines, you may also find the following link interesting: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html (a little bit outdated, but quite relevant)"
 
 #: ../../reference/guidelines.rst:484
 msgid "Programming in Odoo"
@@ -3646,17 +3646,17 @@ msgstr "在Odoo编程"
 msgid ""
 "Avoid to create generators and decorators: only use the ones provided by the"
 " Odoo API."
-msgstr ""
+msgstr "Avoid to create generators and decorators: only use the ones provided by the Odoo API."
 
 #: ../../reference/guidelines.rst:488
 msgid ""
 "As in python, use ``filtered``, ``mapped``, ``sorted``, ... methods to ease "
 "code reading and performance."
-msgstr ""
+msgstr "As in python, use ``filtered``, ``mapped``, ``sorted``, ... methods to ease code reading and performance."
 
 #: ../../reference/guidelines.rst:493
 msgid "Make your method works in batch"
-msgstr ""
+msgstr "Make your method works in batch"
 
 #: ../../reference/guidelines.rst:494
 msgid ""
@@ -3664,14 +3664,14 @@ msgid ""
 "Typically, such method is decorated with ``api.multi`` decorator (or takes a"
 " list of *id*, if written in old api). Then you will have to iterate on "
 "``self`` to treat each record."
-msgstr ""
+msgstr "When adding a function, make sure it can process multiple records. Typically, such method is decorated with ``api.multi`` decorator (or takes a list of *id*, if written in old api). Then you will have to iterate on ``self`` to treat each record."
 
 #: ../../reference/guidelines.rst:506
 msgid ""
 "Avoid to use ``api.one``  decorator : this will probably not do what you "
 "expected, and extending a such method is not as easy than a *api.multi* "
 "method, since it returns a list of result (ordered by recordset ids)."
-msgstr ""
+msgstr "Avoid to use ``api.one``  decorator : this will probably not do what you expected, and extending a such method is not as easy than a *api.multi* method, since it returns a list of result (ordered by recordset ids)."
 
 #: ../../reference/guidelines.rst:510
 msgid ""
@@ -3679,18 +3679,18 @@ msgid ""
 "not perform a ``search`` or a ``search_count`` in a loop in a ``api.multi`` "
 "method. It is recommended to use ``read_group`` method, to compute all value"
 " in only one request."
-msgstr ""
+msgstr "For performance issue, when developping a 'stat button' (for instance), do not perform a ``search`` or a ``search_count`` in a loop in a ``api.multi`` method. It is recommended to use ``read_group`` method, to compute all value in only one request."
 
 #: ../../reference/guidelines.rst:526
 msgid "Propagate the context"
-msgstr ""
+msgstr "Propagate the context"
 
 #: ../../reference/guidelines.rst:527
 msgid ""
 "In new API, the context is a ``frozendict`` that cannot be modified. To call"
 " a method with a different context, the ``with_context`` method should be "
 "used :"
-msgstr ""
+msgstr "In new API, the context is a ``frozendict`` that cannot be modified. To call a method with a different context, the ``with_context`` method should be used :"
 
 #: ../../reference/guidelines.rst:535
 msgid ""
@@ -3701,7 +3701,7 @@ msgid ""
 "this creation, other object (such as sale.order.line, on sale.order "
 "creation) having a field name *my_field*, their default value will be set "
 "too."
-msgstr ""
+msgstr "Passing parameter in context can have dangerous side-effects. Since the values are propagated automatically, some behavior can appears. Calling ``create()`` method of a model with *default_my_field* key in context will set the default value of *my_field* for the concerned model. But if curing this creation, other object (such as sale.order.line, on sale.order creation) having a field name *my_field*, their default value will be set too."
 
 #: ../../reference/guidelines.rst:542
 msgid ""
@@ -3709,7 +3709,7 @@ msgid ""
 " choice a good name, and eventually prefix it by the name of the module to "
 "isolate its impact. A good example are the keys of ``mail`` module : "
 "*mail_create_nosubscribe*, *mail_notrack*, *mail_notify_user_signature*, ..."
-msgstr ""
+msgstr "If you need to create a key context influencing the behavior of some object, choice a good name, and eventually prefix it by the name of the module to isolate its impact. A good example are the keys of ``mail`` module : *mail_create_nosubscribe*, *mail_notrack*, *mail_notify_user_signature*, ..."
 
 #: ../../reference/guidelines.rst:549
 msgid "Do not bypass the ORM"
@@ -3720,17 +3720,17 @@ msgid ""
 "You should never use the database cursor directly when the ORM can do the "
 "same thing! By doing so you are bypassing all the ORM features, possibly the"
 " transactions, access rights and so on."
-msgstr ""
+msgstr "You should never use the database cursor directly when the ORM can do the same thing! By doing so you are bypassing all the ORM features, possibly the transactions, access rights and so on."
 
 #: ../../reference/guidelines.rst:554
 msgid ""
 "And chances are that you are also making the code harder to read and "
 "probably less secure."
-msgstr ""
+msgstr "And chances are that you are also making the code harder to read and probably less secure."
 
 #: ../../reference/guidelines.rst:573
 msgid "No SQL injections, please !"
-msgstr "注意，无SQL注入！"
+msgstr "注意，不要有SQL注入！"
 
 #: ../../reference/guidelines.rst:574
 msgid ""
@@ -3739,14 +3739,14 @@ msgid ""
 "either incorrectly filtered or badly quoted, allowing an attacker to "
 "introduce undesirable clauses to a SQL query (such as circumventing filters "
 "or executing UPDATE or DELETE commands)."
-msgstr ""
+msgstr "Care must be taken not to introduce SQL injections vulnerabilities when using manual SQL queries. The vulnerability is present when user input is either incorrectly filtered or badly quoted, allowing an attacker to introduce undesirable clauses to a SQL query (such as circumventing filters or executing UPDATE or DELETE commands)."
 
 #: ../../reference/guidelines.rst:580
 msgid ""
 "The best way to be safe is to never, NEVER use Python string concatenation "
 "(+) or string parameters interpolation (%) to pass variables to a SQL query "
 "string."
-msgstr ""
+msgstr "The best way to be safe is to never, NEVER use Python string concatenation (+) or string parameters interpolation (%) to pass variables to a SQL query string."
 
 #: ../../reference/guidelines.rst:583
 msgid ""
@@ -3755,42 +3755,42 @@ msgid ""
 "parameters, not your job! For example psycopg2 knows that when you pass a "
 "list of values it needs to format them as a comma-separated list, enclosed "
 "in parentheses !"
-msgstr ""
+msgstr "The second reason, which is almost as important, is that it is the job of the database abstraction layer (psycopg2) to decide how to format query parameters, not your job! For example psycopg2 knows that when you pass a list of values it needs to format them as a comma-separated list, enclosed in parentheses !"
 
 #: ../../reference/guidelines.rst:603
 msgid ""
 "This is very important, so please be careful also when refactoring, and most"
 " importantly do not copy these patterns!"
-msgstr ""
+msgstr "This is very important, so please be careful also when refactoring, and most importantly do not copy these patterns!"
 
 #: ../../reference/guidelines.rst:606
 msgid ""
 "Here is a memorable example to help you remember what the issue is about "
 "(but do not copy the code there). Before continuing, please be sure to read "
 "the online documentation of pyscopg2 to learn of to use it properly:"
-msgstr ""
+msgstr "Here is a memorable example to help you remember what the issue is about (but do not copy the code there). Before continuing, please be sure to read the online documentation of pyscopg2 to learn of to use it properly:"
 
 #: ../../reference/guidelines.rst:610
 msgid ""
 "The problem with query parameters (http://initd.org/psycopg/docs/usage.html"
 "#the-problem-with-the-query-parameters)"
-msgstr ""
+msgstr "The problem with query parameters (http://initd.org/psycopg/docs/usage.html#the-problem-with-the-query-parameters)"
 
 #: ../../reference/guidelines.rst:611
 msgid ""
 "How to pass parameters with psycopg2 "
 "(http://initd.org/psycopg/docs/usage.html#passing-parameters-to-sql-queries)"
-msgstr ""
+msgstr "How to pass parameters with psycopg2 (http://initd.org/psycopg/docs/usage.html#passing-parameters-to-sql-queries)"
 
 #: ../../reference/guidelines.rst:612
 msgid ""
 "Advanced parameter types (http://initd.org/psycopg/docs/usage.html"
 "#adaptation-of-python-values-to-sql-types)"
-msgstr ""
+msgstr "Advanced parameter types (http://initd.org/psycopg/docs/usage.html#adaptation-of-python-values-to-sql-types)"
 
 #: ../../reference/guidelines.rst:616
 msgid "Keep your methods short/simple when possible"
-msgstr ""
+msgstr "Keep your methods short/simple when possible"
 
 #: ../../reference/guidelines.rst:617
 msgid ""
@@ -3800,20 +3800,20 @@ msgid ""
 "more than one responsibility (see "
 "http://en.wikipedia.org/wiki/Single_responsibility_principle) - it is too "
 "big to fit on one screen."
-msgstr ""
+msgstr "Functions and methods should not contain too much logic: having a lot of small and simple methods is more advisable than having few large and complex methods. A good rule of thumb is to split a method as soon as: - it has more than one responsibility (see http://en.wikipedia.org/wiki/Single_responsibility_principle) - it is too big to fit on one screen."
 
 #: ../../reference/guidelines.rst:623
 msgid ""
 "Also, name your functions accordingly: small and properly named functions "
 "are the starting point of readable/maintainable code and tighter "
 "documentation."
-msgstr ""
+msgstr "Also, name your functions accordingly: small and properly named functions are the starting point of readable/maintainable code and tighter documentation."
 
 #: ../../reference/guidelines.rst:625
 msgid ""
 "This recommendation is also relevant for classes, files, modules and "
 "packages. (See also http://en.wikipedia.org/wiki/Cyclomatic_complexity)"
-msgstr ""
+msgstr "This recommendation is also relevant for classes, files, modules and packages. (See also http://en.wikipedia.org/wiki/Cyclomatic_complexity)"
 
 #: ../../reference/guidelines.rst:629
 msgid "Never commit the transaction"
@@ -3825,20 +3825,20 @@ msgid ""
 "all RPC calls. The principle is that a new database cursor is opened at the "
 "beginning of each RPC call, and committed when the call has returned, just "
 "before transmitting the answer to the RPC client, approximately like this:"
-msgstr ""
+msgstr "The Odoo framework is in charge of providing the transactional context for all RPC calls. The principle is that a new database cursor is opened at the beginning of each RPC call, and committed when the call has returned, just before transmitting the answer to the RPC client, approximately like this:"
 
 #: ../../reference/guidelines.rst:651
 msgid ""
 "If any error occurs during the execution of the RPC call, the transaction is"
 " rolled back atomically, preserving the state of the system."
-msgstr ""
+msgstr "If any error occurs during the execution of the RPC call, the transaction is rolled back atomically, preserving the state of the system."
 
 #: ../../reference/guidelines.rst:654
 msgid ""
 "Similarly, the system also provides a dedicated transaction during the "
 "execution of tests suites, so it can be rolled back or not depending on the "
 "server startup options."
-msgstr ""
+msgstr "Similarly, the system also provides a dedicated transaction during the execution of tests suites, so it can be rolled back or not depending on the server startup options."
 
 #: ../../reference/guidelines.rst:658
 msgid ""
@@ -3846,11 +3846,11 @@ msgid ""
 "is a very high chance that you will break the system in various ways, "
 "because you will cause partial commits, and thus partial and unclean "
 "rollbacks, causing among others:"
-msgstr ""
+msgstr "The consequence is that if you manually call ``cr.commit()`` anywhere there is a very high chance that you will break the system in various ways, because you will cause partial commits, and thus partial and unclean rollbacks, causing among others:"
 
 #: ../../reference/guidelines.rst:663
 msgid "inconsistent business data, usually data loss"
-msgstr ""
+msgstr "inconsistent business data, usually data loss"
 
 #: ../../reference/guidelines.rst:664
 msgid "workflow desynchronization, documents stuck permanently"
@@ -3861,7 +3861,7 @@ msgid ""
 "tests that can't be rolled back cleanly, and will start polluting the "
 "database, and triggering error (this is true even if no error occurs during "
 "the transaction)"
-msgstr ""
+msgstr "tests that can't be rolled back cleanly, and will start polluting the database, and triggering error (this is true even if no error occurs during the transaction)"
 
 #: ../../reference/guidelines.rst:676
 msgid "Here is the very simple rule:"
@@ -3872,14 +3872,14 @@ msgid ""
 "You should **NEVER** call ``cr.commit()`` yourself, **UNLESS** you have "
 "created your own database cursor explicitly! And the situations where you "
 "need to do that are exceptional!"
-msgstr ""
+msgstr "You should **NEVER** call ``cr.commit()`` yourself, **UNLESS** you have created your own database cursor explicitly! And the situations where you need to do that are exceptional!"
 
 #: ../../reference/guidelines.rst:674
 msgid ""
 "And by the way if you did create your own cursor, then you need to handle "
 "error cases and proper rollback, as well as properly close the cursor when "
 "you're done with it."
-msgstr ""
+msgstr "And by the way if you did create your own cursor, then you need to handle error cases and proper rollback, as well as properly close the cursor when you're done with it."
 
 #: ../../reference/guidelines.rst:678
 msgid ""
@@ -3892,7 +3892,7 @@ msgid ""
 "these methods are called exactly like regular *models.Model* ones, within a "
 "transaction and with the corresponding ``cr.commit()/rollback()`` at the end"
 " - etc. (see general rule above if you have in doubt!)"
-msgstr ""
+msgstr "And contrary to popular belief, you do not even need to call ``cr.commit()`` in the following situations: - in the ``_auto_init()`` method of an *models.Model* object: this is taken care of by the addons initialization method, or by the ORM transaction when creating custom models - in reports: the ``commit()`` is handled by the framework too, so you can update the database even from within a report - within *models.Transient* methods: these methods are called exactly like regular *models.Model* ones, within a transaction and with the corresponding ``cr.commit()/rollback()`` at the end - etc. (see general rule above if you have in doubt!)"
 
 #: ../../reference/guidelines.rst:690
 msgid ""
@@ -3900,7 +3900,7 @@ msgid ""
 "have an **explicit comment** explaining why they are absolutely necessary, "
 "why they are indeed correct, and why they do not break the transactions. "
 "Otherwise they can and will be removed !"
-msgstr ""
+msgstr "All ``cr.commit()`` calls outside of the server framework from now on must have an **explicit comment** explaining why they are absolutely necessary, why they are indeed correct, and why they do not break the transactions. Otherwise they can and will be removed !"
 
 #: ../../reference/guidelines.rst:697
 msgid "Use translation method correctly"
@@ -3912,13 +3912,13 @@ msgid ""
 "that a static string used in the code needs to be translated at runtime "
 "using the language of the context. This pseudo-method is accessed within "
 "your code by importing as follows:"
-msgstr ""
+msgstr "Odoo uses a GetText-like method named \"underscore\" ``_( )`` to indicate that a static string used in the code needs to be translated at runtime using the language of the context. This pseudo-method is accessed within your code by importing as follows:"
 
 #: ../../reference/guidelines.rst:708
 msgid ""
 "A few very important rules must be followed when using it, in order for it "
 "to work and to avoid filling the translations with useless junk."
-msgstr ""
+msgstr "A few very important rules must be followed when using it, in order for it to work and to avoid filling the translations with useless junk."
 
 #: ../../reference/guidelines.rst:711
 msgid ""
@@ -3926,13 +3926,13 @@ msgid ""
 "manually in the code, it will not work to translate field values, such as "
 "Product names, etc. This must be done instead using the translate flag on "
 "the corresponding field."
-msgstr ""
+msgstr "Basically, this method should only be used for static strings written manually in the code, it will not work to translate field values, such as Product names, etc. This must be done instead using the translate flag on the corresponding field."
 
 #: ../../reference/guidelines.rst:716
 msgid ""
 "The rule is very simple: calls to the underscore method should always be in "
 "the form ``_('literal string')`` and nothing else:"
-msgstr ""
+msgstr "The rule is very simple: calls to the underscore method should always be in the form ``_('literal string')`` and nothing else:"
 
 #: ../../reference/guidelines.rst:760
 msgid ""
@@ -3942,7 +3942,7 @@ msgid ""
 "minimum. Translators must be aware that formatting patterns such as %s or "
 "%d, newlines, etc. need to be preserved, but it's important to use these in "
 "a sensible and obvious manner:"
-msgstr ""
+msgstr "Also, keep in mind that translators will have to work with the literal values that are passed to the underscore function, so please try to make them easy to understand and keep spurious characters and formatting to a minimum. Translators must be aware that formatting patterns such as %s or %d, newlines, etc. need to be preserved, but it's important to use these in a sensible and obvious manner:"
 
 #: ../../reference/guidelines.rst:775
 msgid ""
@@ -3950,7 +3950,7 @@ msgid ""
 "``.format()`` (when only one variable to replace in a string), and prefer "
 "``%(varname)`` instead of position (when multiple variables have to be "
 "replaced). This makes the translation easier for the community translators."
-msgstr ""
+msgstr "In general in Odoo, when manipulating strings, prefer ``%`` over ``.format()`` (when only one variable to replace in a string), and prefer ``%(varname)`` instead of position (when multiple variables have to be replaced). This makes the translation easier for the community translators."
 
 #: ../../reference/guidelines.rst:782
 msgid "Symbols and Conventions"
@@ -3964,7 +3964,7 @@ msgstr "模型名称 (使用点表示法, 前缀模块名称) :"
 msgid ""
 "When defining an Odoo Model : use singular form of the name (*res.partner* "
 "and *sale.order* instead of *res.partnerS* and *saleS.orderS*)"
-msgstr ""
+msgstr "When defining an Odoo Model : use singular form of the name (*res.partner* and *sale.order* instead of *res.partnerS* and *saleS.orderS*)"
 
 #: ../../reference/guidelines.rst:787
 msgid ""
@@ -3973,13 +3973,13 @@ msgid ""
 "model (defined in *models/*) related to the transient, and *action* is the "
 "short name of what the transient do. For instance : "
 "``account.invoice.make``, ``project.task.delegate.batch``, ..."
-msgstr ""
+msgstr "When defining an Odoo Transient (wizard) : use ``<related_base_model>.<action>`` where *related_base_model* is the base model (defined in *models/*) related to the transient, and *action* is the short name of what the transient do. For instance : ``account.invoice.make``, ``project.task.delegate.batch``, ..."
 
 #: ../../reference/guidelines.rst:791
 msgid ""
 "When defining *report* model (SQL views e.i.) : use "
 "``<related_base_model>.report.<action>``, based on the Transient convention."
-msgstr ""
+msgstr "When defining *report* model (SQL views e.i.) : use ``<related_base_model>.report.<action>``, based on the Transient convention."
 
 #: ../../reference/guidelines.rst:794
 msgid ""
@@ -4119,7 +4119,7 @@ msgid ""
 "Unless your code is supposed to run on every page, target specific pages "
 "using the ``if_dom_contains`` function of website module. Target an element "
 "which is specific to the pages your code needs to run on using JQuery."
-msgstr ""
+msgstr "Unless your code is supposed to run on every page, target specific pages using the ``if_dom_contains`` function of website module. Target an element which is specific to the pages your code needs to run on using JQuery."
 
 #: ../../reference/guidelines.rst:910
 msgid "**For CSS :**"
@@ -4132,7 +4132,7 @@ msgid ""
 "reserved by the module (for website module mainly, i.e. : 'o_forum' for "
 "*website_forum* module). The only exception for this rule is the webclient: "
 "it simply uses *o_* prefix."
-msgstr ""
+msgstr "Prefix all your classes with *o_<module_name>* where *module_name* is the technical name of the module ('sale', 'im_chat', ...) or the main route reserved by the module (for website module mainly, i.e. : 'o_forum' for *website_forum* module). The only exception for this rule is the webclient: it simply uses *o_* prefix."
 
 #: ../../reference/guidelines.rst:917
 msgid "Avoid using id"
@@ -4183,7 +4183,7 @@ msgid ""
 "**[MOV]** for moving files (Do not change content of moved file, otherwise "
 "Git will loose track, and the history will be lost !), or simply moving code"
 " from a file to another one."
-msgstr ""
+msgstr "**[MOV]** for moving files (Do not change content of moved file, otherwise Git will loose track, and the history will be lost !), or simply moving code from a file to another one."
 
 #: ../../reference/guidelines.rst:937
 msgid "**[MERGE]** for merge commits (only for forward/back-port)"
@@ -4362,7 +4362,7 @@ msgid ""
 "set, the template will be rendered after the widget has been initialized but"
 " before it has been started. The root element generated by the template will"
 " be set as the DOM root of the widget."
-msgstr "应设置为一个名字 :ref:`QWeb模板<reference/qweb>` 。如果设置, 该模板将被渲染的插件已初始化之后, 但它已被启动之前。由模板产生的根元素将被设置为小部件的DOM的根。"
+msgstr "应当设置为 :ref:`QWeb template <reference/qweb>` 的名字。如果设置, 该模板在它初始化而又还没开始之前将被渲染。由模板产生的根元素，将被设置为小部件的DOM根。"
 
 #: ../../reference/javascript.rst:54
 msgid ""
@@ -4399,14 +4399,14 @@ msgid ""
 "Renders the widget's DOM root and sets it. The default implementation will "
 "render a set template or generate an element as described above, and will "
 "call :func:`~Widget.setElement` on the result."
-msgstr "呈现小部件的DOM根, 并设置它。默认的实现将呈现一组模板或如上所述生成的元素, 并会拨打 :func:`~Widget.setElement` 的结果。"
+msgstr "呈现小部件的DOM根, 并设置它。默认实现将呈现一组模板，或如上所述生成元素, 并会在结果调用 :func:`~Widget.setElement` 。"
 
 #: ../../reference/javascript.rst:85
 msgid ""
 "Any override to :func:`~Widget.renderElement` which does not call its "
 "``_super`` **must** call :func:`~Widget.setElement` with whatever it "
 "generated or the widget's behavior is undefined."
-msgstr "任何覆盖到 :func:`~Widget.renderElement` 不调用它的 ``_super`` **必须** 电话 :func: 有什么它产生或控件的行为是不确定的 `~Widget.setElement` 。"
+msgstr "Any override to :func:`~Widget.renderElement` which does not call its ``_super`` **must** call :func:`~Widget.setElement` with whatever it generated or the widget's behavior is undefined."
 
 #: ../../reference/javascript.rst:92
 msgid ""
@@ -4415,7 +4415,7 @@ msgid ""
 "requires that the widget correctly sets and unsets its events (and children "
 "widgets). Generally, :func:`~Widget.renderElement` should not be called "
 "repeatedly unless the widget advertizes this feature."
-msgstr "默认 :func:`~Widget.renderElement` 可以反复调用, 它将取代 **先前的DOM根（使用 ``replaceWith`` ）。然而, 这要求微件正确设置和取消设置其事件（孩子和挂件）。通常情况下, :func:`~Widget.renderElement` 不应该被重复调用, 除非小部件advertizes此功能。"
+msgstr "The default :func:`~Widget.renderElement` can be called repeatedly, it will *replace* the previous DOM root (using ``replaceWith``). However, this requires that the widget correctly sets and unsets its events (and children widgets). Generally, :func:`~Widget.renderElement` should not be called repeatedly unless the widget advertizes this feature."
 
 #: ../../reference/javascript.rst:100
 msgid "Using a widget"
@@ -4449,25 +4449,25 @@ msgstr "DOM注入和启动, 这样做是通过调用之一:"
 msgid ""
 "Renders the widget and inserts it as the last child of the target, uses "
 "`.appendTo()`_"
-msgstr "呈现小部件, 并将其插入作为目标的最后一个孩子, 使用 `.appendTo（）` _"
+msgstr "渲染小部件, 并将其插入作为目标的最后一个子元素, 使用 `.appendTo()`_"
 
 #: ../../reference/javascript.rst:125
 msgid ""
 "Renders the widget and inserts it as the first child of the target, uses "
 "`.prependTo()`_"
-msgstr "呈现小部件, 并将其插入为目标的第一个孩子, 使用 `.prependTo（）` _"
+msgstr "渲染小部件, 并将其插入为目标的第一个子元素,  `.prependTo()`_"
 
 #: ../../reference/javascript.rst:130
 msgid ""
 "Renders the widget and inserts it as the preceding sibling of the target, "
 "uses `.insertAfter()`_"
-msgstr "呈现小部件, 并将其插入作为目标的前面的兄弟, 使用 `.insertAfter（）` _"
+msgstr "渲染小部件, 并将其插入作为目标的前面成员, 使用 `.insertAfter()`_"
 
 #: ../../reference/javascript.rst:135
 msgid ""
 "Renders the widget and inserts it as the following sibling of the target, "
 "uses `.insertBefore()`_"
-msgstr "呈现小部件, 并将其插入作为目标的后续兄弟, 使用 `.insertBefore（）` _"
+msgstr "渲染小部件, 并将其插入作为目标的后面成员, 使用  `.insertBefore()`_"
 
 #: ../../reference/javascript.rst:138
 msgid ""
@@ -4478,7 +4478,7 @@ msgstr "所有这些方法都照单全收相应的jQuery方法接受（CSS选择
 
 #: ../../reference/javascript.rst:142
 msgid "rendering the widget's root element via :func:`~Widget.renderElement`"
-msgstr "通过 :func:`~Widget.renderElement` 渲染挂件的根元素"
+msgstr "通过 :func:`~Widget.renderElement` 渲染小部件的根元素"
 
 #: ../../reference/javascript.rst:144
 msgid ""
@@ -4601,7 +4601,7 @@ msgstr "jQuery对象"
 
 #: ../../reference/javascript.rst:229
 msgid "this helper method is similar to ``Backbone.View.$``"
-msgstr "这个帮助者方法类似于 ``Backbone.View.$`` "
+msgstr "这个帮手方法类似于 ``Backbone.View.$`` "
 
 #: ../../reference/javascript.rst:232
 msgid "Resetting the DOM root"
@@ -4686,7 +4686,7 @@ msgstr "这种行为应该与'骨干delegateEvents `_兼容, 除了不接受任�
 
 #: ../../reference/javascript.rst:296
 msgid "Subclassing Widget"
-msgstr "子类化的widget"
+msgstr "子类化小部件"
 
 #: ../../reference/javascript.rst:298
 msgid ""
@@ -4742,7 +4742,7 @@ msgid ""
 "and modules, ``id`` limits the re-usability of components and tends to make "
 "code more brittle. Most of the time, they can be replaced with nothing, "
 "classes or keeping a reference to a DOM node or jQuery element."
-msgstr "（ ``id`` 属性）应避免标识符。在一般的应用程序和模块, ``id`` 限制了可重用性组件, 并容易使代码更脆。大多数时候, 它们可以被替换为空, 类或保持参考DOM节点或jQuery的元素。"
+msgstr "标识符（ ``id`` 属性）应避免。在一般的应用程序和模块, ``id`` 限制了组件的重用性, 并使代码更脆弱。大多数时候, 它们可以被替换为空, 类或DOM节点参考或jQuery元素。"
 
 #: ../../reference/javascript.rst:363
 msgid ""
@@ -4779,7 +4779,7 @@ msgstr "More generally, never assume your components own or controls anything be
 
 #: ../../reference/javascript.rst:383
 msgid "html templating/rendering should use QWeb unless absolutely trivial."
-msgstr "HTML模板/渲染应该使用QWeb, 除非绝对微不足道。"
+msgstr "HTML模板化/渲染化，应当使用QWeb, 除非绝对微不足道。"
 
 #: ../../reference/javascript.rst:384
 msgid ""
@@ -5096,7 +5096,7 @@ msgstr "记录的组中的号"
 
 #: ../../reference/javascript.rst:652
 msgid "``aggregates``"
-msgstr " ``aggregates`` "
+msgstr "``aggregates``"
 
 #: ../../reference/javascript.rst:653
 msgid "a {field: value} mapping of aggregations for the group"
@@ -5277,7 +5277,7 @@ msgstr " ``不装modules`` :谁的模块依赖于丢失或发生故障的模块"
 
 #: ../../reference/javascript.rst:779
 msgid "Web client structure"
-msgstr "Web客户端结构"
+msgstr "网页客户端结构"
 
 #: ../../reference/javascript.rst:781
 msgid ""
@@ -5299,7 +5299,7 @@ msgstr " ``web.ajax`` 实现RPC调用"
 msgid ""
 "``web.core`` is a generic modules.  It exports various useful objects and "
 "functions, such as ``qweb``, ``_t`` or the main bus."
-msgstr " ``web.core`` 是一个通用模块。它出口各种有用的对象和功能, 如 ``qweb`` , ``_t`` 或主总线。"
+msgstr " ``web.core`` 是一个通用模块。它输出各种有用的对象和函数, 例如  ``qweb``, ``_t``  及主总线."
 
 #: ../../reference/javascript.rst:790
 msgid "``web.Widget`` contains the widget class"
@@ -5321,7 +5321,7 @@ msgstr " ``web.utils`` 有用的代码片段"
 
 #: ../../reference/javascript.rst:795
 msgid "``web.time`` for every time-related generic functions"
-msgstr " ``web.time`` 每一个与时间相关的通用功能,"
+msgstr " ``web.time`` 每一个与时间相关的通用函数,"
 
 #: ../../reference/javascript.rst:796
 msgid "the ``views/`` folder contains all view definitions"
@@ -5349,7 +5349,7 @@ msgstr " ``menu.js`` 是顶部菜单的定义"
 
 #: ../../reference/javascript.rst:804
 msgid "``web_client.js`` is for the root widget WebClient"
-msgstr " ``web_client.js`` 是根小部件的WebClient"
+msgstr " ``web_client.js`` 是根小部件WebClient"
 
 #: ../../reference/javascript.rst:805
 msgid "``view_manager.js`` contains the ViewManager"
@@ -5417,7 +5417,7 @@ msgid ""
 " own javascript modules. On the javascript side, unit-testing is based on "
 "QUnit_ with a number of helpers and extensions for better integration with "
 "Odoo."
-msgstr "Odoo网络包括手段, 单元测试既Odoo Web和自己的JavaScript模块的核心代码。在JavaScript端, 单元测试是基于QUnit_与一些助手和扩展与Odoo更好的整合。"
+msgstr "Odoo网络包括单元测试手段, 无论Odoo Web的核心代码，还是你自己的JavaScript模块。在JavaScript端, 单元测试是基于QUnit_ ，大有一些帮手和扩展，以便Odoo更好的集成。"
 
 #: ../../reference/javascript.rst:845
 msgid ""
@@ -5470,7 +5470,7 @@ msgid ""
 "Odoo tests live in a :func:`~openerp.testing.section`, which is itself part "
 "of a module. The first argument to a section is the name of the section, the"
 " second one is the section body."
-msgstr "所有的测试助手和结构生活 ``openerp.testing`` 模块内。 Odoo测试住在 :func:`~openerp.testing.section` , 这本身就是一个模块的一部分。的第一个参数的截面是段的名称, 所述第二个是部分身体。"
+msgstr "所有的测试帮手和结构，在 ``openerp.testing`` 模块内。 Odoo测试在 :func:`~openerp.testing.section` , 它本身就是模块的一部分。小节的第一个参数是小节的名称，第二个参数是小节的主体。"
 
 #: ../../reference/javascript.rst:902
 msgid ""
@@ -5609,13 +5609,13 @@ msgid ""
 "templates, you can request their loading through the "
 ":attr:`~TestOptions.templates` option to the :func:`test case function "
 "<openerp.testing.case>`."
-msgstr "为了避免相应的处理成本, 默认模板不加载到QWeb。 :attr: 如果您需要渲染, 例如部件利用QWeb模板, 可以通过要求其装载 `~TestOptions.templates` 选项到 :func:`测试用例功能<openerp.testing.case>` 。"
+msgstr "为了避免相应的处理开销, 默认不加载模板到QWeb。 如果您需要利用QWeb模板渲染, 例如部件，你 可以请求它们通过 :attr:`~TestOptions.templates`  选项装载到  :func:`test case function <openerp.testing.case>` 。"
 
 #: ../../reference/javascript.rst:1059
 msgid ""
 "This will automatically load all relevant templates in the instance's qweb "
 "before running the test case:"
-msgstr "这将自动加载该实例的qweb所有相关的模板运行测试用例之前:"
+msgstr "运行测试用例之前，这将在该实例的qweb自动加载所有相关的模板:"
 
 #: ../../reference/javascript.rst:1097
 msgid "Asynchronous cases"
@@ -5813,7 +5813,7 @@ msgstr " ``oe_all_dependencies`` 是 ``Array`` 与Web组件的所有模块, 订�
 
 #: ../../reference/javascript.rst:1326
 msgid "Running through Python"
-msgstr "通过Python的运行"
+msgstr "通过Python运行"
 
 #: ../../reference/javascript.rst:1328
 msgid ""
@@ -5940,7 +5940,7 @@ msgstr "可用清单字段有:"
 
 #: ../../reference/module.rst:43
 msgid "``name`` (``str``, required)"
-msgstr " ``name`` （ ``str`` , 必需）"
+msgstr "``name`` (``str``, required)"
 
 #: ../../reference/module.rst:44
 msgid "the human-readable name of the module"
@@ -5948,7 +5948,7 @@ msgstr "模块的人类可读名称"
 
 #: ../../reference/module.rst:45
 msgid "``version`` (``str``)"
-msgstr " ``version`` （ ``str`` ）"
+msgstr "``version`` (``str``)"
 
 #: ../../reference/module.rst:46
 msgid "this module's version, should follow `semantic versioning`_ rules"
@@ -5956,7 +5956,7 @@ msgstr "该模块的版本, 应该遵循 `语义versioning` _规则"
 
 #: ../../reference/module.rst:47
 msgid "``description`` (``str``)"
-msgstr " ``description`` （ ``str`` ）"
+msgstr "``description`` (``str``)"
 
 #: ../../reference/module.rst:48
 msgid "extended description for the module, in reStructuredText"
@@ -5964,7 +5964,7 @@ msgstr "扩展描述为模块, 在reStructuredText的"
 
 #: ../../reference/module.rst:49
 msgid "``author`` (``str``)"
-msgstr " ``author`` （ ``str`` ）"
+msgstr "``author`` (``str``)"
 
 #: ../../reference/module.rst:50
 msgid "name of the module author"
@@ -5972,11 +5972,11 @@ msgstr "的模块作者姓名"
 
 #: ../../reference/module.rst:51
 msgid "``website`` (``str``)"
-msgstr " ``website`` （ ``str`` ）"
+msgstr "``website`` (``str``)"
 
 #: ../../reference/module.rst:52
 msgid "website URL for the module author"
-msgstr "网站的网址为模块作者"
+msgstr "模块作者的网站URL"
 
 #: ../../reference/module.rst:53
 msgid "``license`` (``str``, defaults: ``LGPL-3``)"
@@ -5988,7 +5988,7 @@ msgstr "该模块分发许可证"
 
 #: ../../reference/module.rst:61
 msgid "``category`` (``str``, default: ``Uncategorized``)"
-msgstr " ``category`` （ ``str`` , 默认:``Uncategorized`` ）"
+msgstr "``category`` (``str``, default: ``Uncategorized``)"
 
 #: ../../reference/module.rst:56
 msgid ""
@@ -6006,7 +6006,7 @@ msgstr "虽然使用 `现有categories` _建议, 该字段为自由和未知类�
 
 #: ../../reference/module.rst:68
 msgid "``depends`` (``list(str)``)"
-msgstr " ``depends`` （ ``名单（STR）`` ）"
+msgstr "``depends`` (``list(str)``)"
 
 #: ../../reference/module.rst:64
 msgid ""
@@ -6022,7 +6022,7 @@ msgstr "当安装一个模块, 其所有相关之前安装。同样地, 一个�
 
 #: ../../reference/module.rst:71
 msgid "``data`` (``list(str)``)"
-msgstr " ``data`` ( ``list(str)`` )"
+msgstr "``data`` (``list(str)``)"
 
 #: ../../reference/module.rst:71
 msgid ""
@@ -6032,7 +6032,7 @@ msgstr "的必须始终安装或更新与模块数据文件列表。路径从模
 
 #: ../../reference/module.rst:74
 msgid "``demo`` (``list(str)``)"
-msgstr " ``demo`` （ ``名单（STR）`` ）"
+msgstr "``demo`` (``list(str)``)"
 
 #: ../../reference/module.rst:74
 msgid ""
@@ -6192,7 +6192,7 @@ msgstr "因此, 记录集提供这些操作返回记录本身（如果可能）:
 
 #: ../../reference/orm.rst:122
 msgid ":meth:`~openerp.models.Model.filtered`"
-msgstr ":meth:`~openerp.models.Model.filtered` "
+msgstr ":meth:`~openerp.models.Model.filtered`"
 
 #: ../../reference/orm.rst:114
 msgid ""
@@ -6203,7 +6203,7 @@ msgstr "返回一个包含只记录满足谓词提供的功能的记录。谓词
 
 #: ../../reference/orm.rst:129
 msgid ":meth:`~openerp.models.Model.sorted`"
-msgstr ":meth:`~openerp.models.Model.sorted` "
+msgstr ":meth:`~openerp.models.Model.sorted`"
 
 #: ../../reference/orm.rst:125
 msgid ""
@@ -6213,7 +6213,7 @@ msgstr "返回记录集排序所提供的关键功能。如果不提供密钥, �
 
 #: ../../reference/orm.rst:147
 msgid ":meth:`~openerp.models.Model.mapped`"
-msgstr ":meth:`~openerp.models.Model.mapped` "
+msgstr ":meth:`~openerp.models.Model.mapped`"
 
 #: ../../reference/orm.rst:132
 msgid ""
@@ -6265,7 +6265,7 @@ msgstr "环境可以从一个记录进行定制。这将返回使用改变环境
 
 #: ../../reference/orm.rst:196
 msgid ":meth:`~openerp.models.Model.sudo`"
-msgstr ":meth:`~openerp.models.Model.sudo` "
+msgstr ":meth:`~openerp.models.Model.sudo`"
 
 #: ../../reference/orm.rst:186
 msgid ""
@@ -6276,7 +6276,7 @@ msgstr "创建与所提供的用户设置一个新的环境, 使用系统管理�
 
 #: ../../reference/orm.rst:208
 msgid ":meth:`~openerp.models.Model.with_context`"
-msgstr ":meth:`~openerp.models.Model.with_context` "
+msgstr ":meth:`~openerp.models.Model.with_context`"
 
 #: ../../reference/orm.rst:199
 msgid ""
@@ -6292,7 +6292,7 @@ msgstr "可以采取任何数量的按关键词参数, 它们被加入到任何�
 
 #: ../../reference/orm.rst:211
 msgid ":meth:`~openerp.models.Model.with_env`"
-msgstr ":meth:`~openerp.models.Model.with_env` "
+msgstr ":meth:`~openerp.models.Model.with_env`"
 
 #: ../../reference/orm.rst:211
 msgid "replaces the existing environment entirely"
@@ -6304,7 +6304,7 @@ msgstr "常见的ORM方法"
 
 #: ../../reference/orm.rst:230
 msgid ":meth:`~openerp.models.Model.search`"
-msgstr ":meth:`~openerp.models.Model.search` "
+msgstr ":meth:`~openerp.models.Model.search`"
 
 #: ../../reference/orm.rst:219
 msgid ""
@@ -6321,7 +6321,7 @@ msgstr "只是检查是否有任何记录中域相匹配, 或计数的记录里�
 
 #: ../../reference/orm.rst:237
 msgid ":meth:`~openerp.models.Model.create`"
-msgstr ":meth:`~openerp.models.Model.create` "
+msgstr ":meth:`~openerp.models.Model.create`"
 
 #: ../../reference/orm.rst:233
 msgid ""
@@ -6331,7 +6331,7 @@ msgstr "采用数字字段的值, 然后返回一个包含创建的记录的记�
 
 #: ../../reference/orm.rst:243
 msgid ":meth:`~openerp.models.Model.write`"
-msgstr ":meth:`~openerp.models.Model.write` "
+msgstr ":meth:`~openerp.models.Model.write`"
 
 #: ../../reference/orm.rst:240
 msgid ""
@@ -6341,7 +6341,7 @@ msgstr "采用数字字段的值, 并将其写入到其记录的所有记录。�
 
 #: ../../reference/orm.rst:252
 msgid ":meth:`~openerp.models.Model.browse`"
-msgstr ":meth:`~openerp.models.Model.browse` "
+msgstr ":meth:`~openerp.models.Model.browse`"
 
 #: ../../reference/orm.rst:246
 msgid ""
@@ -6353,7 +6353,7 @@ msgstr "采用的是数据库ID或ID的列表, 并返回一个记录, 用时记�
 
 #: ../../reference/orm.rst:266
 msgid ":meth:`~openerp.models.Model.exists`"
-msgstr ":meth:`~openerp.models.Model.exists` "
+msgstr ":meth:`~openerp.models.Model.exists`"
 
 #: ../../reference/orm.rst:255
 msgid ""
@@ -6368,7 +6368,7 @@ msgstr "或者调用一个方法可能已删除了部分记录后 ::"
 
 #: ../../reference/orm.rst:273
 msgid ":meth:`~openerp.api.Environment.ref`"
-msgstr ":meth:`~openerp.api.Environment.ref` "
+msgstr ":meth:`~openerp.api.Environment.ref`"
 
 #: ../../reference/orm.rst:269
 msgid ""
@@ -6378,7 +6378,7 @@ msgstr "环境方法返回的记录匹配提供 :term:`外部ID` ::"
 
 #: ../../reference/orm.rst:281
 msgid ":meth:`~openerp.models.Model.ensure_one`"
-msgstr ":meth:`~openerp.models.Model.ensure_one` "
+msgstr ":meth:`~openerp.models.Model.ensure_one`"
 
 #: ../../reference/orm.rst:276
 msgid ""
@@ -6410,7 +6410,7 @@ msgstr "默认情况下, 该字段的标签（用户可见的名字）是字段�
 msgid ""
 "For the various field types and parameters, see :ref:`the fields reference "
 "<reference/orm/fields>`."
-msgstr "对于这些不同的字段类型和参数, 请参阅 :ref:`字段的参考<reference/orm/fields>` 。"
+msgstr "对于这些不同的字段类型和参数, 请参阅 :ref:`字段参考<reference/orm/fields>` 。"
 
 #: ../../reference/orm.rst:305
 msgid "Default values are defined as parameters on fields, either a value::"
@@ -6626,7 +6626,7 @@ msgstr "两个装饰可以公开一种新型的方法将旧的API:"
 
 #: ../../reference/orm.rst:506
 msgid ":func:`~openerp.api.model`"
-msgstr ":func:`~openerp.api.model` "
+msgstr ":func:`~openerp.api.model`"
 
 #: ../../reference/orm.rst:499
 msgid ""
@@ -6636,7 +6636,7 @@ msgstr "该方法作为不使用的ID暴露出来, 它的记录集将通常为�
 
 #: ../../reference/orm.rst:516
 msgid ":func:`~openerp.api.multi`"
-msgstr ":func:`~openerp.api.multi` "
+msgstr ":func:`~openerp.api.multi`"
 
 #: ../../reference/orm.rst:509
 msgid ""
@@ -6652,7 +6652,7 @@ msgstr "因为新的风格​​的API趋于返回的记录和旧式的API趋于
 
 #: ../../reference/orm.rst:537
 msgid ":func:`~openerp.api.returns`"
-msgstr ":func:`~openerp.api.returns` "
+msgstr ":func:`~openerp.api.returns`"
 
 #: ../../reference/orm.rst:522
 msgid ""
@@ -6737,7 +6737,7 @@ msgid ""
 "the second model has inherited from the first model's ``check`` method and "
 "its ``name`` field, but overridden the ``call`` method, as when using "
 "standard :ref:`Python inheritance <python:tut-inheritance>`."
-msgstr "the second model has inherited from the first model's ``check`` method and its ``name`` field, but overridden the ``call`` method, as when using standard :ref:`Python inheritance <python :tut-inheritance>` ."
+msgstr "第二个模型从第一模型继承了 ``check`` 方法以及它的 ``name`` 字段,  但覆盖了 ``call`` 方法，如使用标准  :ref:`Python inheritance <python:tut-inheritance>` 相同."
 
 #: ../../reference/orm.rst:883
 msgid "Extension"
@@ -6770,7 +6770,7 @@ msgid ""
 "any field not found on the current model to \"children\" models. The "
 "delegation is performed via :class:`~openerp.fields.Reference` fields "
 "automatically set up on the parent model:"
-msgstr "第三继承机制提供了更多的灵活性（可以在运行时改变）, 但更省电:采用 :attr:`~openerp.models.Model._inherits` 模型 *代表* 任何字段的当前模型没有找到查找到'孩子'模式。 :class: 代表团通过执行 `~openerp.fields.Reference` 字段的自动设置上父模型:"
+msgstr "第三种继承机制提供了更多的灵活性（可以在运行时改变）, 但减少能量:   采用 :attr:`~openerp.models.Model._inherits` ，在当前模型没有找到的任何字段，模型  *委托*  给 \"children\" 模型。委托通过 :class:`~openerp.fields.Reference`  字段在父模型自动建立执行:"
 
 #: ../../reference/orm.rst:926
 msgid "will result in:"
@@ -6783,7 +6783,7 @@ msgstr "并有可能在委托外地直接写:"
 #: ../../reference/orm.rst:938
 msgid ""
 "when using delegation inheritance, methods are *not* inherited, only fields"
-msgstr "使用委派继承时, 方法是 *不* 继承, 只有场"
+msgstr "当使用委托继承时, 方法是 *不* 继承的, 只继承字段"
 
 #: ../../reference/orm.rst:944
 msgid "Domains"
@@ -6797,7 +6797,7 @@ msgstr "域是一个表达式列表, 每个表达式是一个三元组（或者�
 
 #: ../../reference/orm.rst:951
 msgid "``field_name`` (``str``)"
-msgstr " ``field_name`` （ ``str`` ）"
+msgstr "``field_name`` (``str``)"
 
 #: ../../reference/orm.rst:950
 msgid ""
@@ -6808,7 +6808,7 @@ msgstr ":class: 当前模型, 或通过关系遍历的字段名'使用点符号,
 
 #: ../../reference/orm.rst:997
 msgid "``operator`` (``str``)"
-msgstr " ``operator`` （ ``str`` ）"
+msgstr "``operator`` (``str``)"
 
 #: ../../reference/orm.rst:954
 msgid ""
@@ -6818,7 +6818,7 @@ msgstr "运营商用于比较 ``field_name`` 与 ``value`` 。有效的运营商
 
 #: ../../reference/orm.rst:957
 msgid "``=``"
-msgstr " ``=`` "
+msgstr "``=``"
 
 #: ../../reference/orm.rst:958
 msgid "equals to"
@@ -6826,7 +6826,7 @@ msgstr "等于"
 
 #: ../../reference/orm.rst:959
 msgid "``!=``"
-msgstr " ``！=`` "
+msgstr "``!=``"
 
 #: ../../reference/orm.rst:960
 msgid "not equals to"
@@ -6834,15 +6834,15 @@ msgstr "不等于"
 
 #: ../../reference/orm.rst:961
 msgid "``>``"
-msgstr " ``>`` "
+msgstr "``>``"
 
 #: ../../reference/orm.rst:962
 msgid "greater than"
-msgstr "比...更棒"
+msgstr "大于"
 
 #: ../../reference/orm.rst:963
 msgid "``>=``"
-msgstr " ``> =`` "
+msgstr "``>=``"
 
 #: ../../reference/orm.rst:964
 msgid "greater than or equal to"
@@ -6850,7 +6850,7 @@ msgstr "大于或等于"
 
 #: ../../reference/orm.rst:965
 msgid "``<``"
-msgstr " ``<`` "
+msgstr "``<``"
 
 #: ../../reference/orm.rst:966
 msgid "less than"
@@ -6858,7 +6858,7 @@ msgstr "少于"
 
 #: ../../reference/orm.rst:967
 msgid "``<=``"
-msgstr " ``<=`` "
+msgstr "``<=``"
 
 #: ../../reference/orm.rst:968
 msgid "less than or equal to"
@@ -6866,7 +6866,7 @@ msgstr "小于或等于"
 
 #: ../../reference/orm.rst:970
 msgid "``=?``"
-msgstr " ``=？`` "
+msgstr "``=?``"
 
 #: ../../reference/orm.rst:970
 msgid ""
@@ -6887,7 +6887,7 @@ msgstr "比赛 ``field_name`` 对 ``value`` 模式。在pattern里的下划线 `
 
 #: ../../reference/orm.rst:977
 msgid "``like``"
-msgstr " ``like`` "
+msgstr "``like``"
 
 #: ../../reference/orm.rst:977
 msgid ""
@@ -6897,7 +6897,7 @@ msgstr "matches ``field_name`` against the ``%value%`` pattern. Similar to ``=li
 
 #: ../../reference/orm.rst:979
 msgid "``not like``"
-msgstr " ``not like`` "
+msgstr "``not like``"
 
 #: ../../reference/orm.rst:980
 msgid "doesn't match against the ``%value%`` pattern"
@@ -6905,7 +6905,7 @@ msgstr "doesn't match against the ``%value%`` pattern"
 
 #: ../../reference/orm.rst:981
 msgid "``ilike``"
-msgstr " ``ilike`` "
+msgstr "``ilike``"
 
 #: ../../reference/orm.rst:982
 msgid "case insensitive ``like``"
@@ -6913,15 +6913,15 @@ msgstr "不区分大小写 ``like`` "
 
 #: ../../reference/orm.rst:983
 msgid "``not ilike``"
-msgstr " ``not ilike`` "
+msgstr "``not ilike``"
 
 #: ../../reference/orm.rst:984
 msgid "case insensitive ``not like``"
-msgstr "不区分大小写 ``不like`` "
+msgstr "不区分大小写 ``not like`` "
 
 #: ../../reference/orm.rst:985
 msgid "``=ilike``"
-msgstr " ``= ilike`` "
+msgstr "``=ilike``"
 
 #: ../../reference/orm.rst:986
 msgid "case insensitive ``=like``"
@@ -6929,7 +6929,7 @@ msgstr "不区分大小写 ``= like`` "
 
 #: ../../reference/orm.rst:988
 msgid "``in``"
-msgstr " ``in`` "
+msgstr "``in``"
 
 #: ../../reference/orm.rst:988
 msgid ""
@@ -6939,7 +6939,7 @@ msgstr "等于任何从 ``value`` 中的项目, ``value`` 应的项目列表"
 
 #: ../../reference/orm.rst:990
 msgid "``not in``"
-msgstr " ``not in`` "
+msgstr "``not in``"
 
 #: ../../reference/orm.rst:991
 msgid "is unequal to all of the items from ``value``"
@@ -6971,7 +6971,7 @@ msgstr "域表达式, 可以使用 *前缀* 形式逻辑运算符组合:"
 
 #: ../../reference/orm.rst:1006
 msgid "``'&'``"
-msgstr " ``'和'`` "
+msgstr "``'&'``"
 
 #: ../../reference/orm.rst:1006
 msgid ""
@@ -6981,7 +6981,7 @@ msgstr "逻辑 *和* , 默认操作要结合以下另一个标准。元数2（�
 
 #: ../../reference/orm.rst:1008
 msgid "``'|'``"
-msgstr " ``'|'`` "
+msgstr "``'|'``"
 
 #: ../../reference/orm.rst:1009
 msgid "logical *OR*, arity 2."
@@ -6989,7 +6989,7 @@ msgstr "逻辑 *或* , 元数2。"
 
 #: ../../reference/orm.rst:1017
 msgid "``'!'``"
-msgstr " ``'！'`` "
+msgstr "``'!'``"
 
 #: ../../reference/orm.rst:1011
 msgid "logical *NOT*, arity 1."
@@ -7033,7 +7033,7 @@ msgid ""
 "methods still written in the old API should be automatically bridged by the "
 "ORM, no need to switch to the old API, just call them as if they were a new "
 "API method. See :ref:`reference/orm/oldapi/bridging` for more details."
-msgstr "仍然写在旧的​​API方法应该由ORM自动桥接, 无需切换到旧的API, 就打电话给他们, 好像他们是一个新的API方法。请参阅 :ref:`参考/ ORM / oldapi / bridging` 了解更多详情。"
+msgstr "仍然写在旧的​​API方法应该由ORM自动桥接, 无需切换到旧的API, 就打电话给他们, 好像他们是一个新的API方法。请参阅 :ref:`reference/orm/oldapi/bridging` 了解更多详情。"
 
 #: ../../reference/orm.rst:1044
 msgid ""
@@ -7230,7 +7230,7 @@ msgstr "明确界定的桥梁, 这主要是为这是正确匹配（因为参数�
 
 #: ../../reference/orm.rst:1161
 msgid ":func:`~openerp.api.cr`"
-msgstr ":func:`~openerp.api.cr` "
+msgstr ":func:`~openerp.api.cr`"
 
 #: ../../reference/orm.rst:1161
 msgid ""
@@ -7240,7 +7240,7 @@ msgstr "会自动在前面加上当前光标有明确规定的参数, 在位置"
 
 #: ../../reference/orm.rst:1164
 msgid ":func:`~openerp.api.cr_uid`"
-msgstr ":func:`~openerp.api.cr_uid` "
+msgstr ":func:`~openerp.api.cr_uid`"
 
 #: ../../reference/orm.rst:1164
 msgid ""
@@ -7250,7 +7250,7 @@ msgstr "会自动在前面加上显式地提供当前光标和用户ID参数"
 
 #: ../../reference/orm.rst:1167
 msgid ":func:`~openerp.api.cr_uid_ids`"
-msgstr ":func:`~openerp.api.cr_uid_ids` "
+msgstr ":func:`~openerp.api.cr_uid_ids`"
 
 #: ../../reference/orm.rst:1167
 msgid ""
@@ -7260,7 +7260,7 @@ msgstr "会自动预先设置当前光标, 用户的ID和记录的ID, 以明确�
 
 #: ../../reference/orm.rst:1175
 msgid ":func:`~openerp.api.cr_uid_id`"
-msgstr ":func:`~openerp.api.cr_uid_id` "
+msgstr ":func:`~openerp.api.cr_uid_id`"
 
 #: ../../reference/orm.rst:1170
 msgid ""
@@ -7305,7 +7305,7 @@ msgid ""
 "Template directives are specified as XML attributes prefixed with ``t-``, "
 "for instance ``t-if`` for :ref:`reference/qweb/conditionals`, with elements "
 "and other attributes being rendered directly."
-msgstr "模板指令指定为前缀 ``T-`` , 例如 ``T-if`` 的XML属性 :ref:`参考/ qweb / conditionals` , 包含元素和其他属性被直接呈现。"
+msgstr "模板指令是前缀 `t-`` 的XML属性 , 例如 ``t-if``   :ref:`reference/qweb/conditionals`,  元素和其他属性被直接渲染。"
 
 #: ../../reference/qweb.rst:19
 msgid ""
@@ -7331,7 +7331,7 @@ msgstr "数据输出"
 msgid ""
 "QWeb has a primary output directive which automatically HTML-escape its "
 "content limiting XSS_ risks when displaying user-provided content: ``esc``."
-msgstr "QWeb有一个主输出指令, 自动HTML转义其内容限制XSS_显示用户提供的内容时, 风险:``esc`` 。"
+msgstr "QWeb有一个主输出指令, 在显示用户提供的内容时，自动HTML转义其内容，以限制XSS_ 风险: ``esc``."
 
 #: ../../reference/qweb.rst:51
 msgid "``esc`` takes an expression, evaluates it and prints the content::"
@@ -7361,7 +7361,7 @@ msgstr "QWeb有一个条件指令 ``if`` , 它计算给定的属性值表达式 
 
 #: ../../reference/qweb.rst:78
 msgid "The element is rendered if the condition is true::"
-msgstr "如果条件为真元素呈现 ::"
+msgstr "如果条件为真，元素呈现 ::"
 
 #: ../../reference/qweb.rst:84
 msgid "but if the condition is false it is removed from the result::"
@@ -7420,11 +7420,11 @@ msgstr "除了经由 ``叔as`` 通过名称, ``foreach`` 提供了一些其他�
 
 #: ../../reference/qweb.rst:136
 msgid "``$as`` will be replaced by the name passed to ``t-as``"
-msgstr " ``$as`` will be replaced by the name passed to ``t-as`` "
+msgstr " ``$as``将被传递给 ``t-as`` 的名称替换"
 
 #: ../../reference/qweb.rst:138
 msgid ":samp:`{$as}_all`"
-msgstr ":samp:`{$as}_all` "
+msgstr ":samp:`{$as}_all`"
 
 #: ../../reference/qweb.rst:139
 msgid "the object being iterated over"
@@ -7432,7 +7432,7 @@ msgstr "该对象被迭代"
 
 #: ../../reference/qweb.rst:141
 msgid ":samp:`{$as}_value`"
-msgstr ":samp:`{$as}_value` "
+msgstr ":samp:`{$as}_value`"
 
 #: ../../reference/qweb.rst:141
 msgid ""
@@ -7442,7 +7442,7 @@ msgstr "the current iteration value, identical to ``$as`` for lists and integers
 
 #: ../../reference/qweb.rst:143
 msgid ":samp:`{$as}_index`"
-msgstr ":samp:`{$as}_index` "
+msgstr ":samp:`{$as}_index`"
 
 #: ../../reference/qweb.rst:144
 msgid ""
@@ -7451,7 +7451,7 @@ msgstr "当前迭代指数（迭代的第一个项目的索引0）"
 
 #: ../../reference/qweb.rst:145
 msgid ":samp:`{$as}_size`"
-msgstr ":samp:`{$as}_size` "
+msgstr ":samp:`{$as}_size`"
 
 #: ../../reference/qweb.rst:146
 msgid "the size of the collection if it is available"
@@ -7459,7 +7459,7 @@ msgstr "集合的大小, 如果它是可用的"
 
 #: ../../reference/qweb.rst:148
 msgid ":samp:`{$as}_first`"
-msgstr ":samp:`{$as}_first` "
+msgstr ":samp:`{$as}_first`"
 
 #: ../../reference/qweb.rst:148
 msgid ""
@@ -7469,7 +7469,7 @@ msgstr "whether the current item is the first of the iteration (equivalent to :s
 
 #: ../../reference/qweb.rst:152
 msgid ":samp:`{$as}_last`"
-msgstr ":samp:`{$as}_last` "
+msgstr ":samp:`{$as}_last`"
 
 #: ../../reference/qweb.rst:151
 msgid ""
@@ -7480,7 +7480,7 @@ msgstr "whether the current item is the last of the iteration (equivalent to :sa
 
 #: ../../reference/qweb.rst:154
 msgid ":samp:`{$as}_parity`"
-msgstr ":samp:`{$as}_parity` "
+msgstr ":samp:`{$as}_parity`"
 
 #: ../../reference/qweb.rst:155
 msgid "either ``\"even\"`` or ``\"odd\"``, the parity of the current iteration round"
@@ -7488,7 +7488,7 @@ msgstr "无论是 ``'即使'`` 或 ``'奇'`` , 当前迭代的奇偶轮"
 
 #: ../../reference/qweb.rst:157
 msgid ":samp:`{$as}_even`"
-msgstr ":samp:`{$as}_even` "
+msgstr ":samp:`{$as}_even`"
 
 #: ../../reference/qweb.rst:157
 msgid ""
@@ -7498,7 +7498,7 @@ msgstr "一个布尔标志, 指示当前迭代轮是偶数指数"
 
 #: ../../reference/qweb.rst:162
 msgid ":samp:`{$as}_odd`"
-msgstr ":samp:`{$as}_odd` "
+msgstr ":samp:`{$as}_odd`"
 
 #: ../../reference/qweb.rst:160
 msgid ""
@@ -7527,7 +7527,7 @@ msgstr "QWeb可以计算上即时属性和设置在输出节点上的计算的�
 
 #: ../../reference/qweb.rst:199
 msgid ":samp:`t-att-{$name}`"
-msgstr ":samp:`t-att-{$name}` "
+msgstr ":samp:`t-att-{$name}`"
 
 #: ../../reference/qweb.rst:193
 msgid ""
@@ -7537,7 +7537,7 @@ msgstr "an attribute called ``$name`` is created, the attribute value is evaluat
 
 #: ../../reference/qweb.rst:213
 msgid ":samp:`t-attf-{$name}`"
-msgstr ":samp:`t-attf-{$name}` "
+msgstr ":samp:`t-attf-{$name}`"
 
 #: ../../reference/qweb.rst:202
 msgid ""
@@ -7548,7 +7548,7 @@ msgstr "同以前的, 但参数是 :term:`格式string` 而不只是一种表达
 
 #: ../../reference/qweb.rst:222
 msgid ":samp:`t-att=mapping`"
-msgstr ":samp:`T-ATT = mapping` "
+msgstr ":samp:`t-att=mapping`"
 
 #: ../../reference/qweb.rst:216
 msgid ""
@@ -7558,7 +7558,7 @@ msgstr "如果该参数是一个映射, 每一个（键, 值）对生成一个�
 
 #: ../../reference/qweb.rst:233
 msgid ":samp:`t-att=pair`"
-msgstr ":samp:`T-ATT = pair` "
+msgstr ":samp:`t-att=pair`"
 
 #: ../../reference/qweb.rst:225
 msgid ""
@@ -7587,7 +7587,7 @@ msgstr "这是通过 ``set`` 指令, 这需要创建变量的名称做了。设�
 msgid ""
 "a ``t-value`` attribute containing an expression, and the result of its "
 "evaluation will be set::"
-msgstr "一个 ``T-value`` 属性包含一个表达式, 其评价结果将被设置 ::"
+msgstr "一个 ``t-value`` 属性包含一个表达式, 其评价结果将被设置 ::"
 
 #: ../../reference/qweb.rst:251
 msgid "will print ``3``"
@@ -7597,7 +7597,7 @@ msgstr "将打印 ``3`` "
 msgid ""
 "if there is no ``t-value`` attribute, the node's body is rendered and set as"
 " the variable's value::"
-msgstr "如果没有 ``叔value`` 属性, 节点的体渲染, 并设置作为变量的值 ::"
+msgstr "如果没有 ``t-value`` 属性, 节点的体渲染, 并设置作为变量的值 ::"
 
 #: ../../reference/qweb.rst:260
 msgid ""
@@ -7620,7 +7620,7 @@ msgid ""
 "QWeb templates can be used for top-level rendering, but they can also be "
 "used from within another template (to avoid duplication or give names to "
 "parts of templates) using the ``t-call`` directive::"
-msgstr "QWeb模板可用于顶层的渲染, 但它们也可以从另一个模板用于使用 ``叔call`` 指令（以避免重复或模板零件给名称） ::"
+msgstr "QWeb模板可用于顶层的渲染, 但它们也可以从另一个模板用于使用 ``t-call`` 指令（以避免重复或模板零件给名称） ::"
 
 #: ../../reference/qweb.rst:275
 msgid ""
@@ -7634,14 +7634,14 @@ msgstr "the call above will be rendered as ``<p/>`` (no content), but ::"
 
 #: ../../reference/qweb.rst:285
 msgid "will be rendered as ``<p>1</p>``."
-msgstr "will be rendered as ``<p>1</p>`` ."
+msgstr "将呈现为 ``<p>1</p>``."
 
 #: ../../reference/qweb.rst:287
 msgid ""
 "However this has the problem of being visible from outside the ``t-call``. "
 "Alternatively, content set in the body of the ``call`` directive will be "
 "evaluated *before* calling the sub-template, and can alter a local context::"
-msgstr "然而, 这有被从 ``T-call`` 外面看到的问题。可替代地, 在 ``call`` 指令的主体设定内容将被评估 **前调用子模板, 并且可以改变本地上下文 ::"
+msgstr "然而, 这有被从 ``t-call`` 外面看到的问题。可替代地, 在 ``call`` 指令的主体设定内容将被评估 **前调用子模板, 并且可以改变本地上下文 ::"
 
 #: ../../reference/qweb.rst:296
 msgid ""
@@ -7678,7 +7678,7 @@ msgstr "进行现场访问（ ``ab`` ）在'智能'记录（ ``browse`` 方法�
 msgid ""
 "``t-field-options`` can be used to customize fields, the most common option "
 "is ``widget``, other options are field- or widget-dependent."
-msgstr " ``叔场options`` 可以用来定制字段, 最常见的方法是 ``widget`` , 其他选项是现场或插件依赖性。"
+msgstr "``t-field-options`` 可以用来定制字段, 最常见的方法是 ``widget`` , 其他选项是现场或插件依赖性。"
 
 #: ../../reference/qweb.rst:341 ../../reference/qweb.rst:487
 msgid "debugging"
@@ -7686,7 +7686,7 @@ msgstr "调试"
 
 #: ../../reference/qweb.rst:349 ../../reference/qweb.rst:506
 msgid "``t-debug``"
-msgstr " ``T-debug`` "
+msgstr "``t-debug``"
 
 #: ../../reference/qweb.rst:344
 msgid ""
@@ -7700,7 +7700,7 @@ msgstr "相当于 ``importlib.import_module（'PDB'）。set_trace（）`` "
 
 #: ../../reference/qweb.rst:352 ../../reference/qweb.rst:519
 msgid "Helpers"
-msgstr "助手"
+msgstr "帮手"
 
 #: ../../reference/qweb.rst:355
 msgid "Request-based"
@@ -7728,7 +7728,7 @@ msgstr "基于视图的"
 msgid ""
 "At a deeper level than the previous helper is the ``render`` method on "
 "``ir.ui.view``:"
-msgstr "在更深的层次比前助手是 ``ir.ui.view`` 的 ``render`` 方法:"
+msgstr "比前一个帮手更深层次的是 ``ir.ui.view`` 的 ``render`` 方法:"
 
 #: ../../reference/qweb.rst:379
 msgid ""
@@ -7742,7 +7742,7 @@ msgstr "设置若干在呈现上下文的默认值:"
 
 #: ../../reference/qweb.rst:384 ../../reference/upgrade_api.rst:116
 msgid "``request``"
-msgstr " ``request`` "
+msgstr "``request``"
 
 #: ../../reference/qweb.rst:385
 msgid "the current :class:`~openerp.http.WebRequest` object, if any"
@@ -7758,7 +7758,7 @@ msgstr "当前请求（如果有的话）是否在 ``debug`` 模式"
 
 #: ../../reference/qweb.rst:388
 msgid ":func:`quote_plus <werkzeug.urls.url_quote_plus>`"
-msgstr ":func:`quote_plus <werkzeug.urls.url_quote_plus>` "
+msgstr ":func:`quote_plus <werkzeug.urls.url_quote_plus>`"
 
 #: ../../reference/qweb.rst:389
 msgid "url-encoding utility function"
@@ -7766,7 +7766,7 @@ msgstr "URL编码的效用函数"
 
 #: ../../reference/qweb.rst:390
 msgid ":mod:`json`"
-msgstr ":mod:`json` "
+msgstr ":mod:`json`"
 
 #: ../../reference/qweb.rst:391 ../../reference/qweb.rst:393
 #: ../../reference/qweb.rst:395
@@ -7775,11 +7775,11 @@ msgstr "相应的标准库模块"
 
 #: ../../reference/qweb.rst:392
 msgid ":mod:`time`"
-msgstr ":mod:`time` "
+msgstr ":mod:`time`"
 
 #: ../../reference/qweb.rst:394
 msgid ":mod:`datetime`"
-msgstr ":mod:`datetime` "
+msgstr ":mod:`datetime`"
 
 #: ../../reference/qweb.rst:396
 msgid ""
@@ -7793,22 +7793,22 @@ msgstr "请参阅模块"
 
 #: ../../reference/qweb.rst:399
 msgid "``keep_query``"
-msgstr " ``keep_query`` "
+msgstr "``keep_query``"
 
 #: ../../reference/qweb.rst:399
 msgid "the ``keep_query`` helper function"
-msgstr "在 ``keep_query`` 辅助函数"
+msgstr " ``keep_query`` 帮手函数"
 
 #: ../../reference/qweb.rst:401
 msgid "context values to pass to QWeb for rendering"
-msgstr "上下文值传递给QWeb渲染"
+msgstr "为渲染传递给QWeb的上下文值"
 
 #: ../../reference/qweb.rst:402
 msgid ""
 "name of the Odoo model to use for rendering, can be used to expand or "
 "customize QWeb locally (by creating a \"new\" qweb based on ``ir.qweb`` with"
 " alterations)"
-msgstr "用于渲染的Odoo模型的名称, 可以用来扩展或局部地定制QWeb（通过创建'新'qweb根据 ``ir.qweb`` 与改建）"
+msgstr "用于渲染的Odoo模型的名称, 可以用来扩展，或局部地定制QWeb（基于 ``ir.qweb`` 变动创建 \"新\" qweb  ）"
 
 #: ../../reference/qweb.rst:409 ../../reference/qweb.rst:531
 msgid "API"
@@ -7818,7 +7818,7 @@ msgstr "API"
 msgid ""
 "It is also possible to use the ``ir.qweb`` model directly (and extend it, "
 "and inherit from it):"
-msgstr "另外, 也可以使用 ``ir.qweb`` 直接模型（和扩展它, 并从它继承）:"
+msgstr "它也可能直接使用 ``ir.qweb`` 模型（扩展它, 并从它继承）:"
 
 #: ../../reference/qweb.rst:424
 msgid "defining templates"
@@ -7828,7 +7828,7 @@ msgstr "定义模板"
 msgid ""
 "The ``t-name`` directive can only be placed at the top-level of a template "
 "file (direct children to the document root)::"
-msgstr "该 ``T-name`` 指令只能放置在一个模板文件（直接子文档根目录）的顶级 ::"
+msgstr "该 ``t-name`` 指令只能放置在一个模板文件（直接子文档根目录）的顶级 ::"
 
 #: ../../reference/qweb.rst:435
 msgid ""
@@ -7851,13 +7851,13 @@ msgstr "模板继承"
 msgid ""
 "Template inheritance is used to alter existing templates in-place, e.g. to "
 "add information to templates created by an other modules."
-msgstr "模板继承用于改变就地现有模板, 如将信息添加到由其他模块创建的模板。"
+msgstr "模板继承用于就地修改现有模板, 如添加信息到其他模块创建的模板。"
 
 #: ../../reference/qweb.rst:448
 msgid ""
 "Template inheritance is performed via the ``t-extend`` directive which takes"
 " the name of the template to alter as parameter."
-msgstr "模板继承是通过 ``T-extend`` 指令, 它采用了模板的名称更改为参数进行。"
+msgstr "模板继承是通过 ``t-extend`` 指令执行的, 它采取要修改的模板名称为参数。"
 
 #: ../../reference/qweb.rst:451
 msgid ""
@@ -7874,7 +7874,7 @@ msgstr "该 ``T-jquery`` 指令需要一个 `CSS selector` _。这个选择是�
 
 #: ../../reference/qweb.rst:465
 msgid "``append``"
-msgstr " ``append`` "
+msgstr "``append``"
 
 #: ../../reference/qweb.rst:465
 msgid ""
@@ -7884,7 +7884,7 @@ msgstr "该节点的尸体是在上下文节点的末尾附加（上下文节点
 
 #: ../../reference/qweb.rst:468
 msgid "``prepend``"
-msgstr " ``prepend`` "
+msgstr "``prepend``"
 
 #: ../../reference/qweb.rst:468
 msgid ""
@@ -7894,7 +7894,7 @@ msgstr "该节点的身体被前置到上下文节点（上下文节点的第一
 
 #: ../../reference/qweb.rst:470 ../../reference/views.rst:100
 msgid "``before``"
-msgstr " ``before`` "
+msgstr "``before``"
 
 #: ../../reference/qweb.rst:471
 msgid "the node's body is inserted right before the context node"
@@ -7902,7 +7902,7 @@ msgstr "节点的体插入上下文节点之前右"
 
 #: ../../reference/qweb.rst:472 ../../reference/views.rst:97
 msgid "``after``"
-msgstr " ``after`` "
+msgstr "``after``"
 
 #: ../../reference/qweb.rst:473
 msgid "the node's body is inserted right after the context node"
@@ -7910,7 +7910,7 @@ msgstr "节点的体插入上下文节点之后"
 
 #: ../../reference/qweb.rst:474
 msgid "``inner``"
-msgstr " ``inner`` "
+msgstr "``inner``"
 
 #: ../../reference/qweb.rst:475
 msgid "the node's body replaces the context node's children"
@@ -7918,7 +7918,7 @@ msgstr "该节点的身体替换上下文节点的孩子"
 
 #: ../../reference/qweb.rst:476 ../../reference/views.rst:94
 msgid "``replace``"
-msgstr " ``replace`` "
+msgstr "``replace``"
 
 #: ../../reference/qweb.rst:477
 msgid "the node's body is used to replace the context node itself"
@@ -7942,11 +7942,11 @@ msgstr "而多比其他操作更有力, 这种模式也更难调试和维护时,
 
 #: ../../reference/qweb.rst:489
 msgid "The javascript QWeb implementation provides a few debugging hooks:"
-msgstr "JavaScript的QWeb实施提供了一些调试钩:"
+msgstr "QWeb 的JavaScript实现提供了一些调试钩子:"
 
 #: ../../reference/qweb.rst:497
 msgid "``t-log``"
-msgstr " ``T-log`` "
+msgstr "``t-log``"
 
 #: ../../reference/qweb.rst:492
 msgid ""
@@ -7970,7 +7970,7 @@ msgstr "将停止执行, 如果调试有效（具体情况取决于浏览器及�
 
 #: ../../reference/qweb.rst:516
 msgid "``t-js``"
-msgstr " ``T-js`` "
+msgstr "``t-js``"
 
 #: ../../reference/qweb.rst:509
 msgid ""
@@ -7984,30 +7984,30 @@ msgid ""
 "(core is the ``web.core`` module) An instance of :js:class:`QWeb2.Engine` "
 "with all module-defined template files loaded, and references to standard "
 "helper objects ``_`` (underscore), ``_t`` (translation function) and JSON_."
-msgstr "（核心是 ``web.core`` 模块）的实例 :js: class :`QWeb2.Engine` 与加载的所有模块定义的模板文件, 并引用标准辅助对象 ``_`` （下划线）, ``_t`` （转换功能）和JSON_。"
+msgstr "(核心是 ``web.core`` 模块)  :js:class:`QWeb2.Engine` 的实例，所有模块定义的模板文件加载，标准的帮手对象 ``_`` (underscore), ``_t`` (翻译函数) 以及 JSON_ 的引用."
 
 #: ../../reference/qweb.rst:527
 msgid ""
 ":js:func:`core.qweb.render <QWeb2.Engine.render>` can be used to easily "
 "render basic module templates"
-msgstr ":js: func :`core.qweb.render <QWeb2.Engine.render>` 可以用来方便地呈现基本模块模板"
+msgstr ":js: func :`core.qweb.render <QWeb2.Engine.render>` 可以用来容易的渲染基本的模块模板"
 
 #: ../../reference/qweb.rst:535
 msgid ""
 "The QWeb \"renderer\", handles most of QWeb's logic (loading, parsing, "
 "compiling and rendering templates)."
-msgstr "该QWeb'呈现', 处理大部分QWeb的逻辑（加载, 解析, 编译和执行模板）。"
+msgstr "QWeb \"渲染\",   处理 QWeb 的大多数逻辑 (装载, 解析, 编译，以及 渲染模板)."
 
 #: ../../reference/qweb.rst:538
 msgid ""
 "OpenERP Web instantiates one for the user in the core module, and exports it"
 " to ``core.qweb``. It also loads all the template files of the various "
 "modules into that QWeb instance."
-msgstr "OpenERP的网站实例化一个是核心模块中的用户, 并出口到 ``core.qweb`` 。它还加载了各种模块的所有模板文件到该QWeb实例。"
+msgstr "OpenERP 网页在核心模块为用户实例化一个,  并导出到 ``core.qweb`` 。它还加载各种模块的全部模板文件到该QWeb实例。"
 
 #: ../../reference/qweb.rst:542
 msgid "A :js:class:`QWeb2.Engine` also serves as a \"template namespace\"."
-msgstr "答 :js: class :`QWeb2.Engine` 也作为一个'模板命名空间'。"
+msgstr " :js:class:`QWeb2.Engine` 也作为 \"模板名称空间\" 服务."
 
 #: ../../reference/qweb.rst:546
 msgid ""
@@ -8018,7 +8018,7 @@ msgstr "渲染以前加载的模板, 一个字符串, 使用 ``context`` （如�
 
 #: ../../reference/qweb.rst:550
 msgid "the name of the template to render"
-msgstr "呈现模板的名称"
+msgstr "待呈现的模板的名称"
 
 #: ../../reference/qweb.rst:551
 msgid "the basic namespace to use for template rendering"
@@ -8040,7 +8040,7 @@ msgstr "该引擎公开这可能是在某些情况下非常有用（例如, 如�
 msgid ""
 "Loads a template file (a collection of templates) in the QWeb instance. The "
 "templates can be specified as:"
-msgstr "加载中QWeb实例的模板文件（模板的集合）。模板可以指定为:"
+msgstr "加载QWeb实例的模板文件（模板的集合）。模板可以指定为:"
 
 #: ../../reference/qweb.rst:568
 msgid "An XML string"
@@ -8048,7 +8048,7 @@ msgstr "XML字符串"
 
 #: ../../reference/qweb.rst:567
 msgid "QWeb will attempt to parse it to an XML document then load it."
-msgstr "QWeb会尝试将其解析为一个XML文档然后将其加载。"
+msgstr "QWeb会尝试将其解析为XML文档然后将其加载。"
 
 #: ../../reference/qweb.rst:572
 msgid "A URL"
@@ -8058,7 +8058,7 @@ msgstr "一个URL"
 msgid ""
 "QWeb will attempt to download the URL content, then load the resulting XML "
 "string."
-msgstr "QWeb会尝试下载的URL的内容, 然后加载生成的XML字符串。"
+msgstr "QWeb会尝试下载URL内容, 然后加载生成的XML字符串。"
 
 #: ../../reference/qweb.rst:577
 msgid "A ``Document`` or ``Node``"
@@ -8068,13 +8068,13 @@ msgstr "一个 ``Document`` 或 ``Node`` "
 msgid ""
 "QWeb will traverse the first level of the document (the child nodes of the "
 "provided root) and load any named template or template override."
-msgstr "QWeb将遍历文档（所提供的根的子节点）的第一级和装载任何命名模板或模板覆盖。"
+msgstr "QWeb将遍历文档（所提供根的子节点）的第一级，并装载任何命名模板，以及模板覆盖。"
 
 #: ../../reference/qweb.rst:581
 msgid ""
 "A :js:class:`QWeb2.Engine` also exposes various attributes for behavior "
 "customization:"
-msgstr "答 :js: class :`QWeb2.Engine` 也暴露了行为定制各种属性:"
+msgstr " :js:class:`QWeb2.Engine` 还为行为定制暴露了不同的属性:"
 
 #: ../../reference/qweb.rst:586
 msgid ""
@@ -8093,7 +8093,7 @@ msgstr "布尔标志, 把发动机'调试模式'。通常情况下, QWeb拦截�
 msgid ""
 "The jQuery instance used during template inheritance processing. Defaults to"
 " ``window.jQuery``."
-msgstr "模板继承处理期间使用了jQuery实例。默认为 ``window.jQuery`` 。"
+msgstr "jQuery实例在模板继承处理期间使用。默认为 ``window.jQuery`` 。"
 
 #: ../../reference/qweb.rst:603
 msgid ""
@@ -8113,7 +8113,7 @@ msgid ""
 "although it uses a few others, either for historical reasons or because they"
 " remain better fits for the use case. Odoo 9.0 still depends on Jinja_ and "
 "Mako_."
-msgstr ""
+msgstr "although it uses a few others, either for historical reasons or because they remain better fits for the use case. Odoo 9.0 still depends on Jinja_ and Mako_."
 
 #: ../../reference/reports.rst:7
 msgid "QWeb Reports"
@@ -8124,7 +8124,7 @@ msgid ""
 "Reports are written in HTML/QWeb, like all regular views in Odoo. You can "
 "use the usual :ref:`QWeb control flow tools <reference/qweb>`. The PDF "
 "rendering itself is performed by wkhtmltopdf_."
-msgstr "Reports are written in HTML/QWeb, like all regular views in Odoo. You can use the usual :ref:`QWeb control flow tools <reference/qweb>` . The PDF rendering itself is performed by wkhtmltopdf_."
+msgstr "报告使用 HTML/QWeb, 就像Odoo中所有的常规视图. 你可以使用通常的 :ref:`QWeb control flow tools <reference/qweb>`  . PDF 通过 wkhtmltopdf_ 渲染."
 
 #: ../../reference/reports.rst:13
 msgid ""
@@ -8135,7 +8135,7 @@ msgid ""
 "Finally, if you need access to more than your model, you can define a "
 ":ref:`reference/reports/custom_reports` class that gives you access to more "
 "models and records in the template."
-msgstr "如果你想创建一个特定的模式的报告, 您需要定义是 :ref:`参考/报告/ report` 和 :ref:`参考/报告/ templates` 它将使用。如果你愿意, 你也可以指定一个特定的 :ref:`参考/报告/ paper_formats` 此报告。最后, 如​​果你需要获得超过你的模型, 你可以定义 :ref:`参考/报告/ custom_reports` 类, 让你获得更多的车型和记录在模板中。"
+msgstr "如果你想创建一个特定的模式的报告, 您需要定义是 :ref:`reference/reports/report` 和 :ref:`reference/reports/templates` 它将使用。如果你愿意, 你也可以指定一个特定的 :ref:`reference/reports/paper_formats` 此报告。最后, 如​​果你需要获得超过你的模型, 你可以定义 :ref:`reference/reports/custom_reports`  类, 让你获得更多的车型和记录在模板中。"
 
 #: ../../reference/reports.rst:24
 msgid "Report"
@@ -8181,7 +8181,7 @@ msgstr "``paperformat``"
 msgid ""
 "external id of the paperformat you wish to use (defaults to the company's "
 "paperformat if not specified)"
-msgstr ""
+msgstr "external id of the paperformat you wish to use (defaults to the company's paperformat if not specified)"
 
 #: ../../reference/reports.rst:60 ../../reference/reports.rst:257
 msgid "Example::"
@@ -8215,7 +8215,7 @@ msgstr "有报告中访问一些特定的变量, 主要是:"
 
 #: ../../reference/reports.rst:107
 msgid "``docs``"
-msgstr " ``docs`` "
+msgstr "``docs``"
 
 #: ../../reference/reports.rst:108
 msgid "records for the current report"
@@ -8223,7 +8223,7 @@ msgstr "当前报告的记录"
 
 #: ../../reference/reports.rst:109
 msgid "``doc_ids``"
-msgstr " ``doc_ids`` "
+msgstr "``doc_ids``"
 
 #: ../../reference/reports.rst:110
 msgid "list of ids for the ``docs`` records"
@@ -8231,7 +8231,7 @@ msgstr " ``docs`` 记录的ids列表"
 
 #: ../../reference/reports.rst:111
 msgid "``doc_model``"
-msgstr " ``doc_model`` "
+msgstr "``doc_model``"
 
 #: ../../reference/reports.rst:112
 msgid "model for the ``docs`` records"
@@ -8239,11 +8239,11 @@ msgstr " ``docs`` 记录的模型"
 
 #: ../../reference/reports.rst:113
 msgid "``time``"
-msgstr " ``time`` "
+msgstr "``time``"
 
 #: ../../reference/reports.rst:114
 msgid "a reference to :mod:`python:time` from the Python standard library"
-msgstr "从Python标准库time `:引用 :mod:` Python"
+msgstr "Python标准库time  :mod:`python:time`  的引用 "
 
 #: ../../reference/reports.rst:116
 msgid "``res.user`` record for the user printing the report"
@@ -8251,7 +8251,7 @@ msgstr "打印报告的用户的 ``res.user`` 记录"
 
 #: ../../reference/reports.rst:118
 msgid "``res_company``"
-msgstr " ``res_company`` "
+msgstr "``res_company``"
 
 #: ../../reference/reports.rst:118
 msgid "record for the current ``user``'s company"
@@ -8261,7 +8261,7 @@ msgstr "当前 ``user`` 的公司纪录"
 msgid ""
 "If you wish to access other records/models in the template, you will need "
 ":ref:`a custom report <reference/reports/custom_reports>`."
-msgstr "If you wish to access other records/models in the template, you will need :ref:`a custom report <reference/reports/custom_reports>` ."
+msgstr "如果你希望在模板里面访问其他的记录/模型，你会需要 :ref:`定制报告 <reference/reports/custom_reports>` ."
 
 #: ../../reference/reports.rst:124
 msgid "Translatable Templates"
@@ -8329,7 +8329,7 @@ msgstr "条码"
 msgid ""
 "Barcodes are images returned by a controller and can easily be embedded in "
 "reports thanks to the QWeb syntax:"
-msgstr "条形码是由控制器返回的图像, 可以很容易地嵌入到报告要归功于QWeb语法:"
+msgstr "条形码是通过控制器返回的图像,  归功于QWeb语法，它可以很容易地在报告中嵌入:"
 
 #: ../../reference/reports.rst:199
 msgid "More parameters can be passed as a query string"
@@ -8374,7 +8374,7 @@ msgstr "论文的格式是 ``report.paperformat`` 记录, 可以包含下列属�
 
 #: ../../reference/reports.rst:238
 msgid "``description``"
-msgstr " ``description`` "
+msgstr "``description``"
 
 #: ../../reference/reports.rst:239
 msgid "a small description of your format"
@@ -8382,7 +8382,7 @@ msgstr "格式的简短描述"
 
 #: ../../reference/reports.rst:242
 msgid "``format``"
-msgstr " ``format`` "
+msgstr "``format``"
 
 #: ../../reference/reports.rst:241
 msgid ""
@@ -8393,7 +8393,7 @@ msgstr "无论是预定义的格式（A0到A9, B0到B10, 法律, 信, 小报, ..
 
 #: ../../reference/reports.rst:244
 msgid "``dpi``"
-msgstr " ``dpi`` "
+msgstr "``dpi``"
 
 #: ../../reference/reports.rst:245
 msgid "output DPI; 90 by default"
@@ -8401,7 +8401,7 @@ msgstr "输出DPI; 默认90"
 
 #: ../../reference/reports.rst:246
 msgid "``margin_top``, ``margin_bottom``, ``margin_left``, ``margin_right``"
-msgstr " ``margin_top`` , ``margin_bottom`` , ``margin_left`` , ``margin_right`` "
+msgstr "``margin_top``, ``margin_bottom``, ``margin_left``, ``margin_right``"
 
 #: ../../reference/reports.rst:247
 msgid "margin sizes in mm"
@@ -8409,7 +8409,7 @@ msgstr "保证金规模在毫米"
 
 #: ../../reference/reports.rst:248
 msgid "``page_height``, ``page_width``"
-msgstr " ``page_height`` , ``page_width`` "
+msgstr "``page_height``, ``page_width``"
 
 #: ../../reference/reports.rst:249
 msgid "page dimensions in mm"
@@ -8417,7 +8417,7 @@ msgstr "页面尺寸, 按毫米"
 
 #: ../../reference/reports.rst:250
 msgid "``orientation``"
-msgstr " ``orientation`` "
+msgstr "``orientation``"
 
 #: ../../reference/reports.rst:251
 msgid "Landscape or Portrait"
@@ -8425,7 +8425,7 @@ msgstr "横向或纵向"
 
 #: ../../reference/reports.rst:252
 msgid "``header_line``"
-msgstr " ``header_line`` "
+msgstr "``header_line``"
 
 #: ../../reference/reports.rst:253
 msgid "boolean to display a header line"
@@ -8433,7 +8433,7 @@ msgstr "布尔显示的标题行"
 
 #: ../../reference/reports.rst:255
 msgid "``header_spacing``"
-msgstr " ``header_spacing`` "
+msgstr "``header_spacing``"
 
 #: ../../reference/reports.rst:255
 msgid "header spacing in mm"
@@ -8456,7 +8456,7 @@ msgstr "该报表模型有一个默认的 ``get_html`` 功能查找名为型号 
 
 #: ../../reference/reports.rst:305
 msgid "Reports are web pages"
-msgstr "网页报告"
+msgstr "报告是网页"
 
 #: ../../reference/reports.rst:307
 msgid ""
@@ -8650,7 +8650,7 @@ msgstr "测试模块"
 
 #: ../../reference/testing.rst:10
 msgid "Odoo provides support for testing modules using unittest."
-msgstr ""
+msgstr "Odoo provides support for testing modules using unittest."
 
 #: ../../reference/testing.rst:12
 msgid ""
@@ -8682,7 +8682,7 @@ msgid ""
 "The test runner will simply run any test case, as described in the official "
 "`unittest documentation`_, but Odoo provides a number of utilities and "
 "helpers related to testing Odoo content (modules, mainly):"
-msgstr "测试运行会简单地运行任何测试情况下, 如在正式 `单元测试documentation` _说明, 但Odoo提供了许多实用程序和相关检测Odoo内容（模块, 主要）助手:"
+msgstr "测试运行器简单地运行任何测试案例， 如在官方 `单元测试documentation` _说明的, 但Odoo提供了许多与测试Odoo内容(模块，主要的)相关的工具和帮手:"
 
 #: ../../reference/testing.rst:51
 msgid ""
@@ -8786,7 +8786,7 @@ msgstr "Odoo自动导出翻译字符串从'数据'- 类型的内容:"
 msgid ""
 "in non-QWeb views, all text nodes are exported as well as the content of the"
 " ``string``, ``help``, ``sum``, ``confirm`` and ``placeholder`` attributes"
-msgstr "非QWeb的视图, 所有的文本节点远销还有 ``string`` 的内容, ``help`` , ``sum`` , ``confirm`` 和 ``placeholder`` 属性"
+msgstr "在非QWeb视图, 所有的文本节点导出为 ``string``, ``help``, ``sum``, ``confirm`` 及 ``placeholder`` 属性的内容"
 
 #: ../../reference/translations.rst:53
 msgid ""
@@ -8862,14 +8862,14 @@ msgstr "介绍"
 msgid ""
 "This document describes the API used to upgrade an Odoo database to a higher"
 " version."
-msgstr ""
+msgstr "This document describes the API used to upgrade an Odoo database to a higher version."
 
 #: ../../reference/upgrade_api.rst:19
 msgid ""
 "It allows a database to be upgraded without ressorting to the html form at "
 "https://upgrade.odoo.com Although the database will follow the same process "
 "described on that form."
-msgstr ""
+msgstr "It allows a database to be upgraded without ressorting to the html form at https://upgrade.odoo.com Although the database will follow the same process described on that form."
 
 #: ../../reference/upgrade_api.rst:24
 msgid "The required steps are:"
@@ -8889,11 +8889,11 @@ msgstr "运行升级过程"
 
 #: ../../reference/upgrade_api.rst:29
 msgid "obtaining the status of the database request"
-msgstr ""
+msgstr "obtaining the status of the database request"
 
 #: ../../reference/upgrade_api.rst:30
 msgid "downloading the upgraded database dump"
-msgstr ""
+msgstr "downloading the upgraded database dump"
 
 #: ../../reference/upgrade_api.rst:33
 msgid "The methods"
@@ -8917,19 +8917,19 @@ msgstr "电子邮件地址"
 
 #: ../../reference/upgrade_api.rst:44
 msgid "the target version (the Odoo version you want to upgrade to)"
-msgstr ""
+msgstr "the target version (the Odoo version you want to upgrade to)"
 
 #: ../../reference/upgrade_api.rst:45
 msgid "the purpose of your request (test or production)"
-msgstr ""
+msgstr "the purpose of your request (test or production)"
 
 #: ../../reference/upgrade_api.rst:46
 msgid "the database dump name (required but purely informative)"
-msgstr ""
+msgstr "the database dump name (required but purely informative)"
 
 #: ../../reference/upgrade_api.rst:47
 msgid "optionally the server timezone (for Odoo source version < 6.1)"
-msgstr ""
+msgstr "optionally the server timezone (for Odoo source version < 6.1)"
 
 #: ../../reference/upgrade_api.rst:50
 msgid "The ``create`` method"
@@ -8941,33 +8941,33 @@ msgstr "创建数据库升级请求"
 
 #: ../../reference/upgrade_api.rst:56
 msgid "(required) your enterprise contract reference"
-msgstr ""
+msgstr "(必须) 你的企业版合约参考"
 
 #: ../../reference/upgrade_api.rst:57
 msgid "(required) your email address"
-msgstr ""
+msgstr "(required) your email address"
 
 #: ../../reference/upgrade_api.rst:58
 msgid ""
 "(required) the Odoo version you want to upgrade to. Valid choices: 6.0, 6.1,"
 " 7.0, 8.0"
-msgstr ""
+msgstr "(required) the Odoo version you want to upgrade to. Valid choices: 6.0, 6.1, 7.0, 8.0"
 
 #: ../../reference/upgrade_api.rst:59
 msgid ""
 "(required) the purpose of your upgrade database request. Valid choices: "
 "test, production."
-msgstr ""
+msgstr "(required) the purpose of your upgrade database request. Valid choices: test, production."
 
 #: ../../reference/upgrade_api.rst:60
 msgid "(required) a purely informative name for you database dump file"
-msgstr ""
+msgstr "(required) a purely informative name for you database dump file"
 
 #: ../../reference/upgrade_api.rst:61
 msgid ""
 "(optional) the timezone used by your server. Only for Odoo source version < "
 "6.1"
-msgstr ""
+msgstr "(optional) the timezone used by your server. Only for Odoo source version < 6.1"
 
 #: ../../reference/upgrade_api.rst:62 ../../reference/upgrade_api.rst:215
 #: ../../reference/upgrade_api.rst:286 ../../reference/upgrade_api.rst:352
@@ -8977,7 +8977,7 @@ msgstr "请求结果"
 #: ../../reference/upgrade_api.rst:65
 msgid ""
 "The *create* method returns a json dictionary containing the following keys:"
-msgstr ""
+msgstr "The *create* method returns a json dictionary containing the following keys:"
 
 #: ../../reference/upgrade_api.rst:68
 msgid "``failures``"
@@ -8993,7 +8993,7 @@ msgid ""
 "particular error. Each dictionary can contain various keys depending of the "
 "type of error but you will always get the ``reason`` and the ``message`` "
 "keys:"
-msgstr ""
+msgstr "A list of dictionaries, each dictionary giving information about one particular error. Each dictionary can contain various keys depending of the type of error but you will always get the ``reason`` and the ``message`` keys:"
 
 #: ../../reference/upgrade_api.rst:76
 msgid "``reason``: the error type"
@@ -9009,44 +9009,44 @@ msgstr "一些可能的关键字:"
 
 #: ../../reference/upgrade_api.rst:81
 msgid "``code``: a faulty value"
-msgstr ""
+msgstr "``code``: a faulty value"
 
 #: ../../reference/upgrade_api.rst:82
 msgid "``value``: a faulty value"
-msgstr ""
+msgstr "``value``: a faulty value"
 
 #: ../../reference/upgrade_api.rst:83
 msgid "``expected``: a list of valid values"
-msgstr ""
+msgstr "``expected``: a list of valid values"
 
 #: ../../reference/upgrade_api.rst:85
 msgid "See a sample output aside."
-msgstr ""
+msgstr "See a sample output aside."
 
 #: ../../reference/upgrade_api.rst:118
 msgid ""
 "If the *create* method is successful, the value associated to the *request* "
 "key will be a dictionary containing various information about the created "
 "request:"
-msgstr ""
+msgstr "If the *create* method is successful, the value associated to the *request* key will be a dictionary containing various information about the created request:"
 
 #: ../../reference/upgrade_api.rst:121
 msgid "The most important keys are:"
-msgstr ""
+msgstr "The most important keys are:"
 
 #: ../../reference/upgrade_api.rst:123
 msgid "``id``: the request id"
-msgstr ""
+msgstr "``id``: the request id"
 
 #: ../../reference/upgrade_api.rst:124
 msgid "``key``: your private key for this request"
-msgstr ""
+msgstr "``key``: your private key for this request"
 
 #: ../../reference/upgrade_api.rst:126
 msgid ""
 "These 2 values will be requested by the other methods (upload, process and "
 "status)"
-msgstr ""
+msgstr "These 2 values will be requested by the other methods (upload, process and status)"
 
 #: ../../reference/upgrade_api.rst:128
 msgid ""
@@ -9060,22 +9060,22 @@ msgstr "示例脚本"
 
 #: ../../reference/upgrade_api.rst:134
 msgid "Here are 2 examples of database upgrade request creation using:"
-msgstr ""
+msgstr "Here are 2 examples of database upgrade request creation using:"
 
 #: ../../reference/upgrade_api.rst:136
 msgid "one in the python programming language using the pycurl library"
-msgstr ""
+msgstr "one in the python programming language using the pycurl library"
 
 #: ../../reference/upgrade_api.rst:137
 msgid ""
 "one in the bash programming language using `curl <http://curl.haxx.se>`_ "
 "(tool for transfering data using http) and `jq "
 "<https://stedolan.github.io/jq>`_ (JSON processor):"
-msgstr ""
+msgstr "one in the bash programming language using `curl <http://curl.haxx.se>`_ (tool for transfering data using http) and `jq <https://stedolan.github.io/jq>`_ (JSON processor):"
 
 #: ../../reference/upgrade_api.rst:202
 msgid "Uploading your database dump"
-msgstr ""
+msgstr "上传数据库转储"
 
 #: ../../reference/upgrade_api.rst:204
 msgid "This action upload your database dump."
@@ -9083,7 +9083,7 @@ msgstr "该动作上传你的数据库转储."
 
 #: ../../reference/upgrade_api.rst:207
 msgid "The ``upload`` method"
-msgstr ""
+msgstr "``upload`` 方法"
 
 #: ../../reference/upgrade_api.rst:211
 msgid "Uploads a database dump"
@@ -9092,12 +9092,12 @@ msgstr "上传数据库转储"
 #: ../../reference/upgrade_api.rst:213 ../../reference/upgrade_api.rst:284
 #: ../../reference/upgrade_api.rst:350
 msgid "(required) your private key"
-msgstr ""
+msgstr "(required) your private key"
 
 #: ../../reference/upgrade_api.rst:214 ../../reference/upgrade_api.rst:285
 #: ../../reference/upgrade_api.rst:351
 msgid "(required) your request id"
-msgstr ""
+msgstr "(required) your request id"
 
 #: ../../reference/upgrade_api.rst:218 ../../reference/upgrade_api.rst:289
 #: ../../reference/upgrade_api.rst:355
@@ -9110,7 +9110,7 @@ msgstr "请求ID以及私钥通过 :ref:`创建方法 <upgrade-api-create-method
 msgid ""
 "The result is a json dictionary containing the list of ``failures``, which "
 "should be empty if everything went fine."
-msgstr ""
+msgstr "The result is a json dictionary containing the list of ``failures``, which should be empty if everything went fine."
 
 #: ../../reference/upgrade_api.rst:273
 msgid "Asking to process your request"
@@ -9118,37 +9118,37 @@ msgstr "要求处理你的请求"
 
 #: ../../reference/upgrade_api.rst:275
 msgid "This action ask the Upgrade Platform to process your database dump."
-msgstr ""
+msgstr "This action ask the Upgrade Platform to process your database dump."
 
 #: ../../reference/upgrade_api.rst:278
 msgid "The ``process`` method"
-msgstr ""
+msgstr "``process`` 方法"
 
 #: ../../reference/upgrade_api.rst:282
 msgid "Process a database dump"
-msgstr ""
+msgstr "处理数据库转储"
 
 #: ../../reference/upgrade_api.rst:339
 msgid "Obtaining your request status"
-msgstr ""
+msgstr "获取你的请求状态"
 
 #: ../../reference/upgrade_api.rst:341
 msgid "This action ask the status of your database upgrade request."
-msgstr ""
+msgstr "This action ask the status of your database upgrade request."
 
 #: ../../reference/upgrade_api.rst:344
 msgid "The ``status`` method"
-msgstr ""
+msgstr "``status`` 方法"
 
 #: ../../reference/upgrade_api.rst:348
 msgid "Ask the status of a database upgrade request"
-msgstr ""
+msgstr "Ask the status of a database upgrade request"
 
 #: ../../reference/upgrade_api.rst:358
 msgid ""
 "The result is a json dictionary containing various information about your "
 "database upgrade request."
-msgstr ""
+msgstr "The result is a json dictionary containing various information about your database upgrade request."
 
 #: ../../reference/upgrade_api.rst:401
 msgid "Sample output"
@@ -9157,11 +9157,11 @@ msgstr "示例输出"
 #: ../../reference/upgrade_api.rst:403
 msgid ""
 "The ``request`` key contains various useful information about your request:"
-msgstr ""
+msgstr "The ``request`` key contains various useful information about your request:"
 
 #: ../../reference/upgrade_api.rst:406
 msgid "the request id"
-msgstr ""
+msgstr "请求id"
 
 #: ../../reference/upgrade_api.rst:407
 msgid "``key``"
@@ -9177,11 +9177,11 @@ msgstr "``email``"
 
 #: ../../reference/upgrade_api.rst:410
 msgid "the email address you supplied when creating the request"
-msgstr ""
+msgstr "the email address you supplied when creating the request"
 
 #: ../../reference/upgrade_api.rst:412
 msgid "the target Odoo version you supplied when creating the request"
-msgstr ""
+msgstr "the target Odoo version you supplied when creating the request"
 
 #: ../../reference/upgrade_api.rst:413
 msgid "``aim``"
@@ -9191,15 +9191,15 @@ msgstr "``aim``"
 msgid ""
 "the purpose (test, production) of your database upgrade request you supplied"
 " when creating the request"
-msgstr ""
+msgstr "the purpose (test, production) of your database upgrade request you supplied when creating the request"
 
 #: ../../reference/upgrade_api.rst:415 ../../reference/views.rst:422
 msgid "``filename``"
-msgstr " ``filename`` "
+msgstr "``filename``"
 
 #: ../../reference/upgrade_api.rst:416
 msgid "the filename you supplied when creating the request"
-msgstr ""
+msgstr "the filename you supplied when creating the request"
 
 #: ../../reference/upgrade_api.rst:417
 msgid "``timezone``"
@@ -9207,15 +9207,15 @@ msgstr "``timezone``"
 
 #: ../../reference/upgrade_api.rst:418
 msgid "the timezone you supplied when creating the request"
-msgstr ""
+msgstr "the timezone you supplied when creating the request"
 
 #: ../../reference/upgrade_api.rst:419
 msgid "``state``"
-msgstr " ``state`` "
+msgstr "``state``"
 
 #: ../../reference/upgrade_api.rst:420
 msgid "the state of your request"
-msgstr ""
+msgstr "the state of your request"
 
 #: ../../reference/upgrade_api.rst:421
 msgid "``issue_stage``"
@@ -9223,73 +9223,73 @@ msgstr "``issue_stage``"
 
 #: ../../reference/upgrade_api.rst:422
 msgid "the stage of the issue we have create on Odoo main server"
-msgstr ""
+msgstr "the stage of the issue we have create on Odoo main server"
 
 #: ../../reference/upgrade_api.rst:423
 msgid "``issue``"
-msgstr ""
+msgstr "``issue``"
 
 #: ../../reference/upgrade_api.rst:424
 msgid "the id of the issue we have create on Odoo main server"
-msgstr ""
+msgstr "the id of the issue we have create on Odoo main server"
 
 #: ../../reference/upgrade_api.rst:425
 msgid "``status_url``"
-msgstr ""
+msgstr "``status_url``"
 
 #: ../../reference/upgrade_api.rst:426
 msgid "the URL to access your database upgrade request html page"
-msgstr ""
+msgstr "the URL to access your database upgrade request html page"
 
 #: ../../reference/upgrade_api.rst:427
 msgid "``notes_url``"
-msgstr ""
+msgstr "``notes_url``"
 
 #: ../../reference/upgrade_api.rst:428
 msgid "the URL to get the notes about your database upgrade"
-msgstr ""
+msgstr "the URL to get the notes about your database upgrade"
 
 #: ../../reference/upgrade_api.rst:429
 msgid "``original_sql_url``"
-msgstr ""
+msgstr "``original_sql_url``"
 
 #: ../../reference/upgrade_api.rst:430
 msgid ""
 "the URL used to get your uploaded (not upgraded) database as an SQL stream"
-msgstr ""
+msgstr "the URL used to get your uploaded (not upgraded) database as an SQL stream"
 
 #: ../../reference/upgrade_api.rst:431
 msgid "``original_dump_url``"
-msgstr ""
+msgstr "``original_dump_url``"
 
 #: ../../reference/upgrade_api.rst:432
 msgid ""
 "the URL used to get your uploaded (not upgraded) database as an archive file"
-msgstr ""
+msgstr "the URL used to get your uploaded (not upgraded) database as an archive file"
 
 #: ../../reference/upgrade_api.rst:433
 msgid "``upgraded_sql_url``"
-msgstr ""
+msgstr "``upgraded_sql_url``"
 
 #: ../../reference/upgrade_api.rst:434
 msgid "the URL used to get your upgraded database as an SQL stream"
-msgstr ""
+msgstr "the URL used to get your upgraded database as an SQL stream"
 
 #: ../../reference/upgrade_api.rst:435
 msgid "``upgraded_dump_url``"
-msgstr ""
+msgstr "``upgraded_dump_url``"
 
 #: ../../reference/upgrade_api.rst:436
 msgid "the URL used to get your upgraded database as an archive file"
-msgstr ""
+msgstr "the URL used to get your upgraded database as an archive file"
 
 #: ../../reference/upgrade_api.rst:437
 msgid "``modules_url``"
-msgstr ""
+msgstr "``modules_url``"
 
 #: ../../reference/upgrade_api.rst:438
 msgid "the URL used to get your custom modules"
-msgstr ""
+msgstr "用来取得你的定制模块的URL"
 
 #: ../../reference/upgrade_api.rst:439
 msgid "``filesize``"
@@ -9297,7 +9297,7 @@ msgstr "``filesize``"
 
 #: ../../reference/upgrade_api.rst:440
 msgid "the size of your uploaded database file"
-msgstr ""
+msgstr "上传的数据库文件的大小"
 
 #: ../../reference/upgrade_api.rst:441
 msgid "``database_uuid``"
@@ -9305,7 +9305,7 @@ msgstr "``database_uuid``"
 
 #: ../../reference/upgrade_api.rst:442
 msgid "the Unique ID of your database"
-msgstr ""
+msgstr "数据库的唯一ID"
 
 #: ../../reference/upgrade_api.rst:443
 msgid "``created_at``"
@@ -9313,7 +9313,7 @@ msgstr "``created_at``"
 
 #: ../../reference/upgrade_api.rst:444
 msgid "the date when you created the request"
-msgstr ""
+msgstr "the date when you created the request"
 
 #: ../../reference/upgrade_api.rst:445
 msgid "``estimated_time``"
@@ -9321,7 +9321,7 @@ msgstr "``estimated_time``"
 
 #: ../../reference/upgrade_api.rst:446
 msgid "an estimation of the time it takes to upgrade your database"
-msgstr ""
+msgstr "an estimation of the time it takes to upgrade your database"
 
 #: ../../reference/upgrade_api.rst:447
 msgid "``processed_at``"
@@ -9329,7 +9329,7 @@ msgstr "``processed_at``"
 
 #: ../../reference/upgrade_api.rst:448
 msgid "time when your database upgrade was started"
-msgstr ""
+msgstr "time when your database upgrade was started"
 
 #: ../../reference/upgrade_api.rst:449
 msgid "``elapsed``"
@@ -9337,7 +9337,7 @@ msgstr "``elapsed``"
 
 #: ../../reference/upgrade_api.rst:450
 msgid "the time it takes to upgrade your database"
-msgstr ""
+msgstr "the time it takes to upgrade your database"
 
 #: ../../reference/upgrade_api.rst:451
 msgid "``filestore``"
@@ -9345,7 +9345,7 @@ msgstr "``filestore``"
 
 #: ../../reference/upgrade_api.rst:452
 msgid "your attachments were converted to the filestore"
-msgstr ""
+msgstr "your attachments were converted to the filestore"
 
 #: ../../reference/upgrade_api.rst:453
 msgid "``customer_message``"
@@ -9353,7 +9353,7 @@ msgstr "``customer_message``"
 
 #: ../../reference/upgrade_api.rst:454
 msgid "an important message related to your request"
-msgstr ""
+msgstr "an important message related to your request"
 
 #: ../../reference/upgrade_api.rst:455
 msgid "``database_version``"
@@ -9361,7 +9361,7 @@ msgstr "``database_version``"
 
 #: ../../reference/upgrade_api.rst:456
 msgid "the guessed Odoo version of your uploaded (not upgraded) database"
-msgstr ""
+msgstr "the guessed Odoo version of your uploaded (not upgraded) database"
 
 #: ../../reference/upgrade_api.rst:457
 msgid "``postgresql``"
@@ -9370,7 +9370,7 @@ msgstr "``postgresql``"
 #: ../../reference/upgrade_api.rst:458
 msgid ""
 "the guessed Postgresql version of your uploaded (not upgraded) database"
-msgstr ""
+msgstr "the guessed Postgresql version of your uploaded (not upgraded) database"
 
 #: ../../reference/upgrade_api.rst:460
 msgid "``compressions``"
@@ -9378,7 +9378,7 @@ msgstr "``compressions``"
 
 #: ../../reference/upgrade_api.rst:460
 msgid "the compression methods used by your uploaded database"
-msgstr ""
+msgstr "the compression methods used by your uploaded database"
 
 #: ../../reference/views.rst:8
 msgid "Views"
@@ -9402,12 +9402,12 @@ msgstr "只有在某种类型的列表作为视图的记忆/描述有用找一�
 
 #: ../../reference/views.rst:21
 msgid "``model``"
-msgstr " ``model`` "
+msgstr "``model``"
 
 #: ../../reference/views.rst:22
 msgid ""
 "the model linked to the view, if applicable (it doesn't for QWeb views)"
-msgstr "链接到视图模型, 如果适用（它不QWeb视图）"
+msgstr "模型链接到视图, 如果适用（它不使为QWeb视图）"
 
 #: ../../reference/views.rst:29
 msgid "``priority``"
@@ -9425,11 +9425,11 @@ msgstr "客户端程序可以通过 ``id`` , 或 ``（型号, 类型）`` 要求
 msgid ""
 "``priority`` also defines the order of application during :ref:`view "
 "inheritance <reference/views/inheritance>`"
-msgstr " ``priority`` also defines the order of application during :ref:`view inheritance <reference/views/inheritance>` "
+msgstr " ``priority`` 还定义应以在  :ref:`view inheritance <reference/views/inheritance>`  应用的顺序"
 
 #: ../../reference/views.rst:31
 msgid "``arch``"
-msgstr " ``arch`` "
+msgstr "``arch``"
 
 #: ../../reference/views.rst:32
 msgid "the description of the view's layout"
@@ -9443,29 +9443,29 @@ msgstr ":class:`~openerp.fields.Many2many` 字段允许查看组/用当前视图
 
 #: ../../reference/views.rst:37
 msgid "``inherit_id``"
-msgstr " ``inherit_id`` "
+msgstr "``inherit_id``"
 
 #: ../../reference/views.rst:37
 msgid ""
 "the current view's parent view, see :ref:`reference/views/inheritance`, "
 "unset by default"
-msgstr "当前视图的父视图, 请参阅 :ref:`参考/视图/ inheritance` , 未设置默认"
+msgstr "当前视图的父视图, 查看 :ref:`reference/views/inheritance` ,  默认未设置"
 
 #: ../../reference/views.rst:42 ../../reference/views.rst:417
 #: ../../reference/views.rst:983
 msgid "``mode``"
-msgstr " ``mode`` "
+msgstr "``mode``"
 
 #: ../../reference/views.rst:40
 msgid ""
 "inheritance mode, see :ref:`reference/views/inheritance`. If ``inherit_id`` "
 "is unset the ``mode`` can only be ``primary``. If ``inherit_id`` is set, "
 "``extension`` by default but can be explicitly set to ``primary``"
-msgstr "遗传方式, 请参阅 :ref:`参考/视图/ inheritance` 。如果 ``inherit_id`` 没有设置的 ``mode`` 只能是 ``primary`` 。如果 ``inherit_id`` 设置, ``默认extension`` 但可以明确设置为 ``primary`` "
+msgstr "继承模式, 请参阅  :ref:`reference/views/inheritance` 。如果没有设置 ``inherit_id`` ，  ``mode`` 只能是 ``primary`` 。如果设置了 ``inherit_id`` , 默认是  ``extension`` ，但可以明确设置为 ``primary`` "
 
 #: ../../reference/views.rst:46
 msgid "``application``"
-msgstr " ``application`` "
+msgstr "``application``"
 
 #: ../../reference/views.rst:45
 msgid ""
@@ -9507,7 +9507,7 @@ msgstr "解决方法生成最终的 ``arch`` 的请求/匹配 ``primary`` 视图
 msgid ""
 "if the view has a parent, the parent is fully resolved then the current "
 "view's inheritance specs are applied"
-msgstr "如果认为有父, 父完全解决, 那么当前视图的继承规范应用"
+msgstr "如果视图有父级, 父完全解析，然后, 应用当前视图的继承规范"
 
 #: ../../reference/views.rst:69
 msgid "if the view has no parent, its ``arch`` is used as-is"
@@ -9518,7 +9518,7 @@ msgid ""
 "the current view's children with mode ``extension`` are looked up  and their"
 " inheritance specs are applied depth-first (a child view is applied, then "
 "its children, then its siblings)"
-msgstr "当前视图的儿童模式 ``extension`` 正在抬头一看, 他们的产业规格的应用深度优先（子视图应用, 那么它的孩子, 那么它的兄弟姐妹）"
+msgstr "当前视图的的模式  ``extension``  子视图被查询到，它们的继承规范按深度优先应用（子视图应用之后, 接着是它的子视图，然后是它的兄弟姐妹）"
 
 #: ../../reference/views.rst:74
 msgid "The result of applying children views yields the final ``arch``"
@@ -9530,7 +9530,7 @@ msgstr "继承规范"
 
 #: ../../reference/views.rst:79
 msgid "There are three types of inheritance specs:"
-msgstr "有三种类型的继承规格的:"
+msgstr "有三种类型的继承规范:"
 
 #: ../../reference/views.rst:81
 msgid ""
@@ -9555,7 +9555,7 @@ msgstr "任何其他元件, 具有相同的名称和相同属性的所述第一�
 msgid ""
 "The inheritance spec may have an optional ``position`` attribute specifying "
 "how the matched node should be altered:"
-msgstr "继承规范有一个可选的 ``position`` 属性指定如何匹配的节点应该被改变:"
+msgstr "继承规范可以有一个可选的 ``position`` 属性，指定匹配的节点将会怎样被改变:"
 
 #: ../../reference/views.rst:92
 msgid "``inside`` (default)"
@@ -9563,7 +9563,7 @@ msgstr " ``inside`` （默认）"
 
 #: ../../reference/views.rst:93
 msgid "the content of the inheritance spec is appended to the matched node"
-msgstr "继承规范的内容被附加给匹配节点"
+msgstr "继承规范的内容被附加给匹配的节点"
 
 #: ../../reference/views.rst:95
 msgid "the content of the inheritance spec replaces the matched node"
@@ -9573,23 +9573,23 @@ msgstr "继承规范的内容替换匹配的节点"
 msgid ""
 "the content of the inheritance spec is added to the matched node's parent, "
 "after the matched node"
-msgstr "继承规范的内容被添加到匹配节点的父, 匹配节点之后"
+msgstr "继承规范的内容被添加到匹配节点的父节点, 在匹配的节点之后"
 
 #: ../../reference/views.rst:100
 msgid ""
 "the content of the inheritance spec is added to the matched node's parent, "
 "before the matched node"
-msgstr "继承规范的内容被添加到匹配节点的父, 匹配节点之前"
+msgstr "继承规范的内容被添加到匹配节点的父节点, 在匹配的节点之前"
 
 #: ../../reference/views.rst:111
 msgid "``attributes``"
-msgstr " ``attributes`` "
+msgstr "``attributes``"
 
 #: ../../reference/views.rst:103
 msgid ""
 "the content of the inheritance spec should be ``attribute`` elements with a "
 "``name`` attribute and an optional body:"
-msgstr "继承规范的内容应该是 ``用`` name ``属性和一个可选的机身attribute`` 要素:"
+msgstr "继承规范的内容应该是 ``name`` 属性以及一个可选主体的 ``attribute``  元素:"
 
 #: ../../reference/views.rst:106
 msgid ""
@@ -9607,7 +9607,7 @@ msgstr "如果 ``attribute`` 元素没有主体, 它的 ``name`` 命名的属性
 
 #: ../../reference/views.rst:113
 msgid "A view's specs are applied sequentially."
-msgstr "视图的功能依次应用。"
+msgstr "视图的规范依次应用。"
 
 #: ../../reference/views.rst:118
 msgid "Lists"
@@ -9692,11 +9692,11 @@ msgid ""
 "italic``), or any `bootstrap contextual color "
 "<http://getbootstrap.com/components/#available-variations>`_ (``danger``, "
 "``info``, ``muted``, ``primary``, ``success`` or ``warning``)."
-msgstr ""
+msgstr "``{$name}`` can be ``bf`` (``font-weight: bold``), ``it`` (``font-style: italic``), or any `bootstrap contextual color <http://getbootstrap.com/components/#available-variations>`_ (``danger``, ``info``, ``muted``, ``primary``, ``success`` or ``warning``)."
 
 #: ../../reference/views.rst:165
 msgid "``create``, ``edit``, ``delete``"
-msgstr " ``create`` , ``edit`` , ``delete`` "
+msgstr "``create``, ``edit``, ``delete``"
 
 #: ../../reference/views.rst:165
 msgid ""
@@ -9706,7 +9706,7 @@ msgstr "允许 * DIS * \\ abling视图由相应的属性设置为'相应的动�
 
 #: ../../reference/views.rst:171
 msgid "``on_write``"
-msgstr " ``on_write`` "
+msgstr "``on_write``"
 
 #: ../../reference/views.rst:168
 msgid ""
@@ -9723,7 +9723,7 @@ msgstr "该方法应返回的其他记录ID的列表, 以装载或更新。"
 #: ../../reference/views.rst:178 ../../reference/views.rst:192
 #: ../../reference/views.rst:253 ../../reference/views.rst:1127
 msgid "``string``"
-msgstr " ``string`` "
+msgstr "``string``"
 
 #: ../../reference/views.rst:174
 msgid "alternative translatable label for the view"
@@ -9739,7 +9739,7 @@ msgstr "列表视图可能的子元素有:"
 
 #: ../../reference/views.rst:243 ../../reference/views.rst:349
 msgid "``button``"
-msgstr " ``button`` "
+msgstr "``button``"
 
 #: ../../reference/views.rst:187
 msgid "displays a button in a list cell"
@@ -9747,7 +9747,7 @@ msgstr "列表中的单元格中显示一个按钮"
 
 #: ../../reference/views.rst:189
 msgid "``icon``"
-msgstr " ``icon`` "
+msgstr "``icon``"
 
 #: ../../reference/views.rst:190
 msgid "icon to use to display the button"
@@ -9777,7 +9777,7 @@ msgstr "将信号发送到一个工作流程。按钮的 ``name`` 是工作流�
 
 #: ../../reference/views.rst:208 ../../reference/views.rst:1070
 msgid "``object``"
-msgstr " ``object`` "
+msgstr "``object``"
 
 #: ../../reference/views.rst:202
 msgid ""
@@ -9800,12 +9800,12 @@ msgstr "请参阅 ``type`` "
 
 #: ../../reference/views.rst:219
 msgid "``args``"
-msgstr " ``args`` "
+msgstr "``args``"
 
 #: ../../reference/views.rst:228 ../../reference/views.rst:281
 #: ../../reference/views.rst:311 ../../reference/views.rst:395
 msgid "``attrs``"
-msgstr " ``attrs`` "
+msgstr "``attrs``"
 
 #: ../../reference/views.rst:222
 msgid "dynamic attributes based on record values."
@@ -9826,7 +9826,7 @@ msgstr "可能的属性 ``invisible`` （隐藏的按钮）和 ``readonly`` （�
 
 #: ../../reference/views.rst:235
 msgid "``states``"
-msgstr " ``states`` "
+msgstr "``states``"
 
 #: ../../reference/views.rst:231
 msgid ""
@@ -9929,7 +9929,7 @@ msgstr "对于 ``sequence`` 字段, 而不是显示的字段的值, 只显示一
 
 #: ../../reference/views.rst:276
 msgid "``sum``, ``avg``"
-msgstr " ``sum`` , ``avg`` "
+msgstr "``sum``, ``avg``"
 
 #: ../../reference/views.rst:274
 msgid ""
@@ -9976,7 +9976,7 @@ msgstr "结构组件提供结构或很少有逻辑'视觉'的特点。它们被�
 
 #: ../../reference/views.rst:311
 msgid "``notebook``"
-msgstr " ``notebook`` "
+msgstr "``notebook``"
 
 #: ../../reference/views.rst:303
 msgid ""
@@ -9994,7 +9994,7 @@ msgstr "的选项卡的标题"
 
 #: ../../reference/views.rst:308
 msgid "``accesskey``"
-msgstr " ``accesskey`` "
+msgstr "``accesskey``"
 
 #: ../../reference/views.rst:309
 msgid "an HTML accesskey_"
@@ -10037,7 +10037,7 @@ msgstr "组可以有一个 ``string`` 属性, 该属性显示为组的标题"
 
 #: ../../reference/views.rst:330
 msgid "``newline``"
-msgstr " ``newline`` "
+msgstr "``newline``"
 
 #: ../../reference/views.rst:329
 msgid ""
@@ -10100,7 +10100,7 @@ msgstr "呈现（和允许的, 版本可能的）当前记录的单个场。可�
 
 #: ../../reference/views.rst:356
 msgid "the name of the field to render"
-msgstr "呈现字段的名称"
+msgstr "待呈现的字段的名称"
 
 #: ../../reference/views.rst:358
 msgid ""
@@ -10129,7 +10129,7 @@ msgstr "HTML类生成的元素上设置, 常见的字段类是:"
 
 #: ../../reference/views.rst:373
 msgid "``oe_inline``"
-msgstr " ``oe_inline`` "
+msgstr "``oe_inline``"
 
 #: ../../reference/views.rst:374
 msgid "prevent the usual line break following fields"
@@ -10137,7 +10137,7 @@ msgstr "防止通常的换行符以下字段"
 
 #: ../../reference/views.rst:375
 msgid "``oe_left``, ``oe_right``"
-msgstr " ``oe_left`` , ``oe_right`` "
+msgstr "``oe_left``, ``oe_right``"
 
 #: ../../reference/views.rst:376
 msgid "floats_ the field to the corresponding direction"
@@ -10145,7 +10145,7 @@ msgstr "floats_场到相应的方向"
 
 #: ../../reference/views.rst:377
 msgid "``oe_read_only``, ``oe_edit_only``"
-msgstr " ``oe_read_only`` , ``oe_edit_only`` "
+msgstr "``oe_read_only``, ``oe_edit_only``"
 
 #: ../../reference/views.rst:378
 msgid "only displays the field in the corresponding form mode"
@@ -10153,7 +10153,7 @@ msgstr "仅在相应的表格模式显示字段"
 
 #: ../../reference/views.rst:380
 msgid "``oe_no_button``"
-msgstr " ``oe_no_button`` "
+msgstr "``oe_no_button``"
 
 #: ../../reference/views.rst:380
 msgid ""
@@ -10163,7 +10163,7 @@ msgstr "避免了在显示导航按钮 :class:`~openerp.fields.Many2one` "
 
 #: ../../reference/views.rst:383
 msgid "``oe_avatar``"
-msgstr " ``oe_avatar`` "
+msgstr "``oe_avatar``"
 
 #: ../../reference/views.rst:383
 msgid ""
@@ -10177,7 +10177,7 @@ msgstr "仅显示字段为特定用户"
 
 #: ../../reference/views.rst:393
 msgid "``on_change``"
-msgstr " ``on_change`` "
+msgstr "``on_change``"
 
 #: ../../reference/views.rst:388
 msgid ""
@@ -10196,7 +10196,7 @@ msgstr "根据记录值动态荟萃参数"
 #: ../../reference/views.rst:398 ../../reference/views.rst:1165
 #: ../../reference/views.rst:1178
 msgid "``domain``"
-msgstr " ``domain`` "
+msgstr "``domain``"
 
 #: ../../reference/views.rst:398
 msgid ""
@@ -10221,7 +10221,7 @@ msgstr "显示在两个只读和出版模式的场, 但从来没有使其可编�
 
 #: ../../reference/views.rst:406
 msgid "``required``"
-msgstr " ``required`` "
+msgstr "``required``"
 
 #: ../../reference/views.rst:406
 msgid ""
@@ -10231,7 +10231,7 @@ msgstr "产生一个错误, 并且防止保存记录, 如果该字段不具有�
 
 #: ../../reference/views.rst:409
 msgid "``nolabel``"
-msgstr " ``nolabel`` "
+msgstr "``nolabel``"
 
 #: ../../reference/views.rst:409
 msgid ""
@@ -10385,7 +10385,7 @@ msgstr "``statusbar_colors``"
 
 #: ../../reference/views.rst:506
 msgid "can be used to give a custom color to specific states."
-msgstr ""
+msgstr "can be used to give a custom color to specific states."
 
 #: ../../reference/views.rst:517
 msgid "The Sheet"
@@ -10496,7 +10496,7 @@ msgid ""
 "To make :ref:`view extension <reference/views/inheritance>` simpler, it is "
 "recommended to put a ``name`` attribute on ``<group>`` elements, so new "
 "fields can easily be added at the right place."
-msgstr "To make :ref:`view extension <reference/views/inheritance>` simpler, it is recommended to put a ``name`` attribute on ``<group>`` elements, so new fields can easily be added at the right place."
+msgstr "为使 :ref:`view extension <reference/views/inheritance>` 更简单,  建议将 ``name`` 属性放置在 ``<group>`` 元素上,  这样，新字段可以很容易的添加到正确的地方."
 
 #: ../../reference/views.rst:618
 msgid "Special Case: Subtotals"
@@ -10504,7 +10504,7 @@ msgstr "特例:分类汇总"
 
 #: ../../reference/views.rst:620
 msgid "Some classes are defined to render subtotals like in invoice forms:"
-msgstr "有些类的定义来呈现小计像发票的形式:"
+msgstr "一些类定义用于呈现小计，像发票的形式:"
 
 #: ../../reference/views.rst:635
 msgid "Placeholders and Inline Fields"
@@ -10828,7 +10828,7 @@ msgstr "抓取的字段的名称"
 
 #: ../../reference/views.rst:845
 msgid "``sum``, ``avg``, ``min``, ``max``, ``count``"
-msgstr " ``sum`` , ``avg`` , ``min`` , ``max`` , ``count`` "
+msgstr "``sum``, ``avg``, ``min``, ``max``, ``count``"
 
 #: ../../reference/views.rst:843
 msgid ""
@@ -10847,7 +10847,7 @@ msgid ""
 "split into multiple templates for clarity, but kanban views *must* define at"
 " least one root template ``kanban-box``, which will be rendered once for "
 "each record."
-msgstr "定义列表 :ref:`参考/ qweb` 模板。卡定义可以被分成多个模板清晰, 但看板意见 *必须* 至少定义一个根模板 ``看板box`` , 这将是为每个记录呈现的一次。"
+msgstr "定义列表 :ref:`reference/qweb` 模板。卡定义可以被分成多个模板清晰, 但看板意见 *必须* 至少定义一个根模板 ``看板box`` , 这将是为每个记录呈现的一次。"
 
 #: ../../reference/views.rst:853
 msgid ""
@@ -10878,7 +10878,7 @@ msgid ""
 ":meth:`~openerp.models.Model.read` (except for date and datetime fields that"
 " are `formatted according to user's locale "
 "<https://github.com/odoo/odoo/blob/a678bd4e/addons/web_kanban/static/src/js/kanban_record.js#L102>`_)"
-msgstr ""
+msgstr "an object with all the requested fields as its attributes. Each field has two attributes ``value`` and ``raw_value``, the former is formatted according to current user parameters, the latter is the direct value from a :meth:`~openerp.models.Model.read` (except for date and datetime fields that are `formatted according to user's locale <https://github.com/odoo/odoo/blob/a678bd4e/addons/web_kanban/static/src/js/kanban_record.js#L102>`_)"
 
 #: ../../reference/views.rst:869
 msgid "``formats``"
@@ -10886,7 +10886,7 @@ msgstr "``formats``"
 
 #: ../../reference/views.rst:870
 msgid "the :js:class:`web.formats` module to manipulate and convert values"
-msgstr ""
+msgstr "the :js:class:`web.formats` module to manipulate and convert values"
 
 #: ../../reference/views.rst:902
 msgid "``read_only_mode``"
@@ -10904,7 +10904,7 @@ msgstr "按钮和字段"
 msgid ""
 "While most of the Kanban templates are standard :ref:`reference/qweb`, the "
 "Kanban view processes ``field``, ``button`` and ``a`` elements specially:"
-msgstr "虽然大多数的看板模板标准 :ref:`参考/ qweb` , 看板查看进程 ``field`` , ``button`` 和 ``a`` 元素特别:"
+msgstr "虽然大多数的看板模板是标准  :ref:`reference/qweb`,   看板视图特别 处理  ``field``, ``button``  以及 ``a`` 元素:"
 
 #: ../../reference/views.rst:880
 msgid ""
@@ -10920,17 +10920,17 @@ msgstr "按钮和一个 ``type`` 属性将成为执行Odoo相关的操作, 而�
 
 #: ../../reference/views.rst:890
 msgid "``action``, ``object``"
-msgstr " ``action`` , ``object`` "
+msgstr "``action``, ``object``"
 
 #: ../../reference/views.rst:889
 msgid ""
 "standard behavior for :ref:`Odoo buttons <reference/views/list/button>`, "
 "most attributes relevant to standard Odoo buttons can be used."
-msgstr "standard behavior for :ref:`Odoo buttons <reference/views/list/button>` , most attributes relevant to standard Odoo buttons can be used."
+msgstr " :ref:`Odoo 按钮<reference/views/list/button>` 的标准行为, 大多数与标准 Odoo 按钮相关的属性可以使用."
 
 #: ../../reference/views.rst:892
 msgid "``open``"
-msgstr " ``open`` "
+msgstr "``open``"
 
 #: ../../reference/views.rst:893
 msgid "opens the card's record in the form view in read-only mode"
@@ -11042,7 +11042,7 @@ msgstr " ``date_delay`` "
 msgid ""
 "alternative to ``date_stop``, provides the duration of the event instead of "
 "its end date"
-msgstr ""
+msgstr "alternative to ``date_stop``, provides the duration of the event instead of its end date"
 
 #: ../../reference/views.rst:965
 msgid "``color``"
@@ -11063,7 +11063,7 @@ msgstr " ``event_open_popup`` "
 msgid ""
 "opens the event in a dialog instead of switching to the form view, disabled "
 "by default"
-msgstr ""
+msgstr "opens the event in a dialog instead of switching to the form view, disabled by default"
 
 #: ../../reference/views.rst:972
 msgid "``quick_add``"
@@ -11100,7 +11100,7 @@ msgstr "在记录一个布尔字段, 表示相应的事件是否被标记为一�
 msgid ""
 "Default display mode when loading the calendar. Possible attributes are: "
 "``day``, ``week``, ``month``"
-msgstr ""
+msgstr "Default display mode when loading the calendar. Possible attributes are: ``day``, ``week``, ``month``"
 
 #: ../../reference/views.rst:1003
 msgid "Gantt"
@@ -11146,7 +11146,7 @@ msgstr "``duration_unit``"
 msgid ""
 "one of ``minute``, ``hour`` (default), ``day``, ``week``, ``month``, "
 "``year``"
-msgstr ""
+msgstr "one of ``minute``, ``hour`` (default), ``day``, ``week``, ``month``, ``year``"
 
 #: ../../reference/views.rst:1026
 msgid "name of a field to group tasks by"
@@ -11160,11 +11160,11 @@ msgstr "``gantt`` 经典甘特视图 (默认)"
 msgid ""
 "``consolidate`` values of the first children are consolidated in the gantt's"
 " task"
-msgstr ""
+msgstr "``consolidate`` values of the first children are consolidated in the gantt's task"
 
 #: ../../reference/views.rst:1032
 msgid "``planning`` children are displayed in the gantt's task"
-msgstr ""
+msgstr "``planning`` children are displayed in the gantt's task"
 
 #: ../../reference/views.rst:1033
 msgid "``consolidation``"
@@ -11172,7 +11172,7 @@ msgstr "``consolidation``"
 
 #: ../../reference/views.rst:1034
 msgid "field name to display consolidation value in record cell"
-msgstr ""
+msgstr "field name to display consolidation value in record cell"
 
 #: ../../reference/views.rst:1041
 msgid "``consolidation_max``"
@@ -11183,13 +11183,13 @@ msgid ""
 "dictionary with the \"group by\" field as key and the maximum consolidation "
 "value that can be reached before displaying the cell in red (e.g. "
 "``{\"user_id\": 100}``)"
-msgstr ""
+msgstr "dictionary with the \"group by\" field as key and the maximum consolidation value that can be reached before displaying the cell in red (e.g. ``{\"user_id\": 100}``)"
 
 #: ../../reference/views.rst:1041
 msgid ""
 "The dictionnary definition must use double-quotes, ``{'user_id': 100}`` is "
 "not a valid value"
-msgstr ""
+msgstr "The dictionnary definition must use double-quotes, ``{'user_id': 100}`` is not a valid value"
 
 #: ../../reference/views.rst:1044
 msgid "``consolidation_label``"
@@ -11199,7 +11199,7 @@ msgstr "``consolidation_label``"
 msgid ""
 "string to display next to the consolidation value, if not specified, the "
 "label of the consolidation field will be used"
-msgstr ""
+msgstr "string to display next to the consolidation value, if not specified, the label of the consolidation field will be used"
 
 #: ../../reference/views.rst:1046
 msgid "``fold_last_level``"
@@ -11207,7 +11207,7 @@ msgstr "``fold_last_level``"
 
 #: ../../reference/views.rst:1047
 msgid "If a value is set, the last grouping level is folded"
-msgstr ""
+msgstr "If a value is set, the last grouping level is folded"
 
 #: ../../reference/views.rst:1049
 msgid "``round_dnd_dates``"
@@ -11216,7 +11216,7 @@ msgstr "``round_dnd_dates``"
 #: ../../reference/views.rst:1049
 msgid ""
 "enables rounding the task's start and end dates to the nearest scale marks"
-msgstr ""
+msgstr "enables rounding the task's start and end dates to the nearest scale marks"
 
 #: ../../reference/views.rst:1060
 msgid "Diagram"
@@ -11329,7 +11329,7 @@ msgid ""
 " other view's content (generally aggregated views e.g. "
 ":ref:`reference/views/list` or :ref:`reference/views/graph`). Beyond that "
 "difference in use case, they are defined the same way."
-msgstr "搜索视图是从以前的视图类型, 因为它们不显示 *量* 休息:虽然它们适用于一个特定的模式, 它们是用来过滤其他视图的内容（一般汇总的意见, 例如 :ref:`参考/视图/名单` 或 :ref:`参考/视图/ graph` ）。以外使用的情况下的差异, 它们被定义的方式相同。"
+msgstr "搜索视图是从以前的视图类型, 因为它们不显示 *量* 休息:虽然它们适用于一个特定的模式, 它们是用来过滤其他视图的内容（一般汇总的意见, 例如 :ref:`reference/views/list` 或  :ref:`reference/views/graph` ）。以外使用的情况下的差异, 它们被定义的方式相同。"
 
 #: ../../reference/views.rst:1112
 msgid ""
@@ -11361,7 +11361,7 @@ msgstr "该字段的标签"
 
 #: ../../reference/views.rst:1137
 msgid "``operator``"
-msgstr " ``operator`` "
+msgstr "``operator``"
 
 #: ../../reference/views.rst:1130
 msgid ""
@@ -11527,7 +11527,7 @@ msgstr "会自动启用 ``bar`` 过滤器和搜索 ``foo`` 字段 * ACRO * 。"
 msgid ""
 "QWeb views are standard :ref:`reference/qweb` templates inside a view's "
 "``arch``. They don't have a specific root element."
-msgstr "QWeb的视图是标准 :ref: 内部的视图的 ```arch`` 参考/ qweb` 模板。它们不具有特定的根元素。"
+msgstr "QWeb的视图是标准 内部的视图的 ```arch``  :ref:`reference/qweb`  模板。它们不具有特定的根元素。"
 
 #: ../../reference/views.rst:1252
 msgid ""
@@ -11563,7 +11563,7 @@ msgstr "由于历史的原因, 它有它的起源在树型意见后重新利用�
 msgid ""
 "or no template if it's an inherited view, then :ref:`it should only contain "
 "xpath elements <reference/views/inheritance>`"
-msgstr "或者，如果是继承的视图则无模板，然后 :ref:`it should only contain xpath elements <reference/views/inheritance>`"
+msgstr "或者，如果它是继承的视图，则无模板，然后 :ref:`it should only contain xpath elements <reference/views/inheritance>`"
 
 #: ../../reference/workflows.rst:4
 msgid "Workflows"
@@ -11704,7 +11704,7 @@ msgid ""
 "condition. This means the workflow instance will immediately transition from"
 " \"a\" to \"b\" when the signal ``signal_goto_b`` is recieved and thus "
 "processes activity \"b\"'s action ``print_b()``."
-msgstr ""
+msgstr "The transition between \"a\" and \"b\" specify a signal but not any condition. This means the workflow instance will immediately transition from \"a\" to \"b\" when the signal ``signal_goto_b`` is recieved and thus processes activity \"b\"'s action ``print_b()``."
 
 #: ../../reference/workflows.rst:117
 msgid "Activities"
@@ -11936,7 +11936,7 @@ msgstr "完全停止工作流实例并将其标记为已完成。"
 
 #: ../../reference/workflows.rst:250
 msgid "Subflow (``subflow``)"
-msgstr "子流（ ``subflow`` ）"
+msgstr "子流程(``subflow``)"
 
 #: ../../reference/workflows.rst:243
 msgid ""

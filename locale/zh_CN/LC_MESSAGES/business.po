@@ -6,8 +6,7 @@
 # Jeffery Chenn <jeffery9@gmail.com>, 2015
 # Jeffery Chenn <jeffery9@gmail.com>, 2016
 msgid ""
-msgstr "" 
-"Project-Id-Version: odoo documentation technical\n"
+msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
 "PO-Revision-Date: 2016-05-30 13:35+0000\n"
@@ -21,4 +20,4 @@ msgstr ""
 
 #: ../../business.rst:3
 msgid "Business Mementoes"
-msgstr "业务备忘录" 
+msgstr "业务备忘录"

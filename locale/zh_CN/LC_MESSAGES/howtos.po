@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the odoo package.
 # 
 # Translators:
+# Damon Liu <315276651@qq.com>, 2016
 # Jeffery Chenn <jeffery9@gmail.com>, 2015
 # Jeffery Chenn <jeffery9@gmail.com>, 2015-2016
 # Uming Peng <umingpeng@gmail.com>, 2015
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: odoo documentation technical\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
-"PO-Revision-Date: 2016-06-04 14:56+0000\n"
+"PO-Revision-Date: 2016-06-11 12:08+0000\n"
 "Last-Translator: Jeffery Chenn <jeffery9@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo-cn/odoo-documentation-technical/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +79,7 @@ msgstr "Odoo模块可以添加全新的业务逻辑的Odoo系统, 或修改和�
 
 #: ../../howtos/backend.rst:45
 msgid "Everything in Odoo thus starts and ends with modules."
-msgstr "在Odoo所有的一切都与模块开始和结束。"
+msgstr "在Odoo所有的一切都以模块开始和结束。"
 
 #: ../../howtos/backend.rst:48
 msgid "Composition of a module"
@@ -118,7 +119,7 @@ msgstr "处理来自Web浏览器的请求"
 
 #: ../../howtos/backend.rst:64
 msgid "Static web data"
-msgstr "静态网络数据"
+msgstr "静态网页数据"
 
 #: ../../howtos/backend.rst:64
 msgid "Images, CSS or javascript files used by the web interface or website"
@@ -154,7 +155,7 @@ msgid ""
 "<http://docs.python.org/2/tutorial/modules.html#packages>`_ with a "
 "``__init__.py`` file, containing import instructions for various Python "
 "files in the module."
-msgstr "A module is also a `Python package <http ://docs.python.org/2/tutorial/modules.html#packages>` _ with a ``__init__.py`` file, containing import instructions for various Python files in the module."
+msgstr "每个模块都是一个` Python包 \n<http ://docs.python.org/2/tutorial/modules.html#packages>` 包含一个 ``__init__.py`` 文件, 内容为 Python文件导入指令。"
 
 #: ../../howtos/backend.rst:88
 msgid ""
@@ -255,7 +256,7 @@ msgstr "有些属性是适用于所有字段, 这里是最常见的:"
 #: ../../howtos/backend.rst:162
 msgid ""
 ":attr:`~openerp.fields.Field.string` (``unicode``, default: field's name)"
-msgstr ":attr:`~openerp.fields.Field.string` （ ``unicode`` , 默认:字段的名称）"
+msgstr ":attr:`~openerp.fields.Field.string` (``unicode``, default: field's name)"
 
 #: ../../howtos/backend.rst:163
 msgid "The label of the field in UI (visible by users)."
@@ -263,7 +264,7 @@ msgstr "该场的UI上的标签（由用户可见）。"
 
 #: ../../howtos/backend.rst:165
 msgid ":attr:`~openerp.fields.Field.required` (``bool``, default: ``False``)"
-msgstr ":attr:`~openerp.fields.Field.required` （ ``bool`` , 默认:``False`` ）"
+msgstr ":attr:`~openerp.fields.Field.required` (``bool``, default: ``False``)"
 
 #: ../../howtos/backend.rst:165
 msgid ""
@@ -273,7 +274,7 @@ msgstr "如果 ``True`` , 那么该字段不能为空, 它必须拥有一个默�
 
 #: ../../howtos/backend.rst:167
 msgid ":attr:`~openerp.fields.Field.help` (``unicode``, default: ``''``)"
-msgstr ":attr:`~openerp.fields.Field.help` （ ``unicode`` , 默认:``''`` ）"
+msgstr ":attr:`~openerp.fields.Field.help` (``unicode``, default: ``''``)"
 
 #: ../../howtos/backend.rst:168
 msgid "Long-form, provides a help tooltip to users in the UI."
@@ -281,7 +282,7 @@ msgstr "长的形式, 提供了一种帮助工具提示用户在UI中。"
 
 #: ../../howtos/backend.rst:170
 msgid ":attr:`~openerp.fields.Field.index` (``bool``, default: ``False``)"
-msgstr ":attr:`~openerp.fields.Field.index` （ ``bool`` , 默认:``False`` ）"
+msgstr ":attr:`~openerp.fields.Field.index` (``bool``, default: ``False``)"
 
 #: ../../howtos/backend.rst:170
 msgid "Requests that Odoo create a `database index`_ on the column"
@@ -317,17 +318,17 @@ msgstr "Odoo创建在所有模型\\ [#autofields]一些字段_。这些字段由
 
 #: ../../howtos/backend.rst:189
 msgid ":attr:`~openerp.fields.Model.id` (:class:`~openerp.fields.Id`)"
-msgstr ":attr:`~openerp.fields.Model.id` （ :class:`~openerp.fields.Id` ）"
+msgstr ":attr:`~openerp.fields.Model.id` (:class:`~openerp.fields.Id`)"
 
 #: ../../howtos/backend.rst:190
 msgid "the unique identifier for a record in its model"
-msgstr "在其模型中记录的唯一标识符"
+msgstr "记录在其模型中的唯一标识符"
 
 #: ../../howtos/backend.rst:191
 msgid ""
 ":attr:`~openerp.fields.Model.create_date` "
 "(:class:`~openerp.fields.Datetime`)"
-msgstr ":attr:`~openerp.fields.Model.create_date` （ :class:`~openerp.fields.Datetime` ）"
+msgstr ":attr:`~openerp.fields.Model.create_date` (:class:`~openerp.fields.Datetime`)"
 
 #: ../../howtos/backend.rst:192
 msgid "creation date of the record"
@@ -336,16 +337,16 @@ msgstr "记录的创建日期"
 #: ../../howtos/backend.rst:193
 msgid ""
 ":attr:`~openerp.fields.Model.create_uid` (:class:`~openerp.fields.Many2one`)"
-msgstr ":attr:`~openerp.fields.Model.create_uid` （ :class:`~openerp.fields.Many2one` ）"
+msgstr ":attr:`~openerp.fields.Model.create_uid` (:class:`~openerp.fields.Many2one`)"
 
 #: ../../howtos/backend.rst:194
 msgid "user who created the record"
-msgstr "谁创造了记录用户"
+msgstr "创建记录的用户"
 
 #: ../../howtos/backend.rst:195
 msgid ""
 ":attr:`~openerp.fields.Model.write_date` (:class:`~openerp.fields.Datetime`)"
-msgstr ":attr:`~openerp.fields.Model.write_date` （ :class:`~openerp.fields.Datetime` ）"
+msgstr ":attr:`~openerp.fields.Model.write_date` (:class:`~openerp.fields.Datetime`)"
 
 #: ../../howtos/backend.rst:196
 msgid "last modification date of the record"
@@ -354,11 +355,11 @@ msgstr "记录的最后修改日期"
 #: ../../howtos/backend.rst:198
 msgid ""
 ":attr:`~openerp.fields.Model.write_uid` (:class:`~openerp.fields.Many2one`)"
-msgstr ":attr:`~openerp.fields.Model.write_uid` （ :class:`~openerp.fields.Many2one` ）"
+msgstr ":attr:`~openerp.fields.Model.write_uid` (:class:`~openerp.fields.Many2one`)"
 
 #: ../../howtos/backend.rst:198
 msgid "user who last modified the record"
-msgstr "用户谁最后修改过的记录"
+msgstr "最后修改记录的用户"
 
 #: ../../howtos/backend.rst:201
 msgid "Special fields"
@@ -369,7 +370,7 @@ msgid ""
 "By default, Odoo also requires a ``name`` field on all models for various "
 "display and search behaviors. The field used for these purposes can be "
 "overridden by setting :attr:`~openerp.models.Model._rec_name`."
-msgstr "默认情况下, Odoo还要求所有车型的各种显示和搜索行为了 ``name`` 字段。 :attr: 用于这些目的的字段可以通过设置来覆盖 `~openerp.models.Model._rec_name` 。"
+msgstr "默认情况下, Odoo还要求所有的模型有``name`` 字段用于各种显示和搜索行为。用于这些目的的字段可以通过设置 :attr:`~openerp.models.Model._rec_name` 来覆盖 。"
 
 #: ../../howtos/backend.rst:207
 msgid "Define a model"
@@ -404,13 +405,13 @@ msgstr ":ref:`数据文件<reference/data>` , 用 ``<record>`` 元素的XML文�
 
 #: ../../howtos/backend.rst:241
 msgid "``model`` is the name of the Odoo model for the record"
-msgstr " ``model`` 是Odoo型号为记录的名称"
+msgstr " ``model`` 是记录的Odoo模型的名称"
 
 #: ../../howtos/backend.rst:242
 msgid ""
 "``id`` is an :term:`external identifier`, it allows referring to the record "
 "(without having to know its in-database identifier)"
-msgstr " ``id`` 是一个 :term:`外部identifier` , 它允许参照记录（而不必知道它的数据库内的标识符）"
+msgstr " ``id`` 是一个 :term:`外部标示符` , 它允许参照某个记录（不必知道它在数据库中的ID）"
 
 #: ../../howtos/backend.rst:244
 msgid ""
@@ -447,7 +448,7 @@ msgstr "动作和菜单"
 msgid ""
 "Actions and menus are regular records in database, usually declared through "
 "data files. Actions can be triggered in three ways:"
-msgstr "动作和菜单都是在数据库中普通记录, 通常是通过数据文件中声明。操作可以通过三种方式触发:"
+msgstr "动作和菜单都是在数据库中普通记录, 通常通过数据文件声明。动作可以通过三种方式触发:"
 
 #: ../../howtos/backend.rst:268
 msgid "by clicking on menu items (linked to specific actions)"
@@ -487,7 +488,7 @@ msgstr "定义新的菜单项"
 msgid ""
 "Define new menu entries to access courses under the OpenAcademy menu entry. "
 "A user should be able to"
-msgstr ""
+msgstr "Define new menu entries to access courses under the OpenAcademy menu entry. A user should be able to"
 
 #: ../../howtos/backend.rst:299
 msgid "display a list of all the courses"
@@ -526,7 +527,7 @@ msgstr "视图定义显示模型的记录的方式。每一种类型的视图表
 msgid ""
 ":ref:`View inheritance <reference/views/inheritance>` allows altering views "
 "declared elsewhere (adding or removing content)."
-msgstr ":ref:`观的继承<reference/views/inheritance>'允许改变声明的视图在其他地方（添加或删除内容）。"
+msgstr ":ref:`视图继承<reference/views/inheritance>' 允许在任何地方改变视图声明（添加或删除内容）。"
 
 #: ../../howtos/backend.rst:325
 msgid "Generic view declaration"
@@ -536,7 +537,7 @@ msgstr "通用视图声明"
 msgid ""
 "A view is declared as a record of the model ``ir.ui.view``. The view type is"
 " implied by the root element of the ``arch`` field:"
-msgstr "视图被声明为模型 ``ir.ui.view`` 的记录。视图类型暗示的 ``arch`` 场的根元素:"
+msgstr "视图声明为模型 ``ir.ui.view`` 的记录。视图类型通过 ``arch`` 字段的根元素指示:"
 
 #: ../../howtos/backend.rst:341
 msgid "The view's content is XML."
@@ -554,7 +555,7 @@ msgstr "树状视图"
 
 #: ../../howtos/backend.rst:350
 msgid "Tree views, also called list views, display records in a tabular form."
-msgstr "树视图, 也称为列表视图, 显示记录以表格的形式。"
+msgstr "树视图, 也称为列表视图, 以表格的形式显示记录。"
 
 #: ../../howtos/backend.rst:352
 msgid ""
@@ -568,7 +569,7 @@ msgstr "表单视图"
 
 #: ../../howtos/backend.rst:365
 msgid "Forms are used to create and edit single records."
-msgstr "表单用于创建和编辑一个记录。"
+msgstr "表单用于创建和编辑单个记录。"
 
 #: ../../howtos/backend.rst:368
 msgid ""
@@ -701,12 +702,12 @@ msgstr "到其他对象一个简单的链接 ::"
 #: ../../howtos/backend.rst:510
 msgid ""
 "`foreign keys <http://www.postgresql.org/docs/9.3/static/tutorial-fk.html>`_"
-msgstr " `外键<http ://www.postgresql.org/docs/9.3/static/tutorial-fk.html>` _"
+msgstr "`外键 <http://www.postgresql.org/docs/9.3/static/tutorial-fk.html>`_"
 
 #: ../../howtos/backend.rst:524
 msgid ""
 ":class:`One2many(other_model, related_field) <openerp.fields.One2many>`"
-msgstr ":class:`One2many（other_model, related_field）<openerp.fields.One2many>` "
+msgstr ":class:`One2many(other_model, related_field) <openerp.fields.One2many>`"
 
 #: ../../howtos/backend.rst:513
 msgid ""
@@ -724,7 +725,7 @@ msgstr "因为 :class:`~openerp.fields.One2many` 是一个虚拟的关系, 有 *
 
 #: ../../howtos/backend.rst:532
 msgid ":class:`Many2many(other_model) <openerp.fields.Many2many>`"
-msgstr ":class:`Many2many（other_model）<openerp.fields.Many2many>` "
+msgstr ":class:`Many2many(other_model) <openerp.fields.Many2many>`"
 
 #: ../../howtos/backend.rst:527
 msgid ""
@@ -823,13 +824,13 @@ msgstr "模型继承"
 msgid ""
 "Odoo provides two *inheritance* mechanisms to extend an existing model in a "
 "modular way."
-msgstr "Odoo提供了两个 **继承机制, 扩展现有的模型, 以模块化的方式。"
+msgstr "Odoo提供了两个 **继承** 机制，以模块化的方式来扩展现有的模型。"
 
 #: ../../howtos/backend.rst:589
 msgid ""
 "The first inheritance mechanism allows a module to modify the behavior of a "
 "model defined in another module:"
-msgstr "第一继承机制允许一个模块修改在另一个模块中定义的模型的行为:"
+msgstr "第一继承机制允许模块修改在另一个模块中定义的模型的行为:"
 
 #: ../../howtos/backend.rst:592
 msgid "add fields to a model,"
@@ -856,15 +857,15 @@ msgid ""
 "The second inheritance mechanism (delegation) allows to link every record of"
 " a model to a record in a parent model, and provides transparent access to "
 "the fields of the parent record."
-msgstr "第二个继承机制（代表团）允许在一个父模型模型的每个记录链接到一个记录, 并提供透明的访问父记录的字段。"
+msgstr "第二个继承机制（委托）允许链接模型的每一个记录到父模型的记录, 提供对父记录的透明访问。"
 
 #: ../../howtos/backend.rst:607
 msgid ":attr:`~openerp.models.Model._inherit`"
-msgstr ":attr:`~openerp.models.Model._inherit` "
+msgstr ":attr:`~openerp.models.Model._inherit`"
 
 #: ../../howtos/backend.rst:608
 msgid ":attr:`~openerp.models.Model._inherits`"
-msgstr ":attr:`~openerp.models.Model._inherits` "
+msgstr ":attr:`~openerp.models.Model._inherits`"
 
 #: ../../howtos/backend.rst:611
 msgid "View inheritance"
@@ -912,7 +913,7 @@ msgstr "追加 ``在匹配元素的结束xpath`` 的身体"
 
 #: ../../howtos/backend.rst:645
 msgid "``replace``"
-msgstr " ``replace`` "
+msgstr "``replace``"
 
 #: ../../howtos/backend.rst:646
 msgid "replaces the matched element by the ``xpath``'s body"
@@ -928,7 +929,7 @@ msgstr "插入 ``xpath`` 的身体匹配的元素之前同级"
 
 #: ../../howtos/backend.rst:649
 msgid "``after``"
-msgstr " ``after`` "
+msgstr "``after``"
 
 #: ../../howtos/backend.rst:650
 msgid "inserts the ``xpaths``'s body as a sibling after the matched element"
@@ -936,7 +937,7 @@ msgstr "插入 ``xpaths`` 的身体作为匹配的元素后, 同级"
 
 #: ../../howtos/backend.rst:653
 msgid "``attributes``"
-msgstr " ``attributes`` "
+msgstr "``attributes``"
 
 #: ../../howtos/backend.rst:652
 msgid ""
@@ -949,7 +950,7 @@ msgid ""
 "When matching a single element, the ``position`` attribute can be set "
 "directly on the element to be found. Both inheritances below will give the "
 "same result."
-msgstr ""
+msgstr "When matching a single element, the ``position`` attribute can be set directly on the element to be found. Both inheritances below will give the same result."
 
 #: ../../howtos/backend.rst:671
 msgid "Alter existing content"
@@ -964,7 +965,7 @@ msgstr "使用模型继承, 修改现有的 *合作伙伴* 模型添加一个 ``
 
 #: ../../howtos/backend.rst:676
 msgid "Using view inheritance, display this fields in the partner form view"
-msgstr "使用视图继承, 显示在合作伙伴的形式针对这一字段"
+msgstr "使用视图继承,  在partner表单视图显示此字段"
 
 #: ../../howtos/backend.rst:682
 msgid ""
@@ -1015,7 +1016,7 @@ msgid ""
 "A ``domain`` parameter can be added to relational fields to limit valid "
 "records for the relation when trying to select records in the client "
 "interface."
-msgstr "甲 ``domain`` 参数可以被添加到关系字段试图选择在客户端接口记录时, 以限制有效记录的关系。"
+msgstr "``domain`` 参数可以添加到关系字段，用来在客户端界面选择记录时，为关系限制有效的记录。"
 
 #: ../../howtos/backend.rst:720
 msgid "Domains on relational fields"
@@ -1142,7 +1143,7 @@ msgid ""
 "option ``default=X`` where ``X`` is either a Python literal value (boolean, "
 "integer, float, string), or a function taking a recordset and returning a "
 "value::"
-msgstr "任何字段可以给出一个缺省值。在字段定义, 添加选项 ``默认= X`` 其中 ``X`` 或者是一个Python的文字值（布尔, 整数, 浮点数, 字符串）, 或采取一个记录并返回一个值的函数 ::"
+msgstr "任何字段可以给出一个默认值。在字段定义, 添加选项  ``default=X`` ， 其中 ``X`` 要么是一个Python的文字值（布尔, 整数, 浮点数, 字符串）, 要么是一个函数，取一个记录或返回一个值 ::"
 
 #: ../../howtos/backend.rst:838
 msgid ""
@@ -1170,7 +1171,7 @@ msgstr " ``self.env.context`` 或 ``self._context`` 是上下文字典"
 
 #: ../../howtos/backend.rst:846
 msgid "``self.env.ref(xml_id)`` returns the record corresponding to an XML id"
-msgstr " ``self.env.ref（xml_id）`` 返回对应于一个XML ID记录"
+msgstr "``self.env.ref(xml_id)`` 返回一个XML ID对应的记录"
 
 #: ../../howtos/backend.rst:847
 msgid "``self.env[model_name]`` returns an instance of the given model"
@@ -1337,7 +1338,7 @@ msgid ""
 "corresponding style is applied to the row. Other context values are ``uid`` "
 "(the id of the current user) and ``current_date`` (the current date as a "
 "string of the form ``yyyy-MM-dd``)."
-msgstr "价值观是Python表达式。对于每一个记录, 该表达式的值与记录的属性为背景值, 如果 ``True`` , 那么相应的样式应用到该行。其他情况下的值是 ``uid`` （当前用户的ID）和 ``current_date`` （当前日期的形式 ``YYYY-MM-dd`` 的字符串）。"
+msgstr "值是Python表达式。对于每一个记录, 表达式的值与记录的属性为背景值, 如果 ``True`` , 那么相应的样式应用到该行。其他情况下的值是 ``uid`` （当前用户的ID）和 ``current_date`` （当前日期的形式 ``YYYY-MM-dd`` 的字符串）。"
 
 #: ../../howtos/backend.rst:995
 msgid ""
@@ -1345,7 +1346,7 @@ msgid ""
 "italic``), or any `bootstrap contextual color "
 "<http://getbootstrap.com/components/#available-variations>`_ (``danger``, "
 "``info``, ``muted``, ``primary``, ``success`` or ``warning``)."
-msgstr ""
+msgstr "``{$name}`` can be ``bf`` (``font-weight: bold``), ``it`` (``font-style: italic``), or any `bootstrap contextual color <http://getbootstrap.com/components/#available-variations>`_ (``danger``, ``info``, ``muted``, ``primary``, ``success`` or ``warning``)."
 
 #: ../../howtos/backend.rst:1011
 msgid "``editable``"
@@ -1381,7 +1382,7 @@ msgstr "日历"
 msgid ""
 "Displays records as calendar events. Their root element is ``<calendar>`` "
 "and their most common attributes are:"
-msgstr "Displays records as calendar events. Their root element is ``<calendar>`` and their most common attributes are :"
+msgstr "显示记录为日历活动. 根元素是 ``<calendar>`` 以及他们大多数共用的属性有 :"
 
 #: ../../howtos/backend.rst:1034
 msgid "``color``"
@@ -1401,7 +1402,7 @@ msgstr " ``date_start`` "
 
 #: ../../howtos/backend.rst:1037
 msgid "record's field holding the start date/time for the event"
-msgstr "记录的字段持有的开始日期/时间事件"
+msgstr "记录的字段持有活动的开始日期/时间"
 
 #: ../../howtos/backend.rst:1039
 msgid "``date_stop`` (optional)"
@@ -1409,7 +1410,7 @@ msgstr " ``date_stop`` (可选)"
 
 #: ../../howtos/backend.rst:1039
 msgid "record's field holding the end date/time for the event"
-msgstr "记录的字段保持结束日期/时间事件"
+msgstr "记录的字段持有活动的结束日期/时间"
 
 #: ../../howtos/backend.rst:1041
 msgid "field (to define the label for each calendar event)"
@@ -1461,7 +1462,7 @@ msgstr "Search views can also contain ``<filter>`` elements, which act as toggle
 
 #: ../../howtos/backend.rst:1078
 msgid "``domain``"
-msgstr " ``domain`` "
+msgstr "``domain``"
 
 #: ../../howtos/backend.rst:1079
 msgid "add the given domain to the current search"
@@ -1548,7 +1549,7 @@ msgid ""
 "selection of filers and dimensions to get the right aggregated dataset "
 "before moving to a more graphical overview. The pivot view shares the same "
 "content definition as graph views."
-msgstr ""
+msgstr "Pivot views (element ``<pivot>``) a multidimensional table, allows the selection of filers and dimensions to get the right aggregated dataset before moving to a more graphical overview. The pivot view shares the same content definition as graph views."
 
 #: ../../howtos/backend.rst:1159
 msgid ""
@@ -1660,7 +1661,7 @@ msgstr "例如, 项目任务可以由阶段组织（每列是一个阶段）, �
 msgid ""
 "Kanban views define the structure of each card as a mix of form elements "
 "(including basic HTML) and :ref:`reference/qweb`."
-msgstr "看板的视图定义每卡表单元素（包括基本的HTML）的混合结构和 :ref:`reference/qweb` 。"
+msgstr "看板视图定义每张卡片的结构为表单元素（包括基本的HTML）和 :ref:`reference/qweb` 的混合 。"
 
 #: ../../howtos/backend.rst:1220
 msgid "Kanban view"
@@ -1977,7 +1978,7 @@ msgid ""
 "Wizard records may refer to regular records or wizard records through "
 "many2one fields, but regular records *cannot* refer to wizard records "
 "through a many2one field."
-msgstr "向导记录可以通过many2one字段是指常规的记录或向导记录, 但定期记录 *无法* 通过many2one场参考向导记录。"
+msgstr "向导记录可以通过指向常规记录，或者通过many2one字段指向向导记录, 但常规记录 *无法* 通过many2one字段指向向导记录。"
 
 #: ../../howtos/backend.rst:1439
 msgid ""
@@ -2087,7 +2088,7 @@ msgid ""
 "The Portable Object files generated by Odoo are published on `Transifex "
 "<https://www.transifex.com/odoo/public/>`__, making it easy to translate the"
 " software."
-msgstr ""
+msgstr "The Portable Object files generated by Odoo are published on `Transifex <https://www.transifex.com/odoo/public/>`__, making it easy to translate the software."
 
 #: ../../howtos/backend.rst:1537
 msgid ""
@@ -2165,7 +2166,7 @@ msgstr "打印报告"
 msgid ""
 "Odoo 8.0 comes with a new report engine based on :ref:`reference/qweb`, "
 "`Twitter Bootstrap`_ and Wkhtmltopdf_."
-msgstr "Odoo 8.0配备了一个新的报表引擎的基础上 :ref:`reference/qweb` , `微博Bootstrap` _和Wkhtmltopdf_。"
+msgstr "Odoo 8.0配备了一个基于 :ref:`reference/qweb` , `Twitter Bootstrap`_  以及 Wkhtmltopdf_ 的新报表引擎 。"
 
 #: ../../howtos/backend.rst:1586
 msgid "A report is a combination two elements:"
@@ -2181,7 +2182,7 @@ msgstr "an ``ir.actions.report.xml`` , for which a ``<report>`` shortcut element
 #: ../../howtos/backend.rst:1607
 msgid ""
 "A standard :ref:`QWeb view <reference/views/qweb>` for the actual report:"
-msgstr "实际报告的标准的 :ref:`QWeb视图<reference/views/qweb>`:"
+msgstr "实际报告的标准 :ref:`QWeb视图<reference/views/qweb>`:"
 
 #: ../../howtos/backend.rst:1629
 msgid ""
@@ -2198,13 +2199,13 @@ msgid ""
 "If it appears that your PDF report is missing the styles (i.e. the text "
 "appears but the style/layout is different from the html version), probably "
 "your wkhtmltopdf_ process cannot reach your web server to download them."
-msgstr ""
+msgstr "If it appears that your PDF report is missing the styles (i.e. the text appears but the style/layout is different from the html version), probably your wkhtmltopdf_ process cannot reach your web server to download them."
 
 #: ../../howtos/backend.rst:1644
 msgid ""
 "If you check your server logs and see that the CSS styles are not being "
 "downloaded when generating a PDF report, most surely this is the problem."
-msgstr ""
+msgstr "If you check your server logs and see that the CSS styles are not being downloaded when generating a PDF report, most surely this is the problem."
 
 #: ../../howtos/backend.rst:1647
 msgid ""
@@ -2213,14 +2214,14 @@ msgid ""
 "updated each time the Administrator is logged in. If your server resides "
 "behind some kind of proxy, that could not be reachable. You can fix this by "
 "adding one of these system parameters:"
-msgstr ""
+msgstr "The wkhtmltopdf_ process will use the ``web.base.url`` system parameter as the *root path* to all linked files, but this parameter is automatically updated each time the Administrator is logged in. If your server resides behind some kind of proxy, that could not be reachable. You can fix this by adding one of these system parameters:"
 
 #: ../../howtos/backend.rst:1653
 msgid ""
 "``report.url``, pointing to an URL reachable from your server (probably "
 "``http://localhost:8069`` or something similar). It will be used for this "
 "particular purpose only."
-msgstr ""
+msgstr "``report.url``, pointing to an URL reachable from your server (probably ``http://localhost:8069`` or something similar). It will be used for this particular purpose only."
 
 #: ../../howtos/backend.rst:1657
 msgid ""
@@ -2279,7 +2280,7 @@ msgstr "网络服务"
 
 #: ../../howtos/backend.rst:1698
 msgid "The web-service module offer a common interface for all web-services :"
-msgstr "该网络服务模块提供的所有网络服务的通用界面:"
+msgstr "该网络服务模块为所有网络服务的提供通用接口:"
 
 #: ../../howtos/backend.rst:1700
 msgid "XML-RPC"
@@ -2405,7 +2406,7 @@ msgstr "准备创建自己的主题？太好了。这里有一些事情你应该
 
 #: ../../howtos/themes.rst:18
 msgid "An introduction for web designers"
-msgstr "对于网页设计师的介绍"
+msgstr "为网页设计师的介绍"
 
 #: ../../howtos/themes.rst:20
 msgid ""
@@ -2495,7 +2496,7 @@ msgstr "基本布局的网页, 博客, 电子商务"
 
 #: ../../howtos/themes.rst:77
 msgid "Website Builder integration"
-msgstr "网站制作整合"
+msgstr "网站生成器整合"
 
 #: ../../howtos/themes.rst:78
 msgid "Basic Snippets"
@@ -2645,7 +2646,7 @@ msgid ""
 "because that *template* is not associated with any part of the **Odoo "
 "default structure**.  In order to do that you can use **xpath**, **qWeb** or"
 " a combination of both."
-msgstr ""
+msgstr "前面的代码定义了一个标题，但它不会显示，因为*template* 没有**Odoo 默认结构** 的任何一部分关联.  为了做到这一点，你可以 使用 **xpath**, **qWeb** 或者二者组合。"
 
 #: ../../howtos/themes.rst:180
 msgid ""
@@ -2692,7 +2693,7 @@ msgstr "创建一个文件夹并将其命名为这样的:``theme_`` 其次是你
 
 #: ../../howtos/themes.rst:211
 msgid "``__openerp__.py``"
-msgstr " ``__openerp __。py`` "
+msgstr "``__openerp__.py``"
 
 #: ../../howtos/themes.rst:209
 msgid ""
@@ -2767,7 +2768,7 @@ msgid ""
 "``depends`` specifies the modules needed by our theme to work properly. For "
 "our tutorial theme, we only need website. If you need blogging or eCommerce "
 "features as well, you have to add those modules too."
-msgstr ""
+msgstr "``depends`` specifies the modules needed by our theme to work properly. For our tutorial theme, we only need website. If you need blogging or eCommerce features as well, you have to add those modules too."
 
 #: ../../howtos/themes.rst:272
 msgid "Installing your theme"
@@ -2892,7 +2893,7 @@ msgid ""
 "We successfully created a new page layout, but we haven't told the system "
 "**how to use it**. To do that, we can use **QWeb**. Wrap the html code into "
 "a ``<t>`` tag, like in this example."
-msgstr "We successfully created a new page layout, but we haven't told the system **how to use it** . To do that, we can use **QWeb** . Wrap the html code into a ``<t>`` tag, like in this example."
+msgstr "我们成功的创建了一个新页面布局, 但我们还没有告诉系统 **如何使用它** . 要做到它, 我们可以使用 **QWeb** . 包装 html 代码到 ``<t>`` 标签, 像这个例子。"
 
 #: ../../howtos/themes.rst:420
 msgid ""
@@ -3075,7 +3076,7 @@ msgid ""
 "``snippet_structure``. This means that the snippet will appear in the "
 "Structure tab. If you want to change the destination tab, you have just to "
 "replace the ``id`` value in the xpath expression."
-msgstr "使用XPath, 我们的目标是一个特定元素id为 ``snippet_structure`` 。这意味着该片段将出现在结构选项卡。如果您想更改目的地选项卡, 你刚才替换XPath表达式的 ``id`` 值。"
+msgstr "使用XPath, 我们的目标是一个特定元素id为 ``snippet_structure`` 。这意味着该片段将出现在结构选项卡。如果您想更改目的地选项卡, 你只需替换XPath表达式的 ``id`` 值。"
 
 #: ../../howtos/themes.rst:637
 msgid "Tab Name"
@@ -3091,7 +3092,7 @@ msgstr "结构体"
 
 #: ../../howtos/themes.rst:639
 msgid "``//div[@id='snippet_structure']``"
-msgstr " ``// DIV [@ ID ='snippet_structure']`` "
+msgstr "``//div[@id='snippet_structure']``"
 
 #: ../../howtos/themes.rst:640
 msgid "Content"
@@ -3099,7 +3100,7 @@ msgstr "内容"
 
 #: ../../howtos/themes.rst:640
 msgid "``//div[@id='snippet_content']``"
-msgstr " ``// DIV [@ ID ='snippet_content']`` "
+msgstr "``//div[@id='snippet_content']``"
 
 #: ../../howtos/themes.rst:641
 msgid "Feature"
@@ -3107,7 +3108,7 @@ msgstr "特点"
 
 #: ../../howtos/themes.rst:641
 msgid "``//div[@id='snippet_feature']``"
-msgstr " ``// DIV [@ ID ='snippet_feature']`` "
+msgstr "``//div[@id='snippet_feature']``"
 
 #: ../../howtos/themes.rst:642
 msgid "Effect"
@@ -3115,7 +3116,7 @@ msgstr "功效"
 
 #: ../../howtos/themes.rst:642
 msgid "``//div[@id='snippet_effect']``"
-msgstr " ``// DIV [@ ID ='snippet_effect']`` "
+msgstr "``//div[@id='snippet_effect']``"
 
 #: ../../howtos/themes.rst:645
 msgid ""
@@ -3349,7 +3350,7 @@ msgstr "当发行选择片段的第一次在编辑会话或当片段是拖落入
 
 #: ../../howtos/themes.rst:816
 msgid "``on_focus``"
-msgstr " ``on_focus`` "
+msgstr "``on_focus``"
 
 #: ../../howtos/themes.rst:816
 msgid ""
@@ -3359,7 +3360,7 @@ msgstr "触发代码段由用户选择或当片段是拖落入页各一次。"
 
 #: ../../howtos/themes.rst:817
 msgid "``on_blur``"
-msgstr " ``on_blur`` "
+msgstr "``on_blur``"
 
 #: ../../howtos/themes.rst:817
 msgid "This event occurs when a snippet loses focus."
@@ -3367,7 +3368,7 @@ msgstr "当一个片段失去焦点时发生此事件。"
 
 #: ../../howtos/themes.rst:818
 msgid "``on_clone``"
-msgstr " ``on_clone`` "
+msgstr "``on_clone``"
 
 #: ../../howtos/themes.rst:818
 msgid ""
@@ -3377,7 +3378,7 @@ msgstr "Fires just after a snippet is duplicated. A new js variable is created (
 
 #: ../../howtos/themes.rst:819
 msgid "``on_remove``"
-msgstr " ``on_remove`` "
+msgstr "``on_remove``"
 
 #: ../../howtos/themes.rst:819
 msgid "It occurs just before that the snippet is removed."
@@ -3433,7 +3434,7 @@ msgstr "布局"
 
 #: ../../howtos/themes.rst:860
 msgid "``<section />``"
-msgstr " ``<section />`` "
+msgstr "``<section />``"
 
 #: ../../howtos/themes.rst:860
 msgid ""
@@ -3444,7 +3445,7 @@ msgstr "任何部分元件可以被编辑等的内容的块。发布者可以移
 
 #: ../../howtos/themes.rst:863
 msgid "``.row > .col-md-*``"
-msgstr " ``.row> .COL-MD- *`` "
+msgstr "``.row > .col-md-*``"
 
 #: ../../howtos/themes.rst:863
 msgid ""
@@ -3473,7 +3474,7 @@ msgstr "为了创建一个例外, 使元件及其子编辑它应用到一个内�
 
 #: ../../howtos/themes.rst:872
 msgid "``<a href=”#” />``"
-msgstr " ``<a href=\" # \"/>`` "
+msgstr "``<a href=”#” />``"
 
 #: ../../howtos/themes.rst:872
 msgid ""
@@ -3574,7 +3575,7 @@ msgstr "基本上, 页分割意味着一个页面被分成几个独立的部分�
 
 #: ../../howtos/themes.rst:937
 msgid "``<article>``"
-msgstr " ``<article>`` "
+msgstr "``<article>``"
 
 #: ../../howtos/themes.rst:937
 msgid ""
@@ -3596,7 +3597,7 @@ msgstr "Indicates the header section of a self-contained block of content (an ``
 
 #: ../../howtos/themes.rst:943
 msgid "``<section>``"
-msgstr " ``<section>`` "
+msgstr "``<section>``"
 
 #: ../../howtos/themes.rst:943
 msgid ""
@@ -3732,15 +3733,15 @@ msgstr "在使用的文件“网络'的Odoo模块的一侧必须放置在一个 
 
 #: ../../howtos/web.rst:80
 msgid "``oepetstore/static/css/petstore.css``"
-msgstr " ``oepetstore /静态/ CSS / petstore.css`` "
+msgstr "``oepetstore/static/css/petstore.css``"
 
 #: ../../howtos/web.rst:81
 msgid "Currently empty, will hold the CSS_ for pet store content"
-msgstr ""
+msgstr "Currently empty, will hold the CSS_ for pet store content"
 
 #: ../../howtos/web.rst:82
 msgid "``oepetstore/static/xml/petstore.xml``"
-msgstr " ``oepetstore /静态/ XML / petstore.xml`` "
+msgstr "``oepetstore/static/xml/petstore.xml``"
 
 #: ../../howtos/web.rst:83
 msgid "Mostly empty, will hold :ref:`reference/qweb` templates"
@@ -3748,7 +3749,7 @@ msgstr "不多数空白, 将保持 :ref:`reference/qweb` 模板"
 
 #: ../../howtos/web.rst:102
 msgid "``oepetstore/static/js/petstore.js``"
-msgstr " ``oepetstore /静态/ JS / petstore.js`` "
+msgstr "``oepetstore/static/js/petstore.js``"
 
 #: ../../howtos/web.rst:85
 msgid ""
@@ -3767,7 +3768,7 @@ msgid ""
 "order for them to be loaded correctly. Everything in ``src/xml`` is defined "
 "in ``__openerp__.py`` while the contents of ``src/css`` and ``src/js`` are "
 "defined in ``petstore.xml``, or a similar file."
-msgstr ""
+msgstr "The files in the ``static`` folder, need to be defined within the module in order for them to be loaded correctly. Everything in ``src/xml`` is defined in ``__openerp__.py`` while the contents of ``src/css`` and ``src/js`` are defined in ``petstore.xml``, or a similar file."
 
 #: ../../howtos/web.rst:110
 msgid ""
@@ -3858,7 +3859,7 @@ msgstr "就像模块, 并与大多数面向对象的语言, JavaScript不建立�
 msgid ""
 "For simplicity and developer-friendliness Odoo web provides a class system "
 "based on John Resig's `Simple JavaScript Inheritance`_."
-msgstr "为了简单和开发人员友好Odoo网络提供了基于约翰Resig的'简单的JavaScript Inheritance `_班制度。"
+msgstr "为了简单和开发友好，Odoo web提供了基于John Resig 的 `Simple JavaScript Inheritance`_ 的类型系统。"
 
 #: ../../howtos/web.rst:176
 msgid ""
@@ -3899,7 +3900,7 @@ msgstr "它也可以通过调用现有的（使用的定义）的类创建子类
 msgid ""
 "When overriding a method using inheritance, you can use ``this._super()`` to"
 " call the original method::"
-msgstr "当使用继承覆盖方法, 你可以使用 ``this._super（）`` 来调用原始方法 ::"
+msgstr "当使用继承覆盖方法时, 你可以使用 ``this._super()``  来调用原始方法 ::"
 
 #: ../../howtos/web.rst:255
 msgid ""
@@ -3933,7 +3934,7 @@ msgstr "很像面向对象的桌面UI工具箱（例如Qt_, Cocoa_或GTK_）, Od
 
 #: ../../howtos/web.rst:292
 msgid "Your First Widget"
-msgstr "你的第一个挂件"
+msgstr "你的第一个小部件"
 
 #: ../../howtos/web.rst:294
 msgid "The initial demonstration module already provides a basic widget::"
@@ -4197,7 +4198,7 @@ msgstr "这允许生成并显示任何类型的内容, 但得到笨重产生显�
 msgid ""
 "As many other environments, Odoo's solution is to use a `template engine`_. "
 "Odoo's template engine is called :ref:`reference/qweb`."
-msgstr "许多其他的环境中, Odoo的解决方案是使用一个 `模板engine` _。 Odoo的模板引擎被称为 :ref:`reference/qweb` 。"
+msgstr "如许多其他的环境, Odoo的解决方案是使用 `模板引擎` _。 Odoo的模板引擎被称为 :ref:`reference/qweb` 。"
 
 #: ../../howtos/web.rst:520
 msgid ""
@@ -4206,7 +4207,7 @@ msgid ""
 "<http://en.wikipedia.org/wiki/Thymeleaf>`_ or `Facelets "
 "<http://en.wikipedia.org/wiki/Facelets>`_. It has the following "
 "characteristics:"
-msgstr "QWeb is an XML-based templating language, similar to `Genshi <http ://en.wikipedia.org/wiki/Genshi_(templating_language)>` _, `Thymeleaf <http: //en.wikipedia.org/wiki/Thymeleaf>` _ or `Facelets <http ://en.wikipedia.org/wiki/Facelets>` _. It has the following characteristics:"
+msgstr "QWeb 基于XML的模板语言, 类似于 `Genshi <http ://en.wikipedia.org/wiki/Genshi_(templating_language)>` _, `Thymeleaf <http: //en.wikipedia.org/wiki/Thymeleaf>` _ 以及 `Facelets <http ://en.wikipedia.org/wiki/Facelets>` _. 它有下面的特征:"
 
 #: ../../howtos/web.rst:526
 msgid "It's implemented fully in JavaScript and rendered in the browser"
@@ -4221,14 +4222,14 @@ msgid ""
 "It has special support in Odoo Web's :class:`~openerp.Widget`, though it can"
 " be used outside of Odoo's web client (and it's possible to use "
 ":class:`~openerp.Widget` without relying on QWeb)"
-msgstr "它在Odoo网络的特殊支持 :class:`~openerp.Widget` , 尽管它可以在外面Odoo的Web客户端来使用（和它的可以使用的 :class:`~openerp.Widget` 不依靠QWeb）"
+msgstr "它在Odoo网络 :class:`~openerp.Widget` 有特殊支持 ,  尽管它可以在Odoo客户端外面使用（可以使用 :class:`~openerp.Widget` 而不依靠QWeb）"
 
 #: ../../howtos/web.rst:534
 msgid ""
 "The rationale behind using QWeb instead of existing javascript template "
 "engines is the extensibility of pre-existing (third-party) templates, much "
 "like Odoo :ref:`views <reference/views>`."
-msgstr "使用QWeb代替现有的JavaScript模板引擎背后的基本原理是预先存在的（第三方）的模板可扩展性, 就像Odoo :ref:`视图<reference/views>` 。"
+msgstr "使用QWeb代替现有的JavaScript模板引擎背后的基本原理是，已存在的（第三方）的模板可扩展性, 就像Odoo :ref:`视图<reference/views>` 。"
 
 #: ../../howtos/web.rst:538
 msgid ""
@@ -4247,27 +4248,27 @@ msgstr "使用QWeb"
 msgid ""
 "First let's define a simple QWeb template in the almost-empty "
 "``oepetstore/static/src/xml/petstore.xml`` file:"
-msgstr "首先, 让我们在几乎空 ``oepetstore /静态/ src目录/ XML / petstore.xml`` 文件中定义了一个简单QWeb模板:"
+msgstr "首先, 让我们在几乎空白的 ``oepetstore/static/src/xml/petstore.xml`` 文件中定义一个简单QWeb模板:"
 
 #: ../../howtos/web.rst:559
 msgid ""
 "Now we can use this template inside of the ``HomePage`` widget. Using the "
 "``QWeb`` loader variable defined at the top of the page, we can call to the "
 "template defined in the XML file::"
-msgstr "现在我们可以使用这个模板的 ``HomePage`` 部件内。使用页面的顶部定义的 ``QWeb`` 装载机变量, 我们可以调用的XML文件中定义的模板 ::"
+msgstr "现在我们可以在 ``HomePage`` 窗口小部件内使用这个模板。使用在页面顶部定义的 ``QWeb`` 装载机变量, 我们可以调用在XML文件中定义的模板 ::"
 
 #: ../../howtos/web.rst:569
 msgid ""
 ":func:`QWeb.render` looks for the specified template, renders it to a string"
 " and returns the result."
-msgstr ":func:`QWeb.render` 查找指定的模板, 使得它为一个字符串, 并返回结果。"
+msgstr ":func:`QWeb.render` 查找指定的模板, 将它渲染为一个字符串, 并返回结果。"
 
 #: ../../howtos/web.rst:572
 msgid ""
 "However, because :class:`~openerp.Widget` has special integration for QWeb "
 "the template can be set directly on the widget via its "
 ":attr:`~openerp.Widget.template` attribute::"
-msgstr "但是, 因为 :class:`~openerp.Widget` 具有特殊的集成QWeb模板可以直接通过其设定为在小部件 :attr:`~openerp.Widget.template` 属性 ::"
+msgstr "但是, 因为 :class:`~openerp.Widget` 对于Qweb具有特殊的集成，模板可以通过小部件 :attr:`~openerp.Widget.template` 属性 直接设置 ::"
 
 #: ../../howtos/web.rst:583
 msgid ""
@@ -4303,13 +4304,13 @@ msgstr "QWeb上下文"
 
 #: ../../howtos/web.rst:603
 msgid "QWeb templates can be given data and can contain basic display logic."
-msgstr "QWeb模板可以被给定的数据, 并且可以包含基本的显示逻辑。"
+msgstr "QWeb模板可以给定数据, 并且可以包含基本的显示逻辑。"
 
 #: ../../howtos/web.rst:605
 msgid ""
 "For explicit calls to :func:`QWeb.render`, the template data is passed as "
 "second parameter::"
-msgstr "对于显式调用 :func:`QWeb.render` , 模板数据被作为第二个参数 ::"
+msgstr "对于显式调用 :func:`QWeb.render` , 模板数据被作为第二个参数传递 ::"
 
 #: ../../howtos/web.rst:610
 msgid "with the template modified to:"
@@ -4340,13 +4341,13 @@ msgstr "模板声明"
 msgid ""
 "We've seen how to *render* QWeb templates, let's now see the syntax of the "
 "templates themselves."
-msgstr "我们已经看到了如何 *呈现* QWeb模板, 让我们现在看到的模板本身的语法。"
+msgstr "我们已经看到了如何 *渲染* QWeb模板, 让我们现在来看看模板本身的语法。"
 
 #: ../../howtos/web.rst:660
 msgid ""
 "A QWeb template is composed of regular XML mixed with QWeb *directives*. A "
 "QWeb directive is declared with XML attributes starting with ``t-``."
-msgstr "一个QWeb模板是由常规的XML与QWeb *指令* 混合。一个QWeb指令与XML属性开始 ``宣布t-`` 。"
+msgstr "一个QWeb模板是混合了QWeb *指令* 的常规XML。一个QWeb指令声明是 ``t-`` 开头的XML属性。"
 
 #: ../../howtos/web.rst:663
 msgid ""
@@ -4359,7 +4360,7 @@ msgid ""
 "``t-name`` takes the name of the template being defined, and declares that "
 "it can be called using :func:`QWeb.render`. It can only be used at the top-"
 "level of a template file."
-msgstr " ``t-name`` 需要被定义的模板的名称, 并宣布它可以使用被称为 :func:`QWeb.render` 。它只能用在模板文件的顶层。"
+msgstr " ``t-name`` 从被定义的模板取名, 并声明它可以使用 :func:`QWeb.render` 调用。它只能用在模板文件的顶层。"
 
 #: ../../howtos/web.rst:679
 msgid "Escaping"
@@ -4375,7 +4376,7 @@ msgid ""
 "expression is then HTML-escaped and inserted in the document. Since it's an "
 "expression it's possible to provide just a variable name as above, or a more"
 " complex expression like a computation:"
-msgstr "它需要被求值, 表达式的结果将被HTML转义, 并在文档中插入一个JavaScript表达式。因为它是一个表达式它可能只提供一个变量名以上, 或更复杂的表情就像一个计算:"
+msgstr "它需要一个被求值的表达式，表示的的结果被HTML转义, 并插入到文档中。因为它是一个表达式，它可能像上面一样只提供一个变量名, 或更复杂的表达式，例如一个计算:"
 
 #: ../../howtos/web.rst:696
 msgid "or method calls:"
@@ -4390,7 +4391,7 @@ msgid ""
 "To inject HTML in the page being rendered, use ``t-raw``. Like ``t-esc`` it "
 "takes an arbitrary Javascript expression as parameter, but it does not "
 "perform an HTML-escape step."
-msgstr "为了要呈现在页面注入HTML, 使用 ``t-raw`` 。像 ``t-esc`` 接受一个任意JavaScript表达式作为参数, 但是它不执行HTML转义一步。"
+msgstr "为了要呈现在页面注入HTML, 使用 ``t-raw`` 。像 ``t-esc`` 接受一个任意JavaScript表达式作为参数, 但是它不执行HTML转义步骤。"
 
 #: ../../howtos/web.rst:715
 msgid ""
@@ -4408,14 +4409,14 @@ msgid ""
 "arbitrary expression, if the expression is falsy (``false``, ``null``, ``0``"
 " or an empty string) the whole block is suppressed, otherwise it is "
 "displayed."
-msgstr "QWeb可以使用 ``t-if`` 条件块。该指令接受一个任意表达式, 如果表达式是falsy（ ``false`` , ``null`` , ``0`` 或空字符串）, 整个街区被抑制, 否则将被显示出来。"
+msgstr "QWeb可以有条件块，使用 ``t-if`` 。该指令接受一个任意表达式, 如果表达式是否定（ ``false`` , ``null`` , ``0`` ，或空字符串）, 整个块被抑制, 否则它显示出来。"
 
 #: ../../howtos/web.rst:739
 msgid ""
 "QWeb doesn't have an \"else\" structure, use a second ``t-if`` with the "
 "original condition inverted. You may want to store the condition in a local "
 "variable if it's a complex or expensive expression."
-msgstr "QWeb不具有'别的'结构, 使用第二个 ``叔if`` 倒置的原始状态。你可能想存储的条件在一个局部变量, 如果它是一个复杂或昂贵的表达。"
+msgstr "QWeb不具有'else'结构, 使用第二个 ``t-if`` 带上相反原始条件。如果调节是一个复杂或者费时的表达式，你可能想在本地变量里面存储它。"
 
 #: ../../howtos/web.rst:744
 msgid "Iteration"
@@ -4426,7 +4427,7 @@ msgid ""
 "To iterate on a list, use ``t-foreach`` and ``t-as``. ``t-foreach`` takes an"
 " expression returning a list to iterate on ``t-as`` takes a variable name to"
 " bind to each item during iteration."
-msgstr "迭代一个列表, 使用 ``t-foreach`` 和 ``t-as`` 。 ``t-foreach`` 需要返回一个列表进行迭代的 ``t-as`` 表达式以一个变量名绑定到每个项目迭代中。"
+msgstr "迭代一个列表, 使用 ``t-foreach`` 和 ``t-as`` 。 ``t-foreach`` 需要一个表达式，返回要迭代的列表， ``t-as`` 将一个变量名绑定到每一个迭代中的项目。"
 
 #: ../../howtos/web.rst:760
 msgid "``t-foreach`` can also be used with numbers and objects (dictionaries)"
@@ -4449,7 +4450,7 @@ msgid ""
 "``t-att-`` takes a javascript expression whose result is set as the "
 "attribute's value, it is most useful if all of the attribute's value is "
 "computed:"
-msgstr " ``t-ATt-`` 需要一个JavaScript表达式, 其结果被设置为属性的值, 如果所有的属性值的计算是最有用的:"
+msgstr " ``t-att-`` 需要一个JavaScript表达式, 其结果被设置为属性的值, 如果所有的属性值是计算的，它是最有用的:"
 
 #: ../../howtos/web.rst:782
 msgid ""
@@ -4458,7 +4459,7 @@ msgid ""
 "expression between ``{{`` and ``}}``, which will be replaced by the result "
 "of the expression. It is most useful for attributes which are partially "
 "literal and partially computed such as a class:"
-msgstr " ``t-AttF设定-`` 需要一个 *格式串* 。格式字符串是文字文本里面插块, 内插块之间是一个JavaScript表达式 ``{{`` 和 ``}}`` , 这将是由表达式的结果所取代。它是为属性, 它们是部分文字和部分计算如类最有用的:"
+msgstr "``t-attf-`` 需要一个 *格式化字符串* 。格式字符串是含插块的文字文本, 插块是``{{`` 和``}}``之间的一个JavaScript表达式,  它将替换为表达式的值。对于属性是部分文本、部分是计算的很有用处，例如 类： "
 
 #: ../../howtos/web.rst:795
 msgid "Calling other templates"
@@ -4486,11 +4487,11 @@ msgstr "子模板继承其调用者的渲染上下文。"
 
 #: ../../howtos/web.rst:825
 msgid "To Learn More About QWeb"
-msgstr "要了解更多关于QWeb"
+msgstr "学习更多QWeb"
 
 #: ../../howtos/web.rst:827
 msgid "For a QWeb reference, see :ref:`reference/qweb`."
-msgstr "对于QWeb参考, 请参阅 :ref:`reference/qweb` 。"
+msgstr "对于QWeb参考, 查看 :ref:`reference/qweb` 。"
 
 #: ../../howtos/web.rst:830 ../../howtos/web.rst:1096
 msgid "Exercise"
@@ -4498,7 +4499,7 @@ msgstr "练习"
 
 #: ../../howtos/web.rst:832
 msgid "Usage of QWeb in Widgets"
-msgstr "QWeb的挂件的使用"
+msgstr "在窗口小部件中的QWeb用法"
 
 #: ../../howtos/web.rst:834
 msgid ""
@@ -4523,7 +4524,7 @@ msgid ""
 "one in a separate box with a background color with the value of ``color`` "
 "and a border. You should use QWeb to render the HTML. Any necessary CSS "
 "should be in ``oepetstore/static/src/css/petstore.css``."
-msgstr "小部件应显示给定的产品名称之一的, 其他的, 每一个与背景颜色的 ``color`` 和边界值单独的盒子。您应该使用QWeb呈现HTML。任何必要的CSS应该是 ``oepetstore /静态/ src目录/ CSS / petstore.css`` 。"
+msgstr "小部件应该一个接着一个显示给定的产品名称, 每一个在 ``color``  值指定背景颜色以及边框的独立盒子。你应当用Qweb呈现HTML。 任何必要的CSS应该在 ``oepetstore/static/src/css/petstore.css``."
 
 #: ../../howtos/web.rst:847
 msgid "Use the widget in ``HomePage`` with half a dozen products."
@@ -4531,7 +4532,7 @@ msgstr "使用Widget在 ``HomePage`` 半打的产品。"
 
 #: ../../howtos/web.rst:911
 msgid "Widget Helpers"
-msgstr "挂件助手"
+msgstr "窗口小部件帮手"
 
 #: ../../howtos/web.rst:914
 msgid "``Widget``'s jQuery Selector"
@@ -4592,13 +4593,13 @@ msgstr "它需要处理 ``this`` 结合问题"
 msgid ""
 "Widgets thus provide a shortcut to DOM event binding via "
 ":attr:`~openerp.Widget.events`::"
-msgstr "挂件从而提供通过结合DOM事件的快捷方式 :attr:`~openerp.Widget.events` ::"
+msgstr "窗口小部件于是通过 :attr:`~openerp.Widget.events` 提供DOM事件绑定的快捷方式 ::"
 
 #: ../../howtos/web.rst:977
 msgid ""
 ":attr:`~openerp.Widget.events` is an object (mapping) of an event to the "
 "function or method to call when the event is triggered:"
-msgstr ":attr:`~openerp.Widget.events` 是一个事件的函数或方法时, 该事件被触发调用的对象（映射）:"
+msgstr ":attr:`~openerp.Widget.events` 是事件触发时要调用的事件到函数或方法的对象(映射):"
 
 #: ../../howtos/web.rst:980
 msgid ""
@@ -4872,7 +4873,7 @@ msgstr ":func:`~openerp.web.Model.call` 可以用来打电话的Odoo模型中的
 
 #: ../../howtos/web.rst:1319
 msgid "``name``"
-msgstr " ``name`` "
+msgstr "``name``"
 
 #: ../../howtos/web.rst:1320
 msgid "The name of the method to call, ``my_method`` here"
@@ -4880,7 +4881,7 @@ msgstr "该方法调用, ``这里my_method`` 的名称"
 
 #: ../../howtos/web.rst:1336
 msgid "``args``"
-msgstr " ``args`` "
+msgstr "``args``"
 
 #: ../../howtos/web.rst:1322
 msgid ""
@@ -4968,7 +4969,7 @@ msgid ""
 "combination of :py:meth:`~openerp.models.Model.search` and "
 "::py:meth:`~openerp.models.Model.read`. It provides a clearer syntax to "
 "search and read models::"
-msgstr "虽然 :func:`~openerp.Model.call` 足以满足Odoo模型交互, Odoo网站提供了一个辅助的模式（获取的基于各种条件的记录）, 简单和清晰查询: :func:`~OpenERP的。 Model.query` 它充当共同组合的快捷方式:PY :meth:`~openerp.models.Model.search` 和 :: PY :meth:`~openerp.models.Model.read` 。它提供了一个更清晰的语法来搜索和阅读模式 ::"
+msgstr "虽然 :func:`~openerp.Model.call` 足以满足任何与Odoo模型的交互, Odoo网络为更加简单和清晰的模型查询(基于各种条件获取记录)提供了一个帮手:func:`~openerp.Model.query` ， 它为通用的组合 :py:meth:`~openerp.models.Model.search` 和 ::py:meth:`~openerp.models.Model.read`充当快捷方式。它提供了一个更清晰的语法来搜索和读取模型 ::"
 
 #: ../../howtos/web.rst:1416
 msgid "versus::"
@@ -5053,7 +5054,7 @@ msgstr "该 ``PetToysList`` 部件应该在 ``MessageOfTheDay`` 部件的右侧�
 
 #: ../../howtos/web.rst:1646
 msgid "Existing web components"
-msgstr "现有的Web组件"
+msgstr "现有的网页组件"
 
 #: ../../howtos/web.rst:1649
 msgid "The Action Manager"
@@ -5121,7 +5122,7 @@ msgstr "对于形式的视图, 在 ``res_model`` 预选记录"
 
 #: ../../howtos/web.rst:1697
 msgid "``views``"
-msgstr " ``views`` "
+msgstr "``views``"
 
 #: ../../howtos/web.rst:1694
 msgid ""
@@ -5134,7 +5135,7 @@ msgstr "列出可通过诉讼的意见。的 ``[view_id来, view_type来]`` 名�
 
 #: ../../howtos/web.rst:1700
 msgid "``target``"
-msgstr " ``target`` "
+msgstr "``target``"
 
 #: ../../howtos/web.rst:1700
 msgid ""
@@ -5463,7 +5464,7 @@ msgid ""
 " to handle both editable and non-editable mode, those modes are often "
 "completely different (for design and usability purpose) and the fields must "
 "be able to switch between modes at any moment."
-msgstr ""
+msgstr "Read-only fields, which only display content and don't allow the user to modify it can be useful, but most fields in Odoo also allow editing. This makes the field classes more complicated, mostly because fields are supposed to handle both editable and non-editable mode, those modes are often completely different (for design and usability purpose) and the fields must be able to switch between modes at any moment."
 
 #: ../../howtos/web.rst:1982
 msgid ""
@@ -5909,7 +5910,7 @@ msgstr "最后一步是改变模型和模板使用我们的示范数据:"
 
 #: ../../howtos/website.rst:176
 msgid "fetch the records from the database instead of having a static list"
-msgstr "取, 而不是具有一个静态列表从数据库中的记录"
+msgstr "从数据库取得记录，而不是具有一个静态列表"
 
 #: ../../howtos/website.rst:177
 msgid ""
@@ -5944,7 +5945,7 @@ msgstr "到目前为止, 我们已经相当直接使用控制器, 但Odoo 8通�
 
 #: ../../howtos/website.rst:198
 msgid "first, add ``website`` as a dependency to ``academy``"
-msgstr "首先, 加 ``website`` 作为一个依赖于 ``academy`` "
+msgstr "首先, 加 ``website`` 作为 ``academy`` 的一个依赖"
 
 #: ../../howtos/website.rst:199
 msgid ""
@@ -5955,7 +5956,7 @@ msgstr "then add the ``website=True`` flag on the controller, this sets up a few
 
 #: ../../howtos/website.rst:202
 msgid "use the website layout in the template"
-msgstr "使用本网站的布局模板中"
+msgstr "使用模板中的网站布局"
 
 #: ../../howtos/website.rst:206
 msgid ""
@@ -5982,7 +5983,7 @@ msgstr "管理界面:您现在在Odoo'适当的'是。现在点击 :guilabel:`We
 msgid ""
 "We're back in the website but as an administrator, with access to advanced "
 "edition features provided by the *website* support:"
-msgstr "我们回来了网站, 但作为管理员, 可以访问由 *网站* 支持提供高级版功能:"
+msgstr "我们回到网站, 但作为管理员, 可以访问由 *网站* 支持提供的高级版本功能:"
 
 #: ../../howtos/website.rst:223
 msgid ""
@@ -6086,7 +6087,7 @@ msgid ""
 "For record fields, templates can use a special ``t-field`` directive which "
 "allows editing the field content from the website using field-specific "
 "interfaces. Change the *person* template to use ``t-field``:"
-msgstr "对于记录字段, 模板可以使用一个特殊的 ``t-field`` 指令, 它允许编辑使用字段专用接口的网站字段的内容。更改 *人* 模板使用 ``t-field`` :"
+msgstr "对于记录字段, 模板可以使用一个特殊的 ``t-field`` 指令, 它允许从网站使用字段特有的接口编辑字段内容。使用 ``t-field``更改 *person* 模板 :"
 
 #: ../../howtos/website.rst:296
 msgid ""
@@ -6277,14 +6278,14 @@ msgstr "而不是以前经典的继承, 这意味着更换了 *课程* 模型由
 msgid ""
 "First of all we need to add a dependency on ``website_sale`` so we get both "
 "products (via ``sale``) and the ecommerce interface:"
-msgstr "首先, 我们需要添加一个依赖 ``website_sale`` 所以我们得到两种产品（通过 ``sale`` ）和电子商务界面:"
+msgstr "首先, 我们需要添加一个依赖 ``website_sale`` ，这样，我们同时得到产品（通过 ``sale`` ）和电子商务界面:"
 
 #: ../../howtos/website.rst:432
 msgid ""
 "restart Odoo, update your module, there is now a :guilabel:`Shop` section in"
 " the website, listing a number of pre-filled (via demonstration data) "
 "products."
-msgstr "重新启动Odoo, 更新你的模块, 现在有一个 :guilabel:'在网站上Shop `部分, 列出了一些预填充（通过演示数据）的产品。"
+msgstr "重新启动Odoo, 更新你的模块, 现在在网站的 :guilabel:`Shop` 部分，列出了一些预先填好的（通过演示数据）产品。"
 
 #: ../../howtos/website.rst:435
 msgid ""
@@ -6327,7 +6328,7 @@ msgstr "到目前为止, 我们已经简要地看到:"
 
 #: ../../howtos/website.rst:458
 msgid "the creation of new models"
-msgstr "创建新车型"
+msgstr "新模型的创建"
 
 #: ../../howtos/website.rst:459
 msgid "the creation of new views"
@@ -6335,7 +6336,7 @@ msgstr "新视图的创建"
 
 #: ../../howtos/website.rst:460
 msgid "the creation of new records"
-msgstr "创造新纪录"
+msgstr "新记录的创建"
 
 #: ../../howtos/website.rst:461
 msgid "the alteration of existing models"

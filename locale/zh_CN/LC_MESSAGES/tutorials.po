@@ -5,8 +5,7 @@
 # Translators:
 # Jeffery Chenn <jeffery9@gmail.com>, 2015
 msgid ""
-msgstr "" 
-"Project-Id-Version: odoo documentation technical\n"
+msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-30 19:35+0800\n"
 "PO-Revision-Date: 2016-05-30 13:35+0000\n"
@@ -20,4 +19,4 @@ msgstr ""
 
 #: ../../tutorials.rst:3
 msgid "Tutorials"
-msgstr "教程" 
+msgstr "教程"
